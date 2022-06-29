@@ -3,22 +3,24 @@ site_description: Things I might need again.
 site_url: https://mike.bailey.net.au/notes
 site_author: Mike Bailey
 
-nav:
-  # - Home: index.md
 
 theme:
-  name: material
-repo_name: 'mbailey/notes'
-repo_url: 'https://github.com/mbailey/notes'
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/mbailey'
-markdown_extensions:
-  - admonition
-  - codehilite:
-      guess_lang: false
-  - toc:
-      permalink: true
-  - meta
+  name: null
+  custom_dir: mkdocs-material/material
 
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Necessary for search to work properly
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
