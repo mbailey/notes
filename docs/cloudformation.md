@@ -26,12 +26,12 @@ Utilities
 
 VSCode Extensions
 
-- [CloudFormation](https://github.com/aws-scripting-guy/cform-VSCode)
-  - create new YAML doc
-  - type start
-  - start typing resource name and hit TAB
+[CloudFormation](https://github.com/aws-scripting-guy/cform-VSCode)
+- create new YAML doc
+- type start
+- start typing resource name and hit TAB
 
-- [CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code)
+[CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code)
 
 
 ## Cloudformation Templates
