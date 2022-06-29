@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+mbailey/notes
+=============
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+These are things don't want to rely on google/my memory for.
 
-## Commands
+Markdown files, Published to https://mike.bailey.net.au/notes
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+*Check out [`notes.sh-example`](notes.sh-example) for a nice way to access your notes.*
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
