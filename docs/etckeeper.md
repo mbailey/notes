@@ -6,7 +6,7 @@ the work of scoundrels who make config changes in prod.
 
 - [etckeeper.branchable.com](https://etckeeper.branchable.com/)
 
-## Fedora install
+## Fedora
 
     sudo dnf -y install etckeeper
 
