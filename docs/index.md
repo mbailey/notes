@@ -1,5 +1,6 @@
-mbailey/notes
-=============
+mbailey/notes c.2022
+====================
+
 
 Things I don't want to rely on google/my memory for.
 
