@@ -5,6 +5,8 @@ site_author: Mike Bailey
 
 
 theme:
+  palette:
+    scheme: slate
   name: null
   custom_dir: mkdocs-material/material
 
