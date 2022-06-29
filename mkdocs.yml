@@ -1,2 +1,24 @@
 site_name: mbailey/notes
+site_description: Things I might need again.
 site_url: https://mike.bailey.net.au/notes
+site_author: Mike Bailey
+
+nav:
+  # - Home: index.md
+
+theme:
+  name: material
+repo_name: 'mbailey/notes'
+repo_url: 'https://github.com/mbailey/notes'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/mbailey'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - meta
+
