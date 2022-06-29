@@ -28,6 +28,6 @@ the work of scoundrels who make config changes in prod.
 
 ## ubuntu
 
-- [ubuntu doc](https://ubuntu.com/server/docs/tools-etckeeper)
-
     sudo apt install etckeeper
+
+- [ubuntu doc](https://ubuntu.com/server/docs/tools-etckeeper)
