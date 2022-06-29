@@ -1,6 +1,7 @@
-cloudformation
+CloudFormation
 ==============
 
+References:
 - [aws docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
 - [aws-labs / aws-cloudformation-templates](https://github.com/awslabs/aws-cloudformation-templates)
 
