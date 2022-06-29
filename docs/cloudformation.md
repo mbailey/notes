@@ -6,7 +6,7 @@ cloudformation
 
 ---
 
-### Tools
+## Tools
 
 [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
@@ -34,19 +34,15 @@ VSCode Extensions
 - [CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code)
 
 
-
-
-
----
-
-### Templates
+## Cloudformation Templates
 
 Simplest stack
-
-    # noop.yml
-    Resources:
-      WaitConditionHandle:
-        Type: AWS::CloudFormation::WaitConditionHandle
+``` yaml
+# noop.yml
+Resources:
+  WaitConditionHandle:
+    Type: AWS::CloudFormation::WaitConditionHandle
+```
 
 Create stack
 
