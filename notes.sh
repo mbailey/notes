@@ -5,7 +5,9 @@
 # - check multiple dirs (e.g. different projects)
 # - tab completion
 
-NOTES_DIRS="${HOME}/Documents/notes-public:${HOME}/Documents/notes-work:${HOME}/Documents/notes-personal"
+# Provide one or mote directories for notes
+#
+# NOTES_DIRS="${HOME}/Documents/notes-public:${HOME}/Documents/notes-work:${HOME}/Documents/notes-personal"
 
 alias n='notes'
 
@@ -14,7 +16,6 @@ function notes(){
   local filename="${1}.md"
   local notes_dir
   for notes_dir in ${NOTES_DIRS//:/ }; do
-    echo "notes_dir = $notes_dir"
     if [[ -f "${notes_dir}/${filename}" ]]; then
       vi "${notes_dir}/${filename}"
       return
