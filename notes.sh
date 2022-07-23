@@ -25,9 +25,8 @@ function notes(){
   read -p "Not found! Create file (${notes_dir}/${filename}) ?" -n 1 -r
   echo
   if [[ $REPLY =~ $regex_yes ]]; then
-   echo "${filename/.md}"  >> "${notes_dir}/${filename}"
-   echo "===" >> "${notes_dir}/${filename}"
-   vi "${notes_dir}/${filename}"
+   printf "# ${filename/.md}\n\n\n"  >> "${notes_dir}/${filename}"
+   vi +3 "${notes_dir}/${filename}"
   fi
 }
 
