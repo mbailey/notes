@@ -1,5 +1,4 @@
-# git
-
+# Git
 
 ## git filter-repo
 
