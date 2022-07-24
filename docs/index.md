@@ -1,4 +1,4 @@
-# mbailey/notes
+# What's this?
 
 Things I don't want to rely on google/my memory for.
 
