@@ -1,5 +1,4 @@
-CloudFormation
-==============
+# AWS CloudFormation
 
 References:
 - [aws docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)

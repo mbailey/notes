@@ -1,6 +1,4 @@
-mbailey/notes
-=============
-
+# mbailey/notes
 
 Things I don't want to rely on google/my memory for.
 

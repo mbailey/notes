@@ -1,4 +1,4 @@
-# jmespath
+# JMESPath
 
 JMESPath was created for AWSCLI (`--query`) but has standalone commandline versions
 as well as libraries for various languages.
