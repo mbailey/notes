@@ -1,5 +1,4 @@
-etckeeper
-=========
+# etckeeper
 
 etckeeper creates a git repo in /etc and automatically commits
 the work of scoundrels who make config changes in prod.
