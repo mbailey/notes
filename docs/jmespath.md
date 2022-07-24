@@ -1,15 +1,13 @@
-jmespath
-========
-
+# jmespath
 
 JMESPath was created for AWSCLI (`--query`) but has standalone commandline versions
-as well as libraries for various languages. 
+as well as libraries for various languages.
 
-> It is described in an ABNF grammar with a complete specification. This ensures that the language syntax is precisely defined.  
->  
+> It is described in an ABNF grammar with a complete specification. This ensures that the language syntax is precisely defined.
+>
 > [https://jmespath.org/](https://jmespath.org/)
 
-**Refs:**  
+**Refs:**
 - [Tutorial](https://jmespath.org/tutorial.html)
 
 **Quoting is wierd:**
