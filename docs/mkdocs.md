@@ -1,4 +1,4 @@
-# MkDocs ***
+# MkDocs
 
 Markdown based static site generator aimed at documentation (including this).
 
