@@ -1,6 +1,6 @@
 # GnuPG
 
-[GNU Provacy Guard](https://gnupg.org/)
+[GNU Privacy Guard](https://gnupg.org/)
 
 List keys file is encrypted for:
 
