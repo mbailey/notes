@@ -1,4 +1,4 @@
-# gnome
+# GNOME
 
 Screen going black after 30 seconds
 
