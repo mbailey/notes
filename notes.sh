@@ -5,7 +5,7 @@
 # - check multiple dirs (e.g. different projects)
 # - tab completion
 
-# Provide one or mote directories for notes
+# Provide one or note directories for notes
 #
 # NOTES_DIRS="${HOME}/Documents/notes-public:${HOME}/Documents/notes-work:${HOME}/Documents/notes-personal"
 
