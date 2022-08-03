@@ -38,4 +38,4 @@ If cloning the repo for the first time:
 
 If you already have the repo, and need to pull in the submodule:
 
-    git submodule update --init
+    git submodule update --init  
