@@ -5,7 +5,22 @@ Markdown based static site generator aimed at documentation (including this).
 **Refs:**
 
 - [MkDocs](https://www.mkdocs.org/)
+- [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
+Install
+
+    pip install mkdocs
+
+Creating a new project
+
+    mkdocs new my-project
+    cd my-project
+
+Run
+
+    mkdocs serve
+
 
 Add `mkdocs-material` as a submodule:
 
