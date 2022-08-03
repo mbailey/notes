@@ -1,5 +1,9 @@
 # Git
 
+Remove untracked files:
+
+    $ git clean -f
+
 ## git filter-repo
 
 `git filter-repo` ([github][1]) is a versatile tool for rewriting history. It is now recommended by the git project instead of `git filter-branch`.
