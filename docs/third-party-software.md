@@ -51,6 +51,10 @@ Things I install on my fedora workstations.
     dnf check-update
     sudo dnf install code
 
+- Enable settings sync (danger?)
+  - Syncs extensions (and other things).
+- Opt out of telemetry. Set Telemetry Level to `off`
+
 ---
 
 **Maybe later**
