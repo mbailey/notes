@@ -28,27 +28,6 @@ Things I install on my fedora workstations.
     wget https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
     sudo dnf install dbeaver-ce-latest-stable.x86_64.rpm
 
-## [dropbox](https://www.dropbox.com/install-linux)
-
-    wget https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2020.03.04-1.fedora.x86_64.rpm
-    sudo rpm -i nautilus-dropbox-2020.03.04-1.fedora.x86_64.rpm
-
-    cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-    ~/.dropbox-dist/dropboxd
-
-    wget --directory-prefix ~/.local/bin https://www.dropbox.com/download?dl=packages/dropbox.py
-
-## [obs-studio](https://flathub.org/apps/details/com.obsproject.Studio)
-
-Setup Flatpak on Fedora ([ref](https://flatpak.org/setup/Fedora))
-
-    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
- 
-Install obs-studio:     
-
-    sudo dnf install kmod-v4l2loopback
-    wget https://dl.flathub.org/repo/appstream/com.obsproject.Studio.flatpakref
-
 ## [obsidian](https://obsidian.md/download)
 
     wget \
@@ -70,3 +49,29 @@ Install obs-studio:
 
     dnf check-update
     sudo dnf install code
+
+---
+
+**Maybe later**
+
+## [dropbox](https://www.dropbox.com/install-linux)
+
+    wget https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-2020.03.04-1.fedora.x86_64.rpm
+    sudo rpm -i nautilus-dropbox-2020.03.04-1.fedora.x86_64.rpm
+
+    cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+    ~/.dropbox-dist/dropboxd
+
+    wget --directory-prefix ~/.local/bin https://www.dropbox.com/download?dl=packages/dropbox.py
+
+
+## [obs-studio](https://flathub.org/apps/details/com.obsproject.Studio)
+
+Setup Flatpak on Fedora ([ref](https://flatpak.org/setup/Fedora))
+
+    sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+Install obs-studio:
+
+    sudo dnf install kmod-v4l2loopback
+    wget https://dl.flathub.org/repo/appstream/com.obsproject.Studio.flatpakref
