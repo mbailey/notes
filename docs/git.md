@@ -4,6 +4,19 @@ Remove untracked files:
 
     $ git clean -f
 
+A single command to change the author for the last N commits:
+
+    git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
+
+
+## submodules
+
+Update submodules in repo:
+
+    git submodule update --remote --merge
+
+
+
 ## git filter-repo
 
 `git filter-repo` ([github][1]) is a versatile tool for rewriting history. It is now recommended by the git project instead of `git filter-branch`.
