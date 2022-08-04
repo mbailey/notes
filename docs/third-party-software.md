@@ -30,10 +30,11 @@ Things I install on my fedora workstations.
 
 ## [obsidian](https://obsidian.md/download)
 
-    wget \
-      -prefix-directory $HOME/bin \
-      https://github.com/obsidianmd/obsidian-releases/releases/latest/download/Obsidian-0.15.9.AppImage
-    chmod +x ~/bin/Obsidian*.AppImage
+    obsidian_file=Obsidian-0.15.9.AppImage
+    wget --directory-prefix $HOME/bin \
+      https://github.com/obsidianmd/obsidian-releases/releases/latest/download/${obsidian_file}
+    chmod +x ~/bin/${obsidian_file}
+    ln -sf ${obsidian_file} ~/bin/obsidian
 
 ## [slack](https://slack.com/intl/en-au/downloads/linux)
 
