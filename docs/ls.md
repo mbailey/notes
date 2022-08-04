@@ -1,5 +1,4 @@
-ls
-==
+# ls
 
     $ ls -1rt
     oldest.mp3
