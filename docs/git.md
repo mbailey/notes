@@ -8,14 +8,11 @@ A single command to change the author for the last N commits:
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
 
-
 ## submodules
 
 Update submodules in repo:
 
     git submodule update --remote --merge
-
-
 
 ## git filter-repo
 
