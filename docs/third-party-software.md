@@ -6,11 +6,11 @@ Things I install on my fedora workstations.
   - [awscli](#awscli)
   - [bash-my-aws](#bash-my-aws)
   - [dbeaver-ce](#dbeaver-ce)
-  - [dropbox](#dropbox)
-  - [obs-studio](#obs-studio)
   - [obsidian](#obsidian)
   - [slack](#slack)
   - [vscode](#vscode)
+  - [dropbox](#dropbox)
+  - [obs-studio](#obs-studio)
 
 ## [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
@@ -29,6 +29,12 @@ Things I install on my fedora workstations.
     sudo dnf install dbeaver-ce-latest-stable.x86_64.rpm
 
 ## [obsidian](https://obsidian.md/download)
+
+Install (with GNOME launcher support) with YMMV script from forum.
+
+[`$ bin/obsidian-install.sh`](bin/obsidian-install.sh)
+
+or:
 
     obsidian_file=Obsidian-0.15.9.AppImage
     wget --directory-prefix $HOME/bin \
@@ -53,7 +59,9 @@ Things I install on my fedora workstations.
 
 - Enable settings sync (danger?)
   - Syncs extensions (and other things).
-- Opt out of telemetry. Set Telemetry Level to `off`
+- Settings
+  - window.titleBarStyle : custom # replace light titlebar with dark
+  - telemetry.telemetryLevel = off # opt out of telemetry
 
 ---
 
