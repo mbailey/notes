@@ -1,0 +1,8 @@
+# requirements.txt
+#
+# Some python pip files I install on my workstation
+
+arepl          # python pane runs your code as you type
+pretty-errors  # Prettifies Python exception output to make it legible.
+regex          # builds in re from python standard library
+requests       # web client
