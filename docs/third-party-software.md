@@ -9,8 +9,7 @@ Things I install on my fedora workstations.
   - [obsidian](#obsidian)
   - [slack](#slack)
   - [vscode](#vscode)
-  - [dropbox](#dropbox)
-  - [obs-studio](#obs-studio)
+  - [Go](#go)
 
 ## [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
@@ -62,9 +61,19 @@ or:
 - Settings
   - window.titleBarStyle : custom # replace light titlebar with dark
   - telemetry.telemetryLevel = off # opt out of telemetry
+- extensions
+  - donjayamanne.python-extension-pack
+
+## Go
+
+Quick and dirty - eyeball and change where appropriate!
+
+    wget https://go.dev/dl/go1.19.linux-amd64.tar.gz
+    sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
+    echo 'GOPATH=/home/m/go' >> ~/.bashrc
 
 ---
-
+<!--
 **Maybe later**
 
 ## [dropbox](https://www.dropbox.com/install-linux)
@@ -88,3 +97,4 @@ Install obs-studio:
 
     sudo dnf install kmod-v4l2loopback
     wget https://dl.flathub.org/repo/appstream/com.obsproject.Studio.flatpakref
+-->
