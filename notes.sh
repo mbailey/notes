@@ -13,13 +13,15 @@ alias n='notes'
 
 function notes(){
   [[ -n $1 ]] || return
-  local filename="${1}.md"
   local notes_dir
   for notes_dir in ${NOTES_DIRS//:/ }; do
-    if [[ -f "${notes_dir}/${filename}" ]]; then
-      vi "${notes_dir}/${filename}"
-      return
-    fi
+    for extension in '' .txt .md; do
+      local filename="${1}${extension}"
+      if [[ -f "${notes_dir}/${filename}" ]]; then
+        vi "${notes_dir}/${filename}"
+        return
+      fi
+    done
   done
   local regex_yes="^[Yy]$"
   read -p "Not found! Create file (${notes_dir}/${filename}) ?" -n 1 -r
@@ -38,8 +40,7 @@ _notes_completion() {
   options=$(
     ls ${NOTES_DIRS//:/ } 2>/dev/null |
     grep -v ':' |
-    grep '.md$' |
-    sed 's/.md$//g' |
+    grep '.\(md\|txt\)$' |
     sort -u |
     awk '{ print $1 }')
   COMPREPLY=($(compgen -W "${options}" -- ${word}))
