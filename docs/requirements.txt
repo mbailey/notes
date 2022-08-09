@@ -2,8 +2,9 @@
 #
 # Some python pip files I install on my workstation
 
-arepl          # python pane runs your code as you type
+arepl          # Python pane runs your code as you type
+cfn-lint       # Validate AWS CloudFormation yaml/json templates.
 pretty-errors  # Prettifies Python exception output to make it legible.
-ptpython       # pretty repl
-regex          # builds in re from python standard library
-requests       # web client
+ptpython       # Pretty repl
+regex          # Builds in re from python standard library
+requests       # HTTP client
