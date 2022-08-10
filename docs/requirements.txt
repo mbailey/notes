@@ -1,6 +1,8 @@
 # requirements.txt
 #
 # Some python pip files I install on my workstation
+#
+# Install with: pip install -r requirements.txt
 
 arepl          # Python pane runs your code as you type
 cfn-lint       # Validate AWS CloudFormation yaml/json templates.
@@ -8,7 +10,6 @@ pretty-errors  # Prettifies Python exception output to make it legible.
 ptpython       # Pretty repl
 regex          # Builds in re from python standard library
 requests       # HTTP client
-
 
 # # https://pip.pypa.io/en/latest/reference/requirements-file-format/#requirements-file-format
 # # This is a comment, to show how #-prefixed lines are ignored.
