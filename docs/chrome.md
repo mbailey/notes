@@ -1,4 +1,4 @@
-# chrome
+# Google Chrome
 
 I use Google Chrome for [Microsoft Teams](msteams.md) because video and screen sharing don't work with Firefox or Chromium.
 
