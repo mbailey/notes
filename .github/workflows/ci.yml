@@ -14,5 +14,5 @@ jobs:
         with:
           python-version: 3.x
           update-environment: false
-      - run: pip install mkdocs-material mkdocs-redirects mkdocs-minify-plugin
+      - run: pip install -r requirements.txt # mkdocs-material mkdocs-redirects mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
