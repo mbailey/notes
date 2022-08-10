@@ -14,6 +14,15 @@ Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
 
 ## submodules
 
+Git clone with submodules:
+
+    git clone --recurse-submodules https://github.com/chaconinc/MainProject
+
+Did you forget to cline with submodules?
+
+    git submodule init
+    git submodule update
+
 Update submodules in repo:
 
     git submodule update --remote --merge
