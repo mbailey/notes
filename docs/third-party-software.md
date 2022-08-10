@@ -5,6 +5,7 @@ Things I install on my fedora workstations.
 - [Third Party Software](#third-party-software)
   - [awscli](#awscli)
   - [bash-my-aws](#bash-my-aws)
+  - [chrome](#chrome)
   - [dbeaver-ce](#dbeaver-ce)
   - [obsidian](#obsidian)
   - [slack](#slack)
@@ -21,6 +22,10 @@ Things I install on my fedora workstations.
 
     git clone https://github.com/bash-my-aws/bash-my-aws.git ${BMA_HOME:-$HOME/.bash-my-aws}
     # Update .bashrc if installing for the first time
+
+## [chrome](chrome)
+
+Only for [Microsoft Teams](INBOX/msteams.md).
 
 ## [dbeaver-ce](https://dbeaver.io/download/)
 
@@ -85,7 +90,6 @@ Quick and dirty - eyeball and change where appropriate!
     ~/.dropbox-dist/dropboxd
 
     wget --directory-prefix ~/.local/bin https://www.dropbox.com/download?dl=packages/dropbox.py
-
 
 ## [obs-studio](https://flathub.org/apps/details/com.obsproject.Studio)
 
