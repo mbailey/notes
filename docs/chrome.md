@@ -1,6 +1,6 @@
 # chrome
 
-I only use Google Chrome for Microsoft Teams because video and screen sharing don't work with Firefox or Chromium.
+I use Google Chrome for [Microsoft Teams](msteams.md) because video and screen sharing don't work with Firefox or Chromium.
 
 Install google-chrome on fedora-36:
 
