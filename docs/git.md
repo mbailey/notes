@@ -63,3 +63,26 @@ I don't want to have to remember what the default branch is named.
     git push -u origin master
 
 - [stackoverflow](https://stackoverflow.com/a/69344918/660017)
+
+## Organising your clones
+
+Not sure whether I want to include org in clone path like this this guy does:
+
+> This is how I organize my source code.
+> 
+> ```txt
+> -- source
+> |   |-- dotfiles
+> |   |-- hyperclient
+> |   |   |-- codegram
+> |   |   `-- dblock
+> |   `-- grape
+> |       |-- grape
+> |       |   |-- ruby-grape
+> |       |   `-- dblock
+> |       `-- grape-swagger
+> |           |-- ruby-grape
+> |           `-- dblock
+> ```
+> 
+> [A Directory Structure for OSS and Work Github Clones](https://code.dblock.org/2016/03/25/a-directory-structure-for-oss-and-work-github-clones.html)
