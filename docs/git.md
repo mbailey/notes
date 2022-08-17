@@ -1,8 +1,11 @@
 # Git
 
+
 Remove untracked files:
 
-    $ git clean -f
+```shell
+$ git clean -f
+```
 
 A single command to change the author for the last N commits:
 
@@ -11,6 +14,26 @@ A single command to change the author for the last N commits:
 Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
 
     git rm --cached example/dir -f
+
+## git ignore
+
+Personal:
+```
+.git/info/exclude
+```
+
+Global:
+```bash
+$ touch ~/.gitignore
+$ git config --global core.excludesFile ~/.gitignore
+```
+
+## shallow clone
+
+Less files and no .git dir:
+
+    git clone --depth=1 git://someserver/somerepo dirformynewrepo
+    rm -rf !$/.git
 
 ## submodules
 
@@ -55,7 +78,10 @@ You can delete your DVD-rip file everywhere:
 
     git filter-repo --invert-paths --path-match DVD-rip
 
-## Rename default branch
+
+## Branches
+
+### Rename default branch
 
 I don't want to have to remember what the default branch is named.
 
@@ -69,7 +95,7 @@ I don't want to have to remember what the default branch is named.
 Not sure whether I want to include org in clone path like this this guy does:
 
 > This is how I organize my source code.
-> 
+>
 > ```txt
 > -- source
 > |   |-- dotfiles
@@ -84,5 +110,5 @@ Not sure whether I want to include org in clone path like this this guy does:
 > |           |-- ruby-grape
 > |           `-- dblock
 > ```
-> 
+>
 > [A Directory Structure for OSS and Work Github Clones](https://code.dblock.org/2016/03/25/a-directory-structure-for-oss-and-work-github-clones.html)
