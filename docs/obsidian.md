@@ -1,5 +1,5 @@
 # Obsidian
-- [manual help.obsidian.md](https://help.obsidian.md/Plugins/Command+palette)
+- [manual (help.obsidian.md)](https://help.obsidian.md/)
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 
 Install:
@@ -33,3 +33,21 @@ linux  <--> linux : Obsidian Sync or SyncThing, Git
 iphone <--> linux : Obsidian Sync
 
 
+## Editing
+
+Helps you find link targets:
+
+![](Pasted%20image%2020220815122305.png)
+
+## Multiple Vaults
+
+I'd prefer to have multiple vaults open instead of having to keep switching.
+
+- Feature request  [“Same Window” and “New Window” options for open vault](https://forum.obsidian.md/t/same-window-and-new-window-options-for-open-vault/4074)
+
+
+## Example of website you can generate
+
+https://help.obsidian.md/How+to/Internal+link
+
+![](Pasted%20image%2020220815092829.png)
