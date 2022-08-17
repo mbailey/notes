@@ -2,7 +2,9 @@
 name: Off-boarding team member
 about: Off-boarding checklist
 title: "[DATE]: [departing team member username]"
-labels: off-boarding
+labels: ''
+assignees: ''
+
 ---
 
 # h1
