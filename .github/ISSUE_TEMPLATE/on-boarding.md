@@ -2,7 +2,9 @@
 name: Onboarding new team member
 about: Onboarding checklist
 title: "[DATE]: [new team member username]"
-labels: on-boarding
+labels: ''
+assignees: ''
+
 ---
 
 # h1
