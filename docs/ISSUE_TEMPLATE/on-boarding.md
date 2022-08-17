@@ -11,13 +11,13 @@ labels: on-boarding
 
 ### h3
 
-- [ ] Initial things
+- Initial things
     - [ ] Do this
     - [ ] Do that
     - [ ] Do something else
-- [ ] Next Things
+- Next Things
   - [ ] blah
   - [ ] blah 2
   - [ ] blah 3
-- [ ] final things
+- final things
   - [ ] would be nice if we could generate subissues automatically
