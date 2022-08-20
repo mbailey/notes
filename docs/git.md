@@ -1,12 +1,7 @@
 # Git
 
 
-Remove untracked files:
-
-```shell
-$ git clean -f
-```
-
+    
 A single command to change the author for the last N commits:
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
@@ -14,6 +9,20 @@ A single command to change the author for the last N commits:
 Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
 
     git rm --cached example/dir -f
+
+## Untracked files
+Remove untracked files:
+
+```shell
+git clean -f
+```
+
+Stash untracked files
+
+
+```shell
+git stash --include-untracked # short arg is -u
+```
 
 ## git ignore
 
