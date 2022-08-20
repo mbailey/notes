@@ -16,14 +16,12 @@ the work of scoundrels who make config changes in prod.
     etckeeper vcs status
     etckeeper vcs commit -m 'msg'
 
-
 ## Redhat
 
     sudo yum install etckeeper
     cd /etc
     sudo etckeeper init
     sudo etckeeper commit "First commit of my /etc directory"
-
 
 ## ubuntu
 
