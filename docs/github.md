@@ -19,3 +19,13 @@ Follow releases:  `https://github.com/(org or user)/(repo)/releases.atom`
 > clicking target in the upper-right corner of the task. For more information, see ["About
 > task lists."](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues/about-task-lists)
 > 
+
+## Github Organizations
+
+Settings to stop repo visibility being set to public:
+
+>[Default visibility for new repositories (github.blog)](https://github.blog/changelog/2020-07-10-default-visibility-for-new-repositories/)
+> Now, when you're signed into GitHub through an organization's single sign on service and create a new repository through the website navigation, the default selection is Private.
+
+> [Restricting repository visibility changes in your organization](https://docs.github.com/en/organizations/managing-organization-settings/restricting-repository-visibility-changes-in-your-organization)
+> You can restrict the ability to change repository visibility to organization owners only, or you can allow anyone with admin access to a repository to change visibility.
