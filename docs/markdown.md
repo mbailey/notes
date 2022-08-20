@@ -1,10 +1,18 @@
 # Markdown
 
-- [deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.](https://github.com/deathau/markdownload)
 - [Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 
 
-## lint
+## Web Clipping
+
+Clip title/URL, selection or entire web page as Markdown into file or copy buffer.
+- [Markdownload : A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.](https://github.com/deathau/markdownload) (github.com/deathau)
+
+## Formatting
+
+- Headings may be folded in some editors/viewers ([obsidian](obsidian.md))
+
+### Lint
 
 [Python-Markdown requires 4 spaces for list indentation](https://github.com/Python-Markdown/markdown/issues/1204)
 
