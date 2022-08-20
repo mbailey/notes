@@ -4,7 +4,6 @@
 
 **VIM**: `glip\` ([vim-lion](https://github.com/tommcdo/vim-lion))
 
- 
  Great question:
 > When working in the C language, sometimes you have to write multi line macros like the following.
 > 
@@ -24,13 +23,11 @@
 >
 > [stackexchange.com](https://vi.stackexchange.com/questions/17128/working-with-line-continuations)
 
-
-
 Great answer:
 
 > - `glip\` ([vim-lion](https://github.com/tommcdo/vim-lion))
 > - https://github.com/junegunn/vim-easy-align
 > - https://github.com/godlygeek/tabular
 > - http://drchip.org/astronaut/vim/index.html#ALIGN
-> 
+>
 > [Answer](https://vi.stackexchange.com/a/17130)
