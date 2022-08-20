@@ -18,8 +18,8 @@ assignees: ''
     - [ ] Do that
     - [ ] Do something else
 - Next Things
-  - [ ] blah
-  - [ ] blah 2
-  - [ ] blah 3
+    - [ ] blah
+    - [ ] blah 2
+    - [ ] blah 3
 - final things
-  - [ ] would be nice if we could generate subissues automatically
+    - [ ] would be nice if we could generate subissues automatically
