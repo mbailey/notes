@@ -1,14 +1,21 @@
 # Obsidian
+
 - [manual (help.obsidian.md)](https://help.obsidian.md/)
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 
-Install:
-
+## Install
 ```shell
 $ ./bin/obsidian-install.sh
 https://github.com/obsidianmd/obsidian-releases/releases/download/v0.15.9/Obsidian-0.15.9.AppImage
 install ok
 ```
+
+## Config
+
+User
+Workspace
+
+### Plugins
 
 ## Commands
 
