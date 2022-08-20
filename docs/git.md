@@ -1,5 +1,6 @@
 # Git
 
+- `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 
     
 A single command to change the author for the last N commits:
@@ -19,10 +20,10 @@ git clean -f
 
 Stash untracked files
 
-
 ```shell
 git stash --include-untracked # short arg is -u
 ```
+
 
 ## git ignore
 
