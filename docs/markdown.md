@@ -2,10 +2,8 @@
 
 - [Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 
-
 ## Web Clipping
 
-Clip title/URL, selection or entire web page as Markdown into file or copy buffer.
 - [Markdownload : A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.](https://github.com/deathau/markdownload) (github.com/deathau)
 
 ## Formatting
