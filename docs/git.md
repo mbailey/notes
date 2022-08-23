@@ -2,7 +2,6 @@
 
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 
-    
 A single command to change the author for the last N commits:
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
@@ -10,6 +9,10 @@ A single command to change the author for the last N commits:
 Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
 
     git rm --cached example/dir -f
+
+## Delete dangling commits
+
+- [Listing and deleting Git commits that are under no branch (dangling) - Stack Overflow](https://stackoverflow.com/questions/3765234/listing-and-deleting-git-commits-that-are-under-no-branch-dangling)
 
 ## Untracked files
 Remove untracked files:
