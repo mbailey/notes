@@ -2,6 +2,7 @@
 
 - [manual (help.obsidian.md)](https://help.obsidian.md/)
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
+- [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
 ## Install
 ```shell
@@ -39,6 +40,37 @@ Tools for Sync'ing:
 linux  <--> linux : Obsidian Sync or SyncThing, Git
 iphone <--> linux : Obsidian Sync
 
+## Templates
+
+### `date` Snippet
+
+I run `Ctrl+T`,  `d`,  `Enter` to insert `Thu 25 Aug 2022 05:04:15`.
+
+Enable `Templates` plugin (Core Plugin) and enable it.  
+Configure templates directory (through Settings or  .obsidian/templates.json):
+```json
+{
+  "folder": "Templates"
+}
+```
+ Create `Templates/d.md`:
+```markdown
+{{date:ddd DD MMM YYYY HH:mm:ss}}
+```
+Configure Hotkey (through Settings or .obsidian/hotkeys.json) :
+```json
+{
+  "insert-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+
+}
+```
 
 ## Editing
 
