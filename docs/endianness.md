@@ -1,4 +1,4 @@
-## Endianness (*Elliot's brother* 😉)
+# Endianness (*Elliot's brother* 😉)
 
 - The term `big-endian` is expressed in little-endian
 - The term `little-endian` is also expressed in little-endian
