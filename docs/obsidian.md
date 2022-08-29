@@ -4,6 +4,9 @@
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
+## Features
+- updates links when you move/rename files
+
 ## Install
 ```shell
 $ ./bin/obsidian-install.sh
@@ -17,6 +20,9 @@ User
 Workspace
 
 ### Plugins
+
+- [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+- [mgmeyers/obsidian-kanban Create markdown-backed Kanban boards in Obsidian.](https://github.com/mgmeyers/obsidian-kanban)
 
 ## Commands
 
