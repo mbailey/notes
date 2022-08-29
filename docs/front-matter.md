@@ -1,5 +1,20 @@
 # Front Matter
 
+Front Matter can refer to YAML style metadata in Markdown.
+
+```yaml
+---
+title: My Document
+summary: A brief description of my document.
+authors:
+    - Waylan Limberg
+    - Tom Christie
+date: 2018-07-10
+some_url: https://example.com
+---
+This is the first paragraph of the document.
+```
+
 - [hugo](https://gohugo.io/content-management/front-matter/)
 - [jekyll](https://jekyllrb.com/docs/front-matter/)
 - [MkDocs](https://github.com/mkdocs/mkdocs/blob/6f3801cbd3a216778a8321de11591fe8e17fef4d/docs/user-guide/writing-your-docs.md#meta-data)
