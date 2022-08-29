@@ -1,5 +1,13 @@
 # Git
 
+
+## Update forked github repo
+
+    git remote add upstream https://github.com/original-repo/goes-here.git
+    git fetch upstream
+    git rebase upstream/master
+    git push origin master --force
+    
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 
 A single command to change the author for the last N commits:
@@ -9,6 +17,15 @@ A single command to change the author for the last N commits:
 Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
 
     git rm --cached example/dir -f
+
+## gpg diff
+
+    https://gist.github.com/marceloalmeida/e6593b93b388cdf1dbc282dffd424d1b#file-readme-md
+
+    git config --global diff.gpg.textconv "gpg --no-tty --decrypt"
+
+    echo "*.gpg filter=gpg diff=gpg" >> .gitattributes
+    echo "*.asc filter=gpg diff=gpg" >> .gitattributes
 
 ## Delete dangling commits
 
@@ -75,6 +92,14 @@ Installation is as easy as:
 
 [1]: https://github.com/newren/git-filter-repo
 
+
+## Remove file:
+
+  # git recommends using [git-filter-repo](https://github.com/newren/git-filter-repo/#simple-example-with-comparisons)
+  
+    git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
+
+  
 ### Remove large file
 
 **[100 times faster than git filter-branch and simpler (stackoverflow.com)](https://stackoverflow.com/a/61602985/660017)**
@@ -103,6 +128,10 @@ I don't want to have to remember what the default branch is named.
 
 - [stackoverflow](https://stackoverflow.com/a/69344918/660017)
 
+## Maintain standard initial branch
+
+    git config --global init.defaultBranch master
+
 ## Organising your clones
 
 Not sure whether I want to include org in clone path like this this guy does:
@@ -125,3 +154,15 @@ Not sure whether I want to include org in clone path like this this guy does:
 > ```
 >
 > [A Directory Structure for OSS and Work Github Clones](https://code.dblock.org/2016/03/25/a-directory-structure-for-oss-and-work-github-clones.html)
+
+
+## lfs
+
+    git lfs ls-files --all
+    
+Remove from lfs
+
+    git lfs untrack '<file-type>'
+    git rm --cached '<file-type>'
+    git add '<file-type>'
+    git commit -m "restore '<file-type>' to git from lfs"

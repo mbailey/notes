@@ -2,7 +2,7 @@
 
 [GNU Privacy Guard](https://gnupg.org/)
 
-List keys file is encrypted for:
+List the keys a file is encrypted for:
 
     $ gpg example.gpg
     gpg: WARNING: no command supplied.  Trying to guess what you mean ...
@@ -12,3 +12,8 @@ List keys file is encrypted for:
           "Mike 2 <mike2@example.com>"
     gpg: encrypted with rsa4096 key, ID FFFFFFFFFFFFFFF3, created 2011-01-11
           "Mike 3 <mike3@example.com>"
+
+
+Edit trust on a key:
+
+    $ gpg --edit-key 0x1234567812345678
