@@ -18,6 +18,7 @@ function notes(){
     for extension in '' .txt .md; do
       local filename="${1}${extension}"
       if [[ -f "${notes_dir}/${filename}" ]]; then
+        cd "${notes_dir}" # handy if I want to add to git after editing
         vi "${notes_dir}/${filename}"
         return
       fi
@@ -28,6 +29,7 @@ function notes(){
   echo
   if [[ $REPLY =~ $regex_yes ]]; then
    printf "# ${filename/.md}\n\n\n"  >> "${notes_dir}/${filename}"
+   cd "${notes_dir}" # handy if I want to add to git after creating
    vi +3 "${notes_dir}/${filename}"
   fi
 }
