@@ -1,6 +1,5 @@
 # github
 
-
 ## Releases
 
 - [Watch releases](https://github.blog/changelog/2018-11-27-watch-releases/)  You can limit repository notifications exclusively to releases.
@@ -29,3 +28,5 @@ Settings to stop repo visibility being set to public:
 
 > [Restricting repository visibility changes in your organization](https://docs.github.com/en/organizations/managing-organization-settings/restricting-repository-visibility-changes-in-your-organization)
 > You can restrict the ability to change repository visibility to organization owners only, or you can allow anyone with admin access to a repository to change visibility.
+
+
