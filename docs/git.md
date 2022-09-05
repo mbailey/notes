@@ -1,22 +1,23 @@
 # Git
 
-
-## Update forked github repo
-
-    git remote add upstream https://github.com/original-repo/goes-here.git
-    git fetch upstream
-    git rebase upstream/master
-    git push origin master --force
-    
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 
-A single command to change the author for the last N commits:
+
+
+## Command to change the author for the last N commits:
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
 
-Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
+## Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
 
     git rm --cached example/dir -f
+
+## Update forked github repo
+
+    git remote add upstream git@github.com:original-repo/goes-here.git
+    git fetch upstream
+    git rebase upstream/master
+    git push origin master --force-with-lease
 
 ## gpg diff
 
