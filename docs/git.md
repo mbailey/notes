@@ -4,6 +4,10 @@
 
 
 
+## Diff two arbitrary files using git diff (e.g. for gpg files)
+
+  git diff --no-index file1 file2
+
 ## Command to change the author for the last N commits:
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
