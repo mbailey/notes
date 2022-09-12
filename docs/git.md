@@ -2,7 +2,9 @@
 
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 
+## Check which rule caused git to ignore
 
+    git check-ignore -v path/to/check
 
 ## Diff two arbitrary files using git diff (e.g. for gpg files)
 
