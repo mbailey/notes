@@ -30,3 +30,23 @@ Settings to stop repo visibility being set to public:
 > You can restrict the ability to change repository visibility to organization owners only, or you can allow anyone with admin access to a repository to change visibility.
 
 
+## GitHub Actions
+
+- [Using GitHub CLI in workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/using-github-cli-in-workflows)
+- [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
+- [Using activity types and filters with multiple events](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#using-activity-types-and-filters-with-multiple-events)
+- [Triggers  Dev Cheatsheets](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/ci-cd/github-actions/triggers.html)
+
+### CLI
+
+Watch Workflow run in realtime:
+
+    gh run watch
+
+- Workflow: runs one or more jobs
+- Event:  triggers Action
+- Job:
+  - set of steps that execute on the same runner
+  - shell script or Action
+- Action: custom application
+- Runner: server that runs your workflows
