@@ -10,9 +10,11 @@ editing window (for a Markdown file in the repo) will result in the asset being
 immediately uploaded to a publicly accessible URL location, even if the repo
 you're editing is not public.
 
-The URL looks something like the made up one below:
+The URL looks something like the real example below:
 
-> https://user-images.githubusercontent.com/11111111/22222222-33333333-111a-11aa-a11a-123456789012.png
+![example file](https://user-images.githubusercontent.com/4409/191630770-ae8ea473-a0e8-47f1-9ad4-f8fde4f0af99.jpg)
+
+`https://user-images.githubusercontent.com/4409/191630770-ae8ea473-a0e8-47f1-9ad4-f8fde4f0af99.jpg`
 
 GitHub advise against using this for sensitive media.
 
