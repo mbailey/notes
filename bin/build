@@ -1,0 +1,23 @@
+#!/bin/bash
+set -eu -o pipefail
+
+# build - Build MkDocs static site
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+if output="$("$SCRIPT_DIR/broken-symlinks" docs)"; then
+  echo "Error! Cannot build MkDocs with these broken symlinks:" >&2
+  echo
+  echo "$output"
+  exit 1
+fi
+
+python3 -m venv venv
+source venv/bin/activate
+
+if ! command -v mkdocs; then
+  echo >&2 "Error! mkdocs not installed. Perhaps run bin/install-mkdocs"
+  exit 1
+fi
+
+python3 -m mkdocs build # --strict 
