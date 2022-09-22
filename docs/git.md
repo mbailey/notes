@@ -1,10 +1,25 @@
 # Git
 
+![](Pasted%20image%2020220918190852.png)
+-  [Slick Rick - Snakes Of The World Today Lyrics  AZLyrics.com](https://www.azlyrics.com/lyrics/slickrick/snakesoftheworldtoday.html)
+
+- [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
+- [Git - Community](https://git-scm.com/community)
+- `man gittutorial`
+- [Tech Talk Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8&list=WL&index=2&t=2s)
+    - distributed
+    - performance
+    - 
+
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 
 ## Check which rule caused git to ignore
 
     git check-ignore -v path/to/check
+
+## Checkout Remote Branch
+
+    git checkout --track origin/gh-pages
 
 ## Diff two arbitrary files using git diff (e.g. for gpg files)
 
