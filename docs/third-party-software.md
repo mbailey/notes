@@ -3,14 +3,14 @@
 Things I install on my fedora workstations.
 
 - [Third Party Software](#third-party-software)
-  - [awscli](#awscli)
-  - [bash-my-aws](#bash-my-aws)
-  - [chrome](#chrome)
-  - [dbeaver-ce](#dbeaver-ce)
-  - [obsidian](#obsidian)
-  - [slack](#slack)
-  - [vscode](#vscode)
-  - [Go](#go)
+    - [awscli](#awscli)
+    - [bash-my-aws](#bash-my-aws)
+    - [chrome](#chrome)
+    - [dbeaver-ce](#dbeaver-ce)
+    - [obsidian](#obsidian)
+    - [slack](#slack)
+    - [vscode](#vscode)
+    - [Go](#go)
 
 ## [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
