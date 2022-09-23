@@ -25,7 +25,7 @@ Things I install on my fedora workstations.
 
 ## [chrome](chrome)
 
-Only for [Microsoft Teams](INBOX/msteams.md).
+Only for [Microsoft Teams](msteams.md).
 
 ## [dbeaver-ce](https://dbeaver.io/download/)
 
@@ -62,12 +62,12 @@ or:
     sudo dnf install code
 
 - Enable settings sync (danger?)
-  - Syncs extensions (and other things).
+    - Syncs extensions (and other things).
 - Settings
-  - window.titleBarStyle : custom # replace light titlebar with dark
-  - telemetry.telemetryLevel = off # opt out of telemetry
+    - window.titleBarStyle : custom # replace light titlebar with dark
+    - telemetry.telemetryLevel = off # opt out of telemetry
 - extensions
-  - donjayamanne.python-extension-pack
+    - donjayamanne.python-extension-pack
 
 ## Go
 

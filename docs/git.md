@@ -1,6 +1,5 @@
 # Git
 
-![](Pasted%20image%2020220918190852.png)
 -  [Slick Rick - Snakes Of The World Today Lyrics  AZLyrics.com](https://www.azlyrics.com/lyrics/slickrick/snakesoftheworldtoday.html)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)

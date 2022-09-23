@@ -4,4 +4,4 @@
 
 ## Windows Guests
 
-- [spice-space guest tools](www.spice-space.org/download.html)
+- [spice-space guest tools](https:/:///www.spice-space.org/download.html)

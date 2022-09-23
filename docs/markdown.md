@@ -7,7 +7,7 @@
 - [obsidian](obsidian.md): Cross Platform, WYSIWYG, extensive plugins (tables, calendar, etc)
 - [vscode](vscode.md): Cross Platform, Live Preview, Syntax Highlighting, Linting, Plugins
 - vim: Cross Platform, Terminal, Syntax Highlighting, Linting
-- [GitHub.com](github.com): Web App
+- [GitHub.com](https://github.com): Web App
 
 
 ## Web Clipping
