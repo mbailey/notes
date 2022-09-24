@@ -9,7 +9,6 @@
 - vim: Cross Platform, Terminal, Syntax Highlighting, Linting
 - [GitHub.com](https://github.com): Web App
 
-
 ## Web Clipping
 
 - [Markdownload : A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.](https://github.com/deathau/markdownload) (github.com/deathau)
@@ -20,6 +19,20 @@
 - Headings may be folded in some editors/viewers ([obsidian](obsidian.md))
 
 ### Lint
+
+#### Link checking
+
+[linkcheckmd](https://pypi.org/project/linkcheckmd/)- Linkchecker for Markdown-based static generated sites
+
+Install:
+
+    python -m pip install linkcheckmd
+
+Run:
+
+    linkcheckMarkdown
+
+#### Python-Markdown
 
 [Python-Markdown requires 4 spaces for list indentation](https://github.com/Python-Markdown/markdown/issues/1204)
 
