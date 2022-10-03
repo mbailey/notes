@@ -4,6 +4,9 @@
 
 Command line tool to send files to anyone.
 
+- Deliciously simple UI
+- I've not investigated in depth yet
+
 ## Quickstart (ubuntu-36)
 
     $ sudo dnf install magic-wormhole
