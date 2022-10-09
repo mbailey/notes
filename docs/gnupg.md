@@ -17,3 +17,8 @@ List the keys a file is encrypted for:
 Edit trust on a key:
 
     $ gpg --edit-key 0x1234567812345678
+
+Import a key from github:
+
+    wget https://github.com/mbailey.gpg
+    gpg --import ./mbailey.gpg

@@ -8,7 +8,7 @@ Are you sure you want to do that?
 Setup automatic updates:
 
     sudo dnf install dnf-automatic
-    systemctl enable --now dnf-automatic.timer
+    sudo systemctl enable --now dnf-automatic.timer
 
 Check status of timers:
 

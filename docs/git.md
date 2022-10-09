@@ -1,16 +1,27 @@
 # Git
 
--  [Slick Rick - Snakes Of The World Today Lyrics  AZLyrics.com](https://www.azlyrics.com/lyrics/slickrick/snakesoftheworldtoday.html)
-
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
 - `man gittutorial`
 - [Tech Talk Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8&list=WL&index=2&t=2s)
     - distributed
     - performance
-    - 
 
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
+
+
+## Share via sneakernet
+
+    wget https://github.com/mbailey.gpg
+    gpg --import ./mbailey.gpg
+    # cd cloned git repo
+    git bundle create mbailey.bundle --all
+    gpg --recipient mike@example.com  -e  mbailey.bundle
+    # Send me mbailey.bundle.gpg
+
+## Check out file from specific commit
+
+    git checkout c5f567 -- file1/to/restore file2/to/restore
 
 ## Check which rule caused git to ignore
 
@@ -117,10 +128,10 @@ Installation is as easy as:
 ## Remove file:
 
   # git recommends using [git-filter-repo](https://github.com/newren/git-filter-repo/#simple-example-with-comparisons)
-  
+
     git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
 
-  
+
 ### Remove large file
 
 **[100 times faster than git filter-branch and simpler (stackoverflow.com)](https://stackoverflow.com/a/61602985/660017)**
@@ -180,7 +191,7 @@ Not sure whether I want to include org in clone path like this this guy does:
 ## lfs
 
     git lfs ls-files --all
-    
+
 Remove from lfs
 
     git lfs untrack '<file-type>'
