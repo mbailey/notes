@@ -27,6 +27,14 @@ Things I install on my fedora workstations.
 
 Only for [Microsoft Teams](msteams.md).
 
+## Firefox plugins
+
+Firefox is far and away my favourite web browser. These plugins make it even better.
+
+  - [DarkReader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+  - [MarkDownload](https://addons.mozilla.org/en-US/firefox/addon/markdownload/)
+  - [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers)
+
 ## [dbeaver-ce](https://dbeaver.io/download/)
 
     wget https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
