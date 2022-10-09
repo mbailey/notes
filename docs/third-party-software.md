@@ -7,8 +7,10 @@ Things I install on my fedora workstations.
     - [bash-my-aws](#bash-my-aws)
     - [chrome](#chrome)
     - [dbeaver-ce](#dbeaver-ce)
+    - [firefox plugins](#firefox-plugins)
     - [obsidian](#obsidian)
     - [slack](#slack)
+    - [syncthing](#syncthing)
     - [vscode](#vscode)
     - [Go](#go)
 
@@ -27,6 +29,11 @@ Things I install on my fedora workstations.
 
 Only for [Microsoft Teams](msteams.md).
 
+## [dbeaver-ce](https://dbeaver.io/download/)
+
+    wget https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
+    sudo dnf install dbeaver-ce-latest-stable.x86_64.rpm
+
 ## Firefox plugins
 
 Firefox is far and away my favourite web browser. These plugins make it even better.
@@ -34,11 +41,6 @@ Firefox is far and away my favourite web browser. These plugins make it even bet
   - [DarkReader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
   - [MarkDownload](https://addons.mozilla.org/en-US/firefox/addon/markdownload/)
   - [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers)
-
-## [dbeaver-ce](https://dbeaver.io/download/)
-
-    wget https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
-    sudo dnf install dbeaver-ce-latest-stable.x86_64.rpm
 
 ## [obsidian](https://obsidian.md/download)
 
@@ -59,6 +61,8 @@ or:
     wget https://downloads.slack-edge.com/releases/linux/4.27.156/prod/x64/slack-4.27.156-0.1.fc21.x86_64.rpm
 
     sudo rpm -i slack-4.27.156-0.1.fc21.x86_64.rpm
+
+## [syncthing](https://syncthing.net/)
 
 ## [vscode](https://code.visualstudio.com/docs/setup/linux)
 
