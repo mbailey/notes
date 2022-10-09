@@ -7,14 +7,14 @@
 
 # Provide one or note directories for notes
 #
-# NOTES_DIRS="${HOME}/Documents/notes-public:${HOME}/Documents/notes-work:${HOME}/Documents/notes-personal"
+# NOTES_PATH="${HOME}/Documents/notes-public:${HOME}/Documents/notes-work:${HOME}/Documents/notes-personal"
 
 alias n='notes'
 
 function notes(){
   [[ -n $1 ]] || return
   local notes_dir
-  for notes_dir in ${NOTES_DIRS//:/ }; do
+  for notes_dir in ${NOTES_PATH//:/ }; do
     for extension in '' .txt .md; do
       local filename="${1}${extension}"
       if [[ -f "${notes_dir}/${filename}" ]]; then
@@ -40,7 +40,7 @@ _notes_completion() {
   local word="$2"
   local options
   options=$(
-    ls ${NOTES_DIRS//:/ } 2>/dev/null |
+    ls ${NOTES_PATH//:/ } 2>/dev/null |
     grep -v ':' |
     grep '.\(md\|txt\)$' |
     sort -u |

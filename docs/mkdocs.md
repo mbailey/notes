@@ -11,38 +11,35 @@ Markdown based static site generator aimed at documentation (including this).
 
 It's very simple:
 
-```bash
-$ mkdocs -h
-Usage: mkdocs [OPTIONS] COMMAND [ARGS]...
+    $ mkdocs -h
+    Usage: mkdocs [OPTIONS] COMMAND [ARGS]...
 
-  MkDocs - Project documentation with Markdown.
+    MkDocs - Project documentation with Markdown.
 
-Options:
-  -V, --version  Show the version and exit.
-  -q, --quiet    Silence warnings
-  -v, --verbose  Enable verbose output
-  -h, --help     Show this message and exit.
+    Options:
+    -V, --version  Show the version and exit.
+    -q, --quiet    Silence warnings
+    -v, --verbose  Enable verbose output
+    -h, --help     Show this message and exit.
 
-Commands:
-  build      Build the MkDocs documentation
-  gh-deploy  Deploy your documentation to GitHub Pages
-  new        Create a new MkDocs project
-  serve      Run the builtin development server
-```
+    Commands:
+    build      Build the MkDocs documentation
+    gh-deploy  Deploy your documentation to GitHub Pages
+    new        Create a new MkDocs project
+    serve      Run the builtin development server
 
-Install
+Install:
 
     pip install mkdocs
 
-Creating a new project
+Create a new project:
 
     mkdocs new my-project
     cd my-project
 
-Run
+Run:
 
     mkdocs serve
-
 
 Add `mkdocs-material` as a submodule:
 
