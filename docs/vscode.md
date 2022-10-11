@@ -16,7 +16,8 @@ File locations:
 View the default values in the Settings editor or see a read-only version of the [`defaultSettings.json`][defaults] via **Preferences: Open Default Settings (JSON)**
 
 My preferred settings:
-| Setting  ID                  | Value | Comment                                          |
+
+| Setting  ID              | Value   | Comment                                          |
 | ------------------------ | ------- | ------------------------------------------------ |
 | git.rebaseWhenSync       | true    | Always use rebase instead of merge when running. |
 | files.insertFinalNewline | true    | Insert final newline into file when saving       |
