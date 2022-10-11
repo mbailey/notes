@@ -30,29 +30,29 @@ Install:
 
     $ code --install-extension vscodevim.vim
 
-### List:
+### List
 
 ```shell
 $ code --list-extensions
-yzhang.markdown-all-in-one
+DavidAnson.vscode-markdownlint
 aws-scripting-guy.cform
 bierner.markdown-mermaid
 csholmq.excel-to-markdown-table
-DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
 ms-python.pylint
 ms-python.python
 ms-python.vscode-pylance
-vscodevim.vim
-redhat.vscode-yaml
 ms-vscode.makefile-tools
 mushan.vscode-paste-image
-sidthesloth.html5-boilerplate
-timonwong.shellcheck
-telesoho.vscode-markdown-paste-image
-wholroyd.jinja
 pharndt.vscode-markdown-table
+redhat.vscode-yaml
+sidthesloth.html5-boilerplate
+telesoho.vscode-markdown-paste-image
+timonwong.shellcheck
+vscodevim.vim
+wholroyd.jinja
+yzhang.markdown-all-in-one
 ```
 
 Had these but didn't keep:
@@ -88,36 +88,6 @@ VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode
 wingrunr21.vscode-ruby
 ```
-
-
-    golang.go
-    vscodevim.vim
-    bmewburn.vscode-intelephense-client
-    brapifra.phpserver
-    DEVSENSE.phptools-vscode
-    dhoeric.ansible-vault
-    eamodio.gitlens
-    firefox-devtools.vscode-firefox-debug
-    formulahendry.code-runner
-    GitHub.vscode-pull-request-github
-    GrapeCity.gc-excelviewer
-    hbenl.vscode-test-explorer
-    mbehr1.vsc-webshark
-    mechatroner.rainbow-csv
-    ms-azuretools.vscode-docker
-    ms-kubernetes-tools.vscode-kubernetes-tools
-    ms-python.python
-    ms-python.vscode-pylance
-    ms-toolsai.jupyter
-    ms-toolsai.jupyter-keymap
-    ms-toolsai.jupyter-renderers
-    ms-vscode-remote.remote-containers
-    ms-vscode-remote.remote-ssh
-    ms-vscode-remote.remote-ssh-edit
-    ms-vscode.test-adapter-converter
-    redhat.ansible
-    redhat.vscode-yaml
-    xdebug.php-debug
 
 ## Shortcuts
 
