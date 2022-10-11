@@ -5,7 +5,8 @@
 
 ## Settings
 
-File locations
+File locations:
+
 -  `~/.config/Code/User`
 -  `~/.config/Code/Workspaces`
 - `~/.vscode`
