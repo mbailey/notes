@@ -38,6 +38,8 @@ Only for [Microsoft Teams](msteams.md).
 
 Firefox is far and away my favourite web browser. These plugins make it even better.
 
+*Installed by logging into firefox account in browser.*
+
   - [DarkReader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
   - [MarkDownload](https://addons.mozilla.org/en-US/firefox/addon/markdownload/)
   - [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers)
