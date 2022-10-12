@@ -3,12 +3,14 @@
 Volkswagen was ==established in 1937== by the German Labour Front (Deutsche Arbeitsfront) in Berlin. In the early 1930s, ==cars were a luxury== – most Germans could afford nothing more elaborate than a motorcycle and ==only one German out of 50 owned a car==. Seeking a potential new market, some car makers began independent "people's car" projects – the Mercedes 170H, BMW 3/15, Adler AutoBahn, Steyr 55, and Hanomag 1.3L, among others.
 
 ## Volkswagen Type 1 (*a.k.a. Volkswagen Beetle, Bug*)
+
 Production: 1938 - 2003
 Lead Engineer: [Ferdinand Porsche](https://en.wikipedia.org/wiki/Ferdinand_Porsche)
 
-![](assets/Pasted%20image%2020220830070000.png)
+![](assets/vw-beetle.png)
 
 ## Volkswagen Type 2 (*a.k.a. Combi, Transporter, Multivan*)
+
 Production: 1949 - present
 
 ![](assets/Pasted%20image%2020220830064853.png)
@@ -20,6 +22,7 @@ The Volkswagen Transporter / Multivan has been built on revisions Volkswagen Gro
 The 2022 Multivan switched to the ==MQB Platform== that underpins many of VW’s current passenger cars, including the Golf hatchback, Passat sedan and Tiguan SUV.
 
 ## Volkswagen Group platforms
+
 - [List of Volkswagen Group platforms - Wikipedia](https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_platforms)
 
 The German automotive concern, Volkswagen Group has, since the 1970s, developed a series of shared automobile platforms for their motor vehicles.
@@ -37,5 +40,5 @@ VW Passat
 ![](assets/Pasted%20image%2020220830071715.png)
 VW Tiguan
 
-![](assets/Pasted%20image%2020220830071743.png)
+![](assets/vw-t7-multivan.png)
 VW Multivan T7
