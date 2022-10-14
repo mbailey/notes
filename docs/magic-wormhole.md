@@ -19,3 +19,6 @@ Command line tool to send files to anyone.
 
     wormhole receive 9-handiwork-upset
 
+## macos
+
+    brew install magic-wormhole
