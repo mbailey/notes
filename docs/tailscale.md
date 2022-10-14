@@ -19,6 +19,32 @@ sh ./install.sh
 sudo tailscale up
 ```
 
+## firewalld allows all traffic from tailscale
+
+Don't do this unless you understand the implications.
+
+Services on my host already have:
+
+- authentication
+- encryption
+
+My Tailscale network provides an extra layer of protection
+against compromise by requiring access to it before you
+can even try to guess (or use stolen) credentials or observe
+traffic that is already encrypted at application layer.
+
+`/etc/firewalld/zones/truted.xml`
+
+```txt
+<?xml version="1.0" encoding="utf-8"?>
+<zone target="ACCEPT">
+  <short>Trusted</short>
+  <description>All network connections are accepted.</description>
+  <interface name="tailscale0"/>
+  <forward/>
+</zone>
+```
+
 ## Bash completion
 
 - [tailscale-bash-completion.sh](tailscale/tailscale-bash-completion.sh)

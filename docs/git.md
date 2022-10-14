@@ -39,10 +39,6 @@
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
 
-## Mess! "fatal: No url found for submodule path 'example/dir' in .gitmodules"
-
-    git rm --cached example/dir -f
-
 ## Update forked github repo
 
     git remote add upstream git@github.com:original-repo/goes-here.git
@@ -103,7 +99,7 @@ Git clone with submodules:
 
     git clone --recurse-submodules https://github.com/chaconinc/MainProject
 
-Did you forget to cline with submodules?
+Did you forget to clone with submodules?
 
     git submodule init
     git submodule update
@@ -111,6 +107,10 @@ Did you forget to cline with submodules?
 Update submodules in repo:
 
     git submodule update --remote --merge
+
+### Add a submodule to a project
+
+    git submodule add git@github-mbailey:mbailey/notes.git public
 
 ## git filter-repo
 
@@ -123,7 +123,6 @@ Installation is as easy as:
     $ PACKAGE_TOOL install git-filter-repo
 
 [1]: https://github.com/newren/git-filter-repo
-
 
 ## Remove file:
 
