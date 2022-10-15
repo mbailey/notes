@@ -1,14 +1,14 @@
 # Git
 
+- [git submodules](git/git-submodules.md)
+
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
 - `man gittutorial`
 - [Tech Talk Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8&list=WL&index=2&t=2s)
     - distributed
     - performance
-
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
-
 
 ## Share via sneakernet
 
@@ -92,25 +92,6 @@ Less files and no .git dir:
 
     git clone --depth=1 git://someserver/somerepo dirformynewrepo
     rm -rf !$/.git
-
-## submodules
-
-Git clone with submodules:
-
-    git clone --recurse-submodules https://github.com/chaconinc/MainProject
-
-Did you forget to clone with submodules?
-
-    git submodule init
-    git submodule update
-
-Update submodules in repo:
-
-    git submodule update --remote --merge
-
-### Add a submodule to a project
-
-    git submodule add git@github-mbailey:mbailey/notes.git public
 
 ## git filter-repo
 
