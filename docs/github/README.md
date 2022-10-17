@@ -1,7 +1,8 @@
-# github
+# GitHub
 
-- [Find your GitHub user id](http://caius.github.io/github_id/#mbailey)
-  - 4409 mbailey
+- [SSH](./ssh)
+
+- [Find your GitHub user id](http://caius.github.io/github_id/#mbailey) (Mine is #4409 mbailey)
 
 ## Releases
 
