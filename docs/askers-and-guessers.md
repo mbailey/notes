@@ -1,6 +1,7 @@
 # Askers and Guessers
 
 - [ How to quickly tell if someone is an asker or guesser](https://interpersonal.stackexchange.com/questions/27096/how-to-quickly-tell-if-someone-is-an-asker-or-guesser) (interpersonal.stackexchange.com)
+- [This column will change your life  Health & wellbeing  The Guardian](https://www.theguardian.com/lifeandstyle/2010/may/08/change-life-asker-guesser) (theguardian.com)
 - [Are You an Asker or a Guesser? The Answer Could Change Everything](https://www.purewow.com/wellness/ask-vs-guess-culture) (purewow.com)
 
 > What is Ask vs. Guess Culture?
