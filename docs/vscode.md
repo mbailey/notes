@@ -24,8 +24,8 @@ sudo dnf install code
 
 File locations:
 
--  `~/.config/Code/User`
--  `~/.config/Code/Workspaces`
+- `~/.config/Code/User`
+- `~/.config/Code/Workspaces`
 - `~/.vscode`
     - `argv.json` : pass permanent command line arguments to VS Code.
     - `extensions`: your extensions live here
@@ -45,7 +45,7 @@ My preferred settings:
 
 Install:
 
-    $ code --install-extension vscodevim.vim
+    code --install-extension vscodevim.vim
 
 ### List
 
@@ -73,6 +73,7 @@ yzhang.markdown-all-in-one
 ```
 
 Had these but didn't keep:
+
 ```
 almenon.arepl
 batisteo.vscode-django
@@ -122,6 +123,7 @@ Ctrl-p-p: Go back to previous file
 ## GUI
 
 Open two terminals with horizontal split:
+
 - Open a first terminal
 - Open a second one
 - Right click a terminal and select "move to editor area"
@@ -129,6 +131,20 @@ Open two terminals with horizontal split:
 ## Troubleshooting
 
 ### File watchers
+
 - [Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
 
 ![](assets/vscode-unable-to-watch-for-file-changes.png)
+
+Check your watcher limits, current usage and how to increase the limits for [inotify](inotify.md)]
+
+```json
+
+Maybe exclude some from vscode watchers:
+```json
+"files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
+```
