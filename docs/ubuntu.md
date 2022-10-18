@@ -1,6 +1,6 @@
-# ubuntu
+# Ubuntu
 
-## Unattended upgrades:
+## Unattended upgrades
 
 - [AutomaticSecurityUpdates - Community Help Wiki](https://help.ubuntu.com/community/AutomaticSecurityUpdates)
 
