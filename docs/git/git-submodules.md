@@ -11,7 +11,7 @@ Did you forget to clone with submodules?
 
 Update submodules in repo:
 
-    git submodule update --remote --merge
+    git submodule update --remote [--merge]
 
 ### Add submodule to repository
 
