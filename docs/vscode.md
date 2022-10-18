@@ -1,4 +1,4 @@
-# vscode
+# VSCode
 
 - [Annoyance - Features (including quickopen, git) exclude files based on .gitignore (even if in different folder!)](https://github.com/microsoft/vscode/issues/15604)
 
@@ -136,7 +136,7 @@ Open two terminals with horizontal split:
 
 ![](assets/vscode-unable-to-watch-for-file-changes.png)
 
-Check your watcher limits, current usage and how to increase the limits for [inotify](inotify.md)]
+Check your watcher limits, current usage and how to increase the limits for [inotify](inotify.md)
 
 ```json
 
