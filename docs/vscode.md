@@ -112,6 +112,13 @@ wingrunr21.vscode-ruby
 Ctrl-p-p: Go back to previous file
 ```
 
+## Git
+
+- Opening multiple repos allows for a great Git status summary view
+- Click on the repo to see only those changes below
+
+![](assets/vscode-git-status-summary.png)
+
 ## GUI
 
 Open two terminals with horizontal split:
