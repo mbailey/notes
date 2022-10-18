@@ -13,7 +13,7 @@ Update submodules in repo:
 
     git submodule update --remote [--merge]
 
-### Add submodule to repository
+## Add submodule to repository
 
 - [Using submodules in Git - (vogella.com)](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_trackbranch)
 
@@ -45,7 +45,7 @@ Update submodules in repo:
 > In modern git (I'm writing this in 2022, with an updated git installation),
 > this has become quite a bit simpler:
 >
->    Run git rm <path-to-submodule>, and commit.
+> Run git rm <path-to-submodule>, and commit.
 >
 > This removes the filetree at <path-to-submodule>, and the submodule's entry
 > in the .gitmodules file. I.e. all traces of the submodule in your repository
@@ -60,10 +60,8 @@ Update submodules in repo:
 >
 > These steps can be automated using the commands:
 >
->   rm -rf .git/modules/<path-to-submodule>, and
->   git config --remove-section submodule.<path-to-submodule>.
-
-
+> rm -rf .git/modules/<path-to-submodule>, and
+> git config --remove-section submodule.<path-to-submodule>.
 
 ## git filter-repo
 
@@ -73,16 +71,15 @@ git-filter-repo is a single-file python script, which was done to make installat
 
 Installation is as easy as:
 
-    $ PACKAGE_TOOL install git-filter-repo
+    PACKAGE_TOOL install git-filter-repo
 
 [1]: https://github.com/newren/git-filter-repo
 
-## Remove file:
+## Remove file
 
-  # git recommends using [git-filter-repo](https://github.com/newren/git-filter-repo/#simple-example-with-comparisons)
+# git recommends using [git-filter-repo](https://github.com/newren/git-filter-repo/#simple-example-with-comparisons)
 
     git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
-
 
 ### Remove large file
 
@@ -99,7 +96,6 @@ This helps you to determine what to do next.
 You can delete your DVD-rip file everywhere:
 
     git filter-repo --invert-paths --path-match DVD-rip
-
 
 ## Branches
 
@@ -138,7 +134,6 @@ Not sure whether I want to include org in clone path like this this guy does:
 > ```
 >
 > [A Directory Structure for OSS and Work Github Clones](https://code.dblock.org/2016/03/25/a-directory-structure-for-oss-and-work-github-clones.html)
-
 
 ## lfs
 
