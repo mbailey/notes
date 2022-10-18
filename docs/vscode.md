@@ -126,3 +126,9 @@ Open two terminals with horizontal split:
 - Open a second one
 - Right click a terminal and select "move to editor area"
 
+## Troubleshooting
+
+### File watchers
+- [Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
+
+![](assets/vscode-unable-to-watch-for-file-changes.png)
