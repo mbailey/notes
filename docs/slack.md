@@ -1,4 +1,4 @@
-# slack
+# Slack
 
 ## Questions
 
@@ -10,12 +10,12 @@
 - [emoji preferences (slack.com)](https://slack.com/intl/en-au/help/articles/4406393601683-Manage-emoji-preferences)
 
 - Preferences
-  - Input Options
-    - [ ] When typing code with ```, Enter should not send the message
-    - [x] Format messages with markup
-  - When writing a message, press Enter to...
-    - [x] Send the message
-    - [ ] Start a new line
+    - Input Options
+        - [ ] When typing code with ```, Enter should not send the message
+        - [x] Format messages with markup
+    - When writing a message, press Enter to...
+        - [x] Send the message
+        - [ ] Start a new line
 
 ### Set your preference for one-click emoji reactions
 
