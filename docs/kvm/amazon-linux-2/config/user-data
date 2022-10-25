@@ -3,8 +3,6 @@
 users:
 # A user by the name `ec2-user` is created in the image by default.
   - default
-    ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvVZ6rCE3O9993M6dLzHK4f4yg00NwgX+2IoAcvlSzxuEruy8W6puGFT6//BQSrF9M1FlB9MPUI+/vW8dOUT6M7JydiBM0deUdRIRbUxzxt4VGZaiCv6NG0Aj2IxqNptFeHRx0l7qA8rqDBKBTFUhpaa2MrLbHYh9UpC7dD8/uT2iDha0JWXoMg3shvhrswExRSYIX4xrTyMxC5C+BJ7YVoE8lVxr7/LbkP/BYEIRr1bCq2xRBOl4jZGmAJH90q1uIJljtf3DI+E+/71IfSPMcdKvBvGj1eTxLkcMVQ+EQiVxP0FjzYIG2ul22TOnWwzvwfLqmpgl2cei2Uz/1QNZ5cNptKWfU3+PWn4g9dwDZV/VYi37weyq5HGI+q9btVsZ8oPOVwcQjBarkJO7XpzEbf+Ax0jOiDpy17PEB8gpa6mwoDCKS2JmbTbBrRvCpmzWrrG+7AZ/KRe2MTsy2iAzaLw8OaHXBQa6k9rHa4uC/ABBXcJ+kmXD+oh86VPUZkkc= m@x2
   - name: m
     ssh_authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvVZ6rCE3O9993M6dLzHK4f4yg00NwgX+2IoAcvlSzxuEruy8W6puGFT6//BQSrF9M1FlB9MPUI+/vW8dOUT6M7JydiBM0deUdRIRbUxzxt4VGZaiCv6NG0Aj2IxqNptFeHRx0l7qA8rqDBKBTFUhpaa2MrLbHYh9UpC7dD8/uT2iDha0JWXoMg3shvhrswExRSYIX4xrTyMxC5C+BJ7YVoE8lVxr7/LbkP/BYEIRr1bCq2xRBOl4jZGmAJH90q1uIJljtf3DI+E+/71IfSPMcdKvBvGj1eTxLkcMVQ+EQiVxP0FjzYIG2ul22TOnWwzvwfLqmpgl2cei2Uz/1QNZ5cNptKWfU3+PWn4g9dwDZV/VYi37weyq5HGI+q9btVsZ8oPOVwcQjBarkJO7XpzEbf+Ax0jOiDpy17PEB8gpa6mwoDCKS2JmbTbBrRvCpmzWrrG+7AZ/KRe2MTsy2iAzaLw8OaHXBQa6k9rHa4uC/ABBXcJ+kmXD+oh86VPUZkkc= m@x2
