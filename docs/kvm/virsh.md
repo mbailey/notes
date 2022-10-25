@@ -15,7 +15,6 @@ virsh create /etc/libvirt/qemu/ubuntu20.04-2.xml
     -----------------------------
      3    ubuntu22.04   running
 
-
 ## Clone
 
 ```shell
@@ -24,5 +23,3 @@ virt-clone                           \
   --name=server2.linuxconfig.org     \
   --auto-clone
 ```
-
-

@@ -2,6 +2,7 @@
 
 - [Run Amazon Linux 2 as a virtual machine on premises (docs.aws.amazon.com)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-2-virtual-machine.html#amazon-linux-2-virtual-machine-download)
 - [QEMU  KVM Using the Copy-On-Write mode (www.unixmen.com)](https://www.unixmen.com/qemu-kvm-using-copy-write-mode/)
+- [Creating a VM using Libvirt, Cloud Image and Cloud-Init  Sumit’s Dreams of Electric Sheeps (sumit-ghosh.com)](https://sumit-ghosh.com/articles/create-vm-using-libvirt-cloud-images-cloud-init/)
 
 ## TODO
 
@@ -13,75 +14,6 @@
 - [ ] check whether seed.iso is being used (first/always/never)
 - [ ] create a thin layer with updated auth and sshd_config
     - [ ] automate creation of this over new amazon kvm images
-
-## Short version
-
-Get image:
-```
-wget https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2
-sudo mv amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2 /var/lib/libvirt/images/
-sudo chmod a-w /var/lib/libvirt/images/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2
-```
-
-Create new layer:
-```
-qemu-img create                                      \
-    -f qcow2                                         \
-    -b amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2 \
-    -F qcow2                                         \
-    amazon-linux-2-template.qcow2
-```
-
-Update root password, networking and resolv.conf
-
-```
-cd /var/lib/libvirt/images
-sudo guestmount -a amazon-linux-2-template.qcow2 -m /dev/sda1 /mnt
-```
-
-```
-# /etc/password
-root::0:0:root:/root:/bin/bash
-```
-```
-# /etc/resolv.conf
-nameserver 1.1.1.1
-nameserver 1.0.0.1
-nameserver 8.8.8.8
-```
-```
-# /etc/sysconfig/network-scripts/ifcfg-eth0
-BOOTPROTO=none
-DEFROUTE=yes
-DEVICE=eth0
-GATEWAY=192.168.122.1
-IPADDR=192.168.122.100
-NETMASK=255.255.255.0
-NM_CONTROLLED=no
-ONBOOT=yes
-STARTMODE=auto
-TYPE=Ethernet
-USERCTL=no
-```
-
-```
-guestunmount /mnt
-```
-
-
-```
-virt-install \
-  --console pty,target_type=serial \
-  --description "Amazon Linux 2 Template Copy on Write (COW)" \
-  --disk path=/var/lib/libvirt/images/amazon-linux-2-template.qcow2,bus=virtio,size=10 \
-  --graphics spice \
-  --import \
-  --name amazon-linux-2-template \
-  --network bridge:virbr0,model=virtio \
-  --os-variant=rhel7.0 \
-  --ram=2048 \
-  --vcpus=2
-```
 
 ## Create seed.iso boot image
 
