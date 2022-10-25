@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+set -eu -o pipefail
+
+GUEST_NAME="${1:-}" # :-amazon-linux-2-template}"
+[[ -z $GUEST_NAME ]] && echo >&2 "Usage: $0 GUEST_NAME" && exit 1
+
+# Install Amazon Linux 2 on kvm via CLI
+#
+# - Create a small Copy on Write (COW) file backed by the Amazon Linux image.
+# - The Amazon linux image is readonly and will never be modified.
+
+# [Run Amazon Linux 2 as a virtual machine on premises (docs.aws.amazon.com)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-2-virtual-machine.html#amazon-linux-2-virtual-machine-download)
+# [QEMU  KVM Using the Copy-On-Write mode (www.unixmen.com)](https://www.unixmen.com/qemu-kvm-using-copy-write-mode/)
+
+# Set to default if unset
+: ${LIBVIRT_IMAGES_DIR:=/var/lib/libvirt/images}
+: ${AMAZON_IMAGE_URL:=https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2}
+AMAZON_IMAGE_FILENAME="$(basename "$AMAZON_IMAGE_URL")"
+
+# Create seed.iso boot image (cloud-init and user-data)
+genisoimage -output config/seed.iso -volid cidata -joliet -rock config/user-data config/meta-data
+
+# Get KVM disk image
+cd "$LIBVIRT_IMAGES_DIR"
+wget --no-clobber "$AMAZON_IMAGE_URL"
+# TODO
+# Verify downloaded image using signed checksums
+# wget https://cdn.amazonlinux.com/os-images/2.0.20190612/kvm/SHA256SUMS
+# wget https://cdn.amazonlinux.com/os-images/2.0.20190612/kvm/SHA256SUMS.gpg
+# sha256sum --check SHA256SUMS
+# gpg --verify SHA256SUMS.gpg SHA256SUMS
+chmod a-w "$(basename "$AMAZON_IMAGE_URL")"
+cd -
+
+# Delete existing kvm guest with same name
+virsh destroy "${GUEST_NAME}" || :
+virsh undefine "${GUEST_NAME}" || :
+
+cd "$LIBVIRT_IMAGES_DIR"
+# Create a layer backed back the amazon linux image
+qemu-img create                     \
+    -f qcow2                        \
+    -b "$AMAZON_IMAGE_FILENAME"     \
+    -F qcow2                        \
+    "${GUEST_NAME}.qcow2"
+
+# Print defaults about newly created image
+qemu-img info --backing-chain "${GUEST_NAME}.qcow2"
+cd -
+
+# Create a KVM guest based on the image and cloud-init config 
+virt-install \
+  --console pty,target_type=serial \
+  --description "Amazon Linux 2 Copy on Write (COW)" \
+  --disk path="/var/lib/libvirt/images/${GUEST_NAME}.qcow2",bus=virtio,size=10 \
+  --disk path=./config/seed.iso,device=cdrom \
+  --import \
+  --name "${GUEST_NAME}" \
+  --network bridge:virbr0,model=virtio \
+  --os-variant=rhel7.0 \
+  --ram=2048 \
+  --vcpus=2 \
+  --noautoconsole
+
+## Connect
+virsh console "${GUEST_NAME}"
+
+# Print networking info
+#
+# virsh net-dhcp-leases default
+#  Expiry Time           MAC address         Protocol   IP address           Hostname   Client ID or DUID
+# ------------------------------------------------------------------------------------------------------------------------------------------------
+# 2020-09-12 14:50:17   52:54:00:e5:0e:65   ipv4       192.168.122.103/24   hal9000
+#
+# ssh ec2-user@192.168.122.103
