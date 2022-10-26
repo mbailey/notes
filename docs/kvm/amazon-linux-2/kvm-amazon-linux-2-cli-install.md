@@ -8,7 +8,8 @@
 
 - [x] mount and edit qcow2 (unset root password)
 - [x] script to quickly create new throwaway vm
-    - [ ] hostnames for ssh and web access
+- [ ] set hostname
+- [ ] mdns
 - [ ] make a second layer that gets regular `yum update` that others built from
 - [ ] disk performance
     - [ ] test using passthrough
@@ -17,6 +18,47 @@
     - [ ] automate creation of this over new amazon kvm images
 
 See script in [bin/kvm-amazon-linux-2-cli-install](bin/kvm-amazon-linux-2-cli-install)
+
+[Download kvm Amazon Linux 2022 - before it's released (news.ycombinator.com)](https://news.ycombinator.com/item?id=29344927)
+
+Get Amazon Linux 2022 kvm
+
+```
+aws ec2 describe-images --region eu-west-1 --owners amazon --filters 'Name=name,Values=amzn2-ami-hvm-*-x86_64-gp2' 'Name=state,Values=available' 'Name=architecture,Values=x86_64' --output json | jq -r '.Images | sort_by(.CreationDate)'
+```
+
+<https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2>
+
+## firewalld (?)
+
+yum install -y firewalld
+systemctl start firewalld
+firewall-cmd --permanent --add-service mdns
+firewall-cmd reload
+
+## mdns
+
+- <https://simonmicro.de/dear-templates/libvirtd-linux-virtualisation/#vm---allow-multicast-packages>
+
+```shell
+ sudo virsh edit grafana
+ sudo systemctl restart libvirtd # required
+```
+
+host:
+
+```shell
+sudo vi /etc/avahi/avahi-daemon.conf
+# Set --> allow-interfaces=eth0,virbr0
+sudo systemctl reload avahi-daemon.service
+```
+
+guests:
+
+```shell
+sudo yum install polkit
+sudo yum -y install avahi-tools avahi-compat-libdns_sd
+```
 
 ## Mount and edit a qcow2 volume
 
@@ -27,6 +69,7 @@ sudo dnf install -y guestfs-tools
 ```
 
 debian/ubuntu:
+
 ```shell
 sudo apt install -y guestfs-tools
 ```
@@ -63,12 +106,10 @@ Edit files on qcow2 image (optional):
 
 - `/mnt/etc/password`
 - `/mnt/etc/resolv.conf`
-- `/mnt/etc/ssh/sshd_config `
+- `/mnt/etc/ssh/sshd_config`
 
 Unmount it:
 
 ```shell
 guestunmount /tmp
 ```
-
-
