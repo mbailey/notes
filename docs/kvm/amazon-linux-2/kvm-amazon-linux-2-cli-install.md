@@ -30,6 +30,12 @@
 - [ ] create a thin layer with updated auth and sshd_config
     - [ ] automate creation of this over new amazon kvm images
 
+```
+$ cloud-init devel schema --config-file config/user-data
+Valid cloud-config: config/user-data
+```
+
+
 See script in [bin/kvm-amazon-linux-2-cli-install](bin/kvm-amazon-linux-2-cli-install)
 
 [Download kvm Amazon Linux 2022 - before it's released (news.ycombinator.com)](https://news.ycombinator.com/item?id=29344927)
