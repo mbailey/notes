@@ -14,22 +14,25 @@ GUEST_NAME="${1:-}" # :-amazon-linux-2-template}"
 
 # Set to default if unset
 : ${LIBVIRT_IMAGES_DIR:=/var/lib/libvirt/images}
-: ${AMAZON_IMAGE_URL:=https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2}
-AMAZON_IMAGE_FILENAME="$(basename "$AMAZON_IMAGE_URL")"
+: ${IMAGE_URL:=https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2}
+IMAGE_FILENAME="$(basename "$IMAGE_URL")"
 
 # Create seed.iso boot image (cloud-init and user-data)
 genisoimage -output config/seed.iso -volid cidata -joliet -rock config/user-data config/meta-data
 
 # Get KVM disk image
 cd "$LIBVIRT_IMAGES_DIR"
-wget --no-clobber "$AMAZON_IMAGE_URL"
+wget --no-clobber "$IMAGE_URL"
 # TODO
 # Verify downloaded image using signed checksums
-# wget https://cdn.amazonlinux.com/os-images/2.0.20190612/kvm/SHA256SUMS
-# wget https://cdn.amazonlinux.com/os-images/2.0.20190612/kvm/SHA256SUMS.gpg
-# sha256sum --check SHA256SUMS
-# gpg --verify SHA256SUMS.gpg SHA256SUMS
-chmod a-w "$(basename "$AMAZON_IMAGE_URL")"
+# https://alt.fedoraproject.org/en/verify.html
+#
+# curl https://getfedora.org/static/fedora.gpg | gpg --import
+# wget https://getfedora.org/static/checksums/36/images/Fedora-Cloud-36-1.5-x86_64-CHECKSUM
+# gpg --verify-files *-CHECKSUM
+# sha256sum -c *-CHECKSUM
+
+chmod a-w "$(basename "$IMAGE_URL")"
 cd -
 
 # Delete existing kvm guest with same name
@@ -40,7 +43,7 @@ cd "$LIBVIRT_IMAGES_DIR"
 # Create a layer backed back the amazon linux image
 qemu-img create                     \
     -f qcow2                        \
-    -b "$AMAZON_IMAGE_FILENAME"     \
+    -b "$IMAGE_FILENAME"     \
     -F qcow2                        \
     "${GUEST_NAME}.qcow2"
 
