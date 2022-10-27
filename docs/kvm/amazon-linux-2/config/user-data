@@ -9,8 +9,8 @@ users:
     groups: sudo
     shell: /bin/bash
 chpasswd:
-  list: |
-    admin:changeme
+  list:
+    - admin:changeme
 # In the above line, do not add any spaces after 'fedora:'.
 
 # NOTE: Cloud-init applies network settings on every boot by default. To retain network settings 

@@ -1,20 +1,44 @@
 #!/usr/bin/env bash
 set -eu -o pipefail
 
-GUEST_NAME="${1:-}" # :-amazon-linux-2-template}"
-[[ -z $GUEST_NAME ]] && echo >&2 "Usage: $0 GUEST_NAME" && exit 1
-
-# Install Amazon Linux 2 on kvm via CLI
+# Install Linux on kvm via CLI
 #
-# - Create a small Copy on Write (COW) file backed by the Amazon Linux image.
-# - The Amazon linux image is readonly and will never be modified.
+# - Create a small Copy on Write (COW) file backed by the linux qcow2 image.
+# - The backing linux image is readonly and will never be modified.
 
-# [Run Amazon Linux 2 as a virtual machine on premises (docs.aws.amazon.com)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-2-virtual-machine.html#amazon-linux-2-virtual-machine-download)
-# [QEMU  KVM Using the Copy-On-Write mode (www.unixmen.com)](https://www.unixmen.com/qemu-kvm-using-copy-write-mode/)
+# - [Run Amazon Linux 2 as a virtual machine on premises (docs.aws.amazon.com)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/amazon-linux-2-virtual-machine.html#amazon-linux-2-virtual-machine-download)
+# - [QEMU  KVM Using the Copy-On-Write mode (www.unixmen.com)](https://www.unixmen.com/qemu-kvm-using-copy-write-mode/)
+
+function usage() {
+  echo >&2 "Usage: $0 GUEST_NAME [GUEST_TYPE] # amzn2, fedora, ubuntu"
+}
+
+GUEST_NAME="${1:-}"
+[[ -z $GUEST_NAME ]] && usage && exit 1
+
+GUEST_TYPE=${2:-amzn2}
+
+case $GUEST_TYPE in
+  amzn2)
+    IMAGE_URL='https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2'
+    ;;
+  fedora-36 | fedora)
+    IMAGE_URL='https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2'
+    ;;
+  # XXX It's not liking our config/meta-data 
+  # ubuntu-22.04 | ubuntu)
+  #   IMAGE_URL='https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64-disk-kvm.img'
+  # ubuntu-20.04 | ubuntu)
+  #  IMAGE_URL='https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64-disk-kvm.img'
+  #  ;;
+  *)
+    echo "Unknown image: $GUEST_TYPE"
+    exit 1
+    ;;
+esac
 
 # Set to default if unset
 : ${LIBVIRT_IMAGES_DIR:=/var/lib/libvirt/images}
-: ${IMAGE_URL:=https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2}
 IMAGE_FILENAME="$(basename "$IMAGE_URL")"
 
 # Create seed.iso boot image (cloud-init and user-data)
@@ -23,17 +47,10 @@ genisoimage -output config/seed.iso -volid cidata -joliet -rock config/user-data
 # Get KVM disk image
 cd "$LIBVIRT_IMAGES_DIR"
 wget --no-clobber "$IMAGE_URL"
-# TODO
-# Verify downloaded image using signed checksums
-# https://alt.fedoraproject.org/en/verify.html
-#
-# curl https://getfedora.org/static/fedora.gpg | gpg --import
-# wget https://getfedora.org/static/checksums/36/images/Fedora-Cloud-36-1.5-x86_64-CHECKSUM
-# gpg --verify-files *-CHECKSUM
-# sha256sum -c *-CHECKSUM
-
 chmod a-w "$(basename "$IMAGE_URL")"
 cd -
+
+# TODO Verify downloaded image using signed checksums
 
 # Delete existing kvm guest with same name
 virsh destroy "${GUEST_NAME}" || :
@@ -66,7 +83,7 @@ virt-install \
   --noautoconsole
 
 ## Connect
-virsh console "${GUEST_NAME}"
+[[ -t 1 ]] && virsh console "${GUEST_NAME}"
 
 # Print networking info
 #
@@ -76,3 +93,22 @@ virsh console "${GUEST_NAME}"
 # 2020-09-12 14:50:17   52:54:00:e5:0e:65   ipv4       192.168.122.103/24   hal9000
 #
 # ssh ec2-user@192.168.122.103
+
+# TODO Verify downloaded image using signed checksums
+#
+# amazon-linux-2
+#
+# wget https://cdn.amazonlinux.com/os-images/2.0.20190612/kvm/SHA256SUMS
+# wget https://cdn.amazonlinux.com/os-images/2.0.20190612/kvm/SHA256SUMS.gpg
+# sha256sum --check SHA256SUMS
+# gpg --verify SHA256SUMS.gpg SHA256SUMS
+#
+# Verify downloaded image using signed checksums
+# https://alt.fedoraproject.org/en/verify.html
+#
+# fedora
+#
+# curl https://getfedora.org/static/fedora.gpg | gpg --import
+# wget https://getfedora.org/static/checksums/36/images/Fedora-Cloud-36-1.5-x86_64-CHECKSUM
+# gpg --verify-files *-CHECKSUM
+# sha256sum -c *-CHECKSUM

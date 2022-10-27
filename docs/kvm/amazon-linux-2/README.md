@@ -29,6 +29,6 @@ Print networking info:
 
 SSH to guest:
 
-```
+```shell
 ssh ec2-user@192.168.122.103
 ```
