@@ -4,12 +4,25 @@
 - [QEMU  KVM Using the Copy-On-Write mode (www.unixmen.com)](https://www.unixmen.com/qemu-kvm-using-copy-write-mode/)
 - [Creating a VM using Libvirt, Cloud Image and Cloud-Init  Sumit’s Dreams of Electric Sheeps (sumit-ghosh.com)](https://sumit-ghosh.com/articles/create-vm-using-libvirt-cloud-images-cloud-init/)
 
+- [ ] [libvirt Network XML format (libvirt.org)](https://libvirt.org/formatnetwork.html)
+  
 ## TODO
 
 - [x] mount and edit qcow2 (unset root password)
 - [x] script to quickly create new throwaway vm
 - [ ] set hostname
+    - [ ] via dhcp? Possible
+
+```
+/usr/sbin/dnsmasq \
+  --conf-file=/var/lib/libvirt/dnsmasq/default.conf \
+  --leasefile-ro \
+  --dhcp-script=/usr/libexec/libvirt_leaseshelper
+```
+
+- [ ] how does kvm manage dhcp?
 - [ ] mdns
+- [ ] use host dnsmasq? <https://unix.stackexchange.com/a/602806>
 - [ ] make a second layer that gets regular `yum update` that others built from
 - [ ] disk performance
     - [ ] test using passthrough
@@ -28,6 +41,16 @@ aws ec2 describe-images --region eu-west-1 --owners amazon --filters 'Name=name,
 ```
 
 <https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2>
+
+```
+https://cdn.amazonlinux.com/os-images/2.0.20210721.2/kvm/amzn2-kvm-2.0.20210721.2-x86_64.xfs.gpt.qcow2
+```
+
+aws ec2 describe-images --owners amazon --filters "Name=name,Values=amzn*" --query 'sort_by(Images, &CreationDate)[].Name'
+
+- [Found AL2022 images](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#ImageDetails:imageId=ami-09903319492f7527e)
+- amazon/al2022-ami-minimal-2022.0.20221019.4-kernel-5.15-x86_64A
+<https://cdn.amazonlinux.com/os-images/2.0.20221019.4/kvm/al2022-kvm-2022.0.20221019.4-kernel-5.15-x86_64A.xfs.gpt.qcow2>
 
 ## firewalld (?)
 
