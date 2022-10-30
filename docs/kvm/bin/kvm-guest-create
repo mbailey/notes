@@ -13,11 +13,6 @@ function usage() {
   echo >&2 "Usage: $0 GUEST_NAME [GUEST_TYPE] # amzn2, fedora, ubuntu"
 }
 
-function check_deps() {
-  command genisoimage || echo >&2 "Command genisoimage cannot be found."
-
-}
-
 GUEST_NAME="${1:-}"
 [[ -z $GUEST_NAME ]] && usage && exit 1
 
@@ -27,11 +22,14 @@ case $GUEST_TYPE in
   amzn2)
     IMAGE_URL='https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2'
     ;;
-  fedora-36 | fedora)
+  fedora-36 | fedora36 | f36 | fedora)
     IMAGE_URL='https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2'
     ;;
-  rocky-9 | rocky)
+  rocky-9 | rock9 | r9 | rocky)
     IMAGE_URL='https://download.rockylinux.org/pub/rocky/9.0/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2'
+    ;;
+  rocky-8 | rocky8 | r8)
+    IMAGE_URL='https://dl.rockylinux.org/pub/rocky/8.6/images/Rocky-8-GenericCloud.latest.x86_64.qcow2'
     ;;
   # XXX It's not liking our config/meta-data 
   # ubuntu-22.04 | ubuntu)
@@ -44,6 +42,29 @@ case $GUEST_TYPE in
     exit 1
     ;;
 esac
+
+function command_exists() {
+    # check if command exists and fail otherwise
+    local exit_code=0
+    if ! type "$1" &>/dev/null; then
+      echo "$1 could not be found."
+      exit_code=1
+    fi
+    return $exit_code
+}
+
+function check_deps() {
+  for COMMAND in \
+    genisoimage \
+    qemu-img \
+    virsh \
+    virt-install
+  do
+    command_exists "${COMMAND}"
+  done
+}
+
+check_deps
 
 # Set to default if unset
 : ${LIBVIRT_IMAGES_DIR:=/var/lib/libvirt/images}
