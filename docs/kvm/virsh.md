@@ -23,3 +23,20 @@ virt-clone                           \
   --name=server2.linuxconfig.org     \
   --auto-clone
 ```
+
+## Default to system instead of session
+
+```text
+#/etc/libvirt/libvirt.conf
+#
+# These can be used in cases when no URI is supplied by the application
+# (@uri_default also prevents probing of the hypervisor driver).
+#
+uri_default = "qemu:///system"
+```
+
+Just for one user (~/.bashrc)
+
+```shell
+export LIBVIRT_DEFAULT_URI="qemu:///system"
+```
