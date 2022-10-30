@@ -1,4 +1,6 @@
-# kvm-guest-create - simple and fast linux guest creation
+# kvm-guest-create
+
+Create various flavours of linux VMs in no time.
 
 1. [Optional] Configure SSH key / password in `config/user-data`.
 1. Create your kvm guest:
