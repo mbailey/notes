@@ -10,7 +10,7 @@ set -eu -o pipefail
 # - [QEMU  KVM Using the Copy-On-Write mode (www.unixmen.com)](https://www.unixmen.com/qemu-kvm-using-copy-write-mode/)
 
 function usage() {
-  echo >&2 "Usage: $0 GUEST_NAME [GUEST_TYPE] # amzn2, fedora, ubuntu"
+  echo >&2 "Usage: $0 GUEST_NAME [GUEST_TYPE] # amzn2, fedora, rocky, etc"
 }
 
 GUEST_NAME="${1:-}"
@@ -19,13 +19,13 @@ GUEST_NAME="${1:-}"
 GUEST_TYPE=${2:-amzn2}
 
 case $GUEST_TYPE in
-  amzn2)
+  al2 | amzn2)
     IMAGE_URL='https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2'
     ;;
   fedora-36 | fedora36 | f36 | fedora)
     IMAGE_URL='https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2'
     ;;
-  rocky-9 | rock9 | r9 | rocky)
+  rocky-9 | rocky9 | r9 | rocky)
     IMAGE_URL='https://download.rockylinux.org/pub/rocky/9.0/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2'
     ;;
   rocky-8 | rocky8 | r8)

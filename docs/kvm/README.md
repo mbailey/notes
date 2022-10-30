@@ -1,15 +1,13 @@
-# kvm
-
 ## Create KVM guests running amazon-linux-2, ubuntu
 
 1. [Optional] Configure SSH key / password in `config/user-data`.
 1. Create your kvm guest:
 
     ```shell
-    bin/kvm-amazon-linux-2-cli-install $GUEST_NAME
+    bin/kvm-guest-create GUEST_NAME [GUEST_TYPE] # amzn2, fedora, rocky, etc
     ```
 
-## Install (fedora-36)
+## Install Deps (fedora-36)
 
 ```shell
 sudo yum install -y                \
@@ -27,9 +25,7 @@ sudo yum install -y                \
 sudo systemctl enable --now libvirtd.service # required?
 ```
 
-## Configure
-
-### Make guests addressable by name from host
+### Make guests addressable by name from host by name
 
 - [Libvirt NSS module (libvirt.org)](https://libvirt.org/nss.html)
 
@@ -47,7 +43,7 @@ $ grep hosts /etc/nsswitch.conf
 hosts:       files libvirt libvirt_guest dns
 ```
 
-## Working with your guest
+## Working with your guests
 
 Connect to guest console:
 
@@ -55,17 +51,8 @@ Connect to guest console:
 virsh console $GUEST_NAME
 ```
 
-Print networking info:
+SSH to it's IP address (accessible by name from host or other guests):
 
 ```shell
-# virsh net-dhcp-leases default
-#  Expiry Time           MAC address         Protocol   IP address           Hostname   Client ID or DUID
-# ------------------------------------------------------------------------------------------------------------------------------------------------
-# 2020-09-12 14:50:17   52:54:00:e5:0e:65   ipv4       192.168.122.103/24   hal9000
-```
-
-SSH to guest:
-
-```shell
-ssh ec2-user@192.168.122.103
+ssh admin@$GUEST_NAME
 ```
