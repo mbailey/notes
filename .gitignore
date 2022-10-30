@@ -2,3 +2,4 @@ site/
 venv/
 docs/notes.code-workspace
 docs/kvm/amazon-linux-2/config/seed.iso
+docs/kvm/config/meta-data
