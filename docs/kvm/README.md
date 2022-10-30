@@ -47,7 +47,6 @@ $ grep hosts /etc/nsswitch.conf
 hosts:       files libvirt libvirt_guest dns
 ```
 
-
 ## Working with your guest
 
 Connect to guest console:
