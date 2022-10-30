@@ -13,6 +13,11 @@ function usage() {
   echo >&2 "Usage: $0 GUEST_NAME [GUEST_TYPE] # amzn2, fedora, ubuntu"
 }
 
+function check_deps() {
+  command genisoimage || echo >&2 "Command genisoimage cannot be found."
+
+}
+
 GUEST_NAME="${1:-}"
 [[ -z $GUEST_NAME ]] && usage && exit 1
 
@@ -24,6 +29,9 @@ case $GUEST_TYPE in
     ;;
   fedora-36 | fedora)
     IMAGE_URL='https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2'
+    ;;
+  rocky-9 | rocky)
+    IMAGE_URL='https://download.rockylinux.org/pub/rocky/9.0/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2'
     ;;
   # XXX It's not liking our config/meta-data 
   # ubuntu-22.04 | ubuntu)
@@ -41,8 +49,19 @@ esac
 : ${LIBVIRT_IMAGES_DIR:=/var/lib/libvirt/images}
 IMAGE_FILENAME="$(basename "$IMAGE_URL")"
 
+# Update hostname in `meta-data` file
+sed "s/CHANGEME/$GUEST_NAME/" config/meta-data-template > config/meta-data
+
+SEED_ISO_FILENAME="${LIBVIRT_IMAGES_DIR}/seed-${GUEST_NAME}.iso"
+
 # Create seed.iso boot image (cloud-init and user-data)
-genisoimage -output config/seed.iso -volid cidata -joliet -rock config/user-data config/meta-data
+genisoimage                      \
+  -output "${SEED_ISO_FILENAME}" \
+  -volid cidata                  \
+  -joliet                        \
+  -rock                          \
+  config/user-data               \
+  config/meta-data
 
 # Get KVM disk image
 cd "$LIBVIRT_IMAGES_DIR"
@@ -73,7 +92,7 @@ virt-install \
   --console pty,target_type=serial \
   --description "Amazon Linux 2 Copy on Write (COW)" \
   --disk path="/var/lib/libvirt/images/${GUEST_NAME}.qcow2",bus=virtio,size=10 \
-  --disk path=./config/seed.iso,device=cdrom \
+  --disk path="${SEED_ISO_FILENAME}",device=cdrom \
   --import \
   --name "${GUEST_NAME}" \
   --network bridge:virbr0,model=virtio \

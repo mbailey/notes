@@ -10,31 +10,22 @@
 
 - [x] mount and edit qcow2 (unset root password)
 - [x] script to quickly create new throwaway vm
-- [ ] set hostname
-    - [ ] via dhcp? Possible
+- [x] set hostname
 
-```
+```shell
 /usr/sbin/dnsmasq \
   --conf-file=/var/lib/libvirt/dnsmasq/default.conf \
   --leasefile-ro \
   --dhcp-script=/usr/libexec/libvirt_leaseshelper
 ```
 
-- [ ] how does kvm manage dhcp?
-- [ ] mdns
-- [ ] use host dnsmasq? <https://unix.stackexchange.com/a/602806>
-- [ ] make a second layer that gets regular `yum update` that others built from
 - [ ] disk performance
     - [ ] test using passthrough
-- [ ] check whether seed.iso is being used (first/always/never)
-- [ ] create a thin layer with updated auth and sshd_config
-    - [ ] automate creation of this over new amazon kvm images
 
-```
+```shell
 $ cloud-init devel schema --config-file config/user-data
 Valid cloud-config: config/user-data
 ```
-
 
 See script in [bin/kvm-amazon-linux-2-cli-install](bin/kvm-amazon-linux-2-cli-install)
 
