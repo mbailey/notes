@@ -13,6 +13,7 @@ Find a better way than running downloaded shell script from the web?
 - should ideally be signed by someone I trust
 
 ```shell
+sudo dnf install -y wget
 wget https://tailscale.com/install.sh
 # read install.sh
 sh ./install.sh
