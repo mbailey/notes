@@ -19,3 +19,8 @@ Apparently you can also edit in github? [Embed a diagram in GitHub markdown](htt
 > With the [draw.io app for Microsoft Teams](https://appsource.microsoft.com/product/office/WA200003444), you and your team can collaborate in real time on diagrams directly from your team’s channel in a Teams tab.
 > 
 > - [Use draw.io in Microsoft Teams (www.diagrams.net)](https://www.diagrams.net/doc/faq/microsoft-teams-diagrams)
+
+## Obsidian
+
+![[public/docs/Untitled Diagram.svg]]
+
