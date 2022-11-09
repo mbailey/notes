@@ -9,6 +9,25 @@ Ideas for Working From Outdoors.
     - bright screen?
     - large enough display
     - second screen?
+- glare / reflection
+    - choose a dark/shaded background to reduce contrast around screen
+    - avoid light source (e.g. sun or bright reflective surface) behind
+
+## Carrying thingy
+
+Have it at the ready so you don't need to gather too many things before going outside.
+
+- milk crate
+    - organise with dividers, containers
+
+## Internet
+
+- phone tethering
+    - automatic
+        - why does iphone wifi not appear on my photo automatically?
+- wifi
+    - boost / direct / repeat wifi
+        - battery option?
 
 ## Lap Desk
 
