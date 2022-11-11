@@ -19,13 +19,13 @@ GUEST_NAME="${1:-}"
 GUEST_TYPE=${2:-amzn2}
 
 case $GUEST_TYPE in
-  al2 | amzn2)
+  al2 | amzn2 | a)
     IMAGE_URL='https://cdn.amazonlinux.com/os-images/2.0.20221004.0/kvm/amzn2-kvm-2.0.20221004.0-x86_64.xfs.gpt.qcow2'
     ;;
-  fedora-36 | fedora36 | f36 | fedora)
+  fedora-36 | fedora36 | f36 | fedora | f)
     IMAGE_URL='https://download.fedoraproject.org/pub/fedora/linux/releases/36/Cloud/x86_64/images/Fedora-Cloud-Base-36-1.5.x86_64.qcow2'
     ;;
-  rocky-9 | rocky9 | r9 | rocky)
+  rocky-9 | rocky9 | r9 | r | rocky)
     IMAGE_URL='https://download.rockylinux.org/pub/rocky/9.0/images/x86_64/Rocky-9-GenericCloud.latest.x86_64.qcow2'
     ;;
   rocky-8 | rocky8 | r8)
