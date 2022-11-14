@@ -109,8 +109,9 @@ wingrunr21.vscode-ruby
 
 ## Shortcuts
 
-```txt
+```yaml
 Ctrl-p-p: Go back to previous file
+CTRL+ALT+-: Go back
 ```
 
 ## Git
