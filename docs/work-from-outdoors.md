@@ -39,6 +39,8 @@ Have it at the ready so you don't need to gather too many things before going ou
 
 ## Outdoor office chair
 
+- fishing chair?
+
 ### Swing chair
 
 - shade
@@ -62,7 +64,7 @@ Have it at the ready so you don't need to gather too many things before going ou
 
 - [Anker Power Bank, PowerCore 26800mAh Portable Charger with Dual Input Port and Double-Speed Recharging, 3 USB Ports External Battery for iPhone, iPad, Samsung Galaxy, Android and Other Smart Devices Portable Power Banks Amazon.com.au (www.amazon.com.au)](https://www.amazon.com.au/Anker-Powercore-Portable-Double-Speed-Recharging/dp/B01JIWQPMW/ref=sr_1_7?crid=QCL58P8PBT2W&keywords=anker+powerbank&qid=1667853802&qu=eyJxc2MiOiI0LjQyIiwicXNhIjoiNC4wNiIsInFzcCI6IjMuNjkifQ%3D%3D&s=electronics&sprefix=anker+powerbank%2Celectronics%2C269&sr=1-7)
 
-![](assets/A2389A55-7933-494D-BF4D-ADC4A3D11A99.webp)
+![](assets/lenovo-go-laptop-powerbank.webp)
 
 ![](assets/Pasted%20image%2020221108074937.png)
 
