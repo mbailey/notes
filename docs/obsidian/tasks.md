@@ -2,7 +2,7 @@
 
 - [Quick Reference (obsidian-tasks-group.github.io)](https://obsidian-tasks-group.github.io/obsidian-tasks/quick-reference/)
 - [Introduction (obsidian-tasks-group.github.io)](https://obsidian-tasks-group.github.io/obsidian-tasks/)
-> - (not) [My Task Management System (forum.obsidian.md)](https://forum.obsidian.md/t/my-task-management-system/36198)
+- (not) [My Task Management System (forum.obsidian.md)](https://forum.obsidian.md/t/my-task-management-system/36198)
 
 ## Hotkeys
 
