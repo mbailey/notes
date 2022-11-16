@@ -51,4 +51,11 @@ Create stack
 
 [cfn-flip](https://github.com/awslabs/aws-cfn-template-flip)
 
-gp 
+## drift
+
+- describe-stack-drift-detection-status
+- describe-stack-resource-drifts
+- detect-stack-drift
+- detect-stack-resource-drift
+- detect-stack-set-drift
+
