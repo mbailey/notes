@@ -41,6 +41,16 @@ My preferred settings:
 
 [defaults]: https://code.visualstudio.com/docs/getstarted/settings#_default-settings
 
+
+### Copy GitHub URL for document
+
+The extension Gitlens by Eric Amodio gives the Copy Remote URL option in the context menu.
+
+The command is: gitlens.copyRemoteFileUrlToClipboard
+
+I had to configure my non-standard domains in [`gitlens.remotes`](https://github.com/gitkraken/vscode-gitlens#remotes)
+
+
 ## Extensions
 
 Install:
