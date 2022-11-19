@@ -5,7 +5,9 @@ Ideas for Working From Outdoors.
 ## General Considerations
 
 - Laptop
-    - bright screen?
+    - switch off system "dark mode"
+        - configure your apps to adapt to system
+    - use one with a bright screen?
     - large enough display
     - second screen?
 - glare / reflection
