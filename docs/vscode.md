@@ -126,6 +126,8 @@ CTRL+ALT+-: Go back
 
 ## Git
 
+- I'm using 1.73.1 (October 2022) on Linux
+
 - Opening multiple repos allows for a great Git status summary view
 - Click on the repo to see only those changes below
 ![](assets/vscode-git-status-summary.png)
