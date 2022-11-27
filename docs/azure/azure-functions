@@ -1,5 +1,5 @@
 #!/bin/bash
-# set -eu -o pipefail # I source this file and don't want me shell to exit on error.
+# set -eu -o pipefail # I source this file and don't want my shell to exit on error.
 
 # azure-functions
 
