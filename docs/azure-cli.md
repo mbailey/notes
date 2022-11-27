@@ -1,6 +1,66 @@
 # azure cli
 
 - [azure cli linux](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=dnf)
+- [Tips for using the Azure CLI successfully](https://learn.microsoft.com/en-us/cli/azure/use-cli-effectively?tabs=bash%2Cbash2)
+- [Learn to use Bash with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash)
+
+
+## Useful commands
+
+```shell
+function locations(){
+  az account list-locations --query [].[displayName] --output tsv
+}
+```
+
+## Example commands
+
+```shell
+az account list
+az account set --subscription 'my-subscription-name'
+```
+
+
+
+## `--output`
+
+Allowed values: json, jsonc, yaml, yamlc, table, tsv, none.
+
+Change the global default format to one of your personal preference by using [az config](https://learn.microsoft.com/en-us/cli/azure/config) such as `az config set core.output=table`
+
+## `--query`
+
+Supports [JMESPath](https://jmespath.org/)! This was created for AWSCLI. :-)
+ 
+## Query with graph api
+
+```shell
+az rest --method get --url "https://graph.microsoft.com/v1.0/auditLogs/signIns?&\$filter=contains(userPrincipalName,'mike')&\$top=10" 
+```
+
+## TSV
+
+Using `--output tsv`
+
+```shell
+az rest --method get \
+  --url "https://graph.microsoft.com/v1.0/auditLogs/signIns?&\$filter=contains(userPrincipalName,'luke')&\$top=10" \
+  --query 'value[].[userPrincipalName,userDisplayName,ipAddress,conditionalAccessStatus,location.city,status.errorCode]' \
+  --output tsv
+```
+
+Compared to JQ
+
+```shell
+az rest --method get \
+  --url "https://graph.microsoft.com/v1.0/auditLogs/signIns?&\$filter=contains(userPrincipalName,'luke')&\$top=10" | 
+jq -r '.value[] | [.userPrincipalName,.userDisplayName,.ipAddress,.conditionalAccessStatus,.location.city,.status.errorCode] |
+  @tsv'
+```
+
+## Linux CLI config
+
+`$HOME/.azure/`
 
 ## Install (fedora-36)
 
@@ -8,12 +68,18 @@
 dnf install azure-cli
 ```
 
+## Disable telemetry
+
+```shell
+az configure -d collect_telemetry=false
+```
+
 ## Login
 
 This will open web browser:
 
 ```shell
-az login
+BROWSER=firefox az login # can omit $BROWSER
 ```
 
 Select Account to use:
@@ -21,6 +87,7 @@ Select Account to use:
 ```shell
 az account 
 ```
+
 
 ## Query with JMESPath
 
