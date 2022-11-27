@@ -1,0 +1,113 @@
+#!/bin/bash
+# set -eu -o pipefail # I source this file and don't want me shell to exit on error.
+
+# azure-functions
+
+# Shared Functions
+
+__bma_read_filters-az() {
+
+  # Construct a string to be passed to `grep -E`
+  #
+  #     $ __bma_read_filters foo bar baz
+  #     foo|bar|baz
+
+  ( IFS=$'|'; printf -- "$*" )
+}
+
+function columnise () 
+{ 
+    column -t -s$'\t'
+}
+
+function skim-stdin-az () 
+{ 
+    #task update to quote items in output
+    local skimmed_stdin="$([[ -t 0 ]] || awk -F$'\t' 'ORS=" " { print $1 }')";
+    printf -- '%s %s' "$*" "$skimmed_stdin" | awk -F$'\t' '{$1=$1;print}'
+}
+
+## Resource Functions
+
+function resources() {
+  local filters=$(__bma_read_filters-az $@);
+  az resource list \
+    --query "[].[
+      name,
+      resourceGroup,
+      type,
+      createdTime,
+      changedTime]" \
+    --output tsv |
+  grep -E -- "$filters" |
+  LC_ALL=C sort -b -k 5 |
+  column -s$'\t' -t
+}
+
+## Subscription Functions
+
+function subscriptions() {
+  local filters=$(__bma_read_filters-az $@);
+  az account list \
+    --query "[].[
+      id,
+      isDefault,
+      name
+    ]" \
+    --output tsv |
+    grep -E -- "$filters" |
+    LC_ALL=C sort -b -k 3 |
+    column -s$'\t' -t
+}
+
+function subscription() {
+
+  local subscription=$(skim-stdin "$@")
+  if [[ -z "$subscription" ]]; then
+    subscriptions True
+  else
+    az account set --subscription "$subscription"
+  fi
+}
+
+
+# Location Functions
+
+function locations(){
+  local filters=$(__bma_read_filters-az $@);
+  az account list-locations \
+    --query '[].[
+      name,
+      displayName
+    ]' \
+    --output tsv |
+  grep -E -- "$filters" |
+  LC_ALL=C sort -b -k 3 |
+  column -s$'\t' -t
+
+}
+
+function location() {
+
+  local location=$(skim-stdin "$@")
+  # XXX Check input is a valid location
+  if [[ -z "$location" ]]; then
+    az config get defaults.location --only-show-errors
+  else
+    az config set defaults.location="${location}" --only-show-errors
+  fi
+}
+
+location-each() {
+
+  local old_azure_default_location
+  old_azure_default_location="$(location)"
+  local location
+  for location in $(locations | cut -f1); do
+    echo $location
+    location "$location"
+    eval "$@" | sed "s/$/ #${location}/"
+  done
+  location "$old_azure_default_location"
+}
+
