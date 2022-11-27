@@ -3,6 +3,8 @@
 
 # azure-functions
 
+# Source this file in from bash terminal and enjoy the functions.
+
 # Shared Functions
 
 __bma_read_filters-az() {
