@@ -85,7 +85,7 @@ function locations(){
     --output tsv |
   grep -E -- "$filters" |
   LC_ALL=C sort -b -k 3 |
-  column -s$'\t' -t
+  columnise
 
 }
 
@@ -94,9 +94,9 @@ function location() {
   local location=$(skim-stdin "$@")
   # XXX Check input is a valid location
   if [[ -z "$location" ]]; then
-    az config get defaults.location --only-show-errors
+    az config get defaults.location --only-show-errors --output tsv
   else
-    az config set defaults.location="${location}" --only-show-errors
+    az config set defaults.location="${location}" --only-show-errors --output tsv
   fi
 }
 
@@ -105,8 +105,7 @@ location-each() {
   local old_azure_default_location
   old_azure_default_location="$(location)"
   local location
-  for location in $(locations | cut -f1); do
-    echo $location
+  for location in $(locations | awk -F$'\t' '{print $1}'); do
     location "$location"
     eval "$@" | sed "s/$/ #${location}/"
   done
