@@ -50,10 +50,11 @@ function resources() {
 
 function subscriptions() {
   local filters=$(__bma_read_filters-az $@);
-  az account list \
+  az account list --all \
     --query "[].[
       id,
       isDefault,
+      state,
       name
     ]" \
     --output tsv |

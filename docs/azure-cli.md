@@ -1,11 +1,18 @@
 # azure cli
 
+- [Azure Command-Line Interface (CLI) documentation (learn.microsoft.com)](https://learn.microsoft.com/en-us/cli/azure/)
 - [azure cli linux](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=dnf)
 - [Tips for using the Azure CLI successfully](https://learn.microsoft.com/en-us/cli/azure/use-cli-effectively?tabs=bash%2Cbash2)
 - [Learn to use Bash with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash)
 
 
+subscriptions=all
+
+--all
+
 ## Useful commands
+
+BROWSER=firefox az login # can omit $BROWSER
 
 ```shell
 function locations(){
