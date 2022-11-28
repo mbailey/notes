@@ -4,11 +4,14 @@
 - [azure cli linux](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=dnf)
 - [Tips for using the Azure CLI successfully](https://learn.microsoft.com/en-us/cli/azure/use-cli-effectively?tabs=bash%2Cbash2)
 - [Learn to use Bash with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/azure-cli-learn-bash)
+- [Use and manage extensions with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/azure-cli-extensions-overview)
+- [Create an Azure service principal with the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli)
+- [What are managed identities for Azure resources?](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+    - [Azure services that can use managed identities to access other services](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/managed-identities-status)
+    - [Experimenting with Azure Arc  Journey Of The Geek (journeyofthegeek.com)](https://journeyofthegeek.com/2021/06/12/experimenting-with-azure-arc/)
 
 
-subscriptions=all
-
---all
+[azure-arc-and-managed-identities](azure/azure-arc-and-managed-identities.md)
 
 ## Useful commands
 
@@ -28,6 +31,9 @@ az account set --subscription 'my-subscription-name'
 ```
 
 
+## `--query`
+
+Supports [JMESPath](https://jmespath.org/)! This was created for AWSCLI. :-)
 
 ## `--output`
 
@@ -35,10 +41,6 @@ Allowed values: json, jsonc, yaml, yamlc, table, tsv, none.
 
 Change the global default format to one of your personal preference by using [az config](https://learn.microsoft.com/en-us/cli/azure/config) such as `az config set core.output=table`
 
-## `--query`
-
-Supports [JMESPath](https://jmespath.org/)! This was created for AWSCLI. :-)
- 
 ## Query with graph api
 
 ```shell
