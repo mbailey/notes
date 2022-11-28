@@ -1,0 +1,7 @@
+## Azure Arc and Managed Identities
+
+> Azure Arc introduces the ability to leverage managed identities from outside of Azure.
+>
+> One of the interesting capabilities of Azure Arc that captured my eye was the ability to [use a system-assigned management identity](https://docs.microsoft.com/en-us/azure/azure-arc/servers/managed-identity-authentication). I’ve [written in the past](https://journeyofthegeek.com/2019/08/07/deep-dive-into-azure-managed-identities-part-1/) about [managed identities](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview) so I’ll stick to covering the very basics of them today. A managed identity is simply some Microsoft-managed automation on top of an [Azure AD service principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals), which is best explained as a security principal used for non-humans. One of the primary benefits managed identities provider over traditional service principals is automatic credential rotation. If you come from the AWS world, managed identities are similar to AWS IAM roles.
+>
+>- [Experimenting with Azure Arc  Journey Of The Geek (journeyofthegeek.com)](https://journeyofthegeek.com/2021/06/12/experimenting-with-azure-arc/)
