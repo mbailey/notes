@@ -22,5 +22,5 @@ Apparently you can also edit in github? [Embed a diagram in GitHub markdown](htt
 
 ## Obsidian
 
-![[public/docs/Untitled Diagram.svg]]
+![public/docs/Untitled Diagram.svg][public/docs/Untitled Diagram.svg]
 
