@@ -1,9 +1,11 @@
-# Crate Contents - Work From Outdoors
+# The Crate Outdoors
 
 See special features below!
 
 General:
 - Rainshield for crate
+
+Food
 
 Garden stuff:
 - Weeding tool
@@ -22,13 +24,15 @@ Workspace:
 - Top fill container with tap for bottom corner hole. Bonus points if tap is pop out for safe transport. Otherwise rotate container for travel so that tap is safely inside crate.
 - Removable water bottle.
 
-### Charging station
+### Power
 
 - Powerbank with retractable cables and wireless charging.
     - USB-C laptop charging
     - USB-A
 - Wall socket USB-C charging plug for fast recharging powerbank
 - Cables available to pull from one hole
+- Cable should reach from crate next to chair up to face height of person sitting in chair.
+    - Would  be nice to wire the chair with USB C ports/cables
 
 ### Paper towel dispenser
 

@@ -42,13 +42,6 @@ My preferred settings:
 [defaults]: https://code.visualstudio.com/docs/getstarted/settings#_default-settings
 
 
-### Copy GitHub URL for document
-
-The extension Gitlens by Eric Amodio gives the Copy Remote URL option in the context menu.
-
-The command is: gitlens.copyRemoteFileUrlToClipboard
-
-I had to configure my non-standard domains in [`gitlens.remotes`](https://github.com/gitkraken/vscode-gitlens#remotes)
 
 
 ## Extensions
@@ -130,7 +123,21 @@ CTRL+ALT+-: Go back
 
 - Opening multiple repos allows for a great Git status summary view
 - Click on the repo to see only those changes below
+  
 ![](assets/vscode-git-status-summary.png)
+
+Enable `Source Control Repositories` from the `...` menu next to `SOURCE CONTROL` to view the list.
+
+![](assets/vscode-enable-source-control-repositories.png)
+
+
+### Copy GitHub URL for document
+
+The extension Gitlens by Eric Amodio gives the Copy Remote URL option in the context menu.
+
+The command is: gitlens.copyRemoteFileUrlToClipboard
+
+I had to configure my non-standard domains in [`gitlens.remotes`](https://github.com/gitkraken/vscode-gitlens#remotes)
 
 ## GUI
 

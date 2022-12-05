@@ -12,7 +12,7 @@ Apply lossy compression when PNG is commit commited to index from work tree.
 Update [Git attributes](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#_git_attributes) in this repo to tell git to apply a Git Filter on PNG files before `commit` and `diff`:
 
 ```shell
-echo "*.png diff=exif filter=pngquant" >> .gitattributes
+echo "*.png filter=pngquant" >> .gitattributes
 ```
 
 Set [Git "clean/smudge" filters](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#filters_b) in your checked out repo tell Git what command to run.
