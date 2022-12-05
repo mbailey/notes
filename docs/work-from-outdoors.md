@@ -79,3 +79,12 @@ Have it at the ready so you don't need to gather too many things before going ou
 Probably don't need this.
 
 ![](assets/Pasted%20image%2020221108075206.png)
+
+
+## Fan
+
+- [Amazon COMLIFE Handheld Misting Fan  ReviewDemo + Coupon! - YouTube (www.youtube.com)](https://www.youtube.com/watch?v=VvngNlhFVkQ)
+- [Portable Handheld Misting Fan, 3000mAh Rechargeable Mist Fan- Up to 10h Cooling & 1h Misting, Battery Operated Spray Fan for Travel, Home Office, Camping, Outdoors  Amazon.com.au Computers (www.amazon.com.au)](https://www.amazon.com.au/dp/B07DKZZDVP?smid=A263RZIEXPWYR1&ref_=chk_typ_imgToDp&th=1)
+
+
+![](assets/misting-fan.png)
