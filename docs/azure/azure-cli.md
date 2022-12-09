@@ -26,8 +26,6 @@
 -  Sign in with a different tenant
 -  Sign in with a managed identity
 
-
-
 ## Useful commands
 
 BROWSER=firefox az login # can omit $BROWSER
@@ -37,6 +35,28 @@ function locations(){
   az account list-locations --query [].[displayName] --output tsv
 }
 ```
+
+
+Show login details: 
+
+```console
+$ az ad signed-in-user show
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users/$entity",
+  "businessPhones": [],
+  "displayName": "Example user",
+  "givenName": "Example",
+  "id": "12345678-1234-1234-1234-123456789012",
+  "jobTitle": null,
+  "mail": null,
+  "mobilePhone": null,
+  "officeLocation": null,
+  "preferredLanguage": null,
+  "surname": "User",
+  "userPrincipalName": "example.user@example.net"
+}
+```
+
 
 ## Example commands
 
