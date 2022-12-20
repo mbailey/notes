@@ -1,11 +1,12 @@
 # Grafana
 
-- [grafana-aws](grafana-aws.md)
-- [grafana-azure](grafana-azure.md)
+- [grafana-aws](../../grafana-aws.md)
+- [grafana-azure](../../grafana-azure.md)
 
 ## Install
 
 **fedora-36**
+
 ```shell
 Red Hat, CentOS, RHEL, and Fedora(64 Bit)SHA256: f956ba5ab8227dd3d1f30b019aeb933a242479a2cf2d675fd1f3dc86f099599c
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise-9.2.2-1.x86_64.rpm

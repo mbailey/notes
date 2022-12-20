@@ -40,6 +40,28 @@ Have it at the ready so you don't need to gather too many things before going ou
 ![](assets/lapdesk.png)
 - [Lap Desk - Portable Laptop Desk with Device Ledge, Mouse Pad and Phone Holder , Fits up to 15.6inch Laptop Tablet Black Laptop Stand for Home Office Writing Desk and Drawing  Amazon.com.au Computers (www.amazon.com.au)](https://www.amazon.com.au/dp/B09C1JSM5B?smid=A2TL2DM2M3366A&ref_=chk_typ_imgToDp&th=1)
 
+## Paper Towel Holder
+
+![](assets/2E507B59-4FA5-4D51-B4D0-1B54E260AB51.webp)
+- [Take a Roll](https://therollgear.com/products/take-a-roll-spring)
+
+
+![](assets/F89384ED-2C81-4512-8004-0D9FE7B409F9.jpeg)
+
+
+[Tork Ultraslim Multifold Mini Hand Towel Dispenser H4 White (2320729)](https://www.splitboxes.com.au/tork-ultraslim-multifold-mini-hand-towel-dispenser-h4-white-2320729/)
+
+Dimensions: 275mm width x 280mm height x 80mm depth
+
+Slim, comtemporary design, lockable with viewing window
+
+
+![](assets/B69AC264-E08C-4CE7-B4FF-D2A04C8525BB.jpeg)
+
+
+https://img.zcdn.com.au/lf/8/hash/38312/19143448/4/Nature+Kitchen+Paper+Roll+Stand.jpg
+
+
 
 
 ## Outdoor office chair
