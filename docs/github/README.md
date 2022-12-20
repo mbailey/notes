@@ -1,6 +1,6 @@
 # GitHub
 
-- [SSH](./ssh)
+- [SSH](ssh.md)
 
 - [Find your GitHub user id](http://caius.github.io/github_id/#mbailey) (Mine is #4409 mbailey)
 

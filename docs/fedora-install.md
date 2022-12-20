@@ -1,15 +1,16 @@
 # fedora-install
 
-Install from USB
+## Install from USB
+
 - Select Full disk encryption
 - Reboot
 - Create login
 
-Update packages:
+## Update packages:
 
     sudo dnf update -y
 
-Enable automatic updates:
+## Enable automatic updates:
 
     sudo dnf -y install dnf-automatic
     sudo systemctl enable --now dnf-automatic.timer

@@ -5,6 +5,8 @@ References:
 - [aws docs](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
 - [aws-labs / aws-cloudformation-templates](https://github.com/awslabs/aws-cloudformation-templates)
 
+- [Add support for cf and codepipeline parameters file to cf deploy by vz10 · Pull Request 5443 · awsaws-cli (github.com)](https://github.com/aws/aws-cli/pull/5443)
+
 ---
 
 ## Tools

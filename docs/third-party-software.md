@@ -25,7 +25,7 @@ Things I install on my fedora workstations.
     git clone https://github.com/bash-my-aws/bash-my-aws.git ${BMA_HOME:-$HOME/.bash-my-aws}
     # Update .bashrc if installing for the first time
 
-## [chrome](chrome)
+## [chrome](chrome.md)
 
 Only for [Microsoft Teams](msteams.md).
 
