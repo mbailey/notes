@@ -33,7 +33,7 @@ function notes(){
   if [ -n "$BASH_VERSION" ]; then
     read -n 1 -r
   elif [ -n "$ZSH_VERSION" ]; then
-    read -k 1 REPLY
+    read -k 1 -r
   fi
   echo '' >&2
   if [[ $REPLY =~ $regex_yes ]]; then
