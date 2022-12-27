@@ -12,13 +12,13 @@ alias n='notes'
 function notes(){
   [[ -n $1 ]] || return
   local notes_dir
-  local dirs
+  local notes_dirs
   if [ -n "$BASH_VERSION" ]; then
-    dirs=${NOTES_PATH//:/ }
+    notes_dirs=${NOTES_PATH//:/ }
   elif [ -n "$ZSH_VERSION" ]; then
-    dirs=(${(s/:/)NOTES_PATH})
+    notes_dirs=(${(s/:/)NOTES_PATH})
   fi
-  for notes_dir in $dirs; do
+  for notes_dir in $notes_dirs; do
     for extension in '' .txt .md; do
       local filename="${1}${extension}"
       if [[ -f "${notes_dir}/${filename}" ]]; then
