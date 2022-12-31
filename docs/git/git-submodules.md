@@ -63,12 +63,14 @@ submodule foreach:
 
 - [Using submodules in Git - (vogella.com)](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_trackbranch)
 
-    git submodule add -b master git@github-mbailey:mbailey/notes.git public
+```shell
+git submodule add -b master git@github-mbailey:mbailey/notes.git public
 
-    # Alternatively, don't track head of master branch
-    # git submodule add git@github-mbailey:mbailey/notes.git public
+# Alternatively, don't track head of master branch
+# git submodule add git@github-mbailey:mbailey/notes.git public
 
-    git submodule init
+git submodule init
+```
 
 ## Remove submodule from repository
 
