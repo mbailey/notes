@@ -1,6 +1,6 @@
 # Identity Theft
 
-## Identity theft can be devestating for the victim
+## Identity theft can be devastating for the victim
 
 >The consequences of identity crime for individuals can be serious, including **financial loss, reputational damage as well as emotional and psychological harm**.
 >
