@@ -26,10 +26,9 @@ TBA
 
     git submodule update --remote --recursive --rebase # [--merge]
 
-## Files
+## Config
 
     $ cat .gitmodules
-
     [submodule "public"]
         path = public
         url = git@github-mbailey:mbailey/notes
@@ -38,8 +37,6 @@ TBA
         path = work/work-notes
         url = git@github-work/Work/work-notes.git
         branch = main
-
-## Config
 
 Include submodule status in `git diff` output (vs. `git diff --submodule`):
 
@@ -53,11 +50,6 @@ Check submodules have been pushed before pushing changes:
 
     git config --global push.recurseSubmodules check # on-demand
 
-## Misc commands
-
-submodule foreach:
-
-    git submodule foreach 'git stash'
 
 ## Add submodule to repository
 
@@ -76,29 +68,28 @@ git submodule init
 
     git rm <path-to-submodule> # and commit
 
-> This removes the filetree at <path-to-submodule>, and the submodule's entry
-> in the .gitmodules file. I.e. all traces of the submodule in your repository
-> proper are removed.
->
-> As the docs note however, the .git dir of the submodule is kept around (in
-> the modules/ directory of the main project's .git dir), "to make it possible
-> to checkout past commits without requiring fetching from another repository".
-> If you nonetheless want to remove this info, manually delete the submodule's
-> directory in .git/modules/, and remove the submodule's entry in the file
-> .git/config.
->
-> These steps can be automated using the commands:
->
-> rm -rf .git/modules/<path-to-submodule>, and
-> git config --remove-section submodule.<path-to-submodule>.
->
-> - [git - How do I remove a submodule - Stack Overflow](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
 
+This removes the filetree at <path-to-submodule>, and the submodule's entry
+in the .gitmodules file. I.e. all traces of the submodule in your repository
+proper are removed.
+
+As the docs note however, the .git dir of the submodule is kept around (in
+the modules/ directory of the main project's .git dir), "to make it possible
+to checkout past commits without requiring fetching from another repository".
+If you nonetheless want to remove this info, manually delete the submodule's
+directory in .git/modules/, and remove the submodule's entry in the file
+.git/config.
+
+These steps can be automated using the commands:
+
+    rm -rf .git/modules/<path-to-submodule>, and
+    git config --remove-section submodule.<path-to-submodule>.
+
+ - [git - How do I remove a submodule - Stack Overflow](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
 
 ## Move submodule
 
     git mv old/submod new/submod
-
 
 ## When upstream repository changes URL of submodule in the .gitmodules file
 
@@ -109,7 +100,6 @@ Copy the new URL to your local config
 Update the submodule from the new URL:
 
     $ git submodule update --init --recursive
-
 
 ## Switching from subdirectories to submodules
 
@@ -130,4 +120,8 @@ Unstage the CryptoLibrary directory first, then add the submodule:
     Unpacking objects: 100% (11/11), done.
     Checking connectivity... done.
 
+## Misc commands
 
+submodule foreach:
+
+    git submodule foreach 'git stash'
