@@ -9,6 +9,14 @@
 - CTRL-SHIFT-T: Create or edit task
 - CTRL-L: Toggle Task/Checkbox Done
 
+## Cleanup `- [ ]` in files
+
+I decided against ising `#task` tag and needed to cleanup >2000 `- [ ]` checkboxes in my notes.
+
+```shell
+grep -cr '\- \[ \]'  | grep -v ':0$' | sort -nk 2 -t':'
+```
+
 
 ## Example Queries in Daily Note Tasks
 

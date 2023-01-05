@@ -4,6 +4,10 @@
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
+## TODO
+
+- [ ] Review top ten plugins
+
 ## Features
 
 - updates links when you move/rename files
