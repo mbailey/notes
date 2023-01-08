@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # notes.sh - edit notes
 #
 # - check multiple dirs (e.g. different projects)
@@ -14,7 +12,13 @@ alias n='notes'
 function notes(){
   [[ -n $1 ]] || return
   local notes_dir
-  for notes_dir in ${NOTES_PATH//:/ }; do
+  local notes_dirs
+  if [ -n "$BASH_VERSION" ]; then
+    notes_dirs=${NOTES_PATH//:/ }
+  elif [ -n "$ZSH_VERSION" ]; then
+    notes_dirs=(${(s/:/)NOTES_PATH})
+  fi
+  for notes_dir in $notes_dirs; do
     for extension in '' .txt .md; do
       local filename="${1}${extension}"
       if [[ -f "${notes_dir}/${filename}" ]]; then
@@ -25,8 +29,13 @@ function notes(){
     done
   done
   local regex_yes="^[Yy]$"
-  read -p "Not found! Create file (${notes_dir}/${filename}) ?" -n 1 -r
-  echo
+  echo -n "Not found! Create file ($notes_dir/$filename) ?" >&2
+  if [ -n "$BASH_VERSION" ]; then
+    read -n 1 -r
+  elif [ -n "$ZSH_VERSION" ]; then
+    read -k 1 -r
+  fi
+  echo '' >&2
   if [[ $REPLY =~ $regex_yes ]]; then
    printf "# ${filename/.md}\n\n\n"  >> "${notes_dir}/${filename}"
    cd "${notes_dir}" # handy if I want to add to git after creating
@@ -36,7 +45,6 @@ function notes(){
 
 # bash_completion
 _notes_completion() {
-  local command="$filename"
   local word="$2"
   local options
   options=$(
