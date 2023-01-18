@@ -1,5 +1,12 @@
 # Identity Theft
 
+- [Rising number of Australians hit by frauds and scams - KPMG Australia (home.kpmg)](https://home.kpmg/au/en/home/media/press-releases/2022/03/rising-number-australians-hit-by-frauds-and-scams-24-march-2022.html)
+- [1 in 9 Australians experienced personal fraud in 2020-21  Australian Bureau of Statistics (www.abs.gov.au)](https://www.abs.gov.au/media-centre/media-releases/1-9-australians-experienced-personal-fraud-2020-21)
+- [Personal Fraud, 2020-21 financial year  Australian Bureau of Statistics (www.abs.gov.au)](https://www.abs.gov.au/statistics/people/crime-and-justice/personal-fraud/latest-release)
+- [Dark web markets are hungry for Australian identity data  CSO Online (www.csoonline.com)](https://www.csoonline.com/article/3664117/dark-web-markets-are-hungry-for-australian-identity-data.html)
+- [Philippines call centre worker stole Australian Citibank customer details for Sydney crime gang, police say (www.smh.com.au)](https://www.smh.com.au/national/nsw/philippines-call-centre-worker-stole-australian-citibank-customer-details-for-sydney-crime-gang-police-say-20150702-gi3lbd.html)
+- [Massive Philippines data breach now searchable online  WIRED UK (www.wired.co.uk)](https://www.wired.co.uk/article/philippines-data-breach-comelec-searchable-website)
+
 ## Identity theft can be devastating for the victim
 
 >The consequences of identity crime for individuals can be serious, including **financial loss, reputational damage as well as emotional and psychological harm**.

@@ -2,6 +2,10 @@
 
 - [Annoyance - Features (including quickopen, git) exclude files based on .gitignore (even if in different folder!)](https://github.com/microsoft/vscode/issues/15604)
 
+## Ctrl-SHIFT-P
+
+- Collapse Folders in Explorer
+
 ## Install
 
 - [Running Visual Studio Code on Linux (code.visualstudio.com)](https://code.visualstudio.com/docs/setup/linux)

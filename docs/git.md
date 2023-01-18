@@ -10,6 +10,18 @@
 - https://gregoryszorc.com/blog/2021/05/12/why-you-shouldn%27t-use-git-lfs/
     - performance
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
+- [How to Use Git Shallow Clone to Improve Performance  Perforce (www.perforce.com)](https://www.perforce.com/blog/vcs/git-beyond-basics-using-shallow-clones)
+
+## Ignore some files locally
+
+- [How do I configure git to ignore some files locally - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/1753070/how-do-i-configure-git-to-ignore-some-files-locally/1753078#1753078)
+
+> Patterns which are specific to a particular repository but which do not need to be shared with other related repositories (e.g., auxiliary files that live inside the repository but are specific to one user's workflow) should go into the `$GIT_DIR/info/exclude` file.
+
+Note, if you already have unstaged changes you must run the following after editing your ignore-patterns:
+```
+git update-index --assume-unchanged <file-list>
+```
 
 ## Share via sneakernet
 

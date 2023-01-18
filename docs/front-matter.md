@@ -23,3 +23,7 @@ This is the first paragraph of the document.
     - [site-search](https://github.com/squidfunk/mkdocs-material/blob/233252194fe4271ef46a2a9386b63d3606d3f7fa/docs/setup/setting-up-site-search.md)
 - [Python Frontmatter documentation](https://python-frontmatter.readthedocs.io/en/latest/index.html)
 - [Front Matter (CMS)- Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-front-matter)
+
+Github.com presentation of front matter seems acceptable. Would be nice to be able to toggle it off/on for a project.
+
+![](assets/Pasted%20image%2020230115233228.png)
