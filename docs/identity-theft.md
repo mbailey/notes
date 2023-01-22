@@ -31,7 +31,10 @@
 ![](assets/Pasted%20image%2020221226190747.png)
 
 ## Dark web markets are hungry for Australian identity data
- 
+
+- Identity now has a very tangible value as there is are secondary markets that is able to monetise stolen identities
+- Identity is now a commodity (has exchange value that aligns with use value).
+
 >Australians’ confidential financial, personal, and identity data is being channelled in large volumes through dark web marketplaces and is the second-most-expensive in the world, according to a new analysis that bodes poorly for the thousands of victims compromised in the recent hack of a key National Disability Insurance Scheme (NDIS) software provider.
 >
   ==Full identity sets relating to Australians are selling for $112.50 on the dark web market==, which NordVPN security experts, who conducted the ==analysis in early April 2022==, said has previously sold more than 720,000 pieces of data for $23.2 million.
