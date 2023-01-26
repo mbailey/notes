@@ -4,15 +4,23 @@ Ideas for Working From Outdoors.
 
 ## General Considerations
 
-- Laptop
-    - switch off system "dark mode"
-        - configure your apps to adapt to system
-    - use one with a bright screen?
+- Identify Good Locations
+    - Move with the sun
+    - Avoid light source from behind (e.g. sun or bright reflective surface)
+    - Face a dark/shaded area to reduce contrast around screen
+- Keep everything you need within reach (avoid having to make trips for things)
+    - Easy to move #movewiththesun
+    - Side table
+    - Front table (foot rest / lap desk holder / storage) 
+    - Quickly deal with sudden rain (electronics away)
+    - bendy phone holder
+- Laptop (daylight)
+    - Disable system "dark mode"
+        - Set apps to 'adapt to system'
+    - Maximise screen brightness
+    - Lap desk that accomodated mouse and phone
     - large enough display
     - second screen?
-- glare / reflection
-    - choose a dark/shaded background to reduce contrast around screen
-    - avoid light source (e.g. sun or bright reflective surface) behind
 
 ## Carrying thingy
 
@@ -31,6 +39,10 @@ Have it at the ready so you don't need to gather too many things before going ou
     - boost / direct / repeat wifi
         - battery option?
 
+
+## Tea
+
+- Keep milk cold
 
 
 ## Lap Desk
