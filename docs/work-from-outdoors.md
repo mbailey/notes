@@ -22,6 +22,11 @@ Ideas for Working From Outdoors.
     - large enough display
     - second screen?
 
+## INBOX
+
+- cupholder
+- thermos cup
+
 ## Carrying thingy
 
 Have it at the ready so you don't need to gather too many things before going outside.
