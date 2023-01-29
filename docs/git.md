@@ -196,9 +196,11 @@ First you can run:
 
 This helps you to determine what to do next.
 
-You can delete your DVD-rip file everywhere:
+![](assets/Pasted%20image%2020230128143028.png)
 
-    git filter-repo --invert-paths --path-match DVD-rip
+You can delete your big mp3 file everywhere:
+
+    git filter-repo --invert-paths --path-match bigfile.mp3
 
 
 ## Branches

@@ -4,6 +4,16 @@
 - [Introduction (obsidian-tasks-group.github.io)](https://obsidian-tasks-group.github.io/obsidian-tasks/)
 - (not) [My Task Management System (forum.obsidian.md)](https://forum.obsidian.md/t/my-task-management-system/36198)
 
+Combining Filters:
+```
+```tasks
+not done
+(path includes shopping/bunnings) OR (tags includes #bunnings)
+```
+
+
+
+
 ## Hotkeys
 
 - CTRL-SHIFT-T: Create or edit task

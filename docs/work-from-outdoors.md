@@ -24,6 +24,7 @@ Ideas for Working From Outdoors.
 
 ## INBOX
 
+- rain protection - canopy attached to chair, canopy for lapdesk
 - cupholder
 - thermos cup
 
