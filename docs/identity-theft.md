@@ -11,8 +11,6 @@
 
 >The consequences of identity crime for individuals can be serious, including **financial loss, reputational damage as well as emotional and psychological harm**.
 >
- The consequences of identity crime for individuals can be serious, including **financial loss, reputational damage as well as emotional and psychological harm**.
->
 > - [Identity crime and misuse in Australia : Key findings from the National Identity Crime and Misuse Measurement Framework Pilot](https://www.homeaffairs.gov.au/criminal-justice/files/national-identity-crime-and-misuse-pilot.PDF)
 
 ## 154,000 Australians experienced Identity theft in 2020-21

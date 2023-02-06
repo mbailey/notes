@@ -1,4 +1,4 @@
-# azure cli
+# az cli
 
 - [az reference](https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
 - [Azure Command-Line Interface (CLI) documentation (learn.microsoft.com)](https://learn.microsoft.com/en-us/cli/azure/)
@@ -21,6 +21,11 @@
 dnf install azure-cli
 ```
 
+## Handy commands
+
+- `version`
+- `upgrade`
+- `exit`
 
 ## REST API commands (az rest)
 
