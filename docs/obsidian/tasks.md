@@ -11,6 +11,11 @@ not done
 (path includes shopping/bunnings) OR (tags includes #bunnings)
 ```
 
+## Naming of Things
+
+- every task should have a project or bau assigned, either by being under a projetc or by having its take assigned
+- a project is a bit like a costcode - it provides context
+
 
 
 
