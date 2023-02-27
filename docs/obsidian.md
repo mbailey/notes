@@ -1,5 +1,6 @@
 # Obsidian
 
+- https://forum.obsidian.md/t/support-gfm-style-kebab-case-heading-slug-anchor-targets/30350 GFM links for headings
 - [manual (help.obsidian.md)](https://help.obsidian.md/)
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
@@ -96,3 +97,4 @@ I'd prefer to have multiple vaults open instead of having to keep switching.
 - Feature request  [“Same Window” and “New Window” options for open vault](https://forum.obsidian.md/t/same-window-and-new-window-options-for-open-vault/4074)
 
 ## Example of website you can generate
+

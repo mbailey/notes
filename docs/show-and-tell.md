@@ -17,6 +17,11 @@ It can be anything some ideas to get you started include:
 - Something you learned
 - Something you use
 
+Could do a mix of different formats:
+
+- "tight five": 5 minutes of your best material
+- lightning: 1 minute sharing a screen and a single thing
+
 ## Cool Tricks!
 
 - Something neat you can do
@@ -44,3 +49,4 @@ It can be anything some ideas to get you started include:
 - Show appreciation when team mates share something with you
 
 ![](assets/rick-and-morty-i-like-what-you-got.png)
+

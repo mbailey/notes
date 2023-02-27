@@ -31,6 +31,10 @@ sudo apt-get install syncthing
 
 ## Config
 
+Start on boot (gnome):
+
+![](assets/Pasted%20image%2020230227101840.png)
+
 ### web ui
 
 - [https://docs.syncthing.net/users/guilisten.html]
