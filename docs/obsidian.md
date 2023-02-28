@@ -5,6 +5,7 @@
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
+
 ## TODO
 
 - [ ] Review top ten plugins
@@ -52,6 +53,10 @@ Tools for Sync'ing:
 
 linux  <--> linux : Obsidian Sync or SyncThing, Git
 iphone <--> linux : Obsidian Sync
+
+## Enabling "Show unsupported files" broke my link autocomplete!
+
+![](assets/Pasted%20image%2020230227122629.png)
 
 ## Templates
 
