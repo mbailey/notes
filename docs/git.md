@@ -12,6 +12,14 @@
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 - [How to Use Git Shallow Clone to Improve Performance  Perforce (www.perforce.com)](https://www.perforce.com/blog/vcs/git-beyond-basics-using-shallow-clones)
 
+## Don't ask me to run `git push --set-upstream origin`
+
+Rather than ask me where to push new branches:
+
+```
+git config --global push.default current
+```
+
 ## Ignore some files locally
 
 - [How do I configure git to ignore some files locally - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/1753070/how-do-i-configure-git-to-ignore-some-files-locally/1753078#1753078)
