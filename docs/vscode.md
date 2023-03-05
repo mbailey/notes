@@ -6,6 +6,8 @@
 
 - Collapse Folders in Explorer
 
+Ctrl-K-D: diff from last save
+
 ## Install
 
 - [Running Visual Studio Code on Linux (code.visualstudio.com)](https://code.visualstudio.com/docs/setup/linux)
