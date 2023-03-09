@@ -32,11 +32,14 @@ Workspace
 - [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
 - [mgmeyers/obsidian-kanban Create markdown-backed Kanban boards in Obsidian.](https://github.com/mgmeyers/obsidian-kanban)
 
-## Commands
+## Hotkeys
+
+All are settable.
 
 - `ctrl + o` : Open quick switcher
 - `ctrl + p` : Open command palette
 - `ctrl + ,` : Open settings
+- `ctrl b ,` : Toggle bold
 
 ## Sync
 
