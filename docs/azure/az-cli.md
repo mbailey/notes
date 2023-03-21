@@ -20,6 +20,15 @@
 ```shell
 dnf install azure-cli
 ```
+## Config
+
+Scripts should define their own path for  `$AZURE_CONFIG_DIR`. (e.g. `~/.azure/scriptname`). Better to append PID?
+
+> The configuration file itself is located at `$AZURE_CONFIG_DIR/config`. The default value of `AZURE_CONFIG_DIR` is `$HOME/.azure` on Linux and macOS, and `%USERPROFILE%\.azure` on Windows.
+>
+- [CLI configuration file (learn.microsoft.com)](https://learn.microsoft.com/en-us/cli/azure/azure-cli-configuration#cli-configuration-file)
+
+
 
 ## Handy commands
 
