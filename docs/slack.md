@@ -4,6 +4,12 @@
 
 - [ ] Work out how to update slack staus with iOS Automations and Shortcuts
 
+## Search
+
+**`Ctrl-G`**: Search
+**`Ctrl-F`**: Specific Conversation
+
+
 ## Settings
 
 - [markdown support (markdownguide.org)](https://www.markdownguide.org/tools/slack/)
