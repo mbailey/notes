@@ -2,6 +2,9 @@
 
 - [Annoyance - Features (including quickopen, git) exclude files based on .gitignore (even if in different folder!)](https://github.com/microsoft/vscode/issues/15604)
 
+ALT-Z: toggle line wrap
+Ctrl-K K: toggle light/dark (my setting)
+
 ## Ctrl-SHIFT-P
 
 - Collapse Folders in Explorer
