@@ -1,7 +1,8 @@
-# Outlook
+# Outlook 365
 
 - [ ] Work out how to auto accept invites from certain user
-- [ ] [Share your Calendar with someone](https://support.microsoft.com/en-us/topic/sharing-your-calendar-17b9026c-8299-4f8a-8da7-1b78463b8d68)
+- [Share your Calendar with someone](https://support.microsoft.com/en-us/topic/sharing-your-calendar-17b9026c-8299-4f8a-8da7-1b78463b8d68)
+- Unshare Calendar: right click on calendar and click Sharing
 
 ## Use Outlook Calendar in Slack to:
 

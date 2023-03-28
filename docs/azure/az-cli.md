@@ -29,6 +29,11 @@ Scripts should define their own path for  `$AZURE_CONFIG_DIR`. (e.g. `~/.azure/s
 - [CLI configuration file (learn.microsoft.com)](https://learn.microsoft.com/en-us/cli/azure/azure-cli-configuration#cli-configuration-file)
 
 
+## Create things
+
+```
+az group create -l global -n MyResourceGroup
+```
 
 ## Handy commands
 

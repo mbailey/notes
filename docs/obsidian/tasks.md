@@ -44,3 +44,10 @@ grep -cr '\- \[ \]'  | grep -v ':0$' | sort -nk 2 -t':'
 > - [My Task Management System (forum.obsidian.md)](https://forum.obsidian.md/t/my-task-management-system/36198)
 
 ![](assets/example-obsidian-tasks-summary.png)
+
+
+## Break vim less
+
+Set `Minimum match length for auto-suggest` above `0` to enable vim command like `dd` to work on task items.
+
+![](assets/Pasted%20image%2020230327122857.png)
