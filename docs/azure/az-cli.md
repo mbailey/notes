@@ -1,6 +1,7 @@
 # az cli
 
 - [az reference](https://learn.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
+- [Azure CLI configuration (learn.microsoft.com)](https://learn.microsoft.com/en-us/cli/azure/azure-cli-configuration)
 - [Azure Command-Line Interface (CLI) documentation (learn.microsoft.com)](https://learn.microsoft.com/en-us/cli/azure/)
 - [Install azure cli linux](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=dnf)
 - [Sign in with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli)
@@ -196,6 +197,10 @@ jq -r '.value[] | [.userPrincipalName,.userDisplayName,.ipAddress,.conditionalAc
 
 
 ## Disable telemetry
+
+```
+export AZURE_CORE_COLLECT_TELEMETRY=0
+```
 
 ```shell
 az configure -d collect_telemetry=false

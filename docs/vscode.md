@@ -5,11 +5,29 @@
 ALT-Z: toggle line wrap
 Ctrl-K K: toggle light/dark (my setting)
 
+## VIM
+
+"vim.vimrc.enable": true
+
 ## Ctrl-SHIFT-P
 
 - Collapse Folders in Explorer
 
 Ctrl-K-D: diff from last save
+
+### shebang
+
+```
+"shellcheck.arguments": [
+    "--format=gcc",
+    "--severity=warning",
+    "--shell=bash",
+    "--external-sources",
+    "--enable=all",
+    "--shebang=#!/usr/bin/env bash"
+],
+```
+
 
 ## Install
 
