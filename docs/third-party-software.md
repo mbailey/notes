@@ -34,6 +34,10 @@ Only for [Microsoft Teams](msteams.md).
     wget https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
     sudo dnf install dbeaver-ce-latest-stable.x86_64.rpm
 
+## Mixxx
+
+DJ Software
+
 ## Firefox plugins
 
 Firefox is far and away my favourite web browser. These plugins make it even better.

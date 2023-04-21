@@ -20,6 +20,14 @@ Rather than ask me where to push new branches:
 git config --global push.default current
 ```
 
+## Deal with Obsidian sync pulling changes (when you didn't make local changes)
+
+```shell
+git fetch --all
+git reset --hard origin/master
+```
+
+
 ## Ignore some files locally
 
 - [How do I configure git to ignore some files locally - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/1753070/how-do-i-configure-git-to-ignore-some-files-locally/1753078#1753078)
