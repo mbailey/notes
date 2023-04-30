@@ -7,6 +7,11 @@
 
 ## Install
 
+
+> `sudo yum install -y https://dl.grafana.com/enterprise/release/grafana-enterprise-9.4.7-1.x86_64.rpm`
+>
+>- [Download Grafana  (grafana.com)](https://grafana.com/grafana/download)
+
 **fedora-36**
 
 ```shell
