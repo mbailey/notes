@@ -13,7 +13,10 @@ Ctrl-K K: toggle light/dark (my setting)
 
 - Collapse Folders in Explorer
 
-Ctrl-K-D: diff from last save
+## Handy commands
+
+**Add folder to workspace**: `code --add .`
+**Diff from last save**: Ctrl-K-D
 
 ### shebang
 
