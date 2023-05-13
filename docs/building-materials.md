@@ -1,10 +1,10 @@
 # Building Materials
 
-
-- cardboard
-- crates
 - cable ties
+- cardboard
+- cloth tape
+- crates
+- masking tape
+- nic cubes
 - pegs
 - pvc pipe & connectors
-- masking tape
-- cloth tape
