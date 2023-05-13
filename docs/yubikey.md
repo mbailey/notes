@@ -1,5 +1,7 @@
 # yubikey
 
+- [yubikey-slot-disable](../../work/git/vms-docs/INBOX/yubikey-slot-disable.md) yubisneeze
+
 
 ![](assets/DB1D2A62-5707-4AD1-8ADA-BCA642E4110D.jpeg)
 
