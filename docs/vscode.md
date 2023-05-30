@@ -5,6 +5,12 @@
 ALT-Z: toggle line wrap
 Ctrl-K K: toggle light/dark (my setting)
 
+## Activity Bar
+
+`CTRL-B`: Toggle visibility of Activity Bar
+`CTRL-SHIFT+E`: Show Explorer
+`CTRL-SHIFT+G G`: Show Git
+
 ## VIM
 
 "vim.vimrc.enable": true

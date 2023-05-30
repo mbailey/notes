@@ -27,6 +27,12 @@ git fetch --all
 git reset --hard origin/master
 ```
 
+## Global Ignore Rules
+
+```
+git config --global core.excludesfile ~/.gitignore_global
+echo '*sync-conflict*' >> ~/.gitignore_global
+```
 
 ## Ignore some files locally
 

@@ -14,7 +14,8 @@ http://localhost:8384/
 firewalld:
 
 ```shell
-sudo firewall-cmd --zone=public --add-service=syncthing --permanent
+sudo firewall-cmd --zone=dmz --add-service=syncthing --permanent
+sudo firewall-cmd --zone=dmz --add-service=syncthing-gui --permanent
 sudo firewall-cmd --reload
 ```
 

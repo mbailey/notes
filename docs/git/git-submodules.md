@@ -66,8 +66,9 @@ git submodule init
 
 ## Remove submodule from repository
 
-    git rm <path-to-submodule> # and commit
-
+```
+git rm <path-to-submodule> # and commit
+```
 
 This removes the filetree at <path-to-submodule>, and the submodule's entry
 in the .gitmodules file. I.e. all traces of the submodule in your repository
@@ -80,10 +81,13 @@ If you nonetheless want to remove this info, manually delete the submodule's
 directory in .git/modules/, and remove the submodule's entry in the file
 .git/config.
 
+
 These steps can be automated using the commands:
 
-    rm -rf .git/modules/<path-to-submodule>, and
-    git config --remove-section submodule.<path-to-submodule>.
+```
+rm -rf .git/modules/<path-to-submodule>, and
+git config --remove-section submodule.<path-to-submodule>.
+```
 
  - [git - How do I remove a submodule - Stack Overflow](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
 

@@ -1,18 +1,27 @@
-# Ubuntu
+# ubuntu
 
-## Unattended upgrades
+- [ubuntu-unattended-updates](../../../../public/docs/ubuntu-unattended-updates.md)
 
-- [AutomaticSecurityUpdates - Community Help Wiki](https://help.ubuntu.com/community/AutomaticSecurityUpdates)
+## Update
 
-- Enabled by default.
+```bash
+apt update && apt upgrade -y
+```
 
-Get current config:
+## Install
 
-    $ apt-config dump APT::Periodic::Unattended-Upgrade
-    APT::Periodic::Unattended-Upgrade "1";
+### Create install USB
 
-Setup:
+    sudo dd if=/path-to-the-iso/ubuntu-18.04.1-desktop-amd64.iso of=/dev/sdb bs=8M
 
-    sudo apt-get install unattended-upgrades
-    sudo dpkg-reconfigure --priority=low unattended-upgrades
+    sudo apt update
+
+### Packages
+
+    sudo apt install -y \
+      net-tools \
+      etckeeper 
+
+    sudo update-alternatives --config editor
+
 
