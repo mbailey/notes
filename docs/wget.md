@@ -1,3 +1,7 @@
+---
+created: 2023-06-05T13:16:20+10:00
+updated: 2023-06-05T13:16:20+10:00
+---
 # wget
 
 Save to specified file:
@@ -13,3 +17,11 @@ Save to specified file:
 stdout:
 
     wget -O- http://example.com
+
+## Mirror a website
+
+```
+wget --mirror --convert-links --adjust-extension --page-requisites http://www.mywebsite.com/
+```
+
+wget --mirror --convert-links --adjust-extension --page-requisites --span-hosts -U Mozilla -e robots=off --no-cookies -D www.mywebsite.com,files.mywebsite.com,images.somewhere.com http://www.mywebsite.com/
