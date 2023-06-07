@@ -76,3 +76,7 @@ subcommand. This should be done while Syncthing is not running.
     syncthing generate --gui-password=myNewPassword --gui-user=newUserName
     # Restart Syncthing as usual.
 
+
+Ignore FIles
+
+`.stignore` : [Ignoring Files (docs.syncthing.net)](https://docs.syncthing.net/users/ignoring.html)

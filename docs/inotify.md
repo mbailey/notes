@@ -1,7 +1,9 @@
 # inotify
 
-- [inotify-consumers · fatso83/dotfiles](https://github.com/fatso83/dotfiles/blob/master/utils/scripts/inotify-consumers)
-    - generates reports on who's using watchers
+Control the maximum number of watchers.
+
+- [Increasing the amount of inotify watchers (gist.github.com)](https://gist.github.com/ntamvl/7c41acee650d376863fd940b99da836f)
+- [inotify-consumers · fatso83/dotfiles](https://github.com/fatso83/dotfiles/blob/master/utils/scripts/inotify-consumers) generates reports on who's using watchers
 
 ## inotify watcher count limit
 
@@ -20,11 +22,18 @@ Count opened files:
 lsof | grep inotify | wc -l
 ```
 
-Maybe increase the limit:
+Increase the limit:
+
+```
+echo fs.inotify.max_user_watches=524288 | 
+  sudo tee /etc/sysctl.d/40-max-user-watches.conf && 
+  sudo sysctl --system
+```
+
+
 
 ```shell
 echo "fs.inotify.max_user_watches=409600" | sudo tee -a /etc/sysctl.conf
-echo "fs.inotify.max_user_watches=204800" | sudo tee -a /etc/sysctl.conf
 ```
 
 Check who's using them all:
