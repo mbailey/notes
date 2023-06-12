@@ -7,3 +7,10 @@ Install google-chrome on fedora-36:
     sudo dnf install fedora-workstation-repositories
     sudo dnf config-manager --set-enabled google-chrome
     sudo dnf install google-chrome-stable
+
+
+## Your browser is managed by your organization
+
+```
+rm -fr /etc/chromium/policies/*
+```

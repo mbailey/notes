@@ -48,6 +48,7 @@ Tools for Sync'ing:
 - [SyncThing](https://syncthing.net/) is free and works well between computers. Data stays on your hardware.
 - [Obsidian Sync](https://obsidian.md/sync): USD $10 per month. Supports end to end encryption.
 - [Git](https://git-scm.com/): Open Source and free source control.
+    - changing between branches can lead to a lot of sync updates
 
 ### Note
 

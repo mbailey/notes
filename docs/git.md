@@ -45,6 +45,13 @@ Note, if you already have unstaged changes you must run the following after edit
 git update-index --assume-unchanged <file-list>
 ```
 
+## Disable gpg signing for current repo
+
+```
+git config --local commit.gpgsign false
+```
+
+
 ## Share via sneakernet
 
     wget https://github.com/mbailey.gpg
