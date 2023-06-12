@@ -1,9 +1,17 @@
-# VSCode
+# Visual Studio Code
 
-- [Annoyance - Features (including quickopen, git) exclude files based on .gitignore (even if in different folder!)](https://github.com/microsoft/vscode/issues/15604)
+[Visual Studio Code - Code Editing. Redefined (code.visualstudio.com)](https://code.visualstudio.com/)
+
+## Pages
+
+- [Extensions](../../vscode-extensions.md)
+- [VSCode Remote](vscode/vscode-remote.md)
+
+## Keyboard Shortcuts
 
 ALT-Z: toggle line wrap
 Ctrl-K K: toggle light/dark (my setting)
+Ctrl-K Z: Zen mode (focus on the code) - click and drag edges
 
 ## Activity Bar
 
@@ -185,6 +193,11 @@ Open two terminals with horizontal split:
 
 ## Troubleshooting
 
+
+## .gitignore from different folders respected
+
+- [Annoyance - Features (including quickopen, git) exclude files based on .gitignore (even if in different folder!)](https://github.com/microsoft/vscode/issues/15604)
+
 ### File watchers
 
 - [Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
@@ -203,3 +216,6 @@ Maybe exclude some from vscode watchers:
     "**/node_modules/*/**": true
   }
 ```
+
+
+
