@@ -2,5 +2,21 @@
 
 - [kvm-guest-create](kvm-guest-create.md) : script for creating kvm guests
 
-## TODO
-- [x] Work out why libvirtd not starting on boot #fedora-36 #task ✅ 2023-01-08
+## Use virsh and virt-manager as non-root user
+
+Add your user to the group:
+```
+sudo usermod -a -G libvirt $(whoami)
+newgrp libvirt
+```
+
+
+Check you're in the group:
+```
+id $(whoami)
+```
+
+Test it works:
+```
+virsh list
+```

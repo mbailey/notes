@@ -12,6 +12,12 @@
 - `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
 - [How to Use Git Shallow Clone to Improve Performance  Perforce (www.perforce.com)](https://www.perforce.com/blog/vcs/git-beyond-basics-using-shallow-clones)
 
+
+Show commit summary:
+```
+git show --stat
+```
+
 ## Don't ask me to run `git push --set-upstream origin`
 
 Rather than ask me where to push new branches:

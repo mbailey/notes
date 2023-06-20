@@ -20,7 +20,7 @@ Connect to remote host:
 ### remote.SSH.defaultExtensions
 
 - ["Always installed" extensions (code.visualstudio.com)](https://code.visualstudio.com/docs/remote/ssh#_always-installed-extensions)
-- I maintin a list of [vscode-extensions](../../../vscode-extensions.md)
+- I maintain a list of [vscode-extensions](vscode-extensions.md)
 
 If there are extensions that you would like to always have installed on any SSH host, you can specify which ones using the `remote.SSH.defaultExtensions`property in `settings.json`. For example, if you wanted to install the [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) and [Resource Monitor](https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor)extensions, specify their extension IDs as follows:
 

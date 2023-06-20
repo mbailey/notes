@@ -4,7 +4,7 @@
 
 ## Pages
 
-- [Extensions](../../vscode-extensions.md)
+- [Extensions](vscode/vscode-extensions.md)
 - [VSCode Remote](vscode/vscode-remote.md)
 
 ## Keyboard Shortcuts

@@ -77,3 +77,15 @@
 
 https://www.cyber.gov.au/sites/default/files/2020-05/Protecting%20your%20identity%20-%20What%20everyone%20needs%20to%20know.pdf
 
+
+
+Identity theft | Cyber.gov.au
+https://www.idcare.org/
+
+https://amp.abc.net.au/article/11439668
+
+
+## News 
+
+ -  ['Invisible robbers' stealing millions in phone porting scam labelled as 'terrifying'](
+https://amp.abc.net.au/article/102316168)
