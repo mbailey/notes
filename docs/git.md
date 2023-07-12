@@ -14,15 +14,20 @@
 
 
 Show commit summary:
-```
+
+```shell
 git show --stat
 ```
 
-## Don't ask me to run `git push --set-upstream origin`
+Stage non-whitespace changes ([ref](https://stackoverflow.com/a/45486981)):
 
-Rather than ask me where to push new branches:
-
+```shell
+git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -
 ```
+
+Don't ask me to run `git push --set-upstream origin`.  Rather than ask me where to push new branches:
+
+```shell
 git config --global push.default current
 ```
 
