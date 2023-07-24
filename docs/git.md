@@ -31,6 +31,22 @@ Don't ask me to run `git push --set-upstream origin`.  Rather than ask me where 
 git config --global push.default current
 ```
 
+## Untracked files
+
+Remove untracked files:
+
+```shell
+git clean -f
+```
+
+Stash untracked files
+
+```shell
+git stash --include-untracked # short arg is -u
+```
+
+
+
 ## Deal with Obsidian sync pulling changes (when you didn't make local changes)
 
 ```shell
@@ -170,20 +186,6 @@ Two consecutive asterisks ("**") in patterns matched against full pathname may h
 ## Delete dangling commits
 
 - [Listing and deleting Git commits that are under no branch (dangling) - Stack Overflow](https://stackoverflow.com/questions/3765234/listing-and-deleting-git-commits-that-are-under-no-branch-dangling)
-
-## Untracked files
-Remove untracked files:
-
-```shell
-git clean -f
-```
-
-Stash untracked files
-
-```shell
-git stash --include-untracked # short arg is -u
-```
-
 
 ## git ignore
 

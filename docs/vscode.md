@@ -12,6 +12,7 @@
 ALT-Z: toggle line wrap
 Ctrl-K K: toggle light/dark (my setting)
 Ctrl-K Z: Zen mode (focus on the code) - click and drag edges
+Ctrl-ALT--: Go Back
 
 ## Activity Bar
 

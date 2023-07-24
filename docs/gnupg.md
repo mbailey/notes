@@ -22,3 +22,9 @@ Import a key from github:
 
     wget https://github.com/mbailey.gpg
     gpg --import ./mbailey.gpg
+
+## Create a new key
+
+- [Creating GPG Keys  Fedora Docs (docs.fedoraproject.org)](https://docs.fedoraproject.org/en-US/quick-docs/create-gpg-keys/)
+
+
