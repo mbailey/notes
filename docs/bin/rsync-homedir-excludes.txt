@@ -24,8 +24,8 @@
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
-#.local/libvirt
-#.local/share/libvirt
+.local/libvirt
+.local/share/libvirt
 #.vagrant
 #.vagrant.d
 #.wine
@@ -37,7 +37,7 @@
 #/.aMule
 #/Scribus
 #/VirtualBox*
-#.local/share/gnome-boxes/images
+.local/share/gnome-boxes/images
 #/Nextcloud
 #_build
 #
@@ -61,17 +61,17 @@
 #.var/app/com.spotify.Client/config/spotify/Users
 #
 ## those folders contain only temporary Videos I want to watch
-#/Videos
-#/Movies
+/Videos
+/Movies
 #
 ## some history files
-#.python_history
-#.bash_history
-#.zsh_history
-#.mysql_history
+.python_history
+.bash_history
+.zsh_history
+.mysql_history
 #
 ## Python eggs
-#.local/lib/python*
+.local/lib/python*
 #
 ## Python virtual environments
 #PycharmProjects/**/venv
@@ -82,8 +82,8 @@
 ## Unlocked Plasma Vaults
 #/Vaults
 ## Docker
-#.docker/machine
-#.local/share/containers
+.docker/machine
+.local/share/containers
 
 ################################################
 # These directories may definitely be excluded #
