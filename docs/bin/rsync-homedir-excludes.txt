@@ -24,6 +24,7 @@
 #.grails_history
 #.kde/share/apps/nepomuk
 #.local/share/notbit
+.libvirt
 .local/libvirt
 .local/share/libvirt
 #.vagrant
@@ -42,7 +43,8 @@
 #_build
 #
 ## Ruby gems
-#.rvm
+.rvm
+.rbenv
 #
 ## Add Game Folders here:
 #
