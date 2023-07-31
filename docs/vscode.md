@@ -13,6 +13,8 @@ ALT-Z: toggle line wrap
 Ctrl-K K: toggle light/dark (my setting)
 Ctrl-K Z: Zen mode (focus on the code) - click and drag edges
 Ctrl-ALT--: Go Back
+CTRL-ALT up/down: Multiple cursors
+ALT-click: put cursors in multiple spots
 
 ## Activity Bar
 
@@ -86,7 +88,13 @@ My preferred settings:
 
 [defaults]: https://code.visualstudio.com/docs/getstarted/settings#_default-settings
 
+### Terminal settings
 
+#### Terminal › Integrated: Allow Chords
+
+- Make things like `CTRL-L`` work.
+
+Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass [Terminal › Integrated: Commands To Skip Shell](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html "terminal.integrated.commandsToSkipShell"), setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
 
 
 ## Extensions

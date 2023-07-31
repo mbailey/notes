@@ -1,5 +1,9 @@
 # date
 
+```
+timestamp=$(date +%Y%m%dT%H%M%S%z)
+```
+
 ## From epoch
 
     $ date -d @1361234760
