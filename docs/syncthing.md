@@ -42,7 +42,7 @@ Start on boot (gnome):
 
 - [https://docs.syncthing.net/users/guilisten.html]
 
-``~/.config/syncthing/config.xml`
+`~/.config/syncthing/config.xml`
 
 ```xml
 <gui enabled="true" tls="false" debugging="false">
@@ -60,7 +60,7 @@ Be sure to enable HTTPS and set a strong password.
 - <https://docs.syncthing.net/users/autostart.html#using-systemd>
 
 ```shell
-$ sudo systemctl enable --now syncthing@mike.service
+$ sudo systemctl enable --now syncthing@m.service
 Created symlink /etc/systemd/system/multi-user.target.wants/syncthing@mike.service → /lib/systemd/system/syncthing@.service.
 ```
 

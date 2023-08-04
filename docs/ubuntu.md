@@ -24,4 +24,10 @@ apt update && apt upgrade -y
 
     sudo update-alternatives --config editor
 
+## Install Unattended Upgrades
 
+- https://www.linode.com/docs/guides/how-to-configure-automated-security-updates-debian/
+```
+sudo apt install unattended-upgrades
+sudo systemctl enable --now unattended-upgrades
+```

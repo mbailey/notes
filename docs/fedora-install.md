@@ -2,7 +2,10 @@
 
 ## Install from USB
 
-- Select Full disk encryption
+- Custom partitioning
+    - LVM
+    - EXT4
+    - Select Full disk encryption
 - Reboot
 - Create login
 

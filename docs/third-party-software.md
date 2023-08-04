@@ -6,6 +6,7 @@ Things I install on my fedora workstations.
     - [awscli](#awscli)
     - [bash-my-aws](#bash-my-aws)
     - [chrome](#chrome)
+    - [darkman](darkman.md)
     - [dbeaver-ce](#dbeaver-ce)
     - [firefox plugins](#firefox-plugins)
     - [obsidian](#obsidian)
@@ -38,6 +39,12 @@ Only for [Microsoft Teams](msteams.md).
 
 DJ Software
 
+Requires [RPMFusion repo](https://rpmfusion.org/Configuration)
+
+```shell
+sudo dnf install -y mixxx
+```
+
 ## Firefox plugins
 
 Firefox is far and away my favourite web browser. These plugins make it even better.
@@ -64,11 +71,11 @@ or:
 
 ## [slack](https://slack.com/intl/en-au/downloads/linux)
 
-    wget https://downloads.slack-edge.com/releases/linux/4.27.156/prod/x64/slack-4.27.156-0.1.fc21.x86_64.rpm
-
-    sudo rpm -i slack-4.27.156-0.1.fc21.x86_64.rpm
+- [Download Slack for Linux (beta)  Slack (slack.com)](https://slack.com/intl/en-au/help/articles/212924728-Download-Slack-for-Linux--beta-#rhel-1)
 
 ## [syncthing](https://syncthing.net/)
+
+- [syncthing](syncthing.md)
 
 ## [vscode](https://code.visualstudio.com/docs/setup/linux)
 
@@ -87,6 +94,10 @@ or:
 - extensions
     - donjayamanne.python-extension-pack
 
+<!--
+---
+**Maybe later**
+
 ## Go
 
 Quick and dirty - eyeball and change where appropriate!
@@ -95,9 +106,6 @@ Quick and dirty - eyeball and change where appropriate!
     sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
     echo 'GOPATH=/home/m/go' >> ~/.bashrc
 
----
-<!--
-**Maybe later**
 
 ## [dropbox](https://www.dropbox.com/install-linux)
 
