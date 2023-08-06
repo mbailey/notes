@@ -11,7 +11,12 @@ http://localhost:8384/
 - [Is putting a Git workspace in a synced folder really a good idea? (forum.syncthing.net)](https://forum.syncthing.net/t/is-putting-a-git-workspace-in-a-synced-folder-really-a-good-idea/1774)
     - I do it and have had no problems but YYMV.
 
-firewalld:
+## Ideas
+
+- Archive host: 
+    - [ ] Use [external file versioning](https://docs.syncthing.net/users/versioning.html#external-file-versioning) to add file to [.stignore](https://docs.syncthing.net/users/ignoring.html)
+    - Get archive host to ignore deletes
+## firewalld
 
 ```shell
 sudo firewall-cmd --zone=dmz --add-service=syncthing --permanent
