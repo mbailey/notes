@@ -2,6 +2,7 @@
 
 http://localhost:8384/
 
+
 - [Syncthing (syncthing.net)](https://syncthing.net/)
 
 > Syncthing is a **continuous file synchronization** program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet.
@@ -82,6 +83,6 @@ subcommand. This should be done while Syncthing is not running.
     # Restart Syncthing as usual.
 
 
-Ignore FIles
+## Ignore Files with `.stignore`
 
-`.stignore` : [Ignoring Files (docs.syncthing.net)](https://docs.syncthing.net/users/ignoring.html)
+- [Ignoring Files — Syncthing documentation (docs.syncthing.net)](https://docs.syncthing.net/users/ignoring.html)

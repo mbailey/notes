@@ -7,10 +7,13 @@
 
 ## Install
 
-
-> `sudo yum install -y https://dl.grafana.com/enterprise/release/grafana-enterprise-9.4.7-1.x86_64.rpm`
+```shell
+sudo yum install -y https://dl.grafana.com/enterprise/release/grafana-enterprise-9.4.7-1.x86_64.rpm
+systemctl enable --now grafana-server
+```
 >
 >- [Download Grafana  (grafana.com)](https://grafana.com/grafana/download)
+
 
 **fedora-36**
 
@@ -43,6 +46,10 @@ sudo firewall-cmd --add-port=3000/tcp --permanent
 sudo firewall-cmd --reload
 ```
 
+## Dashboards
+
+- [Node Exporter Full  Grafana Labs (grafana.com)](https://grafana.com/grafana/dashboards/1860-node-exporter-full/)
+- 
 ## Plugins
 
 ```shell

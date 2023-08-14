@@ -10,10 +10,10 @@ Create pool in homedir:
 
 ```shell
 POOL=${HOME}/.local/share/libvirt/images/
-mkdir -p $POOL
+mkdir -p "$POOL"
 virsh pool-destroy default
 virsh pool-undefine default
-virsh pool-define-as --name default --type dir --target $POOL
+virsh pool-define-as --name default --type dir --target "$POOL"
 virsh pool-start default
 virsh pool-autostart default
 virsh pool-list 
@@ -24,14 +24,26 @@ sudo systemctl restart libvirtd
 
 Grant access:
 
+fedora:
 ```
-[m@x2 bash-my-kvm]$ sudo setfacl -m u:qemu:rx /home/m/.local /home/m/.local/share
+[m@x2 bash-my-kvm]$ sudo setfacl -m u:qemu:rx /home/m /home/m/.local /home/m/.local/share
 ```
+
+ubuntu:
+
+
+```shell
+$ sudo setfacl -m u:libvirt-qemu:rx /home/m /home/m/.local /home/m/.local/share
+$ sudo systemctl restart libvirtd
+```
+
+
+Restart libvirtfd
 
 Check settings:
 
 ```shell
-[m@x2 bash-my-kvm]$ sudo getfacl -e /home/m
+[m@x2 bash-my-kvm]$ sudo getfacl -e /home/m/.local /home/m/.local/share
 getfacl: Removing leading '/' from absolute path names
 # file: home/m
 # owner: m

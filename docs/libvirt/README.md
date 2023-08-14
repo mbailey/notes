@@ -4,6 +4,9 @@ Virtualization library for linux.
 
 - [Use libvirt as non root user](use-libvirt-as-non-root-user.md)
 - [Change default location for libvirt-images](change-default-location-for-libvirt-images.md)
+
+```virsh autostart prometheus``` #  start guest on boot
+
 ## bash-my-kvm
 
 Create KVM guests in seconds based on:
@@ -15,4 +18,6 @@ Create KVM guests in seconds based on:
 - [mbailey/bash-my-kvm (github.com)](https://github.com/mbailey/bash-my-kvm)
 ## See also
 
+- [fedora-cloud](../../../inbox/fedora-cloud.md)
+  
 - [mbailey/bash-my-kvm (github.com)](https://github.com/mbailey/bash-my-kvm)

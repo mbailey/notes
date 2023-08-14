@@ -18,10 +18,13 @@ commandline versions as well as libraries for various languages.
 
 [github issue#16](https://github.com/jmespath/jp/issues/16#issuecomment-456571273)
 
-
 ## Install
 
 ```shell
 sudo wget https://github.com/jmespath/jp/releases/latest/download/jp-linux-amd64 \
   -O /usr/local/bin/jp  && sudo chmod +x /usr/local/bin/jp
 ```
+
+## Syntax
+
+**Negation**:  `"Instances[?!(Tags[?Key=='team'])]"`

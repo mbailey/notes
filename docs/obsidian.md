@@ -12,7 +12,9 @@
 
 ## Features
 
-- updates links when you move/rename files
+- Updates links when you move/rename files
+- Extract current selection
+- Extract this Heading
 
 ## Install
 
