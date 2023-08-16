@@ -19,8 +19,33 @@ TBA
 
 ## Git clone with submodules
 
-    git clone --recurse-submodules https://github.com/chaconinc/MainProject
-    git submodule update --init --recursive
+Still not super clear on this...
+
+Make sure the parent repo knows that its submodule now tracks a branch:
+
+```shell
+cd /path/to/your/parent/repo
+git config -f .gitmodules submodule.<path>.branch <branch>
+```
+
+Make sure your submodule is actually at the latest of that branch:
+
+```shell
+cd path/to/your/submodule
+git checkout -b branch --track origin/branch
+  # if the master branch already exist:
+  git branch -u origin/master master
+```
+
+- [How can I specify a branchtag when adding a Git submodule - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/1777854/how-can-i-specify-a-branch-tag-when-adding-a-git-submodule/18799234#18799234)
+
+
+
+```shell
+git clone --recurse-submodules https://github.com/chaconinc/MainProject
+git submodule update --init --recursive
+```
+- [Set branch for all Git Submodules - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/27927023/set-branch-for-all-git-submodules/55885186#55885186)
 
 ## Update submodules in repo:
 

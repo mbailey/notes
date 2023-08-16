@@ -2,6 +2,10 @@
 
 - [yubikey-slot-disable](../../work/git/vms-docs/INBOX/yubikey-slot-disable.md) yubisneeze
 
+- [PassKeys](https://www.nitrokey.com/blog/2022/fido2-webauthn-passkeys-2022-and-2023)
+- [Resident FIDO2 SSH Keys](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)
+- [Signing git commits with SSH Keys](https://calebhearth.com/sign-git-with-ssh)
+
 
 ![](assets/DB1D2A62-5707-4AD1-8ADA-BCA642E4110D.jpeg)
 
