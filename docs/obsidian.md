@@ -5,10 +5,13 @@
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
+## Questions
 
-## TODO
+## Tasks
 
-- [ ] Review top ten plugins
+- Review top ten plugins
+- Make clicking a link in my second brain open Slack
+- Open "sub-vaults" (e.g. "work" to not show personal at work)
 
 ## Features
 
