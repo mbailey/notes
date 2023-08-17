@@ -5,7 +5,7 @@ A bookmarklet to simplify extracting Markdown links from ServiceNow tickets.
 ## Bookmarklet Code:
 
 ```javascript
-javascript:(function(){var taskNumber=document.title.split('|')[0].trim();var urlParams=new URLSearchParams(window.location.href.split('?')[2]);var sys_id=urlParams.get('sys_id');var baseUrl=window.location.origin;var shortUrl=baseUrl+'/nav_to.do?uri=sc_task.do?sys_id='+sys_id;if(window.location.href.includes('service-now.com')){prompt('Markdown Link:', '['+taskNumber+']('+shortUrl+')');}else{alert('Not a ServiceNow ticket');}})();
+javascript:(function(){var taskNumber=document.title.split('|')[0].trim();var decodedUrl=decodeURIComponent(window.location.href);var sys_id_match=decodedUrl.match(/sys_id=([a-f0-9]+)/);var sys_id=sys_id_match ? sys_id_match[1] : '';var baseUrl=window.location.origin;var type=decodedUrl.includes('/sc_task.do') ? 'sc_task.do' : 'incident.do';var shortUrl=baseUrl+'/nav_to.do?uri='+type+'?sys_id='+sys_id;if(decodedUrl.includes('service-now.com')){prompt('Markdown Link:', '['+taskNumber+']('+shortUrl+')');}else{alert('Not a ServiceNow ticket');}})();
 ```
 
 ## Usage:
