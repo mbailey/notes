@@ -15,7 +15,9 @@ done to make using them easier.
 
 ## List submodules
 
-TBA
+```shell
+git submodule status
+```
 
 ## Git clone with submodules
 
