@@ -157,7 +157,8 @@ Two consecutive asterisks ("**") in patterns matched against full pathname may h
 
 ## Checkout Remote Branch
 
-    git checkout --track origin/gh-pages
+    git fetch --all
+    git switch origin/gh-pages # creates branch if missing and sets up tracking for git pull/push
 
 ## Diff two arbitrary files using git diff (e.g. for gpg files)
 
