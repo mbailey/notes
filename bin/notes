@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# notes - search $NOTES_DIR for files and open in $EDITOR
+
+notes() {
+
+
+    local selected_file
+    local initial_query="$1"
+
+    # Set default value for NOTES_DIR
+    cd "${NOTES_DIR:=$HOME/Notes}"
+
+    # Use fd to find files (excluding ignored files)
+    selected_file=$(fd --type f | fzf --query "$initial_query" --preview-window=hidden)
+
+    if [[ -n "$selected_file" ]]; then
+        local editor="${VISUAL:-${EDITOR:-vim}}"
+        # Open the selected file in the editor
+        "$editor" "$selected_file"
+    fi
+}
+
+notes "$@"
