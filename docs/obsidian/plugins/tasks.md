@@ -1,3 +1,7 @@
+---
+alias: Obsidian Tasks Plugin
+---
+
 # obsidian tasks plugin
 
 - [Quick Reference (obsidian-tasks-group.github.io)](https://obsidian-tasks-group.github.io/obsidian-tasks/quick-reference/)
