@@ -1,5 +1,18 @@
 ## git ignore
 
+Personal:
+```
+.git/info/exclude
+```
+
+Global:
+```bash
+$ touch ~/.gitignore
+$ git config --global core.excludesFile ~/.gitignore
+```
+
+
+List ignored file under current dir: `git clean -n -X`
 ### Check which rule caused git to ignore
 
     git check-ignore -v path/to/check
@@ -60,15 +73,3 @@ Two consecutive asterisks ("**") in patterns matched against full pathname may h
 •   Other consecutive asterisks are considered regular asterisks and will match according to the previous rules.
 
 
-## git ignore
-
-Personal:
-```
-.git/info/exclude
-```
-
-Global:
-```bash
-$ touch ~/.gitignore
-$ git config --global core.excludesFile ~/.gitignore
-```
