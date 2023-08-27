@@ -25,3 +25,16 @@ Tell Git to decrypt GPG files before diff'ing them (use `--local` for current re
 $ git config --global diff.gpg.textconv "gpg --no-tty --decrypt"
 $
 ```
+
+
+Don't ask me to run `git push --set-upstream origin`.  Rather than ask me where to push new branches:
+
+```shell
+git config --global push.default current
+```
+
+## Disable gpg signing for current repo
+
+```
+git config --local commit.gpgsign false
+```
