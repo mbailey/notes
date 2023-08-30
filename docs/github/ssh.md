@@ -22,6 +22,36 @@ Host github-work-account
   IdentitiesOnly yes
 ```
 
+## Use specific key from ssh-agent
+
+- [serverfault.com](https://serverfault.com/a/599565)
+
+I want to interact with GitHub.com from some servers I SSH to.
+I use special SSH keys for GitHub.com auth.
+This trick lets me request a different key for my SSH Agent to forward.
+
+SSH to remote host with AgentForwarding enabled:
+
+    ssh -A example.com
+
+Copy SSH public key to remote server and update ~/.ssh/config
+to point at it:
+
+    scp ${HOME}/.ssh/id-github-mike.pub somehost:.ssh/id-github-mike.pub
+
+Remote servers have same SSH client config as local:
+
+    Host github.com
+      User git
+      IdentityFile ~/.ssh/id-github-mike
+      IdentitiesOnly yes
+
+Test SSH access to github from remote host:
+
+    $ ssh git@github.com
+    PTY allocation request failed on channel 0
+    Hi mike! You've successfully authenticated, but GitHub does not provide shell access.
+    Connection to github.com closed.
 ## Troubleshooting
 
 ### Which account is this SSH public key used for?

@@ -2,6 +2,7 @@
 
 http://localhost:8384/
 
+- [macos](macos.md)
 
 - [Syncthing (syncthing.net)](https://syncthing.net/)
 
