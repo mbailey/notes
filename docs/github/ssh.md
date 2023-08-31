@@ -22,6 +22,21 @@ Host github-work-account
   IdentitiesOnly yes
 ```
 
+## Troubleshooting
+
+### Which account is this SSH public key used for?
+
+The simplest and quickest way to verify which GitHub account a key is setup on is to use it to connect:
+
+```shell
+$ ssh -i ~/.ssh/id-github-mbailey git@github.com
+Enter passphrase for key 'id-github-mbailey': 
+PTY allocation request failed on channel 0
+Hi mbailey! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+```
+
+
 ## Use specific key from ssh-agent
 
 - [serverfault.com](https://serverfault.com/a/599565)
@@ -52,20 +67,6 @@ Test SSH access to github from remote host:
     PTY allocation request failed on channel 0
     Hi mike! You've successfully authenticated, but GitHub does not provide shell access.
     Connection to github.com closed.
-## Troubleshooting
-
-### Which account is this SSH public key used for?
-
-The simplest and quickest way to verify which GitHub account a key is setup on is to use it to connect:
-
-```shell
-$ ssh -i ~/.ssh/id-github-mbailey git@github.com
-Enter passphrase for key 'id-github-mbailey': 
-PTY allocation request failed on channel 0
-Hi mbailey! You've successfully authenticated, but GitHub does not provide shell access.
-Connection to github.com closed.
-```
-
 
 ### Reviewing your SSH keys
 
