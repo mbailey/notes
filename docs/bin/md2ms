@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+# md2ms - Convert Markdown to Microsoft Teams/Outlook HTML
+#
+# pip install pyperclip pypandoc
+
+import sys
+import pyperclip
+import pypandoc
+
+def main(md_file):
+    output = pypandoc.convert_file(md_file, to='html')
+    pyperclip.copy(output)
+    print("Copied selection to clipboard as html")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        main(sys.argv[1])
+    else:
+        print("Usage: md2ms.py <MarkdownFilePath>")
+
