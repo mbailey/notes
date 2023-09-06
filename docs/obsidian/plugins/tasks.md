@@ -12,7 +12,7 @@ Combining Filters:
 ```
 ```tasks
 not done
-(path includes shopping/bunnings) OR (tags includes #bunnings)
+(path includes shopping/hardware) OR (tags includes #hardware)
 ```
 
 ## Naming of Things

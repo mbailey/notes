@@ -3,6 +3,7 @@
 - [git submodules](git/git-submodules.md)
 - [branches](git/branches.md)
 - [config](git/config.md)
+- [stash](stash.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
