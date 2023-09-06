@@ -34,6 +34,7 @@ javascript:(function () {
 })();
 ```
 
+
 ## Usage:
 
 1. Create a new bookmark in your browser.
