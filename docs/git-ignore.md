@@ -1,6 +1,17 @@
 ## git ignore
 
-Personal:
+Tell Git to ignore changes to a file locally without affecting the repository or other collaborators:
+```shell
+git update-index --assume-unchanged path/to/file
+```
+
+Undo with:
+```shell
+git update-index --no-assume-unchanged path/to/file
+```
+
+
+Personal(not checked into repo):
 ```
 .git/info/exclude
 ```
