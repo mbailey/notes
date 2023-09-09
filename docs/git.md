@@ -30,6 +30,15 @@ git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-ze
 
 [config](git/config.md)
 
+
+## Commands
+
+
+**List files in change**: git show --name-only --pretty=format:
+
+
+
+
 ## Untracked files
 
 **List modification times**:
