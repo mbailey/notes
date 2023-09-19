@@ -15,7 +15,9 @@ mkfs.ext4 /dev/ubuntu-vg/syncthing-lv
 
 ## use all disk
 
-lvcreate -l 100%FREE -n nvme0 cl
+```shell
+lvextend -l +100%FREE /dev/fedora/home --resizefs
+```
 
 
 ## resize

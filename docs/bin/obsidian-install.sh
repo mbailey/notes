@@ -6,7 +6,6 @@
 
 set -euo pipefail
 
-icon_url="https://cdn.discordapp.com/icons/686053708261228577/1361e62fed2fee55c7885103c864e2a8.png"
 dl_url=$(
   curl --silent https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest  \
 	| grep "browser_download_url.*AppImage" | tail -n 1 | cut -d '"' -f 4 )
@@ -20,13 +19,10 @@ if [[ -z "$dl_url" ]]; then
 fi
 
 curl --silent --location --output Obsidian.AppImage "$dl_url"
-curl --silent --location --output obsidian.png "$icon_url"
 
 sudo mkdir --parents /opt/obsidian/
 sudo mv Obsidian.AppImage /opt/obsidian
 sudo chmod u+x /opt/obsidian/Obsidian.AppImage
-sudo mv obsidian.png /opt/obsidian
-sudo ln -sf /opt/obsidian/obsidian.png /usr/share/pixmaps
 
 echo "[Desktop Entry]
 Type=Application
@@ -36,4 +32,15 @@ Icon=obsidian
 Terminal=false" > ~/.local/share/applications/obsidian.desktop
 
 update-desktop-database ~/.local/share/applications
+
+# Setup app image - broken
+# tempdir=$(mktemp -d)
+# cd $tempdir
+# /opt/obsidian/Obsidian.AppImage --appimage-extract
+# rsync -av $tempdir/squashfs-root/usr/share/icons/hicolor/ /home/m/.local/share/icons/hicolor/
+# cd ~/.local/share/icons/hicolor/
+# touch index.theme
+# echo -e "[Icon Theme]\nName=hicolor" >> index.theme
+# gtk-update-icon-cache ~/.local/share/icons/hicolor/
+
 echo "install ok"

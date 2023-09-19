@@ -1,6 +1,10 @@
 ## git ignore
 
+
+## Ignore local changes
+
 Tell Git to ignore changes to a file locally without affecting the repository or other collaborators:
+
 ```shell
 git update-index --assume-unchanged path/to/file
 ```
@@ -10,20 +14,20 @@ Undo with:
 git update-index --no-assume-unchanged path/to/file
 ```
 
+## Global Ignore file
 
-Personal(not checked into repo):
-```
-.git/info/exclude
-```
-
-Global:
 ```bash
 $ touch ~/.gitignore
 $ git config --global core.excludesFile ~/.gitignore
 ```
 
+## List ignored files under current dir
 
-List ignored file under current dir: `git clean -n -X`
+```
+git clean -n -X
+```
+
+
 ### Check which rule caused git to ignore
 
     git check-ignore -v path/to/check
