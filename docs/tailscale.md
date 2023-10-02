@@ -34,7 +34,7 @@ against compromise by requiring access to it before you
 can even try to guess (or use stolen) credentials or observe
 traffic that is already encrypted at application layer.
 
-`/etc/firewalld/zones/truted.xml`
+`/etc/firewalld/zones/trusted.xml`
 
 ```txt
 <?xml version="1.0" encoding="utf-8"?>

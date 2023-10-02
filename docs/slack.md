@@ -1,5 +1,8 @@
 # Slack
 
+
+- [Slack CLI](https://api.slack.com/automation/quickstart)
+
 ## Questions
 
 - [ ] Work out how to update slack staus with iOS Automations and Shortcuts
