@@ -9,6 +9,12 @@ Tell Git to ignore changes to a file locally without affecting the repository or
 git update-index --assume-unchanged path/to/file
 ```
 
+List affected files with:
+
+```shell
+git ls-files -v | grep '^h'
+```
+
 Undo with:
 ```shell
 git update-index --no-assume-unchanged path/to/file

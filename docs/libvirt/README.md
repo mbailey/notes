@@ -18,6 +18,6 @@ Create KVM guests in seconds based on:
 - [mbailey/bash-my-kvm (github.com)](https://github.com/mbailey/bash-my-kvm)
 ## See also
 
-- [fedora-cloud](../../../inbox/fedora-cloud.md)
+- [fedora-cloud](../../../personal/inbox/fedora-cloud.md)
   
 - [mbailey/bash-my-kvm (github.com)](https://github.com/mbailey/bash-my-kvm)

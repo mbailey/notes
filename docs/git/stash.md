@@ -14,6 +14,12 @@ create
 push
 ```
 
+## Back out of a merge
+
+```shell
+git reset --merge
+```
+
 ## Show
 
 git stash show -p

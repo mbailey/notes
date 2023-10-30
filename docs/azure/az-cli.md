@@ -42,6 +42,9 @@ az group create -l global -n MyResourceGroup
 - `upgrade`
 - `exit`
 
+
+- Get tenant id: `az account show --query tenantId -o tsv`
+
 ## REST API commands (az rest)
 
 If generic update parameters and az resource don't meet your needs, you can use the az rest command to call the REST API. The command automatically authenticates using the logged-in credential and sets header Content-Type: application/json. For more information, see Azure REST API reference.
@@ -227,13 +230,10 @@ az account
 
 ## AZ CLI Autocomplete
 
-Load bash completion:
 
-`source "${HOME}/az.completion"` # add to ~/.bashrc
+Save this to "${HOME}/.az-completion":
 
-Save this to "${HOME}/az.completion":
-
-```python
+```bash
 _python_argcomplete() {
     local IFS=$'\013'
     local SUPPRESS_SPACE=0
@@ -255,4 +255,12 @@ _python_argcomplete() {
     fi
 }
 complete -o nospace -o default -o bashdefault -F _python_argcomplete "az"
+```
+
+Source it from your bashrc:
+
+```
+export BASH_COMPLETION_USER_DIR="${HOME}/.local/share/bash-completion"
+# mkdir -p "$BASH_COMPLETION_USER_DIR="
+source "${BASH_COMPLETION_USER_DIR}/completions/az-completions"
 ```

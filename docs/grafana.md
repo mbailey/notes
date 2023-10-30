@@ -1,7 +1,7 @@
 # Grafana
 
-- [grafana-aws](../../inbox/grafana-aws.md)
-- [grafana-azure](../../inbox/grafana-azure.md)
+- [grafana-aws](../../personal/inbox/grafana-aws.md)
+- [grafana-azure](../../personal/inbox/grafana-azure.md)
 
 - [CVE-2022-21703 cross-origin request forgery against Grafana  jub0bs.com (jub0bs.com)](https://jub0bs.com/posts/2022-02-08-cve-2022-21703-writeup/)
 
