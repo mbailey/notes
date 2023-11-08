@@ -13,13 +13,12 @@ Things I install on my fedora workstations.
     - [slack](#slack)
     - [syncthing](#syncthing)
     - [vscode](#vscode)
-    - [Go](#go)
 
 ## [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-    wget -O awscliv2.zip https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
-    unzip awscliv2.zip
-    sudo ./aws/install
+```shell
+sudo dnf install awscli2
+```
 
 ## [bash-my-aws](https://bash-my-aws.org/#installation)
 
@@ -97,15 +96,6 @@ or:
 <!--
 ---
 **Maybe later**
-
-## Go
-
-Quick and dirty - eyeball and change where appropriate!
-
-    wget https://go.dev/dl/go1.19.linux-amd64.tar.gz
-    sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
-    echo 'GOPATH=/home/m/go' >> ~/.bashrc
-
 
 ## [dropbox](https://www.dropbox.com/install-linux)
 
