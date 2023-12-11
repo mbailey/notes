@@ -4,6 +4,7 @@
 - [branches](git/branches.md)
 - [config](git/config.md)
 - [stash](git/stash.md)
+- [diff](git/diff.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
@@ -32,6 +33,7 @@ git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-ze
 
 
 ## Commands
+
 
 
 **List files in change**: git show --name-only --pretty=format:

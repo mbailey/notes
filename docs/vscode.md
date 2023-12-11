@@ -90,6 +90,13 @@ My preferred settings:
 
 ### Terminal settings
 
+
+### Tab Key Moves Focus
+
+[This breaks shell completion in terminal if it's enabled](https://stackoverflow.com/questions/77167764/why-is-vs-code-using-the-tab-key-to-move-focus-from-the-integrated-terminal-inst)
+
+**CTRL-m**: Toggle Tab Key Moves Focus
+
 #### Terminal › Integrated: Allow Chords
 
 - Make things like `CTRL-L`` work.
@@ -183,6 +190,9 @@ Enable `Source Control Repositories` from the `...` menu next to `SOURCE CONTROL
 
 ![](assets/vscode-enable-source-control-repositories.png)
 
+### Configure to show number of uncommitted changes in each repo
+
+![](assets/Pasted%20image%2020231113153202.png)
 
 ### Copy GitHub URL for document
 

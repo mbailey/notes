@@ -14,6 +14,12 @@ create
 push
 ```
 
+## List with dates
+
+```shell
+git stash list --pretty=format:"%C(auto)%h %<(15)%gd %<(10)%cr %s"
+```
+
 ## Back out of a merge
 
 ```shell

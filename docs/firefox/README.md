@@ -2,7 +2,7 @@
 
 Cross platform open source web browser
 
-- [bookmarklet-service-now-ticket-markdown-link](bookmarklet-service-now-ticket-markdown-link.md)
+- [bookmarklet-service-now-ticket-markdown-link](../service-now/bookmarklet-service-now-ticket-markdown-link.md)
 
 ## General
 

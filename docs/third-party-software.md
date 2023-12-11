@@ -3,17 +3,19 @@
 Things I install on my fedora workstations.
 
 - [Third Party Software](#third-party-software)
-    - [awscli](#awscli)
-    - [bash-my-aws](#bash-my-aws)
+    - firefox
+        - [firefox plugins](#firefox-plugins)
     - [chrome](#chrome)
-    - [darkman](darkman.md)
-    - [dbeaver-ce](#dbeaver-ce)
-    - [firefox plugins](#firefox-plugins)
     - [obsidian](#obsidian)
     - [slack](#slack)
-    - [syncthing](#syncthing)
     - [vscode](#vscode)
 
+    - [awscli](#awscli)
+    - [bash-my-aws](#bash-my-aws)
+    - [darkman](darkman.md)
+    - [syncthing](#syncthing)
+
+    - [dbeaver-ce](#dbeaver-ce)
 ## [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ```shell

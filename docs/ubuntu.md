@@ -8,6 +8,12 @@
 apt update && apt upgrade -y
 ```
 
+## Choose an editor
+
+```bash
+sudo update-alternatives --config editor
+```
+
 ## Install
 
 ### Create install USB
