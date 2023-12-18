@@ -1,4 +1,4 @@
-## git ignore
+# git ignore
 
 
 ## Ignore local changes

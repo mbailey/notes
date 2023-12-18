@@ -3,7 +3,7 @@
 - [git submodules](git/git-submodules.md)
 - [branches](git/branches.md)
 - [config](git/config.md)
-- [git-ignore](../git-ignore.md)
+- [git-ignore](../../git/git-ignore.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
@@ -93,7 +93,7 @@ git update-index --assume-unchanged <file-list>
 
     git checkout c5f567 -- file1/to/restore file2/to/restore
 
-[git-ignore](git-ignore.md)
+[git-ignore](../../git/git-ignore.md)
 
 
 ## Checkout Remote Branch
@@ -129,7 +129,7 @@ git update-index --assume-unchanged <file-list>
 
 - [Listing and deleting Git commits that are under no branch (dangling) - Stack Overflow](https://stackoverflow.com/questions/3765234/listing-and-deleting-git-commits-that-are-under-no-branch-dangling)
 
-[git-ignore](git-ignore.md)
+[git-ignore](../../git/git-ignore.md)
 ## shallow clone
 
 Less files and no .git dir:
