@@ -1,6 +1,7 @@
 # GitHub
 
 - [SSH](ssh.md)
+- [copilot-voice](copilot-voice.md)
 
 - [Find your GitHub user id](http://caius.github.io/github_id/#mbailey) (Mine is #4409 mbailey)
 
