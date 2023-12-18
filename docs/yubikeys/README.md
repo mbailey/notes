@@ -1,5 +1,6 @@
 # yubikey
 
+- [managing-multiple-yubikeys](managing-multiple-yubikeys.md)
 - [yubikey-slot-disable](../../../work/git/vms-docs/INBOX/yubikey-slot-disable.md) yubisneeze
 - [ssh](ssh.md)
 - [PassKeys](https://www.nitrokey.com/blog/2022/fido2-webauthn-passkeys-2022-and-2023)
