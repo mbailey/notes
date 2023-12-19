@@ -2,7 +2,7 @@
 
 Maintaining privacy boundaries when working on a client managed devices.
 
-![Not a private kitchen](../../public/docs/assets/tokyo-tepanyaki.png)
+![Not a private kitchen](assets/tokyo-tepanyaki.png)
 
 ## Overview
 
@@ -82,7 +82,7 @@ Working on a client managed device can impose constraints on the tools and proce
 
 Building client solutions in a 'private kitchen' environment with all the tools, processes, documentation and services I need is faster than doing it all on a client managed device.
 
-![](../../public/docs/assets/ship-in-a-bottle.png)
+![](assets/ship-in-a-bottle.png)
 
 # Building my Private Kitchen
 
