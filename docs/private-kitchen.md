@@ -84,7 +84,7 @@ Building client solutions in a 'private kitchen' environment with all the tools,
 
 ![](assets/ship-in-a-bottle.png)
 
-# Building my Private Kitchen
+### Building my Private Kitchen
 
 There are a number of problems to solve. I'm still working through them.
 
