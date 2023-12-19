@@ -9,7 +9,8 @@ SSH keys in a GitHub account are long lived and work across all Organizations th
 This means that anyone obtaining access to an SSH key for your Github account may possibly be able to access repos for more than one Org.
 
 Using an SSH key on a client managed device could grant access to other clients repos.
-### Suggested Mitigations
+
+## Suggested Mitigation Options
 
 1. **Separate GitHub user for each Org**: Reduces blast radius from compromise. 100% mitigation.
 3. **Different SSH keys (same user) for each Org**: This will only protect Orgs that require SSO.
