@@ -64,8 +64,8 @@ If my SSH key is on my yubikey, I can trust that the client device is not commit
 
 ## Private Kitchen Pattern
 
-**Private Kitchen**: My trusted devices
-**Front of House**: Client managed devices
+**Private Kitchen**: My trusted devices  
+**Front of House**: Client managed devices  
 
 Despite the revelations in Anthony Bourdain's book "[Kitchen Confidential: Adventures in the Culinary Underbelly](https://en.wikipedia.org/wiki/Kitchen_Confidential_(book))", it's a common pattern for restaurants to prepare food in a private kitchen you cannot see or enter. Exceptions to this pattern are notable and often a novelty.
 
@@ -84,9 +84,10 @@ Building client solutions in a 'private kitchen' environment with all the tools,
 
 ![](assets/ship-in-a-bottle.png)
 
-### Building my Private Kitchen
+### Private Kitchen Patterns
 
 There are a number of problems to solve. I'm still working through them.
 
-1. **Waiters**: How to transfer data between my "private kitchen" device and the client managed device. Notes, code, commands, error messages.
-2. **Dev Environment**: I need access to the same services the client wants me to deploy my solution to (e.g. AWS, Azure)
+1. **Dev Services**: I need access to the same services the client wants me to deploy my solution to (e.g. AWS, Azure)
+2. **Waiters**: How to transfer data between my "private kitchen" device and the client managed device. Notes, code, commands, error messages.
+3. **Wrap client git repo**: Develop in a private git repo that has the client repo checked out to a subdirectory.
