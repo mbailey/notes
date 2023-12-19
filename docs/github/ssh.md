@@ -3,6 +3,7 @@
 - GitHub accepts Git connections via SSH and HTTPS.
 - SSH keys are used to identify which GitHub user is connecting.
     - [Multi-account Git SSH access](#multi-account-git-ssh-access) requires special setup.
+- [Managing GitHub SSH key cross-org boundaries](managing-github-ssh-key-cross-org-boundaries.md)
 
 ## Multi-account Git SSH Access
 
@@ -21,6 +22,9 @@ Host github-work-account
   IdentityFile ~/.ssh/id-github-work
   IdentitiesOnly yes
 ```
+
+
+
 
 ## Troubleshooting
 

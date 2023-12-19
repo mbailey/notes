@@ -1,5 +1,13 @@
 # Git branches
 
+Checkout a remote branch:
+
+```shell
+git fetch origin
+git checkout BRANCH_NAME 
+```
+
+
 **Delete remote branch**:
 
 ```shell

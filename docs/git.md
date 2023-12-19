@@ -5,6 +5,7 @@
 - [config](git/config.md)
 - [stash](git/stash.md)
 - [diff](git/diff.md)
+- [Authentication using Device Flow](git/authentication-using-device-flow.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)

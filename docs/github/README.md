@@ -1,6 +1,8 @@
 # GitHub
 
+- [GitHub CLI](cli.md)
 - [SSH](ssh.md)
+    - [managing-github-ssh-key-cross-org-boundaries](managing-github-ssh-key-cross-org-boundaries.md)
 - [copilot-voice](copilot-voice.md)
 
 - [Find your GitHub user id](http://caius.github.io/github_id/#mbailey) (Mine is #4409 mbailey)

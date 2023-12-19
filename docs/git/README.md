@@ -4,6 +4,7 @@
 - [branches](git/branches.md)
 - [config](git/config.md)
 - [git-ignore](../../git/git-ignore.md)
+- [Git authentication using device flow](authentication-using-device-flow.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
