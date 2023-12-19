@@ -27,4 +27,20 @@ Import a key from github:
 
 - [Creating GPG Keys  Fedora Docs (docs.fedoraproject.org)](https://docs.fedoraproject.org/en-US/quick-docs/create-gpg-keys/)
 
+```
+gpg --full-generate-key
+```
 
+## Delete a key
+
+Delete Public:
+```
+gpg --list-keys
+gpg --delete-keys [key-id]
+```
+
+Delete Secret/Private:
+```
+gpg --list-secret-keys
+gpg --delete-secret-keys [key-id]
+```
