@@ -1,6 +1,5 @@
 # Markdown Links
 
-
 ## Questions
 
 - What is the correct format for targets?
@@ -10,12 +9,4 @@
 
 ## Link Checking
 
-[linkcheckmd](https://pypi.org/project/linkcheckmd/)- Linkchecker for Markdown-based static generated sites
-
-Install:
-
-    python -m pip install linkcheckmd
-
-Run:
-
-    linkcheckMarkdown
+- [markdown-link-check](markdown-link-check.md): CLI link checker (NPM)
