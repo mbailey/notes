@@ -1,8 +1,11 @@
+---
+alias: Markdown
+---
 # Markdown
 
 - [Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 
-
+- [Markdown Links](links.md)
 
 ## Editing
 
@@ -23,17 +26,6 @@
 
 ### Lint
 
-#### Link checking
-
-[linkcheckmd](https://pypi.org/project/linkcheckmd/)- Linkchecker for Markdown-based static generated sites
-
-Install:
-
-    python -m pip install linkcheckmd
-
-Run:
-
-    linkcheckMarkdown
 
 #### Python-Markdown
 
