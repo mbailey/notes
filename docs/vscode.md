@@ -7,7 +7,9 @@
 - [Extensions](vscode/vscode-extensions.md)
 - [VSCode Remote](vscode/vscode-remote.md)
 
-## Keyboard Shortcuts
+## Keyboard Shortcuts 
+
+### Default
 
 ALT-Z: toggle line wrap
 Ctrl-K K: toggle light/dark (my setting)
@@ -15,6 +17,10 @@ Ctrl-K Z: Zen mode (focus on the code) - click and drag edges
 Ctrl-ALT--: Go Back
 CTRL-ALT up/down: Multiple cursors
 ALT-click: put cursors in multiple spots
+
+### Custom
+
+*Disable* **Ctrl + F**: Vim: editorFocus... # It gets in the way of standard Find
 
 ## Activity Bar
 
@@ -90,12 +96,22 @@ My preferred settings:
 
 ### Terminal settings
 
+### Keyboard Shortcuts - Default
 
-### Tab Key Moves Focus
+**CTRL-m**: View: Toggle Maximised Panel
+
+### Keyboard Shortcuts - Custom
+
+
+**CTRL + l**: Terminal: Clear # Normal shell behaviour
+
+### Annoyance: Tab Key Moves Focus
 
 [This breaks shell completion in terminal if it's enabled](https://stackoverflow.com/questions/77167764/why-is-vs-code-using-the-tab-key-to-move-focus-from-the-integrated-terminal-inst)
 
-**CTRL-m**: Toggle Tab Key Moves Focus
+![](assets/Pasted%20image%2020231222090143.png)
+
+
 
 #### Terminal › Integrated: Allow Chords
 

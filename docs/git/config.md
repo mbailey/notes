@@ -38,3 +38,12 @@ git config --global push.default current
 ```
 git config --local commit.gpgsign false
 ```
+
+
+## Override $EDITOR for commits
+
+Don't use `code` for commits.
+
+```
+git config --global core.editor "vim"
+```

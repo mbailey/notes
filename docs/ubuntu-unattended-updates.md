@@ -1,5 +1,3 @@
-
-
 # Ubuntu Unattended Updates
 
 Unattended updates

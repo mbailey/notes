@@ -4,7 +4,7 @@ Encrypt your tokens and avoid entering your github password onto less-trusted de
 
 - [Git - Credential Storage (git-scm.com)](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
 
-![](assets/Pasted%20image%2020231219170426.png)
+    ![](assets/Pasted%20image%2020231219170426.png)
 ## Install Git Credential Manager
 
 ### Debian

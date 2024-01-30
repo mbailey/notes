@@ -1,10 +1,12 @@
 # Markdown
 
 - [Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
-- [markdown code blocks](markdown%20code%20blocks.md) 
+
+
+
 ## Editing
 
-- [obsidian](obsidian.md): Cross Platform, WYSIWYG, extensive plugins (tables, calendar, etc)
+- [Obsidian](obsidian/README.md): Cross Platform, WYSIWYG, extensive plugins (tables, calendar, etc)
 - [vscode](vscode.md): Cross Platform, Live Preview, Syntax Highlighting, Linting, Plugins
 - vim: Cross Platform, Terminal, Syntax Highlighting, Linting
 - [GitHub.com](https://github.com): Web App
@@ -16,7 +18,8 @@
 
 ## Formatting
 
-- Headings may be folded in some editors/viewers ([obsidian](obsidian.md))
+- [Markdown code blocks](markdown%20code%20blocks.md) 
+- Headings may be folded in some editors/viewers ([README](obsidian/README.md))
 
 ### Lint
 
@@ -31,7 +34,6 @@ Install:
 Run:
 
     linkcheckMarkdown
-
 
 #### Python-Markdown
 

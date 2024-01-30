@@ -12,6 +12,7 @@
 **`Ctrl-G`**: Search
 **`Ctrl-F`**: Specific Conversation
 
+**All your posts on a certain day**: `from:@me on:2024-01-08`
 
 ## Settings
 

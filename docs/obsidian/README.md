@@ -1,3 +1,6 @@
+---
+alias: Obsidian
+---
 # Obsidian
 
 - https://forum.obsidian.md/t/support-gfm-style-kebab-case-heading-slug-anchor-targets/30350 GFM links for headings
@@ -5,6 +8,7 @@
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
+- [Settings that may break quick switcher and link completer](obsidian-settings-that-may-break-quick-switcher-and-link-completer.md)
 ## Questions
 
 ## Tasks
@@ -63,9 +67,7 @@ Tools for Sync'ing:
 linux  <--> linux : Obsidian Sync or SyncThing, Git
 iphone <--> linux : Obsidian Sync
 
-## Enabling "Show unsupported files" broke my link autocomplete!
 
-![](assets/Pasted%20image%2020230227122629.png)
 
 ## Templates
 
