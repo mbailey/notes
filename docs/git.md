@@ -6,6 +6,7 @@
 - [stash](git/stash.md)
 - [diff](git/diff.md)
 - [Authentication using Device Flow](git/authentication-using-device-flow.md)
+- [pre-commit (pre-commit.com)](https://pre-commit.com/)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
 - [Git - Community](https://git-scm.com/community)
