@@ -1,5 +1,13 @@
 # vscode-extensions
 
+## Extensions
+
+Install:
+
+    code --install-extension vscodevim.vim
+
+### List
+
 ```
 $ code --list-extensions | xargs -L 1 echo code --install-extension
 
@@ -47,3 +55,41 @@ code --install-extension vscodevim.vim
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension ziyasal.vscode-open-in-github
 ```
+
+
+Had these but didn't keep:
+
+```
+almenon.arepl
+batisteo.vscode-django
+BillDietrich.linkcheckerhtml
+bung87.rails
+bung87.vscode-gemfile
+donjayamanne.python-environment-manager
+donjayamanne.python-extension-pack
+esbenp.prettier-vscode
+frhtylcn.pythonsnippets
+golang.go
+kddejong.vscode-cfn-lint
+KevinRose.vsc-python-indent
+kiteco.kite
+loganarnett.lambda-snippets
+ms-azuretools.vscode-docker
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+ms-vsliveshare.vsliveshare
+ms-vsliveshare.vsliveshare-audio
+ms-vsliveshare.vsliveshare-pack
+njpwerner.autodocstring
+rebornix.ruby
+shd101wyy.markdown-preview-enhanced
+sianglim.slim
+VisualStudioExptTeam.intellicode-api-usage-examples
+VisualStudioExptTeam.vscodeintellicode
+wingrunr21.vscode-ruby
+```
+
+

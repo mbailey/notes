@@ -8,16 +8,15 @@
 
 ## Install
 
-Find a better way than running downloaded shell script from the web?
+- [Setting up Tailscale on Fedora · Tailscale Docs (tailscale.com)](https://tailscale.com/kb/1050/install-fedora)
 
-- should ideally be signed by someone I trust
 
-```shell
-sudo dnf install -y wget
-wget https://tailscale.com/install.sh
-# read install.sh
-sh ./install.sh
+```
+sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo
+sudo dnf install tailscale
+sudo systemctl enable --now tailscaled
 sudo tailscale up
+tailscale set --auto-update
 ```
 
 ## firewalld allows all traffic from tailscale
@@ -84,23 +83,7 @@ $ tailscale status
 
 - [Can I use Tailscale alongside other VPNs · Tailscale (tailscale.com)](https://tailscale.com/kb/1105/other-vpns/)
 - [Split tunneling with Linux (advanced) - Guides  Mullvad VPN (mullvad.net)](https://mullvad.net/en/help/split-tunneling-with-linux-advanced/#excluding)
-
-To allow a specific IP, for example 173.239.79.196, to be reached without going through the tunnel, one would have to apply the following rules.
-
-```
-table inet excludeTraffic {
-  chain excludeOutgoing {
-    type route hook output priority 0; policy accept;
-    ip daddr 100.64.0.0/10 ct mark set 0x00000f41 meta mark set 0x6d6f6c65;
-  }
-}
-```
-
-Save the rules to a file **excludeTraffic.rules** and load them via nft like so:
-
-`sudo nft -f excludeTraffic.rules`
-
-The command above sets up a new firewall table with a chain named **excludeOutgoing** that executes in the [output hook](https://wiki.nftables.org/wiki-nftables/index.php/Netfilter_hooks) which means that the rules get executed as soon as the traffic that originates locally is routed. It's a filter chain, even though no filtering will be done, the chain only applies a connection mark to the traffic that is destined to our specified IP address. Given that this is an **inet** table, (and not an **ip4** or an **ip6** table), both IPv4 and IPv6 addresses can be used here.
+- Tailscaler are partnering with mullvad to allow them to be used together
 
 ## Check network config and latency
 

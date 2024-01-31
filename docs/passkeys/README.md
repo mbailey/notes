@@ -11,6 +11,7 @@ Use a hardware device and pin instead of passwords.
 - Microsoft
     - Azure
     - Windows
+- [ Tailscale (tailscale.com)](https://tailscale.com/kb/1269/passkeys)
 
 ## Google
 

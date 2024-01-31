@@ -31,9 +31,20 @@ find . -name \*.md -print0 | xargs -0 -n1 markdown-link-check
 
 
 **Bash function**:
+
+Check given directory (defaults to current)
 ```shell
 markdown-link-check-dir ()  { 
     cd "${1:-.}";
     find . -name \*.md -print0 | xargs -0 -n1 markdown-link-check -q
 }
+```
+
+**Alias**:
+
+- Only report on problems
+- Don't treat unauthenticated as a broken link
+
+```shell
+markdown-link-check -q --alive 200,403'
 ```
