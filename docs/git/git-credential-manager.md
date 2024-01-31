@@ -5,6 +5,18 @@ Encrypt your tokens and avoid entering your github password onto less-trusted de
 - [Git - Credential Storage (git-scm.com)](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
 
     ![](assets/Pasted%20image%2020231219170426.png)
+
+
+## Commands
+
+While the tool is used behind the scenes by other programs, there are a few commands you can use:
+
+```shell
+$ git-credential-manager github list
+mbailey
+```
+
+
 ## Install Git Credential Manager
 
 ### Debian
@@ -18,7 +30,8 @@ sudo dpkg -i ./gcm-linux_amd64.2.4.1.deb
 git-credential-manager configure
 ```
 
-## Others
+
+## Other linux
 
 [git-credential-manager/docs/install.md (github.com)](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
 
@@ -29,11 +42,42 @@ curl -L https://aka.ms/gcm/linux-install-source.sh | sh
 git-credential-manager configure
 ```
 
+## Configure
 
-## Use GPG files
+### credential.useHttpPath : Use different creds per repo
 
+If you have different identities (personal, work, etc) you will need this:
 
-- Ideally store your GPG key on a hardware device (e.g. yubikey)
+```shell
+git config --global credential.useHttpPath true
+```
+
+## credential.credentialStore : choose a backend
+
+Select the type of credential store to use on supported platforms.
+
+- [docs (github.com)](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/environment.md#GCM_CREDENTIAL_STORE)
+
+Defaults:
+- **Windows**: wincredman
+- **macOS**:  keychain
+- **Linux**: unset
+
+| Value         | Credential Store                                                                                                 | Platforms             |
+|---------------|------------------------------------------------------------------------------------------------------------------|-----------------------|
+| wincredman    | Windows Credential Manager (not available over SSH).                                                             | Windows               |
+| dpapi         | DPAPI protected files. Customize the DPAPI store location with credential.dpapiStorePath                         | Windows               |
+| keychain      | macOS Keychain.                                                                                                  | macOS                 |
+| secretservice | freedesktop.org Secret Service API via libsecret (requires a graphical interface to unlock secret collections). | Linux                 |
+| gpg           | Use GPG to store encrypted files that are compatible with the pass (requires GPG and pass to initialize the store). | macOS, Linux          |
+| cache         | Git's built-in credential cache.                                                                                 | macOS, Linux          |
+| plaintext     | Store credentials in plaintext files (UNSECURE). Customize the plaintext store location with credential.plaintextStorePath. | Windows, macOS, Linux |
+
+#### credential.credentialStore gpg
+
+Ideally store your GPG key on a hardware device (e.g. yubikey)
+
+- [GPG / Pass Compatible files (github.com)](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/credstores.md#gpgpass-compatible-files)
 
 Install `pass`:
 
@@ -45,9 +89,8 @@ Tell git to use it:
 ```
 git config --global credential.credentialStore gpg
 ```
-- [GPG / Pass Compatible files (github.com)](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/credstores.md#gpgpass-compatible-files)
 
-## Headless/TTY-only sessions
+##### Headless/TTY-only sessions
 
 If you are using the gpg credential store in a headless/TTY-only environment, you must ensure you have configured the GPG Agent (gpg-agent) with a suitable pin-entry program for the terminal such as pinentry-tty or pinentry-curses.
 
