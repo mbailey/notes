@@ -2,6 +2,8 @@
 
 
 - [SSH (developers.yubico.com)](https://developers.yubico.com/SSH/)
+- [[drduh-YubiKeyGuide/README]]
+- [drduh-text](drduh-text.md)
 
 ## YubiKey hardware-backed SSH authentication methods
 
@@ -9,7 +11,7 @@
 - piv
 - fido2
 - otp
-
+- 
 ### PGP
 
 The YubiKey stores and manages OpenPGP keys within its OpenPGP module. It will work with SSH clients that have integrated with the OpenPGP standard.

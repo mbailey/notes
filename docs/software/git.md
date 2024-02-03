@@ -1,11 +1,11 @@
 # Git
 
-- [git submodules](git-submodules.md)
-- [branches](branches.md)
-- [config](config.md)
-- [stash](stash.md)
-- [diff](diff.md)
-- [Authentication using Device Flow](authentication-using-device-flow.md)
+- [git submodules](git/git-submodules.md)
+- [branches](git/branches.md)
+- [config](git/config.md)
+- [stash](git/stash.md)
+- [diff](git/diff.md)
+- [Authentication using Device Flow](git/authentication-using-device-flow.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
@@ -31,12 +31,15 @@ Stage non-whitespace changes ([ref](https://stackoverflow.com/a/45486981)):
 git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -
 ```
 
-[config](config.md)
+[config](git/config.md)
 
 
 ## Commands
 
-**List files in change**: `git show --name-only --pretty=format:`
+
+
+**List files in change**: git show --name-only --pretty=format:
+
 
 
 
@@ -87,7 +90,7 @@ Note, if you already have unstaged changes you must run the following after edit
 git update-index --assume-unchanged <file-list>
 ```
 
-[config](config.md)
+[config](git/config.md)
 
 
 ## Share via sneakernet
@@ -103,7 +106,7 @@ git update-index --assume-unchanged <file-list>
 
     git checkout c5f567 -- file1/to/restore file2/to/restore
 
-[git-ignore](git-ignore.md)
+[git-ignore](../../git/git-ignore.md)
 
 
 ## Checkout Remote Branch
@@ -139,7 +142,7 @@ git update-index --assume-unchanged <file-list>
 
 - [Listing and deleting Git commits that are under no branch (dangling) - Stack Overflow](https://stackoverflow.com/questions/3765234/listing-and-deleting-git-commits-that-are-under-no-branch-dangling)
 
-[git-ignore](git-ignore.md)
+[git-ignore](../../git/git-ignore.md)
 ## shallow clone
 
 Less files and no .git dir:
