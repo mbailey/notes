@@ -7,8 +7,6 @@ Python tool for managing git pre-commit hooks
 
 - https://pre-commit.com/
 
-
-
 ## Usage
 
 ### Install pre-commit into your repo's git hooks

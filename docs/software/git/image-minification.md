@@ -2,6 +2,8 @@
 
 Keep repos from growing due to unnecessarily large images.
 
+**Note: I'm using pre-commit hooks instead to minify images now [4 Feb 2024].**
+
 ## PNGs
 
 Apply lossy compression when PNG is commit commited to index from work tree.
@@ -12,7 +14,7 @@ Apply lossy compression when PNG is commit commited to index from work tree.
 Update [Git attributes](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#_git_attributes) in this repo to tell git to apply a Git Filter on PNG files before `commit` and `diff`:
 
 ```shell
-echo "*.png filter=pngquant" >> .gitattributes
+echo "*.png filter=pngquant" >> ~/.gitattributes
 ```
 
 Set [Git "clean/smudge" filters](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#filters_b) in your checked out repo tell Git what command to run.
@@ -33,11 +35,11 @@ Resize JPEG image to maximum width of 1920 pixels (only if wider) when commited 
 - Depends on `convert` binary (part of ImageMagick)
 - Commit will fail if command fails (you can turn this off by setting `required false`)
 
-Update [Git attributes](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#_git_attributes) in this repo to tell git to apply a Git Filter on PNG files before `commit` and `diff`:
+Update [Git attributes](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#_git_attributes) in this repo to tell git to apply a Git Filter on JPEG files before `commit` and `diff`:
 
 ```shell
-echo "*.jpg filter=jpeg-resize" >> .gitattributes
-echo "*.jpeg filter=jpeg-resize" >> .gitattributes
+echo "*.jpg filter=jpeg-resize" >> ~/.gitattributes
+echo "*.jpeg filter=jpeg-resize" >> ~/.gitattributes
 ```
 
 Set [Git "clean/smudge" filters](https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#filters_b) in your checked out repo tell Git what command to run.
@@ -65,9 +67,9 @@ function image-minify-test() {
     git config --local user.email "test"
     git config --local user.name "Test"
     git config --local commit.gpgsign false
-    # echo "*.png filter=pngquant" >> .gitattributes
-    # echo "*.jpg filter=jpeg-resize" >> .gitattributes
-    # echo "*.jpeg filter=jpeg-resize" >> .gitattributes
+    echo "*.png filter=pngquant" >> .gitattributes
+    echo "*.jpg filter=jpeg-resize" >> .gitattributes
+    echo "*.jpeg filter=jpeg-resize" >> .gitattributes
     git add .
     git commit -m 'Add images to check filesize reduction'
     du -sh .git

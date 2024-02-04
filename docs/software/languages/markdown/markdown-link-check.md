@@ -49,8 +49,6 @@ markdown-link-check-dir ()  {
 markdown-link-check -q --alive 200,403'
 ```
 
-
-
 ## See also
 
-- [pre-commit](../../git/pre-commit.md)
+- [pre-commit](../../git/pre-commit/README.md)

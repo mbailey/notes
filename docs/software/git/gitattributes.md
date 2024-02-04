@@ -1,5 +1,26 @@
 # gitattributes
 
+## global attributesfile location
+
+**Get**:
+
+```bash
+git config --get core.attributesfile
+```
+
+**Set**:
+```shell
+git config --global core.attributesfile '~/.gitattributes'
+```
+
+Check git attributes:
+
+```bash
+git check-attr -a --all
+```
+
+## Scope
+
 single repo, all users:  
     `$GIT_DIR/info/attributes`
 
