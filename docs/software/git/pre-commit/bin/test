@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+function image-minify-test() {
+    mkdir -p tmp
+    TMPDIR=$(mktemp -d -p ./tmp)
+    [[ -z $TMPDIR ]] && echo "Error: Failed to create tempdir" && return 1
+    ln -sf $TMPDIR tmp-latest
+    cd $TMPDIR
+    cp -r ../../test/images/* . 
+    cp ../../pre-commit-config.yaml .pre-commit-config.yaml
+    echo
+    echo 'Before: '
+    du -sh *
+    git init .
+    git config --local user.email "test"
+    git config --local user.name "Test"
+    git config --local commit.gpgsign false
+    pre-commit install
+    git add .
+    git commit -m 'Add images to check filesize reduction'
+    echo
+    echo -n 'After: '
+    du -sh *
+}
+
+image-minify-test
