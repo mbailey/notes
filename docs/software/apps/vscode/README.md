@@ -7,8 +7,8 @@ alias: VS Code - Visial Studio Code
 
 ## Pages
 
-- [Extensions](software/apps/vscode/vscode-extensions.md)
-- [VSCode Remote](software/apps/vscode/vscode-remote.md)
+-  [vscode-extensions](vscode-extensions.md)
+-  [vscode-remote](vscode-remote.md)
 
 ## Keyboard Shortcuts 
 
@@ -112,7 +112,7 @@ My preferred settings:
 
 [This breaks shell completion in terminal if it's enabled](https://stackoverflow.com/questions/77167764/why-is-vs-code-using-the-tab-key-to-move-focus-from-the-integrated-terminal-inst)
 
-![](assets/Pasted%20image%2020231222090143.png)
+![](../../../assets/Pasted%20image%2020231222090143.png)
 
 
 
@@ -138,15 +138,15 @@ CTRL+ALT+-: Go back
 - Opening multiple repos allows for a great Git status summary view
 - Click on the repo to see only those changes below
   
-![](assets/vscode-git-status-summary.png)
+![](../../../assets/vscode-git-status-summary.png)
 
 Enable `Source Control Repositories` from the `...` menu next to `SOURCE CONTROL` to view the list.
 
-![](assets/vscode-enable-source-control-repositories.png)
+![](../../../assets/vscode-enable-source-control-repositories.png)
 
 ### Configure to show number of uncommitted changes in each repo
 
-![](assets/Pasted%20image%2020231113153202.png)
+![](../../../assets/Pasted%20image%2020231113153202.png)
 
 ### Copy GitHub URL for document
 
@@ -175,9 +175,9 @@ Open two terminals with horizontal split:
 
 - [Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
 
-![](assets/vscode-unable-to-watch-for-file-changes.png)
+![](../../../assets/vscode-unable-to-watch-for-file-changes.png)
 
-Check your watcher limits, current usage and how to increase the limits for [inotify](software/unix-commands/inotify.md)
+Check your watcher limits, current usage and how to increase the limits for [inotify](../../cli/inotify.md)
 
 ```json
 

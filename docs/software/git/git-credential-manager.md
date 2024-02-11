@@ -2,10 +2,17 @@
 
 Encrypt your tokens and avoid entering your github password onto less-trusted devices.
 
-- [Git - Credential Storage (git-scm.com)](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
+- [Clarify which account the prompt is for · Issue 1472 · git-ecosystemgit-credential-manager (github.com)](https://github.com/git-ecosystem/git-credential-manager/issues/1472)
+    - [Git - Credential Storage (git-scm.com)](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
 
     ![](assets/Pasted%20image%2020231219170426.png)
 
+
+## Problems
+
+### Login prompt doesn't indicate which repo / server
+
+**GitHub Issue**: [The tool should accommodate users with more than one account on a github. · Issue 1532 · git-ecosystemgit-credential-manager (github.com)](https://github.com/git-ecosystem/git-credential-manager/issues/1532)
 
 ## Commands
 
@@ -30,8 +37,7 @@ sudo dpkg -i ./gcm-linux_amd64.2.4.1.deb
 git-credential-manager configure
 ```
 
-
-## Other linux
+### Other linux
 
 [git-credential-manager/docs/install.md (github.com)](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
 
@@ -41,6 +47,11 @@ If you trust it:
 curl -L https://aka.ms/gcm/linux-install-source.sh | sh
 git-credential-manager configure
 ```
+
+### Amazon Linux 2
+
+- special trick for vscode-1.86+
+- TODO - copy this in
 
 ## Configure
 

@@ -4,6 +4,26 @@ npm package providing CLI tool and libraries for checking links in Markdown file
 
 - [tcort/markdown-link-check checks all of the hyperlinks in a markdown text to determine if they are alive or dead (github.com)](https://github.com/tcort/markdown-link-check)
 
+### Exclusions
+
+Ignore known problem links.
+
+**Disable next line**: 
+```
+<!-- markdown-link-check-disable-next-line -->
+```
+
+**Disable current line**:
+
+```
+<!-- markdown-link-check-disable-line -->
+```
+
+**Disable block**:
+```
+<!-- markdown-link-check-disable --> disables markdown link check. <!-- markdown-link-check-enable -->
+```
+
 #### Install
 
 ```shell
@@ -23,11 +43,13 @@ FILE: README.md
 
   4 links checked.
 ```
+
 **Recursive**:  
 
 ```shell
 find . -name \*.md -print0 | xargs -0 -n1 markdown-link-check
 ```
+
 
 
 **Bash function**:

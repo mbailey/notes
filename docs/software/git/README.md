@@ -1,14 +1,15 @@
 # Git
 
-- [git submodules](git-submodules.md)
-- [branches](branches.md)
-- [config](config.md)
-- [stash](stash.md)
-- [diff](diff.md)
-- [Authentication using Device Flow](authentication-using-device-flow.md)
+- [git submodules](./git-submodules.md)
+- [branches](./branches.md)
+- [config](./config.md)
+- [stash](./stash.md)
+- [diff](./diff.md)
+- [ignore](./git-ignore.md)
+- [Authentication using Device Flow](./authentication-using-device-flow.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
 
-- [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/git/user-manual.html)
+- [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/./user-manual.html)
 - [Git - Community](https://git-scm.com/community)
 - `man gittutorial`
 - [Tech Talk Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8&list=WL&index=2&t=2s)
@@ -31,12 +32,15 @@ Stage non-whitespace changes ([ref](https://stackoverflow.com/a/45486981)):
 git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -
 ```
 
-[config](config.md)
+[config](./config.md)
 
 
 ## Commands
 
-**List files in change**: `git show --name-only --pretty=format:`
+
+
+**List files in change**: git show --name-only --pretty=format:
+
 
 
 
@@ -87,7 +91,7 @@ Note, if you already have unstaged changes you must run the following after edit
 git update-index --assume-unchanged <file-list>
 ```
 
-[config](config.md)
+[config](./config.md)
 
 
 ## Share via sneakernet
@@ -103,7 +107,6 @@ git update-index --assume-unchanged <file-list>
 
     git checkout c5f567 -- file1/to/restore file2/to/restore
 
-[git-ignore](git-ignore.md)
 
 
 ## Checkout Remote Branch
@@ -139,7 +142,6 @@ git update-index --assume-unchanged <file-list>
 
 - [Listing and deleting Git commits that are under no branch (dangling) - Stack Overflow](https://stackoverflow.com/questions/3765234/listing-and-deleting-git-commits-that-are-under-no-branch-dangling)
 
-[git-ignore](git-ignore.md)
 ## shallow clone
 
 Less files and no .git dir:
@@ -166,23 +168,7 @@ Installation is as easy as:
     git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
 
 
-### Remove large file
-
-**[100 times faster than git filter-branch and simpler (stackoverflow.com)](https://stackoverflow.com/a/61602985/660017)**
-
-> Warning: Do this on a copy of your repository. Many actions of filter-repo cannot be undone. filter-repo will change the commit hashes of all modified commits (of course) and all their descendants down to the last commits!
-
-First you can run:
-
-    git filter-repo --analyze
-
-This helps you to determine what to do next.
-
-![](assets/Pasted%20image%2020230128143028.png)
-
-You can delete your big mp3 file everywhere:
-
-    git filter-repo --invert-paths --path-match bigfile.mp3
+# [Remove large file from git repo](remove-large-file.md)
 
 
 ## Maintain standard initial branch
@@ -224,3 +210,9 @@ Remove from lfs
     git add '<file-type>'
     git commit -m "restore '<file-type>' to git from lfs"
 
+
+
+## See also
+
+- [[vscode-gitlens-open-on-remote]]
+- 

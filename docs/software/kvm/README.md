@@ -1,6 +1,6 @@
 # KVM
 
-- [kvm-guest-create](kvm-guest-create.md) : script for creating kvm guests
+- kvm-guest-create : script for creating kvm guests in bash-my-kvm
 
 ## Use virsh and virt-manager as non-root user
 

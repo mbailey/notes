@@ -7,7 +7,7 @@ alias: Tailscale
 - [How Tailscale works (tailscale.com)](https://tailscale.com/blog/how-tailscale-works/)
 - [CLI (tailscale.com)](https://tailscale.com/kb/1080/cli/)
 
-![](assets/tailscale.png)
+![](../../assets/tailscale.png)
 
 ## Install
 

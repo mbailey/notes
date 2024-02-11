@@ -40,6 +40,7 @@ pip install --upgrade identify
 pip install --upgrade pre-commit
 ```
 
+**Shell completion script**: [Takishima/pre-commit-completion Bash completion for pre-commit with hook id completion provided based on the `rapidyaml` , `c4core` and `c4fs` libraries (github.com)](https://github.com/Takishima/pre-commit-completion)
 ## Configure
 
 ### Add .pre-commit-config.yaml to git repo
@@ -64,3 +65,9 @@ pre-commit autoupdate --freeze
 ```shell
 rm -fr .git && git init && git-config-personal && pre-commit install && git add . && git commit
 ```
+
+## Resources
+
+### Hooks
+
+- [pre-commit How to create hooks for unsupported tools - Adam Johnson (adamj.eu)](https://adamj.eu/tech/2023/02/09/pre-commit-hooks-unsupported-tools/)

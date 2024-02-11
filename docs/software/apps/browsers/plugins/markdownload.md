@@ -5,7 +5,7 @@
 
 Custom text -> Title template -> {pageTitle} ({hostname})
 
-![](assets/markdownload-title-template.png)
+![](../../../../assets/markdownload-title-template.png)
 
 
 

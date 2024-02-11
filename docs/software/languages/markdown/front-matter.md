@@ -26,4 +26,4 @@ This is the first paragraph of the document.
 
 Github.com presentation of front matter seems acceptable. Would be nice to be able to toggle it off/on for a project.
 
-![](assets/Pasted%20image%2020230115233228.png)
+![](../../../assets/Pasted%20image%2020230115233228.png)

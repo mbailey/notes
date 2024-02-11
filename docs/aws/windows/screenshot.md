@@ -9,8 +9,6 @@ To take a screenshot in Windows, you have several options:
    - To capture the entire screen: Press `Print Screen`, then paste into an app.
    - To save the screenshot as an image file: Press `Windows + Print Screen`. Find your screenshot in PNG format in the Pictures > Screenshots folder.
 
-For more detailed information, you can visit the Windows Learning Center's guide on [how to take screenshots on Windows 11](https://www.microsoft.com/en-us/windows/features/how-to-take-screenshots-on-windows-11).
-
 more stuff
 
 To take a screenshot of a selection on Windows and save it directly to the "Pictures" -> "Screenshots" folder, you can use the built-in Snip & Sketch tool. Here are the steps:

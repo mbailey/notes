@@ -60,6 +60,7 @@ Firefox is far and away my favourite web browser. These plugins make it even bet
 
 Install (with GNOME launcher support) with YMMV script from forum.
 
+<!-- markdown-link-check-disable-next-line -->
 [`$ bin/obsidian-install.sh`](bin/obsidian-install.sh)
 
 or:
@@ -76,7 +77,7 @@ or:
 
 ## [syncthing](https://syncthing.net/)
 
-- [syncthing](software/syncthing.md)
+- [README](apps/syncthing/README.md)
 
 ## [vscode](https://code.visualstudio.com/docs/setup/linux)
 

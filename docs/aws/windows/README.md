@@ -1,6 +1,5 @@
 # windows 
 
-- [winget](winget.md)
 - [screenshot](screenshot.md): `Windows logo key + Shift + S`
 
 ## Windows 11

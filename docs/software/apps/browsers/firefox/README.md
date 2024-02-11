@@ -51,6 +51,7 @@ container"](https://addons.mozilla.org/en-US/firefox/addon/open-url-in-container
 installed you can assign bookmarks to containers by putting the following in the
 URL field for a bookmark:
 
+<!-- markdown-link-check-disable-next-line -->
   ext+container:name=Personal&url=https://outlook.office.com/mail/inbox
 
 Where `container:name` is the name of your container and `url` is the URL you

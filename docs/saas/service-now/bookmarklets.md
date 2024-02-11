@@ -10,12 +10,13 @@ javascript:(function() {
 })();
 ```
 
-
+<!-- markdown-link-check-disable -->
 javascript:(function() {
     var query = prompt('Enter your query:', '');
     if (query) {
         window.location.href = 'https://your-instance.service-now.com/textsearch.do?sysparm_search=' + encodeURIComponent(query);
     }
 })();
+<!-- markdown-link-check-enable -->
 
 
