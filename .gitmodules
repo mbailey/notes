@@ -1,4 +1,0 @@
-[submodule "git/bash-my-kvm"]
-	path = git/bash-my-kvm
-	url = git@github.com:mbailey/bash-my-kvm.git
-	branch = master
