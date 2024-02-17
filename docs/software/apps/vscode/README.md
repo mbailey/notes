@@ -7,7 +7,8 @@ alias: VS Code - Visial Studio Code
 
 ## Pages
 
--  [vscode-extensions](vscode-extensions.md)
+- [settings](./settings.md)
+-  [extensions](extensions.md)
 -  [vscode-remote](vscode-remote.md)
 
 ## Keyboard Shortcuts 

@@ -22,7 +22,7 @@ sudo dnf install -y \
 - [Binder (mybinder.org)](https://mybinder.org/): executable environment for Jupyter notebooks.
     - [Mining the social web (mybinder.org)](https://mybinder.org/v2/gh/mikhailklassen/Mining-the-Social-Web-3rd-Edition/master)
 - [jupyter/nbdime(github.com)](https://github.com/jupyter/nbdime):  Tools for diffing and merging of Jupyter notebooks. 
-
+- [md2nb (pypi.org)](https://pypi.org/project/md2nb/): Converting Markdown Files to Jupyter Notebook
 ## Commands
 
 - **[nbconvert](nbconvert.md)**: convert a Jupyter notebook to various formats, including markdown

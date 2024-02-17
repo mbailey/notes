@@ -3,7 +3,7 @@
 - [git submodules](./git-submodules.md)
 - [branches](./branches.md)
 - [config](./config.md)
-- [stash](./stash.md)
+- [stash](stash/README.md)
 - [diff](./diff.md)
 - [ignore](./git-ignore.md)
 - [Authentication using Device Flow](./authentication-using-device-flow.md)

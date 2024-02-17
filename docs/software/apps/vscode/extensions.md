@@ -1,10 +1,13 @@
-# vscode-extensions
+# VS Code extensions
 
-## Extensions
+- [bookmarks](./bookmarks.md): 
+- Edit CSV
+- Rainbow CSV
 
-Install:
+## Install from CLI
 
     code --install-extension vscodevim.vim
+
 
 ### List
 

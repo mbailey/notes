@@ -1,5 +1,8 @@
 # git stash
 
+- [Conflict Resolution](Conflict%20Resolution.md)
+
+
 ```
 list
 show [-p] [stash@{n}] -- [path]
@@ -20,13 +23,16 @@ push
 git stash list --pretty=format:"%C(auto)%h %<(15)%gd %<(10)%cr %s"
 ```
 
+
+
+
 ## Back out of a merge
 
 ```shell
 git reset --merge
 ```
 
-## Show
+## Show diff
 
 git stash show -p
 git stash show -p stash@{n}

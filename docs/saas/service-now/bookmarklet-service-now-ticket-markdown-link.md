@@ -5,14 +5,13 @@ A bookmarklet to simplify extracting Markdown links from ServiceNow tickets.
 ## Bookmarklet Code:
 
 ```javascript
-javascript:(function () {
+javascript: (function () {
   var taskNumber = document.title.split("|")[0].trim();
   var decodedUrl = decodeURIComponent(window.location.href);
   var sys_id_match = decodedUrl.match(/sys_id=([a-f0-9]+)/);
   var sys_id = sys_id_match ? sys_id_match[1] : "";
   var baseUrl = window.location.origin;
   var type;
-
   if (decodedUrl.includes("/sc_task.do")) {
     type = "sc_task.do";
   } else if (decodedUrl.includes("/incident.do")) {
@@ -23,9 +22,7 @@ javascript:(function () {
     alert("Unrecognized type");
     return;
   }
-
   var shortUrl = baseUrl + "/nav_to.do?uri=" + type + "?sys_id=" + sys_id;
-
   if (decodedUrl.includes("service-now.com")) {
     prompt("Markdown Link:", "[" + taskNumber + "](" + shortUrl + ")");
   } else {

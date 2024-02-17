@@ -7,6 +7,13 @@
 
 - [Find your GitHub user id](http://caius.github.io/github_id/#mbailey) (Mine is #4409 mbailey)
 
+
+## GitHub Command Palette
+
+Keyboard Shortcuts for GitHub.com [GitHub Command Palette (docs.github.com)](https://docs.github.com/en/get-started/accessibility/github-command-palette)
+
+- Search:  `Ctrl-K`
+- Run command: `Ctrl-Shift-K`
 ## Releases
 
 - [Watch releases](https://github.blog/changelog/2018-11-27-watch-releases/)  You can limit repository notifications exclusively to releases.
