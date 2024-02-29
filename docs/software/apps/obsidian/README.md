@@ -9,6 +9,11 @@ alias: Obsidian
 - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
 - [Settings that may break quick switcher and link completer](obsidian-settings-that-may-break-quick-switcher-and-link-completer.md)
+
+## Cool stuff
+
+- [bookmarklets](bookmarklets.md)
+
 ## Questions
 
 ## Tasks
