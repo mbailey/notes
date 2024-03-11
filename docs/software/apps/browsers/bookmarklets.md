@@ -12,6 +12,8 @@ Bookmarklets are incredibly useful for automating repetitive tasks, enhancing we
 
 ## How to Install a Bookmarklet
 
+The simplest way is to **drag an HTML link to your browser's bookmarks bar** but if one is not provided you can follow these steps:
+
 1. **Open Your Web Browser:** Start by launching the browser where you want the bookmarklet.
 
 2. **Show Bookmarks Bar:** Make sure the bookmarks bar is visible. Enable it in the browser’s settings or use a shortcut like `Ctrl+Shift+B` (Windows/Linux) or `Command+Shift+B` (Mac).

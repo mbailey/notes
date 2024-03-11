@@ -8,6 +8,12 @@ Notes on configuring VS Code.
 
 ## Setting values
 
+### Show count of changes in Repos
+
+```shell
+"scm.providerCountBadge": "visible"
+```
+
 ### Git: Auto Stash: Dangerous!
 
 - If you're using some other kind of sync (Obsidian) it will delete the files on your other device temporarily.

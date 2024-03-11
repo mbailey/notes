@@ -1,3 +1,6 @@
+---
+alias: GitLens
+---
 # GitLens
 
 ## Open on remote with different ssh domains

@@ -1,13 +1,16 @@
 # yubikey
 
+
+- Reset Yubikey
+- [yubikey-slot-disable](yubikey-slot-disable.md) (yubisneeze)
+
 - [ykman-yubikey-manager](ykman-yubikey-manager.md)
 - [PassKeys](https://www.nitrokey.com/blog/2022/fido2-webauthn-passkeys-2022-and-2023)
-- [Resident FIDO2 SSH Keys](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)
 - [Signing git commits with SSH Keys](https://calebhearth.com/sign-git-with-ssh)
 - [managing-multiple-yubikeys](managing-multiple-yubikeys.md)
 - [setting-openpgp-touch-slot-policies](setting-openpgp-touch-slot-policies.md)
 - [ssh](ssh.md)
-- [yubikey-slot-disable](yubikey-slot-disable.md) (yubisneeze)
+  - [Resident FIDO2 SSH Keys](https://developers.yubico.com/SSH/Securing_SSH_with_FIDO2.html)
 
 
 ![](assets/DB1D2A62-5707-4AD1-8ADA-BCA642E4110D.jpeg) ![DB1D2A62-5707-4AD1-8ADA-BCA642E4110D](assets/DB1D2A62-5707-4AD1-8ADA-BCA642E4110D.jpeg)

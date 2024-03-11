@@ -1,15 +1,16 @@
 ---
-alias: VS Code - Visial Studio Code
+alias: vscode - Visual Studio Code
 ---
-# VS Code - Visual Studio Code
+# vscode - Visual Studio Code
 
 [Visual Studio Code - Code Editing. Redefined (code.visualstudio.com)](https://code.visualstudio.com/)
 
 ## Pages
 
-- [settings](./settings.md)
--  [extensions](extensions.md)
--  [vscode-remote](vscode-remote.md)
+- [Settings](./settings.md)
+- [Markdown](markdown.md)
+- [extensions](extensions.md)
+- [vscode-remote](vscode-remote.md)
 
 ## Keyboard Shortcuts 
 

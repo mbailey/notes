@@ -13,7 +13,7 @@ alias: Tailscale
 
 - [Setting up Tailscale on Fedora · Tailscale Docs (tailscale.com)](https://tailscale.com/kb/1050/install-fedora)
 
-
+### Fedora
 ```
 sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 sudo dnf install tailscale
@@ -21,6 +21,11 @@ sudo systemctl enable --now tailscaled
 sudo tailscale up
 tailscale set --auto-update
 ```
+
+## macOS
+
+
+
 
 ## firewalld allows all traffic from tailscale
 

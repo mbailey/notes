@@ -5,7 +5,7 @@ Frequently used "universal" keyboard shortcuts for sysadmins / developers.
 - Trying to get better across three operating systems by finding / setting consistent shortcuts.
 - Some of these may be wrong.
 
-### OS Keyboard Shortcuts
+### OS
 
 | Action                | Linux                  | Windows                  | Mac                              |
 | --------------------- | ---------------------- | ------------------------ | -------------------------------- |
@@ -19,7 +19,7 @@ Frequently used "universal" keyboard shortcuts for sysadmins / developers.
 | Minimize Window       | `Ctrl` + `W`           | `Win` + `M`              | `Cmd` + `M`                      |
 | Quit Application      | `Ctrl` + `Q`           | `Alt` + `F4`             | `Cmd` + `Q`                      |
 
-## Application Keyboard Shortcuts
+## Application
 
 | Action           | Linux                  | Windows      | Mac                   |
 | ---------------- | ---------------------- | ------------ | --------------------- |
@@ -34,7 +34,7 @@ Frequently used "universal" keyboard shortcuts for sysadmins / developers.
 | Redo             | `Ctrl` + `Shift` + `Z` | `Ctrl` + `Y` | `Cmd` + `Shift` + `Z` |
 | Open             | `Ctrl` + `O`           | Same         | `Cmd` + `O`           |
 
-## Markdown Keyboard Shortcuts
+## Markdown
 
 Custom shortcuts to use on Obsidian and Visual Studio Code.
 

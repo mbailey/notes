@@ -1,3 +1,6 @@
+---
+alias: Firefox
+---
 # Firefox
 
 Cross platform open source web browser

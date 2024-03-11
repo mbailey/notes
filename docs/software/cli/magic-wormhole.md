@@ -7,6 +7,11 @@ Command line tool to send files to anyone.
 - Deliciously simple UI
 - I've not investigated in depth yet
 
+## Self Hosted
+
+- [Magic Wormhole Mailbox Server (github.com)](https://github.com/magic-wormhole/magic-wormhole-mailbox-server):  Main server [Magic-Wormhole](http://magic-wormhole.io/) clients connect to.
+- [Magic Wormhole Transit Relay (github.com)](https://github.com/magic-wormhole/magic-wormhole-transit-relay):  Helps clients behind NAT establish bulk-data transit connections.
+
 ## Quickstart (fedora-36)
 
     $ sudo dnf install magic-wormhole

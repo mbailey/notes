@@ -47,3 +47,12 @@ Don't use `code` for commits.
 ```
 git config --global core.editor "vim"
 ```
+
+
+## Global user config
+
+--global
+
+For writing options: write to global `~/.gitconfig` file rather than the repository `.git/config`, write to `$XDG_CONFIG_HOME/git/config` file if this file exists and the `~/.gitconfig` file doesn’t.
+
+For reading options: read only from global `~/.gitconfig` and from `$XDG_CONFIG_HOME/git/config` rather than from all available files.

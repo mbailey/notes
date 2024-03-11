@@ -18,6 +18,8 @@ alias: Obsidian
 
 ## Tasks
 
+- Auto-add title based on filename
+- Add alias for files called README.md
 - Review top ten plugins
 - Make clicking a link in my second brain open Slack
 - Open "sub-vaults" (e.g. "work" to not show personal at work)
@@ -30,11 +32,18 @@ alias: Obsidian
 
 ## Install
 
+### Fedora
+
 ```shell
 $ ./bin/obsidian-install.sh
 https://github.com/obsidianmd/obsidian-releases/releases/download/v0.15.9/Obsidian-0.15.9.AppImage
 install ok
 ```
+
+### macOS
+
+
+
 
 ## Config
 
@@ -54,6 +63,9 @@ All are settable.
 - `ctrl + p` : Open command palette
 - `ctrl + ,` : Open settings
 - `ctrl b ,` : Toggle bold
+- TBA: toggle code
+- TBA: toggle checkboxes
+- TBA: toggle headings
 
 ## Sync
 
@@ -119,3 +131,11 @@ I'd prefer to have multiple vaults open instead of having to keep switching.
 
 ## Example of website you can generate
 
+
+
+## Shortcuts (ios, macos
+)
+https://www.carlcassar.com/articles/five-useful-apple-shortcuts-for-obsidian
+
+- siri today: opens daily note
+- Make one to append
