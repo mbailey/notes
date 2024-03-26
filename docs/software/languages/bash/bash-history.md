@@ -15,3 +15,8 @@ HISTSIZE=1000000 # lines to keep in memory
 HISTTIMEFORMAT='%F %T '
 PROMPT_COMMAND='history -a' # Store history immediately
 ```
+
+## Disable
+
+- `unset HISTFILE`
+- `set +o`

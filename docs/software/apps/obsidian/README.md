@@ -13,6 +13,7 @@ alias: Obsidian
 ## Cool stuff
 
 - [bookmarklets](bookmarklets.md)
+- https://github.com/sytone/obsidian-remote
 
 ## Questions
 
@@ -139,3 +140,6 @@ https://www.carlcassar.com/articles/five-useful-apple-shortcuts-for-obsidian
 
 - siri today: opens daily note
 - Make one to append
+
+- [No Boilerplate]()
+https://youtube.com/watch?v=DbsAQSIKQXk&si=TmwCea_05YzeDyvA)

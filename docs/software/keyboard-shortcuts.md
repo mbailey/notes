@@ -5,6 +5,25 @@ Frequently used "universal" keyboard shortcuts for sysadmins / developers.
 - Trying to get better across three operating systems by finding / setting consistent shortcuts.
 - Some of these may be wrong.
 
+## Markdown
+
+Custom shortcuts to use on Obsidian and Visual Studio Code.
+
+| Command                                 | App             | Default Key            | Custom Key         |
+| --------------------------------------- | --------------- | ---------------------- | ------------------ |
+| Cycle bullet/checkbox                   | Obsidian        |                        | Shift + Alt + C    |
+| Extract heading                         | Obsidian        |                        | Alt + E            |
+| H0 (Remove Heading)                     | Obsidian        | Alt + 0                |                    |
+| H1, H2, H3, H4, H5, H6                  | Obsidian        | Alt + 1 (2,3,4,5,6)    |                    |
+| Source Mode                             | Obsidian        | Alt + S                |                    |
+| Toggle bold                             | Code / Obsidian | Ctrl / Cmd + B         | Alt + B (Obsidian) |
+| Toggle checkbox                         | Code / Obsidian | Alt + C                | Alt + C (Obsidian) |
+| Insert code block                       | Obsidian        |                        | Alt + X            |
+| Toggle code block (Markdown All in One) | Code            | Option + m, Option + x | Shift +Alt + X     |
+| Toggle heading (downlevel)              | Code            | Ctrl / Cmd+ Shift + [  |                    |
+| Toggle heading (uplevel)                | Code            | Ctrl / Cmd+ Shift + ]  |                    |
+| Toggle italic                           | Code / Obsidian | Ctrl / Cmd + I         |                    |
+
 ### OS
 
 | Action                | Linux                  | Windows                  | Mac                              |
@@ -34,21 +53,3 @@ Frequently used "universal" keyboard shortcuts for sysadmins / developers.
 | Redo             | `Ctrl` + `Shift` + `Z` | `Ctrl` + `Y` | `Cmd` + `Shift` + `Z` |
 | Open             | `Ctrl` + `O`           | Same         | `Cmd` + `O`           |
 
-## Markdown
-
-Custom shortcuts to use on Obsidian and Visual Studio Code.
-
-| Command                                 | App             | Default Key            | Custom Key         |
-| --------------------------------------- | --------------- | ---------------------- | ------------------ |
-| Cycle bullet/checkbox                   | Obsidian        |                        | Shift + Alt + C    |
-| Extract heading                         | Obsidian        |                        | Alt + E            |
-| H0 (Remove Heading)                     | Obsidian        | Alt + 0                |                    |
-| H1, H2, H3, H4, H5, H6                  | Obsidian        | Alt + 1 (2,3,4,5,6)    |                    |
-| Source Mode                             | Obsidian        | Alt + S                |                    |
-| Toggle bold                             | Code / Obsidian | Ctrl / Cmd + B         |                    |
-| Toggle checkbox                         | Code / Obsidian | Alt + C                | Alt + C (Obsidian) |
-| Toggle code                             | Obsidian        |                        | Alt + X            |
-| Toggle code block (Markdown All in One) | Code            | Option + m, Option + x | Alt + X            |
-| Toggle heading (downlevel)              | Code            | Ctrl / Cmd+ Shift + [  |                    |
-| Toggle heading (uplevel)                | Code            | Ctrl / Cmd+ Shift + ]  |                    |
-| Toggle italic                           | Code / Obsidian | Ctrl / Cmd + I         |                    |

@@ -1,4 +1,7 @@
-# screenshot
+---
+alias: Windows screenshots
+---
+# Windows screenshots
 
 To take a screenshot in Windows, you have several options:
 

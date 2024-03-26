@@ -8,6 +8,9 @@ Notes on configuring VS Code.
 
 ## Setting values
 
+### Enable VIM mode
+
+"vim.vimrc.enable": true
 ### Show count of changes in Repos
 
 ```shell
@@ -22,3 +25,4 @@ Notes on configuring VS Code.
 ```json
 "git.autoStash": false
 ```
+

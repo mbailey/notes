@@ -16,12 +16,13 @@ alias: vscode - Visual Studio Code
 
 ### Default
 
-ALT-Z: toggle line wrap
-Ctrl-K K: toggle light/dark (my setting)
-Ctrl-K Z: Zen mode (focus on the code) - click and drag edges
-Ctrl-ALT--: Go Back
-CTRL-ALT up/down: Multiple cursors
-ALT-click: put cursors in multiple spots
+**Collapse Folders in Explorer:** Ctrl-SHIFT-P
+**Go Back**: Ctrl-ALT--
+**Multiple cursors**: CTRL-ALT up/down
+**Put cursors in multiple spots**: ALT-click  
+**Toggle light/dark** (my setting):  Ctrl-K K
+**Toggle line wrap**:   ALT-Z:
+**Zen mode** (focus on the code) - click and drag edges: Ctrl-K Z
 
 ### Custom
 
@@ -33,13 +34,7 @@ ALT-click: put cursors in multiple spots
 `CTRL-SHIFT+E`: Show Explorer
 `CTRL-SHIFT+G G`: Show Git
 
-## VIM
 
-"vim.vimrc.enable": true
-
-## Ctrl-SHIFT-P
-
-- Collapse Folders in Explorer
 
 ## Handy commands
 
@@ -92,10 +87,10 @@ View the default values in the Settings editor or see a read-only version of the
 
 My preferred settings:
 
-| Setting  ID              | Value   | Comment                                          |
-| ------------------------ | ------- | ------------------------------------------------ |
-| git.rebaseWhenSync       | true    | Always use rebase instead of merge when running. |
-| files.insertFinalNewline | true    | Insert final newline into file when saving       |
+| Setting  ID              | Value | Comment                                          |
+| ------------------------ | ----- | ------------------------------------------------ |
+| git.rebaseWhenSync       | true  | Always use rebase instead of merge when running. |
+| files.insertFinalNewline | true  | Insert final newline into file when saving       |
 
 [defaults]: https://code.visualstudio.com/docs/getstarted/settings#_default-settings
 

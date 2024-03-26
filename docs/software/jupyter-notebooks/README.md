@@ -5,6 +5,7 @@ alias: Jupyter Notebooks
 
 Free software, open standards, and web services for interactive computing across all programming languages
 
+- [magic](magic.md)
 ## Install
 
 ```
@@ -12,6 +13,8 @@ sudo dnf install -y \
   python3-nbformat \
   python3-nbconvert
 ```
+## Docs
+
 
 ## Tools
 
