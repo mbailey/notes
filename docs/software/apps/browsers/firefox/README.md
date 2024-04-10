@@ -5,7 +5,7 @@ alias: Firefox
 
 Cross platform open source web browser
 
-- [bookmarklet-service-now-ticket-markdown-link](../../../../saas/service-now/bookmarklet-service-now-ticket-markdown-link.md)
+- [bookmarklet-service-now-ticket-markdown-link](../../../../services/service-now/bookmarklet-service-now-ticket-markdown-link.md)
 
 ## General
 

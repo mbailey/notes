@@ -1,5 +1,6 @@
 # Git
 
+- [[alias]]
 - [git submodules](./git-submodules.md)
 - [branches](./branches.md)
 - [config](./config.md)

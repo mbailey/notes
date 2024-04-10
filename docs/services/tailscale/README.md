@@ -19,7 +19,7 @@ sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tail
 sudo dnf install tailscale
 sudo systemctl enable --now tailscaled
 sudo tailscale up
-tailscale set --auto-update
+sudo tailscale set --auto-update
 ```
 
 ## macOS

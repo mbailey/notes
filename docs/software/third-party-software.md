@@ -29,7 +29,7 @@ sudo dnf install awscli2
 
 ## [chrome](apps/browsers/chrome.md)
 
-Only for [Microsoft Teams](../saas/msteams.md).
+Only for [Microsoft Teams](../services/msteams.md).
 
 ## [dbeaver-ce](https://dbeaver.io/download/)
 

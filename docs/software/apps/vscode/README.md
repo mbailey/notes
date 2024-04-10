@@ -24,6 +24,10 @@ alias: vscode - Visual Studio Code
 **Toggle line wrap**:   ALT-Z:
 **Zen mode** (focus on the code) - click and drag edges: Ctrl-K Z
 
+**Editing:**
+- Toggle comment on line(s): `Ctrl` + `/`
+- Indent line(s): `TAB`, `Shift + TAB`
+
 ### Custom
 
 *Disable* **Ctrl + F**: Vim: editorFocus... # It gets in the way of standard Find

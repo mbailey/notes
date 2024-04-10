@@ -37,7 +37,7 @@ alias light="gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'"
 
 **Optional**:
 ```
-/home/m/.config/darkman/config.yaml
+${HOME}/.config/darkman/config.yaml
 ```
 
 

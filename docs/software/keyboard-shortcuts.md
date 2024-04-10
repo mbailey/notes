@@ -1,8 +1,7 @@
 # Keyboard Shortcuts
 
-Frequently used "universal" keyboard shortcuts for sysadmins / developers. 
+Use a consistent set  ofkeyboard shortcuts across operating systems and applications.
 
-- Trying to get better across three operating systems by finding / setting consistent shortcuts.
 - Some of these may be wrong.
 
 ## Markdown
@@ -37,6 +36,7 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 | Show Desktop          | `Ctrl` + `D`           | `Win` + `D`              | `F11` or `Cmd` + `Exposé`        |
 | Minimize Window       | `Ctrl` + `W`           | `Win` + `M`              | `Cmd` + `M`                      |
 | Quit Application      | `Ctrl` + `Q`           | `Alt` + `F4`             | `Cmd` + `Q`                      |
+| Show dotfiles         |                        |                          | `Cmd` + `Shift` + `+` + `.`      |
 
 ## Application
 
@@ -53,3 +53,10 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 | Redo             | `Ctrl` + `Shift` + `Z` | `Ctrl` + `Y` | `Cmd` + `Shift` + `Z` |
 | Open             | `Ctrl` + `O`           | Same         | `Cmd` + `O`           |
 
+## Terminal (Emacs `Meta key` combinations)
+
+### macOS
+
+#### Use `alt` key as Meta
+
+**Terminal App:** Settings -> Profiles -> Keyboard -> Use Option as Meta Key

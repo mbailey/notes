@@ -3,9 +3,10 @@
 ## Install from USB
 
 - Custom partitioning
-    - LVM
+    - Standard partitioning (not LVM)
     - EXT4
     - Select Full disk encryption
+    - Extra partition:  /var 300GB # for VMS
 - Reboot
 - Create login
 
@@ -31,3 +32,7 @@ Setup etckeeper to keep /etc in Git:
     etckeeper init
     etckeeper vcs status
     etckeeper vcs commit -m 'msg'
+
+## See also
+
+- setup user account on fedora

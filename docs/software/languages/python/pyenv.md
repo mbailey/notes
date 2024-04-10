@@ -16,8 +16,8 @@
 
     ```shell
     pyenv install 3
-    # pyenv set local 3.12
-    # pyenv set global 3.12
+    # pyenv set local 3
+    # pyenv set global 3
     ```
 
 

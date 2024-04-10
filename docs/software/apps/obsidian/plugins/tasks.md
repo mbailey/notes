@@ -8,6 +8,8 @@ alias: Obsidian Tasks Plugin
 - [Introduction (obsidian-tasks-group.github.io)](https://obsidian-tasks-group.github.io/obsidian-tasks/)
 - (not) [My Task Management System (forum.obsidian.md)](https://forum.obsidian.md/t/my-task-management-system/36198)
 
+- https://youtu.be/quXNtjTe5WE?si=i5VSyCGTAW0dePyN
+
 Combining Filters:
 ```
 ```tasks

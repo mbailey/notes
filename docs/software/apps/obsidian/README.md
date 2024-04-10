@@ -19,6 +19,7 @@ alias: Obsidian
 
 ## Tasks
 
+- Plugin to copy path to note to clipboard
 - Auto-add title based on filename
 - Add alias for files called README.md
 - Review top ten plugins
@@ -51,10 +52,11 @@ install ok
 User
 Workspace
 
-### Plugins
+## Plugins
 
 - [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
 - [mgmeyers/obsidian-kanban Create markdown-backed Kanban boards in Obsidian.](https://github.com/mgmeyers/obsidian-kanban)
+- **Markdown to Slack:** [idreamer/markdown-to-slack-message (github.com)](https://github.com/idreamer/markdown-to-slack-message)
 
 ## Hotkeys
 

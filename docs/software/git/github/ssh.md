@@ -5,21 +5,27 @@
     - [Multi-account Git SSH access](#multi-account-git-ssh-access) requires special setup.
 - [Managing GitHub SSH key cross-org boundaries](managing-github-ssh-key-cross-org-boundaries.md)
 
+
+## Test client connection
+
+```shell
+ssh -T git@github.com_work
+```
 ## Multi-account Git SSH Access
 
 ```txt
 # ~/.ssh/config
 
-Host github-mbailey
+Host github.com_personal
   User git
   HostName github.com
-  IdentityFile ~/.ssh/id-github-mbailey
+  IdentityFile ~/.ssh/github.com_personal
   IdentitiesOnly yes
 
-Host github-work-account
+Host github.com_work
   User git
   HostName github.com
-  IdentityFile ~/.ssh/id-github-work
+  IdentityFile ~/.ssh/github.com_work
   IdentitiesOnly yes
 ```
 
