@@ -8,6 +8,10 @@ virsh edit /etc/libvirt/qemu/ubuntu20.04-2.xml
 virsh create /etc/libvirt/qemu/ubuntu20.04-2.xml
 ```
 
+## Commands
+
+- **Autostart domain:**  virsh autostart git
+
 ### List guest domains
 
     $ virsh list
@@ -40,3 +44,7 @@ Just for one user (~/.bashrc)
 ```shell
 export LIBVIRT_DEFAULT_URI="qemu:///system"
 ```
+
+## See also
+
+- [kvm](../../../../personal/resources/tech/private/kvm.md)
