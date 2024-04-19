@@ -60,3 +60,7 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 #### Use `alt` key as Meta
 
 **Terminal App:** Settings -> Profiles -> Keyboard -> Use Option as Meta Key
+
+### Keyboard Shortcuts
+
+**Delete previous word:** `Ctrl` + `W`

@@ -54,9 +54,11 @@ Workspace
 
 ## Plugins
 
-- [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
-- [mgmeyers/obsidian-kanban Create markdown-backed Kanban boards in Obsidian.](https://github.com/mgmeyers/obsidian-kanban)
 - **Markdown to Slack:** [idreamer/markdown-to-slack-message (github.com)](https://github.com/idreamer/markdown-to-slack-message)
+- **Recent Files:** [tgrosinger/recent-files-obsidian](https://github.com/tgrosinger/recent-files-obsidian)
+
+- **Obsidian Sample Plugin:** [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+- **Obsidian Kanban:** [mgmeyers/obsidian-kanban Create markdown-backed Kanban boards in Obsidian.](https://github.com/mgmeyers/obsidian-kanban)
 
 ## Hotkeys
 

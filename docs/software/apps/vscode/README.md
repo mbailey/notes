@@ -193,3 +193,6 @@ Maybe exclude some from vscode watchers:
 
 
 
+## See also
+
+- [Set up a Mac in 2024 for Power Users and Developers - YouTube (www.youtube.com)](https://www.youtube.com/watch?v=GK7zLYAXdDs&t=114s)
