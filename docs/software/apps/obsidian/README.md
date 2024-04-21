@@ -17,8 +17,11 @@ alias: Obsidian
 
 ## Questions
 
+- How can each user manage their own preferences for a shared repo in Git?
+
 ## Tasks
 
+- [ ] Put global settings somewhere public
 - Plugin to copy path to note to clipboard
 - Auto-add title based on filename
 - Add alias for files called README.md

@@ -40,18 +40,19 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 
 ## Application
 
-| Action           | Linux                  | Windows      | Mac                   |
-| ---------------- | ---------------------- | ------------ | --------------------- |
-| New Terminal Tab | `Ctrl` + `Shift` + `T` | Same         | `Cmd` + `T`           |
-| Copy             | `Ctrl` + `C`           | Same         | `Cmd` + `C`           |
-| Paste            | `Ctrl` + `V`           | Same         | `Cmd` + `V`           |
-| Undo             | `Ctrl` + `Z`           | Same         | `Cmd` + `Z`           |
-| Save             | `Ctrl` + `S`           | Same         | `Cmd` + `S`           |
-| Find             | `Ctrl` + `F`           | Same         | `Cmd` + `F`           |
-| Close Tab        | `Ctrl` + `W`           | Same         | `Cmd` + `W`           |
-| Cut              | `Ctrl` + `X`           | Same         | `Cmd` + `X`           |
-| Redo             | `Ctrl` + `Shift` + `Z` | `Ctrl` + `Y` | `Cmd` + `Shift` + `Z` |
-| Open             | `Ctrl` + `O`           | Same         | `Cmd` + `O`           |
+| Action    | Linux                        | Windows      | Mac                   |
+| --------- | ---------------------------- | ------------ | --------------------- |
+| Settings  | `Ctrl` + `,` or `Ctrl` + `P` | `Ctrl` + `,` | `Cmd` + `,`           |
+| New Tab   | `Ctrl` + `Shift` + `T`       | Same         | `Cmd` + `T`           |
+| Copy      | `Ctrl` + `C`                 | Same         | `Cmd` + `C`           |
+| Paste     | `Ctrl` + `V`                 | Same         | `Cmd` + `V`           |
+| Undo      | `Ctrl` + `Z`                 | Same         | `Cmd` + `Z`           |
+| Save      | `Ctrl` + `S`                 | Same         | `Cmd` + `S`           |
+| Find      | `Ctrl` + `F`                 | Same         | `Cmd` + `F`           |
+| Close Tab | `Ctrl` + `W`                 | Same         | `Cmd` + `W`           |
+| Cut       | `Ctrl` + `X`                 | Same         | `Cmd` + `X`           |
+| Redo      | `Ctrl` + `Shift` + `Z`       | `Ctrl` + `Y` | `Cmd` + `Shift` + `Z` |
+| Open      | `Ctrl` + `O`                 | Same         | `Cmd` + `O`           |
 
 ## Terminal (Emacs `Meta key` combinations)
 
