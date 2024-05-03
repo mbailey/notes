@@ -46,7 +46,9 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 
 
-**Request user confirmation:**
+### Request user confirmation
+
+
 ```shell
 local regex_yes="^[Yy]$"
 read -p "Are you sure you want to continue? " -n 1 -r
@@ -55,7 +57,16 @@ if [[ $REPLY =~ $regex_yes ]]
 ```
 
 
+**Default to Yes**:
 
-
-
-
+```shell
+local regex_yes="^[Yy]?$"  # The '?' after [Yy] allows for an empty response to be treated as 'Yes'
+read -p "Are you sure you want to continue? (Y/n) " -n 1 -r
+echo  # Move to a new line
+if [[ ! $REPLY =~ $regex_yes ]]; then
+    echo "Update cancelled."
+    return 1  # Exit the function with a non-zero exit status to indicate failure
+else
+    echo "Proceeding with update."
+fi
+```

@@ -36,7 +36,7 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 | Show Desktop          | `Ctrl` + `D`           | `Win` + `D`              | `F11` or `Cmd` + `Exposé`        |
 | Minimize Window       | `Ctrl` + `W`           | `Win` + `M`              | `Cmd` + `M`                      |
 | Quit Application      | `Ctrl` + `Q`           | `Alt` + `F4`             | `Cmd` + `Q`                      |
-| Show dotfiles         |                        |                          | `Cmd` + `Shift` + `+` + `.`      |
+| Show dotfiles         | `Ctrl` + `H`           |                          | `Cmd` + `Shift` + `+` + `.`      |
 
 ## Application
 

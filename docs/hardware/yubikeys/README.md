@@ -1,7 +1,8 @@
 # yubikey
 
 
-- Reset Yubikey
+- [reset-yubikeyXXX](reset-yubikeyXXX.md)
+- [fido-pin](fido-pin.md)
 - [yubikey-slot-disable](yubikey-slot-disable.md) (yubisneeze)
 
 - [ykman-yubikey-manager](ykman-yubikey-manager.md)
