@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Lock external hooks to a specific version (git sha)
+#
+# Review source before using updated hooks
+
+pre-commit autoupdate --freeze --config pre-commit-config.yaml
