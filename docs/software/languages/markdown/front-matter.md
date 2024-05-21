@@ -15,7 +15,7 @@ some_url: https://example.com
 This is the first paragraph of the document.
 ```
 
-- [hugo](https://gohugo.io/content-management/front-matter/)
+- [hugo](https://gohugo.io/content-management/front-matter/)blog frsamework
 - [jekyll](https://jekyllrb.com/docs/front-matter/)
 - [MkDocs](https://github.com/mkdocs/mkdocs/blob/6f3801cbd3a216778a8321de11591fe8e17fef4d/docs/user-guide/writing-your-docs.md#meta-data)
 - [MkDocs-Material](https://github.com/squidfunk/mkdocs-material/blob/acd154dfbd7672665bc07116ffb9e141a651d69b/docs/reference/index.md)

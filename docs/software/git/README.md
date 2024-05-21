@@ -47,17 +47,24 @@ git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-ze
 
 ## Untracked files
 
+List untracked files and dirs:
+
+```shell
+git clean -fdn
+```
+
 **List modification times**:
 
 ```shell
 git clean -n | awk '{print $3}' | xargs -I {} stat -c '%y %n' {} | sort -n
 ```
 
-Remove untracked files:
+**Remove untracked files and dirs:**
 
 ```shell
-git clean -f
+git clean -fd
 ```
+
 
 Stash untracked files
 

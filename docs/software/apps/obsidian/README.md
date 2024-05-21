@@ -6,9 +6,11 @@ alias: Obsidian
 - https://forum.obsidian.md/t/support-gfm-style-kebab-case-heading-slug-anchor-targets/30350 GFM links for headings
 - [manual (help.obsidian.md)](https://help.obsidian.md/)
 - [date formatting](https://momentjs.com/docs/#/displaying/format/)
-- [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
 - [Settings that may break quick switcher and link completer](obsidian-settings-that-may-break-quick-switcher-and-link-completer.md)
+
+- [Plugins](plugins/README.md)
+  - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
 ## Cool stuff
 
@@ -21,7 +23,10 @@ alias: Obsidian
 
 ## Tasks
 
+- Put my standard .obsidian dir somewhere I can pull as template
+- Obsidian open Notes in GitHub https://chat.openai.com/share/e/82d4710d-6fea-4c3e-9597-62b7ac9bf293
 - [ ] Put global settings somewhere public
+- Obsidian Copilot with Ollama
 - Plugin to copy path to note to clipboard
 - Auto-add title based on filename
 - Add alias for files called README.md

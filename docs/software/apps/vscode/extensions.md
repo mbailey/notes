@@ -3,6 +3,8 @@
 - [bookmarks](./bookmarks.md): 
 - Edit CSV
 - Rainbow CSV
+- AI
+    - [continuedev/continue ⏩ Open-source VS Code and JetBrains extensions that enable you to easily create your own modular AI software development system (github.com)](https://github.com/continuedev/continue)
 
 ## Install from CLI
 

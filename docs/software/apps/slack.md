@@ -7,6 +7,9 @@
 
 - [ ] Work out how to update slack staus with iOS Automations and Shortcuts
 
+## Install
+
+
 ## Search
 
 **`Ctrl-G`**: Search

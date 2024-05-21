@@ -20,30 +20,49 @@ Strictly speaking, this is not all `bash`. It's command line unix.
 
 ## Scripting
 
-**Mapfile:** Read lines from the standard input into an indexed array variable.  
+- **Mapfile:** Read lines from the standard input into an indexed array variable.  
+
+
+### "Busybox" style function execution via "symlinked binaries"
+
+Make certain functions from a file executable:
+
+```shell
+bin/git-artifact-repo-update -> ../lib/functions
+```
+
+
+
+- https://en.wikipedia.org/wiki/BusyBox
+
+```shell
+# Execute function with same name as file called unless sourced
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+  "$(basename "$0")" "$@"
+fi
+```
 
 ### Set SCRIPT_DIR to directory holding script
 
-There are many answers out there:
+There are a lot of different methods out there. Cross platform solution needs further review.
 
-### 1
+1. **Basic:**
 
 ```shell
 SCRIPT_DIR=="$(dirname -- "${BASH_SOURCE[0]:-${0}}")"
 ```
-### 2 Mixed claims about whether macOS comes with realpath
+
+2. **Mixed claims about whether macOS comes with realpath:**
 
 ```shell
 SCRIPT_DIR="$(dirname "$(realpath "${BASH_SOURCE:-"${0}"}")")"
 ```
-### 3
+
+3. **Another one:**
 
 ```shell
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 ```
-
-
-
 
 
 ### Request user confirmation

@@ -3,6 +3,10 @@ alias: Windows screenshots
 ---
 # Windows screenshots
 
+- [greenshot (github.com)](https://github.com/greenshot): Open Source screenshot tool
+
+by ChatGPT
+
 To take a screenshot in Windows, you have several options:
 
 1. **Using Snipping Tool**: Press `Windows logo key + Shift + S` to open the Snipping Tool. Choose from options like rectangular, freehand, window, or full-screen capture. The screenshot is copied to your clipboard and can be pasted into another app.

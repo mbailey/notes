@@ -1,6 +1,6 @@
 # Appearance (Light / Dark Mode)
 
-Increase eye comfort when using a screen in light / dark environments.
+Increase eye comfort by using "Dark Mode" in dark environments.
 
 ## Operating Systems
 
@@ -31,7 +31,7 @@ Windows 10 does not come with an option to update base on time of day.
 **See also:**
 - [Apps with Auto Dark Mode support · AutoDarkModeWindows-Auto-Night-Mode Wiki (github.com)](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/wiki/Apps-with-Auto-Dark-Mode-support)
 
-## Webbrowsers
+### Web browsers
 
 Follow system appearance in your web browser with Dark Reader plugin for Firefox, Chrome or Edge.
 
@@ -44,6 +44,10 @@ Follow system appearance in your web browser with Dark Reader plugin for Firefox
     - [Dark Reader for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc)
 
 2. Configure Dark Reader plugin to "Use system colour scheme".
+
+## Services
+
+Many web applications support Dark Mode and some can even respect your operating system's Appearance setting.
 
 ## GitHub.com
 
