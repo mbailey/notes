@@ -17,7 +17,11 @@ You probably only want to install from source if:
 
 1. **Download openssh portable source code**: from a [mirror](https://www.openssh.com/portable.html)
 
-2. **Install deps:** *I wasn't missing any.*
+2. **Install deps:** 
+
+    ```shell
+    sudo dnf install -y libfido2-devel
+    ```
    
 2. **Compile and install:**
 
