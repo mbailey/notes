@@ -15,6 +15,8 @@ You probably only want to install from source if:
 
 #### Fedora
 
+I'm running fedora-38 (out of support) on a host.
+
 1. **Download openssh portable source code**: from a [mirror](https://www.openssh.com/portable.html)
 
 2. **Install deps:** 
@@ -24,6 +26,15 @@ You probably only want to install from source if:
     ```
    
 2. **Compile and install:**
+
+    This will replace `/usr/sbin/sshd`. 
+
+    Non-system packages are more commonly installed to dirs under:
+
+    - `/usr/local`: default location, usually ahead of `/usr` in `$PATH`
+    - `/opt`: Another common place for 
+
+    I'm doing this because then the existing systemd files will just work.
 
     ```shell
     tar zxfv openssh-9.8p1.tar.gz
