@@ -9,9 +9,25 @@ At sundown, it will look for scripts in $XDG_DATA_DIRS/dark-mode.d/.
 At sunrise, it will look for scripts in $XDG_DATA_DIRS/light-mode.d/.
 
 ## Install
+
+### Fedora
+
 ```
 sudo dnf -y install darkman
 ```
+
+### Ubuntu
+
+```shell
+sudo apt install -y golang scdoc
+git clone https://gitlab.com/WhyNotHugo/darkman.git
+cd darkman
+make
+sudo make install PREFIX=/usr
+```
+
+## Setup
+
 
 ## Configure
 

@@ -23,6 +23,12 @@ Syncing passwords between workstation and phone eliminates hassle of typing pass
 
 - **Send page/link to device**: Open in Firefox on phone or computer
 
+## Config
+
+### about:config
+
+- `network.protocol-handler.export-all: false`: *Review this* This tried to open bittorrent magnet links in the browser
+
 ## Hotkeys
 
 **Ctrl + Shift + B**: Toggle bookmark toolbar (good for screenshots that show URL and page body)

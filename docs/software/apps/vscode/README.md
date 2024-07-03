@@ -151,6 +151,8 @@ Enable `Source Control Repositories` from the `...` menu next to `SOURCE CONTROL
 
 ### Copy GitHub URL for document
 
+- [gitlens](gitlens.md)
+
 The extension Gitlens by Eric Amodio gives the Copy Remote URL option in the context menu.
 
 The command is: gitlens.copyRemoteFileUrlToClipboard

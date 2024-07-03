@@ -1,11 +1,10 @@
 # yubikey
 
 
-- [reset-yubikeyXXX](reset-yubikeyXXX.md)
+- [ykman](ykman-yubikey-manager.md): yubikey manager
 - [fido-pin](fido-pin.md)
 - [yubikey-slot-disable](yubikey-slot-disable.md) (yubisneeze)
 
-- [ykman-yubikey-manager](ykman-yubikey-manager.md)
 - [PassKeys](https://www.nitrokey.com/blog/2022/fido2-webauthn-passkeys-2022-and-2023)
 - [Signing git commits with SSH Keys](https://calebhearth.com/sign-git-with-ssh)
 - [managing-multiple-yubikeys](managing-multiple-yubikeys.md)

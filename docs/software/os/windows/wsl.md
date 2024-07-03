@@ -1,14 +1,24 @@
 # WSL - Windows Subsystem for Linux
 
 Built in tool that enables running Linux OS under Windows.
+## Install
+
+
+
 ## Configuration
 
+- [Fix fuzzy fonts in wsl gui apps](wsl/Fix%20fuzzy%20fonts%20in%20wsl%20gui%20apps.md)
 - [Advanced settings configuration in WSL](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
 - **[%UserProfile%\\.wslconfig](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)** to configure **global settings** across all installed distributions running on WSL 2.
 - **[/etc/wsl.conf](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#wslconf)** to configure **local settings** per-distribution for each Linux distribution running on WSL 1 or WSL 2.
 - **8 second rule**: You must wait until the subsystem running your Linux distribution completely stops running and restarts for configuration setting updates to appear. This typically takes about 8 seconds after closing ALL instances of the distribution shell.
 
 ## Commands
+
+These can be run in:
+- WSL Terminal (by adding `.exe` to commands).
+- Windows Command Prompt
+- PowerShell
 
 **Shutdown**: `wsl --shutdown`
 **Terminate:** `wsl --terminate <distro_name>`

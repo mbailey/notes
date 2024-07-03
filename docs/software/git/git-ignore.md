@@ -1,6 +1,5 @@
 # git ignore
 
-
 ## Ignore local changes
 
 Tell Git to ignore changes to a file locally without affecting the repository or other collaborators:

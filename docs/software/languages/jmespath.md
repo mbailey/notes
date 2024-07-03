@@ -28,3 +28,7 @@ sudo wget https://github.com/jmespath/jp/releases/latest/download/jp-linux-amd64
 ## Syntax
 
 **Negation**:  `"Instances[?!(Tags[?Key=='team'])]"`
+
+## See also
+
+- [Working with nested data (jmespath.org)](https://jmespath.org/examples.html#working-with-nested-data)

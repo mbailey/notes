@@ -1,6 +1,8 @@
 # VS Code extensions
 
+- [speech](speech.md)
 - [bookmarks](./bookmarks.md): 
+- [gitlens](gitlens.md)
 - Edit CSV
 - Rainbow CSV
 - AI

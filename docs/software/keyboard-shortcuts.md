@@ -4,6 +4,7 @@ Use a consistent set  ofkeyboard shortcuts across operating systems and applicat
 
 - Some of these may be wrong.
 
+- [ ] **Ctrl-Tab:** cycle through tabs (Windows Terminal). Check others
 ## Markdown
 
 Custom shortcuts to use on Obsidian and Visual Studio Code.

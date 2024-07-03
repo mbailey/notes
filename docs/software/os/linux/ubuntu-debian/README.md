@@ -40,3 +40,5 @@ sudo update-alternatives --config editor
 sudo apt install unattended-upgrades
 sudo systemctl enable --now unattended-upgrades
 ```
+
+- **WSL:**  While WSL does not support systemd by default, the package installs a daily cron job that should handle the updates.

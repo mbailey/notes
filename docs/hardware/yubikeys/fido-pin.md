@@ -1,13 +1,8 @@
+---
+alias: FIDO PIN on Yubikeys
+---
 # FIDO PIN
 
-**Set FIDO PIN for first time:**
+You can use [[ykman (yubikey-manager) |ykman yubikey manager]]
 
-```shell
-ykman fido access change-pin
-```
 
-**Change FIDO PIN:**
-
-```shell
-ykman fido access change-pin --pin
-```
