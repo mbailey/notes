@@ -9,3 +9,11 @@ alias: Python
 ## Commands
 
 -  **Run http server:** `python -m http.server`
+
+
+## Create Virtual Env
+
+```shell
+python -m venv venv
+source venv/bin/activate
+```

@@ -1,6 +1,6 @@
 # windows 
 
-- [screenshot](../../../software/os/windows/screenshot.md): `Windows logo key + Shift + S`
+- [screenshots](../../../software/os/windows/screenshots.md): `Windows logo key + Shift + S`
 
 ## Windows 11
 

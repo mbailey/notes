@@ -7,6 +7,10 @@ Package manager for redhat / fedora linux.
 <!-- markdown-link-check-disable-next-line -->
 [Automatic Updates](https://docs.fedoraproject.org/en-US/quick-docs/autoupdates/#reasons-against-using-automatic-updates)
 
+
+## Handy Commands
+
+**Install even if some not found:** `sudo dnf install --skip-broken $(cat ./fedora-packages.txt)``
 ## Config
 
 Setup automatic updates:
@@ -34,6 +38,7 @@ Repo        : fedora
 Matched from:
 Provide    : symlinks = 1.7-8.fc38
 ```
+
 
 #### **Package cache updates:**
 

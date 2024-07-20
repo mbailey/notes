@@ -1,3 +1,6 @@
+---
+alias: Git
+---
 # Git
 
 - [[alias]]

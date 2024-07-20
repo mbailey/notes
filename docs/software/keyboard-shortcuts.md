@@ -28,33 +28,52 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 
 | Action                | Linux                  | Windows                  | Mac                              |
 | --------------------- | ---------------------- | ------------------------ | -------------------------------- |
-| Switch App Windows    | `Alt` + `Tab`          | Same                     | `Cmd` + `Tab`                    |
 | Lock Screen           | `Super` + `L`          | `Win` + `L`              | `Cmd` + `Ctrl` + `Q`             |
 | Task Manager          | `Ctrl` + `Alt` + `Del` | `Ctrl` + `Shift` + `Esc` | Varies                           |
 | Terminal/Open Console | `Ctrl` + `Alt` + `T`   | `Win` + `X`, then `C`    | `Cmd` + `Space`, then `Terminal` |
-| Maximize Window       | `F11`                  | `Win` + `Up Arrow`       | `Cmd` + `Ctrl` + `F`             |
-| Close Window          | `Alt` + `F4`           | Same                     | `Cmd` + `W`                      |
-| Show Desktop          | `Ctrl` + `D`           | `Win` + `D`              | `F11` or `Cmd` + `Exposé`        |
-| Minimize Window       | `Ctrl` + `W`           | `Win` + `M`              | `Cmd` + `M`                      |
 | Quit Application      | `Ctrl` + `Q`           | `Alt` + `F4`             | `Cmd` + `Q`                      |
 | Show dotfiles         | `Ctrl` + `H`           |                          | `Cmd` + `Shift` + `+` + `.`      |
 
+## Window
+
+| Action                         | Linux (GNOME)                | Windows                          | macOS                          |
+| ------------------------------ | ---------------------------- | -------------------------------- | ------------------------------ |
+| Switch between windows         | Alt + Tab                    | Alt + Tab                        | Cmd + Tab                      |
+| Switch between app windows     | Alt + ` (backtick)           | Super + Tab                      | Cmd + ` (backtick)             |
+| Maximize window                | Super + Up                   | Super + Up                       | Control + Cmd + F              |
+| Minimize window                | Super + H                    | Super + Down                     | Cmd + M                        |
+| Move window left/right         | Super + Left/Right           | Super + Left/Right               | -                              |
+| Move window to corner          | Super + Alt + Numpad         | Super + Arrow keys (combination) | -                              |
+| Move window to another monitor | Super + Shift + Left/Right   | Super + Shift + Left/Right       | Control + Cmd + Left/Right     |
+| Show desktop                   | Super + D                    | Super + D                        | F11 or Cmd + F3                |
+| Close window                   | Alt + F4                     | Alt + F4                         | Cmd + W                        |
+| Snap window to half screen     | Super + Left/Right           | Super + Left/Right               | -                              |
+| Snap window to quarter screen  | Super + Alt + Numpad         | Super + Arrow keys (combination) | -                              |
+| Full screen (not maximized)    | F11                          | F11                              | Control + Cmd + F              |
+| Cycle through windows          | Alt + Esc                    | Alt + Esc                        | -                              |
+| Show all windows (Exposé)      | Super                        | Super + Tab (Task View)          | Control + Up (Mission Control) |
+| Show application windows       | Super + W                    | Not built-in                     | Control + Down                 |
+| Move window to workspace       | Super + Shift + Page Up/Down | -                                | Control + Cmd + Up/Down        |
+| Switch workspace               | Super + Page Up/Down         | -                                | Control + Left/Right           |
+
 ## Application
 
-| Action     | Linux                          | Windows      | Mac                   |
-| ---------- | ------------------------------ | ------------ | --------------------- |
-| Settings   | `Ctrl` + `,` or `Ctrl` + `P`   | `Ctrl` + `,` | `Cmd` + `,`           |
-| New Tab    |  Shift` + `T`                  Cmd` + `T`           |
-| Reopen Tab | `Ctrl` + `Shift` + `T`       | Same              Cmd` + `T`           |
-| Copy       | `Ctrl` + `C`                 |                   Cmd` + `C`           |
-| Paste      | `Ctrl` + `V`                 |                   Cmd` + `V`           |
-| Undo       | `Ctrl` + `Z`                 |                   Cmd` + `Z`           |
-| Save       | `Ctrl` + `S`                 |                   Cmd` + `S`           |
-| Find       | `Ctrl` + `F`                 |                   Cmd` + `F`           |
-| Close Tab  | `Ctrl` + `W`                 |                   Cmd` + `W`           |
-| Cut        | `Ctrl` + `X`                 |                   Cmd` + `X`           |
-| Redo       | `Ctrl` + `Shift` + `Z`       | `Ctrl` +          Cmd` + `Shift` + `Z` |
-| Open       | `Ctrl` + `O`                 |                   Cmd` + `O`           |
+Many applications follow these conventions.
+
+| Action     | Linux                                        | Windows                        | Mac         |
+| ---------- | -------------------------------------------- | ------------------------------ | ----------- |
+| Settings   | `Ctrl` + `,` or `Ctrl` + `P`                 | `Ctrl` + `,`                   | `Cmd` + `,` |
+| New Tab    | `Ctrl` + `T` |   `Ctrl` + `T`          |      `Cmd` + `T` |             
+| Reopen Tab | `Ctrl` + `Shift` + `T`                       | `Ctrl` + `Shift` + `T`         | `Cmd` + `T` |
+| Copy       | `Ctrl` + `C`                                 | `Cmd` + `C`                    |             |
+| Paste      | `Ctrl` + `V`                                 | `Cmd` + `V`                    |             |
+| Undo       | `Ctrl` + `Z`                                 | `Cmd` + `Z`                    |             |
+| Save       | `Ctrl` + `S`                                 | `Cmd` + `S`                    |             |
+| Find       | `Ctrl` + `F`                                 | `Cmd` + `F`                    |             |
+| Close Tab  | `Ctrl` + `W`                                 | `Cmd` + `W`                    |             |
+| Cut        | `Ctrl` + `X`                                 | `Cmd` + `X`                    |             |
+| Redo       | `Ctrl` + `Shift` + `Z`                       | `Ctrl` + `Cmd` + `Shift` + `Z` |             |
+| Open       | `Ctrl` + `O`                                 | `Cmd` + `O`                    |             |
 
 ## Terminal (Emacs `Meta key` combinations)
 

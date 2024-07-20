@@ -12,7 +12,7 @@ Things I install on my fedora workstations.
 
     - [awscli](#awscli)
     - [bash-my-aws](#bash-my-aws)
-    - [darkman](mt/darkman.md)
+    - [darkman](cli/darkman.md)
     - [syncthing](#syncthing)
 
     - [dbeaver-ce](#dbeaver-ce)

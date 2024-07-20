@@ -11,6 +11,7 @@ alias: vscode - Visual Studio Code
 - [Markdown](markdown.md)
 - [extensions](extensions.md)
 - [vscode-remote](vscode-remote.md)
+- [[Co-pilot alternatives]]
 
 ## Keyboard Shortcuts 
 
@@ -42,6 +43,7 @@ alias: vscode - Visual Studio Code
 
 ## Handy commands
 
+**Open something in a new window:** `code -n foobar`
 **Add folder to workspace**: `code --add .`
 **Diff from last save**: Ctrl-K-D
 

@@ -24,8 +24,9 @@ sudo tailscale set --auto-update
 
 ## macOS
 
-
-
+Start before login:
+- FileVault is disk encryption, so when you boot up nothing useful can run because the disk is locked.
+- [Someone said](https://forum.logik.tv/t/tailscale-on-boot-for-mac-procedure/10595): ~/go/bin/tailscale up
 
 ## firewalld allows all traffic from tailscale
 
