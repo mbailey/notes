@@ -1,6 +1,6 @@
 # What's this?
 
-Things I don't want to rely on google/my memory for.
+Things I don't want to rely on google/my memory for. TEST
 
 - Not intended to replace man pages / wikipedia.
 - Markdown files, published to [https://mike.bailey.net.au/notes](https://mike.bailey.net.au/notes).

@@ -5,3 +5,4 @@ docs/kvm/amazon-linux-2/config/seed.iso
 docs/kvm/config/meta-data
 *.swp
 public
+.obsidian/plugins*
