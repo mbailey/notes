@@ -10,7 +10,7 @@ alias: vscode - Visual Studio Code
 - [Settings](./settings.md)
 - [Markdown](markdown.md)
 - [extensions](extensions.md)
-- [vscode-remote](vscode-remote.md)
+- [vscode-remote-ssh](vscode-remote-ssh.md)
 - [[Co-pilot alternatives]]
 
 ## Keyboard Shortcuts 
