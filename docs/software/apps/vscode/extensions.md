@@ -3,6 +3,7 @@
 - [speech](speech.md)
 - [bookmarks](./bookmarks.md): 
 - [gitlens](gitlens.md)
+- [Remote-SSH](remote-ssh-extension.md)
 - Edit CSV
 - Rainbow CSV
 - AI

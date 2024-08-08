@@ -10,8 +10,26 @@ alias: vscode - Visual Studio Code
 - [Settings](./settings.md)
 - [Markdown](markdown.md)
 - [extensions](extensions.md)
-- [vscode-remote-ssh](vscode-remote-ssh.md)
+- [remote-ssh-extension](remote-ssh-extension.md)
 - [[Co-pilot alternatives]]
+
+## Install
+
+### CLI
+
+The `code` command make it easy to open paths from the command line.
+
+Add it to your PATH with a symlink:
+
+```shell
+sudo ln -sr /usr/share/code/bin/code "${XDG_BIN_HOME:-$HOME/.local/bin}"/code
+```
+
+For the insiders version:
+
+```shell
+ln -sr /usr/share/code-insiders/bin/code-insiders "${XDG_BIN_HOME:-$HOME/.local/bin}"/code-insiders
+```
 
 ## Keyboard Shortcuts 
 
