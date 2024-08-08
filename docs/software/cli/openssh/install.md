@@ -1,12 +1,3 @@
-# OpenSSH
-
-## Handy commands
-
-**Extract public key:** `ssh-keygen -y -f /path/to/private/key`
-
-## CVE
-
-- https://github.com/xaitax/CVE-2024-6387_Check
 ## Install
 
 ### From source

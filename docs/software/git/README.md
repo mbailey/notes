@@ -3,15 +3,15 @@ alias: Git
 ---
 # Git
 
+- [Authentication using Device Flow](./authentication-using-device-flow.md)
 - [[alias]]
-- [git submodules](./git-submodules.md)
 - [branches](./branches.md)
 - [config](./config.md)
-- [stash](stash/README.md)
 - [diff](./diff.md)
+- [git submodules](./git-submodules.md)
 - [ignore](./git-ignore.md)
-- [Authentication using Device Flow](./authentication-using-device-flow.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
+- [stash](stash/README.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/./user-manual.html)
 - [Git - Community](https://git-scm.com/community)
