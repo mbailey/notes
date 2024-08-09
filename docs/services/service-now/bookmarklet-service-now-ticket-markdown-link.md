@@ -4,6 +4,14 @@ A bookmarklet to simplify extracting Markdown links from ServiceNow tickets.
 
 - Extracts the Task ID from the page title.
 - Constructs a simplified URL similar to the "Copy URL" from the ServiceNow menu.
+
+**A hyperlink takes one mouseclick to view compared to:**
+
+1. **Copying Ticket ID to clipboard:** 2 clicks, Ctrl+C
+2. **Switching to web browser:** Alt+TAB (TAB TAB TAB where is it)
+3. **Opening Service Now from folder in browser bookmark bar:** 2 clicks
+4. **Selecting search field:** 1 click
+5. **Pasting Ticket ID from clipboard**: CTRL-V + Enter
 ## Bookmarklet Code:
 
 ```javascript
