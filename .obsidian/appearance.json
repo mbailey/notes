@@ -1,1 +1,13 @@
-{}
+{
+  "theme": "system",
+  "accentColor": "",
+  "showViewHeader": true,
+  "nativeMenus": true,
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "chatgpt"
+  ],
+  "baseFontSize": 13
+}

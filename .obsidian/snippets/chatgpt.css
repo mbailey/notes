@@ -1,0 +1,27 @@
+/* Code block styling */
+.markdown-preview-view code {
+    background-color: #f5f5f5; /* Light grey background */
+    border: 1px solid #dcdcdc; /* Grey border */
+    border-radius: 4px;
+    font-family: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+    color: #333333; /* Darker text for better contrast */
+    padding: 2px 4px;
+}
+
+/* Inline code styling */
+.markdown-preview-view pre {
+    background-color: #f5f5f5; /* Light grey background */
+    border: 1px solid #dcdcdc; /* Grey border */
+    border-radius: 4px;
+    font-family: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+    color: #333333;
+    padding: 0.2em 0.4em;
+    line-height: normal;
+}
+
+/* Bold text styling */
+.markdown-preview-view strong {
+    font-weight: bold;
+    color: #333333; /* Same as text for consistency */
+}
+

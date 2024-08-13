@@ -10,3 +10,7 @@
 pyenv install 3
 pyenv global 3
 ```
+
+
+## Config
+

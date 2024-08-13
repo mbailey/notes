@@ -7,17 +7,19 @@ alias: vscode - Visual Studio Code
 
 ## Pages
 
-- [Settings](./settings.md)
+- [Co-pilot alternatives](Co-pilot%20alternatives.md)
+- [Extensions](extensions.md)
+- [Keyboard Shortcuts](Keyboard%20Shortcuts.md)
 - [Markdown](markdown.md)
-- [extensions](extensions.md)
-- [remote-ssh-extension](remote-ssh-extension.md)
-- [[Co-pilot alternatives]]
+- [Settings](./settings.md)
 
 ## Install
 
 ### CLI
 
 The `code` command make it easy to open paths from the command line.
+
+### Linux
 
 Add it to your PATH with a symlink:
 
@@ -31,25 +33,16 @@ For the insiders version:
 ln -sr /usr/share/code-insiders/bin/code-insiders "${XDG_BIN_HOME:-$HOME/.local/bin}"/code-insiders
 ```
 
-## Keyboard Shortcuts 
+### macOS
 
-### Default
+- https://code.visualstudio.com/docs/setup/mac
 
-**Collapse Folders in Explorer:** Ctrl-SHIFT-P
-**Go Back**: Ctrl-ALT--
-**Multiple cursors**: CTRL-ALT up/down
-**Put cursors in multiple spots**: ALT-click  
-**Toggle light/dark** (my setting):  Ctrl-K K
-**Toggle line wrap**:   ALT-Z:
-**Zen mode** (focus on the code) - click and drag edges: Ctrl-K Z
-
-**Editing:**
-- Toggle comment on line(s): `Ctrl` + `/`
-- Indent line(s): `TAB`, `Shift + TAB`
-
-### Custom
-
-*Disable* **Ctrl + F**: Vim: editorFocus... # It gets in the way of standard Find
+```shell
+cat << EOF >> ~/.bash_profile
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
+```
 
 ## Activity Bar
 

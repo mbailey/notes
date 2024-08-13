@@ -3,6 +3,8 @@ alias: Git
 ---
 # Git
 
+- [remove git-lfs](remove%20git-lfs.md)
+
 - [Authentication using Device Flow](./authentication-using-device-flow.md)
 - [[alias]]
 - [branches](./branches.md)
@@ -12,6 +14,8 @@ alias: Git
 - [ignore](./git-ignore.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
 - [stash](stash/README.md)
+
+- [debugging git push](debugging%20git%20push.md)
 
 - [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/./user-manual.html)
 - [Git - Community](https://git-scm.com/community)

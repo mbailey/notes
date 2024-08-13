@@ -6,3 +6,10 @@ docs/kvm/config/meta-data
 *.swp
 public
 .obsidian/plugins*
+.obsidian/daily-notes.json
+.obsidian/bookmarks.json
+.obsidian/core-plugins-migration.json
+.obsidian/core-plugins-migration.json
+.obsidian/obsidian-selective-sync-excluded-folders.txt
+.obsidian/starred.json
+.obsidian/workspace.json

@@ -1,0 +1,8 @@
+/* <<------------- Hide Strikethrough in READING VIEW ----------------->> */
+	.markdown-preview-view ul>li.task-list-item {
+		text-decoration: none;
+	}
+/* <<------------- Hide Strikethrough in LIVE PREVIEW ----------------->> */
+	.markdown-source-view.mod-cm6 .HyperMD-task-line[data-task="x"] {
+		text-decoration: none;
+	}
