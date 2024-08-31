@@ -1,35 +1,22 @@
-# Initial Setup
+# Initial macOS Setup
 
-Here's a high-level list of the first things to do to secure and prepare a new Mac mini for running a publicly accessible service in production:
+## Essential Steps
 
-1. Update macOS and all software to the latest versions
-
+1. Update macOS and all software
 2. Enable FileVault for full-disk encryption
-
 3. Set up a strong administrator password
+4. Configure firewall (allow only necessary connections)
+5. Set up regular automated backups
+6. Create a standard user account for daily use
+7. Configure automatic software updates
 
-4. Configure the firewall and only allow necessary incoming connections
+## Optional Steps
 
-5. Install and configure antivirus software
-
-6. Set up regular automated backups
-
-7. Create a standard user account for day-to-day operations
-
-8. Disable unnecessary services and remove unneeded software
-
-9. Configure automatic software updates
-
-10. Set up monitoring and logging tools
-
-11. Implement a robust password policy
-
-12. Configure screen lock and automatic logout
-
-13. Disable unnecessary hardware (e.g., Bluetooth, if not needed)
-
-14. Set up a VPN for remote administration
-
-15. Review and configure sharing settings
-
-Would you like me to elaborate on any of these points or provide more detailed instructions for implementing them?
+1. Install and configure antivirus software
+2. Disable unnecessary services and remove unneeded software
+3. Set up monitoring and logging tools
+4. Implement a robust password policy
+5. Configure screen lock and automatic logout
+6. Disable unnecessary hardware (e.g., Bluetooth if not needed)
+7. Set up a VPN for remote administration
+8. Review and configure sharing settings
