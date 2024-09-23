@@ -1,22 +1,10 @@
 # README template
 
-One or two paragraphs about your project and what it does.
+Lede: One line, 25 words of less describing the thing.
 
-- todo 
-- changelog
-- releases
-- configuration
-    - environments
-        - prod
-        - staging
-        - dev
-- deployment
-- troubleshooting
-- monitoring/alerting
-- metrics
+One paragraph with concise summary and potentially a list, with both linking to more information where appropriate.
 
-## Usage example
-
+## Usage
 
 ## Installation
 
@@ -24,13 +12,16 @@ Describe how to get your project running.
 
 ### Pre-requisites
 
-MacOS & Linux
+- hardware
+- software
+- permissions
+- etc
 
-```
-bin/install
-```
+## Configuration
 
-## Development
+
+# Troubleshooting
+
 
 ### Setup
 
@@ -45,3 +36,20 @@ bin/install
 3.  Commit your changes (`git commit -am 'Add some fooBar'`)
 4.  Push to the branch (`git push origin feature/fooBar`)
 5.  Create a new Pull Request
+
+
+## Other things to include?
+
+i- todo 
+- changelog
+- releases
+- configuration
+    - environments
+        - prod
+        - staging
+        - dev
+- deployment
+- troubleshooting
+- monitoring/alerting
+- metrics
+

@@ -7,6 +7,7 @@ Python tool for managing git pre-commit hooks
 
 - https://pre-commit.com/
 
+- [remove-pre-commit-from-git-repo](remove-pre-commit-from-git-repo.md)
 ## Usage
 
 ### Install pre-commit into your repo's git hooks
@@ -65,6 +66,7 @@ pre-commit autoupdate --freeze
 ```shell
 rm -fr .git && git init && git-config-personal && pre-commit install && git add . && git commit
 ```
+
 
 ## Resources
 

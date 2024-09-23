@@ -24,9 +24,10 @@
 
 ## Shortcuts to disable
 
-| Action              | Shortcut | Comment                             |
-| ------------------- | -------- | ----------------------------------- |
-| Vim: editorFocus... | Ctrl + F | It gets in the way of standard Find |
+| Action              | Shortcut | Comment                          |
+| ------------------- | -------- | -------------------------------- |
+| Vim: editorFocus... | Ctrl + F | Clashes with `Find`              |
+| Vim<br>             | Ctrl + P | Clashes with `Quick Open Dialog` |
 ## Custom shortcuts
 
 | Action                          | Shortcut |

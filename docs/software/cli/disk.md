@@ -31,7 +31,7 @@ Quick an easy way to test performance.
 
 - Note: it unmounts disk before check - won't work on root disk
 
-![](../assets/Pasted%20image%2020230104115435.png)
+![](../../assets/Pasted%20image%2020230104115435.png)
 
 ### hdparm
 

@@ -24,6 +24,16 @@ sudo tailscale set --auto-update
 
 ## macOS
 
+- [Setting up Tailscale on macOS · Tailscale Docs (tailscale.com)](https://tailscale.com/kb/1016/install-mac)
+
+*Maybe?*
+
+```shell
+sudo brew install tailscale
+sudo brew services start tailscale
+tailscale login
+```
+
 Start before login:
 - FileVault is disk encryption, so when you boot up nothing useful can run because the disk is locked.
 - [Someone said](https://forum.logik.tv/t/tailscale-on-boot-for-mac-procedure/10595): ~/go/bin/tailscale up

@@ -1,5 +1,9 @@
 # git ignore
 
+### Check which rule caused git to ignore
+
+    git check-ignore -v path/to/check
+
 ## Ignore local changes
 
 Tell Git to ignore changes to a file locally without affecting the repository or other collaborators:
@@ -32,10 +36,6 @@ $ git config --global core.excludesFile ~/.gitignore
 git clean -n -X
 ```
 
-
-### Check which rule caused git to ignore
-
-    git check-ignore -v path/to/check
 
 ### Which file to place a pattern in depends on how the pattern is meant to be used.
 

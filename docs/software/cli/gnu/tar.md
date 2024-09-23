@@ -5,3 +5,4 @@
 ## Commands
 
 **List contents:**  `tar -ztvf filename.tar.gz`
+    Add from find: `tar czf x_files.tar.gz $(fd -HI .x)`

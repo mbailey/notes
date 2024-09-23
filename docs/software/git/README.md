@@ -14,6 +14,7 @@ alias: Git
 - [ignore](./git-ignore.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
 - [stash](stash/README.md)
+- [Find deleted files](Find%20deleted%20files.md)
 
 - [debugging git push](debugging%20git%20push.md)
 
@@ -122,8 +123,6 @@ git update-index --assume-unchanged <file-list>
 
     git checkout c5f567 -- file1/to/restore file2/to/restore
 
-
-
 ## Checkout Remote Branch
 
     git fetch --all
@@ -133,16 +132,25 @@ git update-index --assume-unchanged <file-list>
 
   git diff --no-index file1 file2
 
-## Command to change the author for the last N commits:
+## Change commit author 
+
+```shell
+git commit --amend --author="Alex Doe <alex@work.com>" --no-edit
+```
+
+For the last N commits:
 
     git rebase -i HEAD~N -x "git commit --amend --author 'Author Name <author.name@mail.example>' --no-edit"
 
 ## Update forked github repo
 
-    git remote add upstream git@github.com:original-repo/goes-here.git
-    git fetch upstream
-    git rebase upstream/master
-    git push origin master --force-with-lease
+```shell
+git remote add upstream git@github.com:original-repo/goes-here.git
+git fetch upstream
+git checkout master
+git rebase upstream/master
+git push origin master --force-with-lease
+```
 
 ## gpg diff
 

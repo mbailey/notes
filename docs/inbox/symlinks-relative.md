@@ -40,7 +40,7 @@ m@x2 example-repo $ pwd -P
 
 ```shell
 m@x2 example-repo $ ls -la ../
-```
+``` 
 
 ## Answer
 

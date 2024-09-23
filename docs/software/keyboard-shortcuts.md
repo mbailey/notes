@@ -5,6 +5,18 @@ Use a consistent set  ofkeyboard shortcuts across operating systems and applicat
 - Some of these may be wrong.
 
 - [ ] **Ctrl-Tab:** cycle through tabs (Windows Terminal). Check others
+## Contents
+
+- [Markdown](#Markdown)
+- [OS](#OS)
+- [Window](#Window)
+- [Terminal (Emacs `Meta key` combinations)](#Terminal%20(Emacs%20`Meta%20key`%20combinations))
+- [Application](#Application)
+
+**See also:**
+
+- [Slack Keyboard Shortcuts](slack-keyboard-shortcuts.md)
+
 ## Markdown
 
 Custom shortcuts to use on Obsidian and Visual Studio Code.
@@ -86,3 +98,7 @@ Many applications follow these conventions.
 ### Keyboard Shortcuts
 
 **Delete previous word:** `Ctrl` + `W`
+
+## See also
+
+- [Slack keyboard shortcuts](slack-keyboard-shortcuts.md)

@@ -1,7 +1,7 @@
 ---
-alias: vscode - Visual Studio Code
+alias: VS Code
 ---
-# vscode - Visual Studio Code
+# VS Code - Visual Studio Code
 
 [Visual Studio Code - Code Editing. Redefined (code.visualstudio.com)](https://code.visualstudio.com/)
 
@@ -12,37 +12,9 @@ alias: vscode - Visual Studio Code
 - [Keyboard Shortcuts](Keyboard%20Shortcuts.md)
 - [Markdown](markdown.md)
 - [Settings](./settings.md)
+- [git](git.md)
 
-## Install
-
-### CLI
-
-The `code` command make it easy to open paths from the command line.
-
-### Linux
-
-Add it to your PATH with a symlink:
-
-```shell
-sudo ln -sr /usr/share/code/bin/code "${XDG_BIN_HOME:-$HOME/.local/bin}"/code
-```
-
-For the insiders version:
-
-```shell
-ln -sr /usr/share/code-insiders/bin/code-insiders "${XDG_BIN_HOME:-$HOME/.local/bin}"/code-insiders
-```
-
-### macOS
-
-- https://code.visualstudio.com/docs/setup/mac
-
-```shell
-cat << EOF >> ~/.bash_profile
-# Add Visual Studio Code (code)
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-EOF
-```
+## Usage
 
 ## Activity Bar
 
@@ -50,47 +22,17 @@ EOF
 `CTRL-SHIFT+E`: Show Explorer
 `CTRL-SHIFT+G G`: Show Git
 
-
-
 ## Handy commands
 
 **Open something in a new window:** `code -n foobar`
 **Add folder to workspace**: `code --add .`
 **Diff from last save**: Ctrl-K-D
-
-### shebang
-
-```
-"shellcheck.arguments": [
-    "--format=gcc",
-    "--severity=warning",
-    "--shell=bash",
-    "--external-sources",
-    "--enable=all",
-    "--shebang=#!/usr/bin/env bash"
-],
-```
-
-
 ## Install
 
-- [Running Visual Studio Code on Linux (code.visualstudio.com)](https://code.visualstudio.com/docs/setup/linux)
+- [Install VS Code Application](Install%20VS%20Code%20Application.md)
+- [Install VS Code CLI](Install%20VS%20Code%20CLI.md): Open paths from the command line with `code` command.
 
-Install Key and Yum repo:
-
-```shell
-sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
-```
-
-Then update the package cache and install the package using dnf (Fedora 22 and above):
-
-```shell
-dnf check-update
-sudo dnf install code
-```
-
-## Settings
+## Configure
 
 File locations:
 
@@ -136,6 +78,21 @@ My preferred settings:
 
 Whether or not to allow chord keybindings in the terminal. Note that when this is true and the keystroke results in a chord it will bypass [Terminal › Integrated: Commands To Skip Shell](vscode-file://vscode-app/usr/share/code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html "terminal.integrated.commandsToSkipShell"), setting this to false is particularly useful when you want ctrl+k to go to your shell (not VS Code).
 
+### shebang
+
+```
+"shellcheck.arguments": [
+    "--format=gcc",
+    "--severity=warning",
+    "--shell=bash",
+    "--external-sources",
+    "--enable=all",
+    "--shebang=#!/usr/bin/env bash"
+],
+```
+
+
+
 
 
 ## Shortcuts
@@ -145,32 +102,6 @@ Ctrl-p-p: Go back to previous file
 CTRL+ALT+-: Go back
 ```
 
-## Git
-
-- I'm using 1.73.1 (October 2022) on Linux
-
-- Opening multiple repos allows for a great Git status summary view
-- Click on the repo to see only those changes below
-  
-![](../../../assets/vscode-git-status-summary.png)
-
-Enable `Source Control Repositories` from the `...` menu next to `SOURCE CONTROL` to view the list.
-
-![](../../../assets/vscode-enable-source-control-repositories.png)
-
-### Configure to show number of uncommitted changes in each repo
-
-![](../../../assets/Pasted%20image%2020231113153202.png)
-
-### Copy GitHub URL for document
-
-- [gitlens](gitlens.md)
-
-The extension Gitlens by Eric Amodio gives the Copy Remote URL option in the context menu.
-
-The command is: gitlens.copyRemoteFileUrlToClipboard
-
-I had to configure my non-standard domains in [`gitlens.remotes`](https://github.com/gitkraken/vscode-gitlens#remotes)
 
 ## GUI
 
