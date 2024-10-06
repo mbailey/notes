@@ -71,4 +71,8 @@ systemctl --user enable --now darkman.service
 ```
 
 
+## Disable
 
+```shell
+systemctl --user disable --now darkman
+```

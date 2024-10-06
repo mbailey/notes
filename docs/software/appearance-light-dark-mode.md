@@ -6,7 +6,8 @@ Increase eye comfort by using "Dark Mode" in dark environments.
 
 ### Linux
 
-- TBA
+- **Gnome 40:** 
+    - **Check theme:** `gsettings get org.gnome.desktop.interface gtk-theme`
 
 ### macOS
 
@@ -21,9 +22,9 @@ Windows 10 does not come with an option to update base on time of day.
 
 ## Applications
 
-- **[Obsidian](https://obsidian.md/):** Settings → Appearance → Base color scheme → Adapt to system (restart required)
-- **[Visual Studio Code](https://code.visualstudio.com/):** Add _"window.autoDetectColorScheme": true_ in settings.json
-- **[Webbrowsers](#Webbrowsers):** See below for details
+- **[Obsidian](../../../public/docs/software/apps/obsidian/README.md):** Settings → Appearance → Base color scheme → Adapt to system (restart required)
+- **[VS Code](../../../public/docs/software/apps/vscode/README.md):** Add _"window.autoDetectColorScheme": true_ in settings.json
+- **Webbrowsers:** See below for details
 - GitHub.com: See below
 - **Google Search:** see below
 - **Windows Terminal:** Set [`colorscheme`](https://learn.microsoft.com/en-us/windows/terminal/customize-settings/profile-appearance#color-scheme)

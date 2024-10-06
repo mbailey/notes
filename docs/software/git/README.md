@@ -14,6 +14,7 @@ alias: Git
 - [ignore](./git-ignore.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
 - [stash](stash/README.md)
+- [tags](tags.md)
 - [Find deleted files](Find%20deleted%20files.md)
 
 - [debugging git push](debugging%20git%20push.md)

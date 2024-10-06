@@ -3,7 +3,10 @@ alias: Python
 ---
 # Python
 
-- [pyenv](pyenv/pyenv.md)
+- [pip](pip.md)
+- [pyenv](./pyenv/pyenv.md)
+- [pypi](./pypi.md)
+
 - [function-docs-by-chatgpt](function-docs-by-chatgpt.md)
 
 ## Commands
