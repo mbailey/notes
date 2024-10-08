@@ -21,6 +21,7 @@ alias: Obsidian
 ## Questions
 
 - How can each user manage their own preferences for a shared repo in Git?
+- Issue: [Color scheme adapt to system not working on Linux (FedoraGNOME) - Bug graveyard - Obsidian Forum (forum.obsidian.md)](https://forum.obsidian.md/t/color-scheme-adapt-to-system-not-working-on-linux-fedora-gnome/38743/40)
 
 ## Tasks
 
