@@ -3,14 +3,8 @@ alias: Obsidian
 ---
 # Obsidian
 
-- https://forum.obsidian.md/t/support-gfm-style-kebab-case-heading-slug-anchor-targets/30350 GFM links for headings
-- [manual (help.obsidian.md)](https://help.obsidian.md/)
-- [date formatting](https://momentjs.com/docs/#/displaying/format/)
+- [sync](sync.md)
 
-- [Settings that may break quick switcher and link completer](obsidian-settings-that-may-break-quick-switcher-and-link-completer.md)
-
-- [Plugins](plugins/README.md)
-  - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
 
 ## Cool stuff
 
@@ -82,22 +76,6 @@ All are settable.
 - TBA: toggle checkboxes
 - TBA: toggle headings
 
-## Sync
-
-Tools for Sync'ing:
-
-- [SyncThing](https://syncthing.net/) is free and works well between computers. Data stays on your hardware.
-- [Obsidian Sync](https://obsidian.md/sync): USD $10 per month. Supports end to end encryption.
-- [Git](https://git-scm.com/): Open Source and free source control.
-    - changing between branches can lead to a lot of sync updates
-
-### Note
-
-- Sync conflicts will likely result from using Obsidian Sync with another type (like SyncThing).
-    - Setting "Open Daily Note at Startup" to true on multiple hosts will likely cause sync issues. [forum.obsidian.com](https://forum.obsidian.md/t/obsidian-sync-updates-from-one-device-overwritten-by-another/33007)
-
-linux  <--> linux : Obsidian Sync or SyncThing, Git
-iphone <--> linux : Obsidian Sync
 
 
 
@@ -157,3 +135,14 @@ https://www.carlcassar.com/articles/five-useful-apple-shortcuts-for-obsidian
 
 - [No Boilerplate]()
 https://youtube.com/watch?v=DbsAQSIKQXk&si=TmwCea_05YzeDyvA)
+
+## See also
+
+- https://forum.obsidian.md/t/support-gfm-style-kebab-case-heading-slug-anchor-targets/30350 GFM links for headings
+- [manual (help.obsidian.md)](https://help.obsidian.md/)
+- [date formatting](https://momentjs.com/docs/#/displaying/format/)
+
+- [Settings that may break quick switcher and link completer](obsidian-settings-that-may-break-quick-switcher-and-link-completer.md)
+
+- [Plugins](plugins/README.md)
+  - [A Few of Our Favorite Obsidian Plugins – The Sweet Setup](https://thesweetsetup.com/our-favorite-obsidian-plugins/)
