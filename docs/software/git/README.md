@@ -13,6 +13,7 @@ alias: Git
 - [git submodules](./git-submodules.md)
 - [ignore](./git-ignore.md)
 - [pre-commit (pre-commit.com)](https://pre-commit.com/)
+- [self-hosted](self-hosted.md)
 - [stash](stash/README.md)
 - [tags](tags.md)
 - [Find deleted files](Find%20deleted%20files.md)
