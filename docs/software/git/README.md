@@ -3,6 +3,13 @@ alias: Git
 ---
 # Git
 
+## Tools
+
+- GitKraken
+- GitLens
+
+## Commands
+
 - [remove git-lfs](remove%20git-lfs.md)
 
 - [Authentication using Device Flow](./authentication-using-device-flow.md)
@@ -46,7 +53,6 @@ git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-ze
 [config](./config.md)
 
 
-## Commands
 
 
 
