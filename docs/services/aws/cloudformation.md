@@ -22,19 +22,32 @@ References:
     $ git clone https://github.com/bash-my-aws/bash-my-aws.git ${BMA_HOME:-$HOME/.bash-my-aws}
 
 
-Utilities
+**Utilities:**
 
-    pip install cfn-flip cfn-lint
+```shell
+pip install cfn-flip cfn-lint pydot
+```
 
 
-VSCode Extensions
+**VSCode Extensions:**
+- [Create a AWS CloudFormation template using the AWS Toolkit for Visual Studio Code - AWS Toolkit for VS Code (docs.aws.amazon.com)](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/cloudformation-template.html):
+    - [YAML - Visual Studio Marketplace (marketplace.visualstudio.com)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+    - CloudFormation template:  File has a .yaml or .yml extension.
+    - The file has a top-level `AWSTemplateFormatVersion` or **Resources** node.
+    
 
-[CloudFormation](https://github.com/aws-scripting-guy/cform-VSCode)
-- create new YAML doc
-- type start
-- start typing resource name and hit TAB
+###### SAM Template
 
-[CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code)
+- All of the criteria already described for CloudFormation
+    
+- The file has a top-level **Transform** node, containing a value that begins with `AWS::Serverless`.
+
+- [CloudFormation Linter](https://github.com/aws-cloudformation/cfn-lint-visual-studio-code): Popular
+- [CloudFormation](https://github.com/aws-scripting-guy/cform-VSCode)
+    - Create new YAML doc
+    - Type start
+    - Start typing resource name and hit TAB
+
 
 
 ## Cloudformation Templates

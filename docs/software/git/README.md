@@ -8,6 +8,10 @@ alias: Git
 - GitKraken
 - GitLens
 
+## Conventions
+
+- [commit](conventions/commit.md)
+
 ## Commands
 
 - [remove git-lfs](remove%20git-lfs.md)

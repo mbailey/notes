@@ -7,6 +7,8 @@
 - [SSH](ssh.md)
 - [Sessions](sessions.md)
 
+- The ec2 instance needs network access to the Systems Manager service.
+
 ## Commands
 
 **Connect to instance**:  `aws ssm start-session --target i-006b11ac03868d528`
