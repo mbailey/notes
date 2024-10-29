@@ -12,3 +12,5 @@ public
 .obsidian/core-plugins-migration.json
 .obsidian/obsidian-selective-sync-excluded-folders.txt
 .obsidian/starred.json
+.aider*
+.env
