@@ -4,6 +4,8 @@ Git commit messages help track and understand changes in a project. Using consis
 
 ### Conventional Commits
 
+A specification for adding human and machine readable meaning to commit messages. [Learn more](https://www.conventionalcommits.org/)
+
 | Prefix | Description |
 |--------|-------------|
 | feat | New features or significant changes to functionality |
@@ -20,6 +22,8 @@ Git commit messages help track and understand changes in a project. Using consis
 
 ### Ember.js Convention
 
+The commit style used by the Ember.js project and community. [Learn more](https://github.com/emberjs/ember.js/blob/master/CONTRIBUTING.md#commit-tagging)
+
 | Prefix | Description |
 |--------|-------------|
 | [FEATURE] | New features |
@@ -32,6 +36,8 @@ Git commit messages help track and understand changes in a project. Using consis
 
 ### GNU Style
 
+A simple prefix-based style used in GNU projects. [Learn more](https://www.gnu.org/prep/standards/html_node/Change-Logs.html)
+
 | Prefix | Description |
 |--------|-------------|
 | add: | Adding new files/features |
@@ -41,6 +47,8 @@ Git commit messages help track and understand changes in a project. Using consis
 | doc: | Documentation updates |
 
 ### Laravel Style
+
+The commit convention used in Laravel framework development. [Learn more](https://laravel.com/docs/contributions#coding-style)
 
 | Prefix | Description |
 |--------|-------------|
