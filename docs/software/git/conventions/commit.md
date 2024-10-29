@@ -1,6 +1,7 @@
 # Git Commit Conventions
 
 ### Conventional Commits
+
 | Prefix | Description |
 |--------|-------------|
 | feat | New features or significant changes to functionality |
@@ -16,6 +17,7 @@
 | revert | Reverting a previous commit |
 
 ### Ember.js Convention
+
 | Prefix | Description |
 |--------|-------------|
 | [FEATURE] | New features |
@@ -37,6 +39,7 @@
 | doc: | Documentation updates |
 
 ### Laravel Style
+
 | Prefix | Description |
 |--------|-------------|
 | [Feature] | New features |
