@@ -1,7 +1,5 @@
 # Git Commit Conventions
 
-
-
 ### Conventional Commits
 | Prefix | Description |
 |--------|-------------|
@@ -29,6 +27,7 @@
 | [BREAKING] | Breaking changes |
 
 ### GNU Style
+
 | Prefix | Description |
 |--------|-------------|
 | add: | Adding new files/features |
@@ -48,4 +47,7 @@
 | [Test] | Test additions or changes |
 | [Chore] | Maintenance tasks |
 
-Each of these standards can be further customized with scopes or additional categories based on project needs. For example: `feat(auth): add OAuth support` or `fix(database): resolve connection timeout`.
+Each of these standards can be further customized with scopes or additional categories based on project needs. For example:
+
+- `feat(auth): add OAuth support`
+- `fix(database): resolve connection timeout`
