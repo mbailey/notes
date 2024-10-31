@@ -9,7 +9,6 @@
         "ms-vscode-remote.remote-ssh",
         "timonwong.shellcheck",
         "vscodevim.vim",
-        "saoudrizwan.claude-dev",
         "davidanson.vscode-markdownlint"
     ]
 }
