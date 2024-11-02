@@ -3,6 +3,7 @@
 - [prometheus/node_exporter Exporter for machine metrics (github.com)](https://github.com/prometheus/node_exporter)
 - 
 - https://hub.docker.com/r/prom/node-exporter
+- https://formulae.brew.sh/formula/node_exporter
 
 ## Questions
 

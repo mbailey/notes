@@ -8,6 +8,7 @@ Markdown based static site generator aimed at documentation (including this).
 - [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
     - [Sponsor squidfunk](https://github.com/sponsors/squidfunk)
+- [Terminal for MkDocs](https://github.com/ntno/mkdocs-terminal).
 
 It's very simple:
 
