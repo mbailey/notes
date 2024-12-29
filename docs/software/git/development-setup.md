@@ -1,7 +1,6 @@
 # Development Setup for Forked Projects
 
 When contributing to a Python project via fork, you often want to:
-
 1. Use your development version locally
 2. Keep up with upstream changes
 3. Maintain multiple feature branches
@@ -10,7 +9,6 @@ When contributing to a Python project via fork, you often want to:
 ## Virtual Environment Setup
 
 Create a dedicated virtualenv for development:
-
 ```bash
 # Create venv in a standard location
 python -m venv ~/.local/venv/project-dev
@@ -25,27 +23,29 @@ ln -sf ~/.local/venv/project-dev/bin/project ~/.local/bin/project
 ## Git Remote Setup
 
 Configure your fork to track upstream:
-
 ```bash
 # Add upstream remote
 git remote add upstream https://github.com/original/project.git
 
-# Create development branch
-git checkout -b dev
-
-# Keep dev up to date with upstream
+# Keep main up to date with upstream
 git fetch upstream
+git checkout main
 git rebase upstream/main
 ```
 
 ## Managing Feature Branches
 
-1. Create feature branches from dev
-2. Submit PRs from feature branches
+1. Create feature branches from main
+```bash
+git checkout main
+git pull upstream main
+git checkout -b feat/new-feature
+```
+2. Submit PRs from feature branches to upstream/main
 3. If PRs take time to merge:
-   - Keep features in dev branch
-   - Rebase dev on upstream/main
-   - Cherry-pick needed features
+   - Keep personal dev branch for local use
+   - Merge desired features into dev
+   - Rebase dev on main regularly
 
 ## Benefits
 
