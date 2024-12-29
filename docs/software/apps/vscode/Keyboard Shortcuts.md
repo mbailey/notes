@@ -4,12 +4,13 @@
 
 ### UI and Workspace Controls
 
-| Action                       | Shortcut         |
-| ---------------------------- | ---------------- |
-| Collapse Folders in Explorer | Ctrl + Shift + P |
-| Go Back                      | Ctrl + Alt + -   |
-| Toggle light/dark mode       | Ctrl + K, K      |
-| Zen mode (focus on the code) | Ctrl + K, Z      |
+| Action                       | Shortcut         | Comment                   |
+| ---------------------------- | ---------------- | ------------------------- |
+| Collapse Folders in Explorer | Ctrl + Shift + P |                           |
+| Go Back                      | Ctrl + Alt + -   |                           |
+| Toggle light/dark mode       | Ctrl + K, K      |                           |
+| Zen mode (focus on the code) | Ctrl + K, Z      |                           |
+| Filter tree view             | Ctrl + Alt + F   | Useful for [explorer view](https://code.visualstudio.com/docs/getstarted/userinterface#_advanced-tree-navigation) |
 
 ### Editing
 
@@ -33,4 +34,3 @@
 | Action                          | Shortcut |
 | ------------------------------- | -------- |
 | - Maximise / minimise panel<br> | Ctrl + M |
-

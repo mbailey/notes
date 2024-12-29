@@ -7,6 +7,13 @@
 
 - [ ] Work out how to update slack staus with iOS Automations and Shortcuts
 
+
+## Commands
+
+| Action                                                                               | Command                                                                                                                                                           | Comments |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| Create a Poll ([SimplePoll](https://simplepoll.rocks/how-to-create-a-poll-in-slack)) | /poll "How are you avoiding dependency conflicts when installing python CLI tools?" "pipx" "system package manager (apt/brew)" "pip install --user" allow-options |          |
+ 
 ## Install
 
 
@@ -17,7 +24,7 @@
 
 **All your posts on a certain day**: `from:@me on:2024-01-08`
 
-## Settings
+## Configure
 
 - [markdown support (markdownguide.org)](https://www.markdownguide.org/tools/slack/)
 - [emoji preferences (slack.com)](https://slack.com/intl/en-au/help/articles/4406393601683-Manage-emoji-preferences)

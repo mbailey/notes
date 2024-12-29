@@ -73,8 +73,10 @@ opening in a different container.
 
 I don't want to have to keep typing in my Primary Password to unlock password manager.
 
-You can set the browser.tabs.closeWindowWithLastTab pref to false on the about:config page to prevent closing the last tab from closing that window and make a close button appear if only one tab is open.
-
+- Type "about:config" in the address bar
+- Accept the warning message
+- Search for "browser.tabs.closeWindowWithLastTab"
+- Double-click to set it to "false"
 ## troubleshooting
 
 ### Troubleshoot mode

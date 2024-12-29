@@ -58,6 +58,7 @@ Workspace
 
 ## Plugins
 
+- Advanced Slides
 - **Markdown to Slack:** [idreamer/markdown-to-slack-message (github.com)](https://github.com/idreamer/markdown-to-slack-message)
 - **Recent Files:** [tgrosinger/recent-files-obsidian](https://github.com/tgrosinger/recent-files-obsidian)
 
