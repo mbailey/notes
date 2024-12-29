@@ -11,16 +11,15 @@ Source control.
 
 ## Development Workflow
 
-- [development-setup](development-setup.md)
+- [Development Setup for Forked Projects](development-setup.md)
 
 ## How to
 
 - [Self Hosting](self-hosting.md)
 - [Authentication using Device Flow](./authentication-using-device-flow.md)
-- [Clone a fork](clone-a-fork.md)
 - [Find deleted files](Find%20deleted%20files.md)
 
-- [debugging git push](debugging%20git%20push.md)
+- [Debugging git push](debugging%20git%20push.md)
 - [Remove large file from git repo with git-filter-repo](remove-large-file.md)
 
 ## Core Git

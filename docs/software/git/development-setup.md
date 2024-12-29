@@ -1,3 +1,6 @@
+---
+alias: Development Setup for Forked Projects
+---
 # Development Setup for Forked Projects
 
 When contributing to a Python project via fork, you often want to:
@@ -71,3 +74,21 @@ python -m venv ~/.local/venv/project-dev
 ln -sf ~/.local/venv/project-dev/bin/project ~/.local/bin/project
 ln -sf $(pipx environment -v | grep PIPX_BIN_DIR | cut -d= -f2)/project ~/.local/bin/project
 ```
+
+## Branch Switching with Editable Install
+
+When using `pip install -e .` (editable/development mode):
+- Python sees your current branch's code immediately
+- No need to reinstall when switching branches
+- You're always running the code from your checked-out branch
+
+```bash
+# Install editable version from any branch
+pip install -e .
+
+# Switch branches freely
+git checkout dev
+git checkout feat/new-feature
+```
+
+Note: If a branch changes dependencies (setup.py/pyproject.toml), run `pip install -e .` again after switching to it.

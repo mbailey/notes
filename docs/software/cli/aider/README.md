@@ -8,6 +8,7 @@ alias: Aider - AI Coding Assistant
 - [TODO](TODO.md)
 - [voice](voice.md)
 - Pipecat
+
 ## Usage
 
 `aider`
@@ -25,26 +26,14 @@ alias aa='aider --architect --sonnet --editor-model sonnet'
 
 *Note: You can use short commands (e.g. `/ch ask`)*
 
-| Command | Description | Arguments |
-|---------|-------------|------------|
-| /settings | List all settings | None |
-| /paste | Add clipboard image to chat | Image file path |
-| /run or ! | Run a shell command | Command to execute |
-| /ask | Ask questions about code without edits | Question text |
-| /chat-mode | Switch chat modes | Mode (`ask`, `code`, or `help`) |
-
-
-- `/settings`: List all settings.
-- `/paste`: Added clipboard image to the chat: /tmp/tmp61q6sfiy/clipboard_image.png
-- `/run` or `!`: Run a shell command
-- `/ask <question>`: command to ask about your code, without making any edits.
-- `/chat-mode <mode>` command to switch chat modes:
-    - `ask`: Ask questions about your code without making any changes.
-    - `code`: Ask for changes to your code (using the best edit format).
-    - `help`: Get help about using aider (usage, config, troubleshoot).
-
-
-
+| Command    | Description                                        | Arguments                       |
+| ---------- | -------------------------------------------------- | ------------------------------- |
+| /settings  | List all settings                                  | None                            |
+| /paste     | Add clipboard image to chat                        | Image file path                 |
+| /run or !  | Run a shell command                                | Command to execute              |
+| /ask       | Ask questions about code without edits             | Question text                   |
+| /chat-mode | Switch chat modes                                  | Mode (`ask`, `code`, or `help`) |
+| Ctrl-Z     | Suspend Aider for terminal access (`fg` to resume) |                                 |
 
 ## Investigate
 
