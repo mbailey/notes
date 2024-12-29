@@ -9,11 +9,12 @@ alias: Tailscale
 
 ![](../../assets/tailscale.png)
 
-## Install
+## Installation
 
 - [Setting up Tailscale on Fedora · Tailscale Docs (tailscale.com)](https://tailscale.com/kb/1050/install-fedora)
 
 ### Fedora
+
 ```
 sudo dnf config-manager --add-repo https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 sudo dnf install tailscale
@@ -26,17 +27,21 @@ sudo tailscale set --auto-update
 
 - [Setting up Tailscale on macOS · Tailscale Docs (tailscale.com)](https://tailscale.com/kb/1016/install-mac)
 
-*Maybe?*
+- Tailscale recommend using the version downloaded from their site.
+- It appears only the open source version supports starting tailscale before user login.
+
+### Steps
+
+1. Download and install:  https://tailscale.com/download
+
+2. **Start on boot (before user login):**
+
+This does not seem to work.
 
 ```shell
-sudo brew install tailscale
-sudo brew services start tailscale
-tailscale login
+sudo launchctl bootstrap system /Library/LaunchDaemons/com.tailscale.tailscaled.plist
 ```
 
-Start before login:
-- FileVault is disk encryption, so when you boot up nothing useful can run because the disk is locked.
-- [Someone said](https://forum.logik.tv/t/tailscale-on-boot-for-mac-procedure/10595): ~/go/bin/tailscale up
 
 ## firewalld allows all traffic from tailscale
 
