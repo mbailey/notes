@@ -1,8 +1,22 @@
+---
+alias: bash
+---
 # bash
 
 Strictly speaking, this is not all `bash`. It's command line unix.
 
 - [Bash string manipulation using parameter expansion](bash-string-manipulation-using-parameter-expansion.md)
+
+## Cool tricks
+
+- [variable+x](variable+x.md)
+
+## Commands
+
+
+## `bash --norc`
+
+Starts Bash shell without reading startup files (~/.bashrc, ~/.profile), providing a clean environment.
 
 ## Keyboard shortcuts
 

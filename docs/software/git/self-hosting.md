@@ -1,4 +1,4 @@
-# self-hosted
+# Self hosting a Git server
 
 Add a git remote to a server you have SSH access to.
 

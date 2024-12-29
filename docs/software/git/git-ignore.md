@@ -1,8 +1,28 @@
 # git ignore
 
+
+## Global Ignore Rules
+
+```
+git config --global core.excludesfile ~/.gitignore_global
+echo '*sync-conflict*' >> ~/.gitignore_global
+```
+
 ### Check which rule caused git to ignore
 
     git check-ignore -v path/to/check
+
+## Ignore some local changes
+
+- [How do I configure git to ignore some files locally - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/1753070/how-do-i-configure-git-to-ignore-some-files-locally/1753078#1753078)
+
+> Patterns which are specific to a particular repository but which do not need to be shared with other related repositories (e.g., auxiliary files that live inside the repository but are specific to one user's workflow) should go into the `$GIT_DIR/info/exclude` file.
+
+Note, if you already have unstaged changes you must run the following after editing your ignore-patterns:
+```
+git update-index --assume-unchanged <file-list>
+```
+
 
 ## Ignore local changes
 

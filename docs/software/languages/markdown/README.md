@@ -3,9 +3,12 @@ alias: Markdown
 ---
 # Markdown
 
-- [Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 
-- [Markdown Links](links.md)
+## Conventions
+
+- [Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
+- [CommonMark (commonmark.org)](https://commonmark.org/)
+- [GitHub Flavored Markdown (GFM) Spec (github.github.com)](https://github.github.com/gfm/): CommonMark with extensions
 
 ## Editing
 
@@ -19,13 +22,11 @@ alias: Markdown
 - [Markdownload : A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.](https://github.com/deathau/markdownload) (github.com/deathau)
     - It's a bit buggy - including `moz-extension` in copied links *sometimes*
 
-## Formatting
+## Syntax
 
+- [Markdown Links](links.md)
 - [Markdown code blocks](markdown%20code%20blocks.md) 
 - Headings may be folded in some editors/viewers ([README](../../apps/obsidian/README.md))
-
-### Lint
-
 
 #### Python-Markdown
 

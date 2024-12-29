@@ -1,4 +1,6 @@
-# function docs
+# Where to find function docs
+
+By ChatGPT
 
 To quickly look up the documentation for the `emojize` function in the `emoji` library or any Python function, you have several options:
 

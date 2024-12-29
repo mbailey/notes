@@ -14,3 +14,19 @@
 ```shell
 rsync -av --relative .config/Code/User/settings.json ../dotfiles-global/
 ```
+
+
+## ext4 -> exfat
+
+```shell
+rsync \
+  -rtv \
+  --progress \
+  --modify-window=1 \
+  --no-perms \
+  --no-owner \
+  --no-group \
+  --filter='- */overlay/*' \
+  --filter='- *overlay*' \
+  EXT4_VOLUME EXFAT_VOLUME
+```

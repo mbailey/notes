@@ -8,6 +8,7 @@ Python tool for managing git pre-commit hooks
 - https://pre-commit.com/
 
 - [remove-pre-commit-from-git-repo](remove-pre-commit-from-git-repo.md)
+- **Run on a commit that's already committed:** `pre-commit run --from-ref HEAD~1 --to-ref HEAD`
 ## Usage
 
 ### Install pre-commit into your repo's git hooks
@@ -73,3 +74,22 @@ rm -fr .git && git init && git-config-personal && pre-commit install && git add 
 ### Hooks
 
 - [pre-commit How to create hooks for unsupported tools - Adam Johnson (adamj.eu)](https://adamj.eu/tech/2023/02/09/pre-commit-hooks-unsupported-tools/)
+
+
+## Notes from aider
+
+### Pre-commit Hooks
+
+The project uses [pre-commit](https://pre-commit.com/) hooks to automatically format code, lint, and run other checks before committing changes. After cloning the repository, run the following command to set up the pre-commit hooks:
+
+```
+pre-commit install
+```
+
+pre-commit will then run automatically on each `git commit` command. You can use the following command line to run pre-commit manually:
+
+```
+
+pre-commit run --all-files
+
+```

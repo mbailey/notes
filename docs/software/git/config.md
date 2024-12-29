@@ -1,5 +1,7 @@
 # git config
 
+- [Git Pager Control](Pager.md)
+
 ## Open config in editor
 
 Git config for current repo is not always in `.git/config` (e.g. when using submodules).
@@ -11,6 +13,7 @@ git config -e
 ## Commands
 
 - **Show config origin files:** `git config --list --show-origin`
+
 ### diff gpg
 
 - [How to show diffs for gpg-encrypted files](https://gist.github.com/marceloalmeida/e6593b93b388cdf1dbc282dffd424d1b#file-readme-md)

@@ -1,5 +1,7 @@
 # Git - Find deleted files
 
+`git log --diff-filter=D -- docs/chicken.md`
+
 By Claude.ai
 
 To find a file in a Git repository that was deleted at some point, you can use the `git log` command with some specific options. Here's a concise approach:

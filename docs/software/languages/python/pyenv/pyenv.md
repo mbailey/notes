@@ -7,18 +7,19 @@
 - [install](install.md)
 
 
+## Commands
 
-## Install python
-
-```shell
-pyenv install 3
-pyenv global 3
-```
+| Action                        | Command           | Comments                     |
+| ----------------------------- | ----------------- | ---------------------------- |
+| List versions                 | `pyenv versions`  |                              |
+| Install pytrhon               | `pyenv install 3` |                              |
+| Set global version            | `pyenv global 3`  |                              |
+| Set local version             | `pyenv local 3`   |                              |
+| Set version for current shell | `pyenv shell 3`   | Unset: `pyenv shell --unset` |
 
 ## Set python version
 
-- [in-a-folder](in-a-folder.md):  `echo "3.9.5" > .python-version`
-```
+- [in-a-folder](in-a-folder.md) :  `echo "3.9.5" > .python-version`
 
 
 

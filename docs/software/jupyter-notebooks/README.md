@@ -53,4 +53,4 @@ This structure helps in maintaining clarity about the state and source of your d
 
 ## See also
 
-- [conda](conda.md): Popular package manager among Jupyter users
+- [conda](../conda.md): Popular package manager among Jupyter users

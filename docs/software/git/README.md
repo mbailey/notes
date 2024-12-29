@@ -3,64 +3,52 @@ alias: Git
 ---
 # Git
 
-## Tools
-
-- GitKraken
-- GitLens
+Source control.
 
 ## Conventions
 
-- [commit](conventions/commit.md)
+- [Commit](conventions/commit.md)
 
-## Commands
+## Development Workflow
 
-- [remove git-lfs](remove%20git-lfs.md)
+- [development-setup](development-setup.md)
 
+## How to
+
+- [Self Hosting](self-hosting.md)
 - [Authentication using Device Flow](./authentication-using-device-flow.md)
-- [[alias]]
-- [branches](./branches.md)
-- [config](./config.md)
-- [diff](./diff.md)
-- [git submodules](./git-submodules.md)
-- [ignore](./git-ignore.md)
-- [pre-commit (pre-commit.com)](https://pre-commit.com/)
-- [self-hosted](self-hosted.md)
-- [stash](stash/README.md)
-- [tags](tags.md)
+- [Clone a fork](clone-a-fork.md)
 - [Find deleted files](Find%20deleted%20files.md)
 
 - [debugging git push](debugging%20git%20push.md)
+- [Remove large file from git repo with git-filter-repo](remove-large-file.md)
 
-- [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/./user-manual.html)
-- [Git - Community](https://git-scm.com/community)
-- `man gittutorial`
-- [Tech Talk Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8&list=WL&index=2&t=2s)
-    - distributed
-- https://gregoryszorc.com/blog/2021/05/12/why-you-shouldn%27t-use-git-lfs/
-    - performance
-- `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
-- [How to Use Git Shallow Clone to Improve Performance  Perforce (www.perforce.com)](https://www.perforce.com/blog/vcs/git-beyond-basics-using-shallow-clones)
+## Core Git
 
+- [[Alias]]
+- [Branch](./branches.md)
+- [Commit](Commits.md)
+- [Config](./config.md)
+- [Diff](./diff.md)
+- [Submodule](./git-submodules.md)
+- [Ignore](./git-ignore.md)
+- [pre-commit (pre-commit.com)](https://pre-commit.com/)
+- reflog
+- [Stash](stash/README.md)
+- [Tag](tags.md)
 
-Show commit summary:
+## Extras
 
-```shell
-git show --stat
-```
-
-Stage non-whitespace changes ([ref](https://stackoverflow.com/a/45486981)):
-
-```shell
-git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -
-```
-
-[config](./config.md)
+- [git-lfs](git-lfs.md)
+- GitKraken
+- GitLens
 
 
 
 
 
-**List files in change**: git show --name-only --pretty=format:
+
+
 
 
 
@@ -100,26 +88,6 @@ git stash --include-untracked # short arg is -u
 git fetch --all
 git reset --hard origin/master
 ```
-
-## Global Ignore Rules
-
-```
-git config --global core.excludesfile ~/.gitignore_global
-echo '*sync-conflict*' >> ~/.gitignore_global
-```
-
-## Ignore some files locally
-
-- [How do I configure git to ignore some files locally - Stack Overflow (stackoverflow.com)](https://stackoverflow.com/questions/1753070/how-do-i-configure-git-to-ignore-some-files-locally/1753078#1753078)
-
-> Patterns which are specific to a particular repository but which do not need to be shared with other related repositories (e.g., auxiliary files that live inside the repository but are specific to one user's workflow) should go into the `$GIT_DIR/info/exclude` file.
-
-Note, if you already have unstaged changes you must run the following after editing your ignore-patterns:
-```
-git update-index --assume-unchanged <file-list>
-```
-
-[config](./config.md)
 
 
 ## Share via sneakernet
@@ -184,70 +152,19 @@ Less files and no .git dir:
     git clone --depth=1 git://someserver/somerepo dirformynewrepo
     rm -rf !$/.git
 
-## git filter-repo
 
-`git filter-repo` ([github][1]) is a versatile tool for rewriting history. It is now recommended by the git project instead of `git filter-branch`.
-
-git-filter-repo is a single-file python script, which was done to make installation for basic use on many systems trivial: just place the script into your $PATH.
-
-Installation is as easy as:
-
-    $ PACKAGE_TOOL install git-filter-repo
-
-[1]: https://github.com/newren/git-filter-repo
-
-## Remove file:
-
-  # git recommends using [git-filter-repo](https://github.com/newren/git-filter-repo/#simple-example-with-comparisons)
-
-    git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
-
-
-# [Remove large file from git repo](remove-large-file.md)
-
-
-## Maintain standard initial branch
-
-    git config --global init.defaultBranch master
-
-## Organising your clones
-
-Not sure whether I want to include org in clone path like this this guy does:
-
-> This is how I organize my source code.
->
-> ```txt
-> -- source
-> |   |-- dotfiles
-> |   |-- hyperclient
-> |   |   |-- codegram
-> |   |   `-- dblock
-> |   `-- grape
-> |       |-- grape
-> |       |   |-- ruby-grape
-> |       |   `-- dblock
-> |       `-- grape-swagger
-> |           |-- ruby-grape
-> |           `-- dblock
-> ```
->
-> [A Directory Structure for OSS and Work Github Clones](https://code.dblock.org/2016/03/25/a-directory-structure-for-oss-and-work-github-clones.html)
-
-
-## lfs
-
-    git lfs ls-files --all
-
-Remove from lfs
-
-    git lfs untrack '<file-type>'
-    git rm --cached '<file-type>'
-    git add '<file-type>'
-    git commit -m "restore '<file-type>' to git from lfs"
 
 
 
 ## See also
 
+- [Git - user-manual](https://git-scm.com/docs/user-manual) (file:///usr/share/doc/./user-manual.html)
+- [Git - Community](https://git-scm.com/community)
+- `man gittutorial`
+- [Tech Talk Linus Torvalds on git - YouTube](https://www.youtube.com/watch?v=4XpnKHJAok8&list=WL&index=2&t=2s)
+    - distributed
+- https://gregoryszorc.com/blog/2021/05/12/why-you-shouldn%27t-use-git-lfs/
+    - performance
+- `git stash pop` song by The Ramones [Blitzkrieg Bop (2016 Remaster) - YouTube](https://www.youtube.com/watch?v=skdE0KAFCEA)
+- [How to Use Git Shallow Clone to Improve Performance  Perforce (www.perforce.com)](https://www.perforce.com/blog/vcs/git-beyond-basics-using-shallow-clones)
 - [[vscode-gitlens-open-on-remote]]
-- 

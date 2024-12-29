@@ -2,9 +2,7 @@
 
 - [Git - Submodules (git-scm.com)](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
-Submodules allow you to keep a Git repository as a subdirectory of another Git
-repository. This lets you clone another repository into your project and keep
-your commits separate.
+Submodules allow you to keep a Git repository as a subdirectory of another Git repository. This lets you clone another repository into your project and keep your commits separate.
 
 The git submodule command is available since Git 1.5.3 (2007).
 
@@ -101,12 +99,7 @@ This removes the filetree at <path-to-submodule>, and the submodule's entry
 in the .gitmodules file. I.e. all traces of the submodule in your repository
 proper are removed.
 
-As the docs note however, the .git dir of the submodule is kept around (in
-the modules/ directory of the main project's .git dir), "to make it possible
-to checkout past commits without requiring fetching from another repository".
-If you nonetheless want to remove this info, manually delete the submodule's
-directory in .git/modules/, and remove the submodule's entry in the file
-.git/config.
+As the docs note however, the .git dir of the submodule is kept around (in the modules/ directory of the main project's .git dir), "to make it possible to checkout past commits without requiring fetching from another repository". If you nonetheless want to remove this info, manually delete the submodule's directory in .git/modules/, and remove the submodule's entry in the file .git/config.
 
 
 These steps can be automated using the commands:
