@@ -1,6 +1,12 @@
 # Obsidian performance
 
+## Questions
 
+- How do I find out why Obsidian is findinf so many files it can't use? #AI!
+
+## Tasks
+
+- Write a script to find identify why non-document files are slowing down startup #AI!
 
 ## Enable "Notify if startup takes longer than expected"
 
