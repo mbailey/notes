@@ -6,8 +6,6 @@
 
 ## Tasks
 
-- Write a script to find identify why non-document files are slowing down startup #AI!
-
 ## Enable "Notify if startup takes longer than expected"
 
 This is good!
