@@ -12,6 +12,7 @@ alias: Obsidian
 - https://github.com/sytone/obsidian-remote
 - [List files reverse alphabetical](List%20files%20reverse%20alphabetical.md)(?)
 - [Collaborate on a shared vault (publish.obsidian.md)](https://publish.obsidian.md/)
+- [emoji](emoji.md)
 ## Questions
 
 - How can each user manage their own preferences for a shared repo in Git?
