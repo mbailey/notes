@@ -8,6 +8,7 @@ alias: Aider - AI Coding Assistant
 - [TODO](TODO.md)
 - [voice](voice.md)
 - Pipecat
+- [watch-files](watch-files.md)
 
 ## Usage
 
