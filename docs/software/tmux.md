@@ -9,9 +9,7 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 - [A Quick and Easy Guide to tmux - Ham Vocke (hamvocke.com)](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 - [Tmux Cheat Sheet & Quick Reference (tmuxcheatsheet.com)](https://tmuxcheatsheet.com/)
 
-
 ## Usage
-
 
 ## Commands
 
