@@ -9,6 +9,7 @@ alias: OBS
 
 - Can I playback recordings from within OBS? [Answer](questions/playback-recordings.md)
 - How can I stop OBS from silencing the output when I play back recording in vlc? [Answer](questions/silence-vlc-playback.md)
+- How to make OBS 
 ## Install
 
 ### fedora
