@@ -13,10 +13,9 @@ Strictly speaking, this is not all `bash`. It's command line unix.
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `bash --norc` | Starts Bash shell without reading startup files (~/.bashrc, ~/.profile), providing a clean environment |
-| `find . -xtype l \| xargs --no-run-if-empty unlink` | Remove broken symlinks |
+| Command       | Description                                                             |
+| ------------- | ----------------------------------------------------------------------- |
+| `bash --norc` | Starts Bash shell without reading startup files (~/.bashrc, ~/.profile) |
 
 ## Keyboard shortcuts
 

@@ -1,9 +1,5 @@
 # Obsidian performance
 
-## Questions
-
-- How do I find out why Obsidian is findinf so many files it can't use? #AI!
-
 ## Tasks
 
 ## Enable "Notify if startup takes longer than expected"
