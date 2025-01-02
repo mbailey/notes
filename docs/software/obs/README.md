@@ -7,7 +7,7 @@ alias: OBS
 
 ## Questions
 
-- Can I playback recordings from within OBS? # ai!
+- Can I playback recordings from within OBS? [Answer](questions/playback-recordings.md)
 ## Install
 
 ### fedora
