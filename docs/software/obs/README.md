@@ -7,7 +7,7 @@ alias: OBS
 
 ## Questions
 
-- How to record audio with OBS on macos # ai! 
+- [How to record audio with OBS on macos](questions/record-audio-macos.md)
 
 ## Install
 
