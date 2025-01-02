@@ -9,7 +9,11 @@ alias: OBS
 
 ## Install
 
-Add instructions for installing on macos # AI!
+### macos
+
+```shell
+brew install --cask obs
+```
 ### fedora
 
 ```shell
