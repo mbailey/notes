@@ -7,8 +7,7 @@ alias: OBS
 
 ## Questions
 
-- [How to record audio with OBS on macos](questions/record-audio-macos.md)
-
+- Can I playback recordings from within OBS? # ai!
 ## Install
 
 ### fedora
@@ -18,6 +17,13 @@ sudo dnf install -y obs-studio
 ```
 ### macos
 
+- [How to record audio with OBS on macos](questions/record-audio-macos.md)
+ 
 ```shell
 brew install --cask obs
 ```
+
+
+## Configure
+
+![](assets/obs-auto-configuration-wizard.png)
