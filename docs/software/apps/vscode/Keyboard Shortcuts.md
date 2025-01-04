@@ -2,17 +2,14 @@
 
 ## Default shortcuts
 
-## Activity Bar # these three should be integrated into appropriate lists below # ai!
-
-`CTRL-B`: Toggle visibility of Activity Bar
-`CTRL-SHIFT+E`: Show Explorer
-`CTRL-SHIFT+G G`: Show Git
-
 ### UI and Workspace Controls
 
 | Action                       | Shortcut         | Comment                   |
 | ---------------------------- | ---------------- | ------------------------- |
 | Collapse Folders in Explorer | Ctrl + Shift + P |                           |
+| Show Explorer                | Ctrl + Shift + E |                           |
+| Show Git                     | Ctrl + Shift + G G |                           |
+| Toggle Activity Bar visibility| Ctrl + B         |                           |
 | Go Back                      | Ctrl + Alt + -   |                           |
 | Toggle light/dark mode       | Ctrl + K, K      |                           |
 | Zen mode (focus on the code) | Ctrl + K, Z      |                           |
