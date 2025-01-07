@@ -1,5 +1,7 @@
 # watch-files
 
+- https://aider.chat/docs/usage/watch.html
+
 Signal Aider from your editor (e.g. Obsidian, VSCode).
 
 ![](assets/399141384-94eb7184-3d1d-432e-a052-2f14286a3628.gif)
