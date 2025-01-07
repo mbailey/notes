@@ -16,11 +16,7 @@ alias: VS Code
 
 ## Usage
 
-## Activity Bar
 
-`CTRL-B`: Toggle visibility of Activity Bar
-`CTRL-SHIFT+E`: Show Explorer
-`CTRL-SHIFT+G G`: Show Git
 
 ## Handy commands
 
@@ -59,10 +55,7 @@ My preferred settings:
 
 **CTRL-m**: View: Toggle Maximised Panel
 
-### Keyboard Shortcuts - Custom
 
-
-**CTRL + l**: Terminal: Clear # Normal shell behaviour
 
 ### Annoyance: Tab Key Moves Focus
 

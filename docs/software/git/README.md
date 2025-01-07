@@ -28,6 +28,7 @@ Source control.
 - [Branch](./branches.md)
 - [Commit](Commits.md)
 - [Config](./config.md)
+- conflict: git diff --check
 - [Diff](./diff.md)
 - [Submodule](./git-submodules.md)
 - [Ignore](./git-ignore.md)

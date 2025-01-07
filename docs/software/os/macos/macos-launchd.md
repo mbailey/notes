@@ -5,6 +5,7 @@ alias: macOS Launch Daemons
 
 - https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html
 
+**Troubleshoot plist**: `plutil -lint ~/Library/LaunchAgents/com.ollama.service.plist`
 ## Commands
 
 ### Find an agent

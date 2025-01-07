@@ -7,6 +7,7 @@ alias: Python
 - [pipx](pipx.md)
 - [pyenv](./pyenv/pyenv.md)
 - [pypi](./pypi.md)
+- [poetry](poetry.md)
 
 - [When to use python3](When%20to%20use%20python3.md)
 - [where-to-find-function-docs](where-to-find-function-docs.md)
