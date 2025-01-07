@@ -1,15 +1,11 @@
-# watch-files
-
-- https://aider.chat/docs/usage/watch.html
+# aider --watch-files
 
 Signal Aider from your editor (e.g. Obsidian, VSCode).
 
+[Aider in your IDE (aider.chat)](https://aider.chat/docs/usage/watch.html) 
+
 ![](assets/399141384-94eb7184-3d1d-432e-a052-2f14286a3628.gif)
 - [Enhance aider's Markdown editing capabilities with --watch-files · Issue 2680 · Aider-AI/aider (github.com)](https://github.com/Aider-AI/aider/issues/2680#issuecomment-2564630596)
-
-
-## Questions
-
 
 ## Steps
 
