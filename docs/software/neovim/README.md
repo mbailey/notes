@@ -16,7 +16,7 @@ nvim +PackerSync
 
 ## Commands
 
-The "leader" key is a special prefix key used for custom commands. By default it's `\`, but many users map it to space using `let mapleader=" "` in their config.
+The [leader](leader.md) key is a special prefix for custom keyboard shortcuts that defaults to backslash (`\`).
 
 | Action | Command | Notes |
 |--------|---------|-------|
