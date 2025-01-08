@@ -2,7 +2,7 @@
 
 ## Popular Options
 
-### nvim-tree.lua
+### nvim-tree.lua [↗](notes/nvim-tree-lua.md)
 Most popular modern choice. Features:
 - Git integration
 - Icons support
