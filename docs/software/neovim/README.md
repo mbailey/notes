@@ -14,8 +14,6 @@ nvim +PackerSync
 
 - [Explorer Plugins](explorer-plugins.md) - File explorer plugin options and recommendations
 
-## Commands
-
 ## Features
 
 - Code formatting: See [formatting](formatting.md) for ways to indent and format code
