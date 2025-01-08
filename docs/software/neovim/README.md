@@ -10,11 +10,9 @@ alias vim=nvim
 
 nvim +PackerSync
 
-## Plugins
-
-- [Explorer Plugins](explorer-plugins.md) - File explorer plugin options and recommendations
-
 ## Features
+
+- [Plugins](plugins.md) - Essential plugins and plugin management
 
 - Code formatting: See [formatting](formatting.md) for ways to indent and format code
 - File navigation: Built-in file explorer and tree plugins available
