@@ -18,6 +18,10 @@ nvim +PackerSync
 
 The [leader](leader.md) key is a special prefix for custom keyboard shortcuts that defaults to backslash (`\`).
 
+## Code Formatting
+
+See [formatting](formatting.md) for ways to indent and format code, including after pasting.
+
 ## Shortcuts
 
 | Action | Shortcut | Notes |
