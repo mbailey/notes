@@ -12,6 +12,10 @@ nvim +PackerSync
 
 leader: 
 
+## Plugins
+
+- [Explorer Plugins](explorer-plugins.md) - File explorer plugin options and recommendations
+
 ## Commands
 
 | Action | Command | Notes |
