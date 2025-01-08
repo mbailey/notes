@@ -16,7 +16,7 @@ nvim +PackerSync
 
 ## Commands
 
-Add a short explanation of "leader" # ai!
+The "leader" key is a special prefix key used for custom commands. By default it's `\`, but many users map it to space using `let mapleader=" "` in their config.
 
 | Action | Command | Notes |
 |--------|---------|-------|
