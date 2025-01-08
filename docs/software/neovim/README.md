@@ -16,9 +16,11 @@ nvim +PackerSync
 
 ## Commands
 
-## Code Formatting
+## Features
 
-See [formatting](formatting.md) for ways to indent and format code, including after pasting.
+- Code formatting: See [formatting](formatting.md) for ways to indent and format code
+- File navigation: Built-in file explorer and tree plugins available
+- Key mappings: Customizable shortcuts using the [leader](leader.md) key
 
 ## Shortcuts
 
