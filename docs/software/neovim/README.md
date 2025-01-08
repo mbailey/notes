@@ -10,13 +10,13 @@ alias vim=nvim
 
 nvim +PackerSync
 
-leader: 
-
 ## Plugins
 
 - [Explorer Plugins](explorer-plugins.md) - File explorer plugin options and recommendations
 
 ## Commands
+
+Add a short explanation of "leader" # ai!
 
 | Action | Command | Notes |
 |--------|---------|-------|
