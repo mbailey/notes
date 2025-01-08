@@ -18,6 +18,15 @@ nvim +PackerSync
 
 The [leader](leader.md) key is a special prefix for custom keyboard shortcuts that defaults to backslash (`\`).
 
+## Shortcuts
+
+| Action | Shortcut | Notes |
+|--------|----------|-------|
+| Toggle file explorer | `<leader>e` | Open/close nvim-tree sidebar |
+| Focus current file | `<leader>f` | Show current file in nvim-tree |
+
+## Built-in Commands
+
 | Action | Command | Notes |
 |--------|---------|-------|
 | Return to file explorer [↗](questions/return-to-file-explorer.md) | `:Ex` | From current buffer to directory view |
