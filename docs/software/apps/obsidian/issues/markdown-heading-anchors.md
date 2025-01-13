@@ -14,16 +14,16 @@ This means links to headings with spaces won't work.
 There are two distinct issues with spaces in Markdown links:
 
 1. **Link Destinations with Spaces** (well-defined by CommonMark):
-   - Must be enclosed in angle brackets
-   - Invalid: `[link](/my file.md)`  
-   - Valid: `[link](<my file.md>)`
-   - When rendered, spaces are automatically percent-encoded (%20)
+       - Must be enclosed in angle brackets
+       - Invalid: `[link](/my file.md)`  
+       - Valid: `[link](<my file.md>)`
+       - When rendered, spaces are automatically percent-encoded (%20)
 
 2. **Links to Headings with Spaces** (not specified by CommonMark):
-   - No standardized way to handle spaces in heading IDs/anchors
-   - Tools implement different approaches:
-     - Most replace spaces with hyphens (e.g., `#my-heading`)
-     - Some (including Obsidian) use URL encoding (e.g., `#My%20Heading`)
+       - No standardized way to handle spaces in heading IDs/anchors
+       - Tools implement different approaches:
+         - Most replace spaces with hyphens (e.g., `#my-heading`)
+         - Some (including Obsidian) use URL encoding (e.g., `#My%20Heading`)
 
 
 **Examples ([View on GitHub.com](https://github.com/mbailey/notes/blob/master/docs/software/apps/obsidian/issues/markdown-heading-anchors.md)):**
