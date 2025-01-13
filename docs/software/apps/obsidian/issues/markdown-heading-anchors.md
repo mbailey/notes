@@ -12,7 +12,7 @@ This means links to headings with spaces won't work.
 
 - [`#proposed-solutions](#proposed-solutions) 
 - [`#Proposed%20Solutions`](#Proposed%20Solutions)
-- [`<#proposed solutions>`](<#proposed solutions>)
+- [`<#Proposed Solutions>`](<#Proposed Solutions>)
 
 ## Background
 
