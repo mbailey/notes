@@ -8,11 +8,6 @@ spaces is incompatible with most other tools (including VSCode and GitHub.com).
 
 This means links to headings with spaces won't work.
 
-**Examples ([View on GitHub.com](https://github.com/mbailey/notes/blob/master/docs/software/apps/obsidian/issues/markdown-heading-anchors.md)):**
-
-- [`#proposed-solutions](#proposed-solutions) 
-- [`#Proposed%20Solutions`](#Proposed%20Solutions)
-- [`<#Proposed Solutions>`](<#Proposed Solutions>)
 
 ## Background
 
@@ -30,18 +25,24 @@ There are two distinct issues with spaces in Markdown links:
      - Most replace spaces with hyphens (e.g., `#my-heading`)
      - Some (including Obsidian) use URL encoding (e.g., `#My%20Heading`)
 
+
+**Examples ([View on GitHub.com](https://github.com/mbailey/notes/blob/master/docs/software/apps/obsidian/issues/markdown-heading-anchors.md)):**
+
+- [`#proposed-solutions`](#proposed-solutions) 
+- [`#Proposed%20Solutions`](#Proposed%20Solutions)
+
 Handling of spaces in Markdown anchor links by different tools.
 
-| Tool     | Space Replacement     | Pointy Bracket Support | Notes                     |
-| -------- | --------------------- | ---------------------- | ------------------------- |
-| Obsidian | URL Encoding (%20)    | Yes                    |                           |
-| GitHub   | Hyphens               | Yes                    |                           |
-| VSCode   | Hyphens               | Yes                    |                           |
-| MkDocs   | Hyphens               | Yes                    |                           |
-| GitLab   | Hyphens (unconfirmed) | |                           |
-| Hugo     | Hyphens (unconfirmed) | | Configurable via settings |
-| Jekyll   | Hyphens (unconfirmed) | | Configurable via settings |
-| Pandoc   | Hyphens (unconfirmed) | | Also removes punctuation  |
+| Tool     | Space Replacement     | Notes                     |
+| -------- | --------------------- | ------------------------- |
+| Obsidian | URL Encoding (%20)    |                           |
+| GitHub   | Hyphens               |                           |
+| VSCode   | Hyphens               |                           |
+| MkDocs   | Hyphens               |                           |
+| GitLab   | Hyphens (unconfirmed) |                           |
+| Hugo     | Hyphens (unconfirmed) | Configurable via settings |
+| Jekyll   | Hyphens (unconfirmed) | Configurable via settings |
+| Pandoc   | Hyphens (unconfirmed) | Also removes punctuation  |
 
 ## Proposed Solutions
 
