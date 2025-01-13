@@ -8,3 +8,4 @@ How to generate aider command line equivalent of currently running aider instanc
 
 
 
+ If I want to type faster, I just talk into documents.

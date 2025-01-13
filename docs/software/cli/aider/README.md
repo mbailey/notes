@@ -9,6 +9,8 @@ alias: Aider - AI Coding Assistant
 - [voice](voice.md)
 - Pipecat
 - [watch-files](watch-files.md)
+- [settings](settings.md)
+- [issues](issues.md)
 
 ## Usage
 
@@ -27,14 +29,15 @@ alias aa='aider --architect --sonnet --editor-model sonnet'
 
 *Note: You can use short commands (e.g. `/ch ask`)*
 
-| Command    | Description                                        | Arguments                       |
-| ---------- | -------------------------------------------------- | ------------------------------- |
-| /settings  | List all settings                                  | None                            |
-| /paste     | Add clipboard image to chat                        | Image file path                 |
-| /run or !  | Run a shell command                                | Command to execute              |
-| /ask       | Ask questions about code without edits             | Question text                   |
-| /chat-mode | Switch chat modes                                  | Mode (`ask`, `code`, or `help`) |
-| Ctrl-Z     | Suspend Aider for terminal access (`fg` to resume) |                                 |
+| Command                        | Description                                        |
+| ------------------------------ | -------------------------------------------------- |
+| `/settings`                    | List all settings                                  |
+| `/paste [<filepath>]`          | Add clipboard image to chat                        |
+| `/run (or !) <cmd>`            | Run a shell command                                |
+| `/ask <question>`              | Ask questions about code without edits             |
+| `/chat-mode <ask\|code\|help>` | Switch chat modes                                  |
+| `Ctrl-Z`                       | Suspend Aider for terminal access (`fg` to resume) |
+| `/save <filepath>`             | Save current list of shared files<br>              |
 
 ## Investigate
 

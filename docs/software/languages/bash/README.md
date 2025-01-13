@@ -50,28 +50,17 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 ```
 
-### Set SCRIPT_DIR to directory holding script
+### SCRIPT_DIR:  directory holding script
 
-There are a lot of different methods out there. Cross platform solution needs further review.
-
-1. **Basic:**
+- **Follow symlinks:** Ensures scripts symlinked into `~/.local/bin` can find `../lib`:
 
 ```shell
-SCRIPT_DIR=="$(dirname -- "${BASH_SOURCE[0]:-${0}}")"
+command -v realpath &> /dev/null || {
+  echo "Error: 'realpath' is required but not found. Please install 'coreutils' (e.g. 'brew install coreutils' on macOS)." >&2
+  exit 1
+}
+SCRIPT_DIR="$(dirname -- "$(realpath "${BASH_SOURCE[0]}")")"
 ```
-
-2. **Mixed claims about whether macOS comes with realpath:**
-
-```shell
-SCRIPT_DIR="$(dirname "$(realpath "${BASH_SOURCE:-"${0}"}")")"
-```
-
-3. **Another one:**
-
-```shell
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-```
-
 
 ### Request user confirmation
 

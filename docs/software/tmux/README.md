@@ -11,7 +11,13 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 ## Usage
 
-## Commands
+- [Mouse support](Mouse%20support.md)
+
+### Copy text
+
+
+### Commands
+
 
 | Name                  | Purpose                         | Example                                        |
 | --------------------- | ------------------------------- | ---------------------------------------------- |
@@ -32,10 +38,6 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 `sudo dnf install tmux`
 
-## Configure
+## Config
 
-`~/.tmux.conf` 
-
-`tmux source-file ~/.tmux.conf`: source changes without restarting session
-
-`tmux new-session -d -s work -n InitialWindow`: Create session in detached mode
+- [config](config.md)

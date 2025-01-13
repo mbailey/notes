@@ -6,13 +6,15 @@
 - [Rebase a local branch on upstream master](branches/Rebase%20a%20local%20branch%20on%20upstream%20master.md)
 
 
-**List branches with unmerged changes:**
+## List
+
+**Branches with unmerged changes:**
 
 ```shell
 git branch --no-merged master
 ```
 
-**List branches merged into main:**
+**Branches merged into main:**
 
 ```shell
 git branch --merged master

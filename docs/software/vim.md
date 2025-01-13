@@ -51,3 +51,16 @@ Add to ~/.vimrc
 ### Set default editor on ubuntu
 
     sudo update-alternatives --config editor
+
+
+## See also
+
+- http://vimcasts.org/ 
+- Book [Practical Vim, Second Edition Edit Text at the Speed of Thought by Drew Neil (pragprog.com)](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/)
+
+### Primetimegen
+
+- [Vim As Your Editor by ThePrimeagen - Oct 2022 (youtube.com)](https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)
+- [Vim As You Editor - Advanced Motions P1 - YouTube (www.youtube.com)](https://www.youtube.com/watch?v=qZO9A5F6BZs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X6AR2RMB5tE?si=nSNg419tFthPqCay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

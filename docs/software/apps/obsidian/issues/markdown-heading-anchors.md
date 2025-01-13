@@ -8,9 +8,9 @@ spaces is incompatible with most other tools (including VSCode and GitHub.com).
 
 This means links to headings with spaces won't work.
 
-**Examples:**
+**Examples ([View on GitHub.com](https://github.com/mbailey/notes/blob/master/docs/software/apps/obsidian/issues/markdown-heading-anchors.md)):**
 
-- [Hyphenated link](#Proposed-Solutions)
+- [Hyphenated link](#Proposed-Solutions) 
 - [`%20`](#Proposed%20Solutions)
 
 ## Background
