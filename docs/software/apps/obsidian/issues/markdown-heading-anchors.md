@@ -8,6 +8,11 @@ spaces is incompatible with most other tools (including VSCode and GitHub.com).
 
 This means links to headings with spaces won't work.
 
+**Examples:**
+
+- [Hyphenated link](#Proposed-Solutions)
+- [`%20`](#Proposed%20Solutions)
+
 ## Background
 
 There are two distinct issues with spaces in Markdown links:
