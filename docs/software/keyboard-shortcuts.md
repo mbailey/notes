@@ -64,18 +64,19 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 | Move window to workspace       | Super + Shift + Page Up/Down | -                                | Control + Cmd + Up/Down        |
 | Switch workspace               | Super + Page Up/Down         | -                                | Control + Left/Right           |
 
-
 ## Tabs
 
-| Action              | Linux              | Windows            | macOS              |
-| ------------------ | ------------------ | ------------------ | ------------------ |
-| Next Tab           | Ctrl + Tab         | Ctrl + Tab         | Cmd + Shift + ]    |
-| Previous Tab       | Ctrl + Shift + Tab | Ctrl + Shift + Tab | Cmd + Shift + [    |
-| Switch to Tab 1-8  | Ctrl + 1-8         | Ctrl + 1-8         | Cmd + 1-8          |
-| Switch to Last Tab | Ctrl + 9           | Ctrl + 9           | Cmd + 9            |
-| Close Tab          | Ctrl + W           | Ctrl + W           | Cmd + W            |
-| New Tab            | Ctrl + T           | Ctrl + T           | Cmd + T            |
-| Reopen Closed Tab  | Ctrl + Shift + T   | Ctrl + Shift + T   | Cmd + Shift + T    |
+# Remove any of these tab entries from other tables ai!
+
+| Action             | Linux              | Windows            | macOS           |
+| ------------------ | ------------------ | ------------------ | --------------- |
+| Next Tab           | Ctrl + Tab         | Ctrl + Tab         | Cmd + Shift + ] |
+| Previous Tab       | Ctrl + Shift + Tab | Ctrl + Shift + Tab | Cmd + Shift + [ |
+| Switch to Tab 1-8  | Ctrl + 1-8         | Ctrl + 1-8         | Cmd + 1-8       |
+| Switch to Last Tab | Ctrl + 9           | Ctrl + 9           | Cmd + 9         |
+| Close Tab          | Ctrl + W           | Ctrl + W           | Cmd + W         |
+| New Tab            | Ctrl + T           | Ctrl + T           | Cmd + T         |
+| Reopen Closed Tab  | Ctrl + Shift + T   | Ctrl + Shift + T   | Cmd + Shift + T |
 
 ## Application
 
