@@ -67,7 +67,15 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 
 ## Tabs
 
-# Add table for tabs with same columns as the other tables ai!
+| Action              | Linux              | Windows            | macOS              |
+| ------------------ | ------------------ | ------------------ | ------------------ |
+| Next Tab           | Ctrl + Tab         | Ctrl + Tab         | Cmd + Shift + ]    |
+| Previous Tab       | Ctrl + Shift + Tab | Ctrl + Shift + Tab | Cmd + Shift + [    |
+| Switch to Tab 1-8  | Ctrl + 1-8         | Ctrl + 1-8         | Cmd + 1-8          |
+| Switch to Last Tab | Ctrl + 9           | Ctrl + 9           | Cmd + 9            |
+| Close Tab          | Ctrl + W           | Ctrl + W           | Cmd + W            |
+| New Tab            | Ctrl + T           | Ctrl + T           | Cmd + T            |
+| Reopen Closed Tab  | Ctrl + Shift + T   | Ctrl + Shift + T   | Cmd + Shift + T    |
 
 ## Application
 
