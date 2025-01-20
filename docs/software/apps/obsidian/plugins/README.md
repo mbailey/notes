@@ -6,42 +6,42 @@
 
 2025-01-20 17:37:02 +11:00 Mon
 
- convert the following list into a markdown table # ai!
- 
-backlink                        enabled   core
-bookmarks                       enabled   core
-command-palette                 enabled   core
-editor-status                   enabled   core
-file-explorer                   enabled   core
-file-recovery                   enabled   core
-global-search                   enabled   core
-note-composer                   enabled   core
-outgoing-link                   enabled   core
-starred                         enabled   core
-switcher                        enabled   core
-sync                            enabled   core
-tag-pane                        enabled   core
-templates                       enabled   core
-workspaces                      enabled   core
-calendar                        enabled   community
-copy-url-in-preview             enabled   community
-drawio-obsidian                 enabled   community
-emoji-autocomplete              enabled   community
-emoji-shortcodes                enabled   community
-homepage                        enabled   community
-markdown-table-editor           enabled   community
-note-refactor-obsidian          enabled   community
-obsidian-banners                enabled   community
-obsidian-emoji-toolbar          enabled   community
-obsidian-hotkeys-for-templates  enabled   community
-obsidian-image-toolkit          enabled   community
-obsidian-paste-image-rename     enabled   community
-obsidian-plaintext              enabled   community
-periodic-notes                  enabled   community
-recent-files-obsidian           enabled   community
-templater-obsidian              enabled   community
-url-into-selection              enabled   community
-whisper                         enabled   community
+| Plugin | Status | Type |
+|--------|--------|------|
+| backlink | enabled | core |
+| bookmarks | enabled | core |
+| command-palette | enabled | core |
+| editor-status | enabled | core |
+| file-explorer | enabled | core |
+| file-recovery | enabled | core |
+| global-search | enabled | core |
+| note-composer | enabled | core |
+| outgoing-link | enabled | core |
+| starred | enabled | core |
+| switcher | enabled | core |
+| sync | enabled | core |
+| tag-pane | enabled | core |
+| templates | enabled | core |
+| workspaces | enabled | core |
+| calendar | enabled | community |
+| copy-url-in-preview | enabled | community |
+| drawio-obsidian | enabled | community |
+| emoji-autocomplete | enabled | community |
+| emoji-shortcodes | enabled | community |
+| homepage | enabled | community |
+| markdown-table-editor | enabled | community |
+| note-refactor-obsidian | enabled | community |
+| obsidian-banners | enabled | community |
+| obsidian-emoji-toolbar | enabled | community |
+| obsidian-hotkeys-for-templates | enabled | community |
+| obsidian-image-toolkit | enabled | community |
+| obsidian-paste-image-rename | enabled | community |
+| obsidian-plaintext | enabled | community |
+| periodic-notes | enabled | community |
+| recent-files-obsidian | enabled | community |
+| templater-obsidian | enabled | community |
+| url-into-selection | enabled | community |
+| whisper | enabled | community |
 
 ### Yeah
 
