@@ -66,7 +66,6 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 
 ## Tabs
 
-# Remove any of these tab entries from other tables ai!
 
 | Action             | Linux              | Windows            | macOS           |
 | ------------------ | ------------------ | ------------------ | --------------- |
@@ -85,14 +84,11 @@ Many applications follow these conventions.
 | Action     | Linux                        | Windows                        | Mac         |     |
 | ---------- | ---------------------------- | ------------------------------ | ----------- | --- |
 | Settings   | `Ctrl` + `,` or `Ctrl` + `P` | `Ctrl` + `,`                   | `Cmd` + `,` |     |
-| New Tab    | `Ctrl` + `T`                 | `Ctrl` + `T`                   | `Cmd` + `T` |     |
-| Reopen Tab | `Ctrl` + `Shift` + `T`       | `Ctrl` + `Shift` + `T`         | `Cmd` + `T` |     |
 | Copy       | `Ctrl` + `C`                 | `Cmd` + `C`                    |             |     |
 | Paste      | `Ctrl` + `V`                 | `Cmd` + `V`                    |             |     |
 | Undo       | `Ctrl` + `Z`                 | `Cmd` + `Z`                    |             |     |
 | Save       | `Ctrl` + `S`                 | `Cmd` + `S`                    |             |     |
 | Find       | `Ctrl` + `F`                 | `Cmd` + `F`                    |             |     |
-| Close Tab  | `Ctrl` + `W`                 | `Cmd` + `W`                    |             |     |
 | Cut        | `Ctrl` + `X`                 | `Cmd` + `X`                    |             |     |
 | Redo       | `Ctrl` + `Shift` + `Z`       | `Ctrl` + `Cmd` + `Shift` + `Z` |             |     |
 | Open       | `Ctrl` + `O`                 | `Cmd` + `O`                    |             |     |
