@@ -13,10 +13,6 @@ Use a consistent set  ofkeyboard shortcuts across operating systems and applicat
 - [Terminal (Emacs `Meta key` combinations)](#Terminal%20(Emacs%20`Meta%20key`%20combinations))
 - [Application](#Application)
 
-**See also:**
-
-- [Slack Keyboard Shortcuts](slack-keyboard-shortcuts.md)
-
 ## Markdown
 
 Custom shortcuts to use on Obsidian and Visual Studio Code.
@@ -68,24 +64,29 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 | Move window to workspace       | Super + Shift + Page Up/Down | -                                | Control + Cmd + Up/Down        |
 | Switch workspace               | Super + Page Up/Down         | -                                | Control + Left/Right           |
 
+
+## Tabs
+
+# Add table for tabs with same columns as the other tables ai!
+
 ## Application
 
 Many applications follow these conventions.
 
-| Action     | Linux                                        | Windows                        | Mac         |
-| ---------- | -------------------------------------------- | ------------------------------ | ----------- |
-| Settings   | `Ctrl` + `,` or `Ctrl` + `P`                 | `Ctrl` + `,`                   | `Cmd` + `,` |
-| New Tab    | `Ctrl` + `T` |   `Ctrl` + `T`          |      `Cmd` + `T` |             
-| Reopen Tab | `Ctrl` + `Shift` + `T`                       | `Ctrl` + `Shift` + `T`         | `Cmd` + `T` |
-| Copy       | `Ctrl` + `C`                                 | `Cmd` + `C`                    |             |
-| Paste      | `Ctrl` + `V`                                 | `Cmd` + `V`                    |             |
-| Undo       | `Ctrl` + `Z`                                 | `Cmd` + `Z`                    |             |
-| Save       | `Ctrl` + `S`                                 | `Cmd` + `S`                    |             |
-| Find       | `Ctrl` + `F`                                 | `Cmd` + `F`                    |             |
-| Close Tab  | `Ctrl` + `W`                                 | `Cmd` + `W`                    |             |
-| Cut        | `Ctrl` + `X`                                 | `Cmd` + `X`                    |             |
-| Redo       | `Ctrl` + `Shift` + `Z`                       | `Ctrl` + `Cmd` + `Shift` + `Z` |             |
-| Open       | `Ctrl` + `O`                                 | `Cmd` + `O`                    |             |
+| Action     | Linux                        | Windows                        | Mac         |     |
+| ---------- | ---------------------------- | ------------------------------ | ----------- | --- |
+| Settings   | `Ctrl` + `,` or `Ctrl` + `P` | `Ctrl` + `,`                   | `Cmd` + `,` |     |
+| New Tab    | `Ctrl` + `T`                 | `Ctrl` + `T`                   | `Cmd` + `T` |     |
+| Reopen Tab | `Ctrl` + `Shift` + `T`       | `Ctrl` + `Shift` + `T`         | `Cmd` + `T` |     |
+| Copy       | `Ctrl` + `C`                 | `Cmd` + `C`                    |             |     |
+| Paste      | `Ctrl` + `V`                 | `Cmd` + `V`                    |             |     |
+| Undo       | `Ctrl` + `Z`                 | `Cmd` + `Z`                    |             |     |
+| Save       | `Ctrl` + `S`                 | `Cmd` + `S`                    |             |     |
+| Find       | `Ctrl` + `F`                 | `Cmd` + `F`                    |             |     |
+| Close Tab  | `Ctrl` + `W`                 | `Cmd` + `W`                    |             |     |
+| Cut        | `Ctrl` + `X`                 | `Cmd` + `X`                    |             |     |
+| Redo       | `Ctrl` + `Shift` + `Z`       | `Ctrl` + `Cmd` + `Shift` + `Z` |             |     |
+| Open       | `Ctrl` + `O`                 | `Cmd` + `O`                    |             |     |
 
 ## Terminal (Emacs `Meta key` combinations)
 
