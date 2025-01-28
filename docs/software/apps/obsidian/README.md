@@ -68,8 +68,9 @@ Workspace
 
 ## Hotkeys
 
-All are settable.
+Obsidian Keyboard Shortcuts are known as "Hotkeys".
 
+# convert this list to a markdown table ai!
 - `ctrl + o` : Open quick switcher
 - `ctrl + p` : Open command palette
 - `ctrl + ,` : Open settings
