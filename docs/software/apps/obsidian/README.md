@@ -70,15 +70,15 @@ Workspace
 
 Obsidian Keyboard Shortcuts are known as "Hotkeys".
 
-| Shortcut | Action |
-|----------|--------|
-| `ctrl + o` | Open quick switcher |
-| `ctrl + p` | Open command palette |
-| `ctrl + ,` | Open settings |
-| `ctrl + b` | Toggle bold |
-| TBA | Toggle code |
-| TBA | Toggle checkboxes |
-| TBA | Toggle headings |
+| Action | Shortcut |
+|--------|----------|
+| Open quick switcher | `ctrl + o` |
+| Open command palette | `ctrl + p` |
+| Open settings | `ctrl + ,` |
+| Toggle bold | `ctrl + b` |
+| Toggle code | TBA |
+| Toggle checkboxes | TBA |
+| Toggle headings | TBA |
 
 
 
