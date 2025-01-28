@@ -70,14 +70,15 @@ Workspace
 
 Obsidian Keyboard Shortcuts are known as "Hotkeys".
 
-# convert this list to a markdown table ai!
-- `ctrl + o` : Open quick switcher
-- `ctrl + p` : Open command palette
-- `ctrl + ,` : Open settings
-- `ctrl b ,` : Toggle bold
-- TBA: toggle code
-- TBA: toggle checkboxes
-- TBA: toggle headings
+| Shortcut | Action |
+|----------|--------|
+| `ctrl + o` | Open quick switcher |
+| `ctrl + p` | Open command palette |
+| `ctrl + ,` | Open settings |
+| `ctrl + b` | Toggle bold |
+| TBA | Toggle code |
+| TBA | Toggle checkboxes |
+| TBA | Toggle headings |
 
 
 
