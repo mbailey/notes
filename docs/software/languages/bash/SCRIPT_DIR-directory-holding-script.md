@@ -1,14 +1,31 @@
 ---
 alias: 'SCRIPT_DIR: directory containing current script'
 ---
-# SCRIPT_DIR:  directory containing current script
+# SCRIPT_DIR: directory containing current script
 
-- **Follow symlinks:** Ensures scripts symlinked into `~/.local/bin` can find `../lib`:
+This functionality is provided by the shared `get_script_dir()` function.
+
+## Usage
+
+Source the shared function and use it to set SCRIPT_DIR:
 
 ```shell
-command -v realpath &> /dev/null || {
-  echo "Error: 'realpath' is required but not found. Please install 'coreutils' (e.g. 'brew install coreutils' on macOS)." >&2
-  exit 1
-}
-SCRIPT_DIR="$(dirname -- "$(realpath "${BASH_SOURCE[0]}")")"
+source "$(dirname -- "$(realpath "${BASH_SOURCE[0]}")")/../lib/bash-functions/get-script-dir.sh"
+SCRIPT_DIR="$(get_script_dir)"
 ```
+
+The function:
+- Follows symlinks correctly
+- Falls back to alternatives if realpath is not available
+- Works when scripts are symlinked into `~/.local/bin`
+- Handles relative symlinks properly
+
+## Implementation
+
+The implementation is in `lib/bash-functions/get-script-dir.sh`. It provides:
+
+- Primary implementation using `realpath` when available
+- Fallback using `readlink` for symlink resolution
+- Final fallback using `pwd` for basic path resolution
+
+See the source file for the complete implementation.
