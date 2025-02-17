@@ -19,8 +19,14 @@ push
 
 ## List with dates
 
+Simple: 
 ```shell
-- git stash list --pretty=format:"%C(auto)%h %<(15)%gd %<(10)%cr %s"
+git stash list --date=local
+```
+
+Perty:
+```shell
+git stash list --pretty=format:"%C(auto)%h %<(15)%gd %<(10)%cr %s"
 ```
 
 

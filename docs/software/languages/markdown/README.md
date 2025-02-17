@@ -10,6 +10,10 @@ alias: Markdown
 - [CommonMark (commonmark.org)](https://commonmark.org/)
 - [GitHub Flavored Markdown (GFM) Spec (github.github.com)](https://github.github.com/gfm/): CommonMark with extensions
 
+## Conversion
+
+- [microsoft/markitdown Python tool for converting files and office documents to Markdown. (github.com)](https://github.com/microsoft/markitdown)
+
 ## Editing
 
 - [Obsidian](../../apps/obsidian/README.md): Cross Platform, WYSIWYG, extensive plugins (tables, calendar, etc)

@@ -25,6 +25,13 @@ I tend to use architect mode:
 alias aa='aider --architect --sonnet --editor-model sonnet'
 ```
 
+## Install
+
+```shell
+python -m pip install aider-install
+aider-install
+```
+
 ### Commands
 
 *Note: You can use short commands (e.g. `/ch ask`)*
@@ -45,9 +52,6 @@ alias aa='aider --architect --sonnet --editor-model sonnet'
 - Aiderignore file
 - browser feature
 - [Chat History](Chat%20History.md)
-
-## Install
-
 
 ### Linux
 

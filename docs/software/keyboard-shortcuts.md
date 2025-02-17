@@ -5,6 +5,10 @@ Use a consistent set  ofkeyboard shortcuts across operating systems and applicat
 - Some of these may be wrong.
 
 - [ ] **Ctrl-Tab:** cycle through tabs (Windows Terminal). Check others
+
+## Questions
+
+- What key prefixes are free / reserved for users to define across OS / Application?
 ## Contents
 
 - [Markdown](#Markdown)
@@ -16,6 +20,8 @@ Use a consistent set  ofkeyboard shortcuts across operating systems and applicat
 ## Markdown
 
 Custom shortcuts to use on Obsidian and Visual Studio Code.
+
+- TODO: Update to have columns for Apps (obsidian, vscode, neovim)
 
 | Command                                 | App             | Default Key            | Custom Key         |
 | --------------------------------------- | --------------- | ---------------------- | ------------------ |
@@ -65,7 +71,6 @@ Custom shortcuts to use on Obsidian and Visual Studio Code.
 | Switch workspace               | Super + Page Up/Down         | -                                | Control + Left/Right           |
 
 ## Tabs
-
 
 | Action             | Linux              | Windows            | macOS           |
 | ------------------ | ------------------ | ------------------ | --------------- |

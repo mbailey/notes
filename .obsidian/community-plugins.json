@@ -2,10 +2,11 @@
   "calendar",
   "drawio-obsidian",
   "note-refactor-obsidian",
-  "obsidian-kanban",
   "copy-url-in-preview",
   "periodic-notes",
   "recent-files-obsidian",
   "templater-obsidian",
-  "url-into-selection"
+  "url-into-selection",
+  "table-editor-obsidian",
+  "whisper"
 ]

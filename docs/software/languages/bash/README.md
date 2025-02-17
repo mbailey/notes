@@ -6,10 +6,14 @@ alias: bash
 Strictly speaking, this is not all `bash`. It's command line unix.
 
 - [Bash string manipulation using parameter expansion](bash-string-manipulation-using-parameter-expansion.md)
+- [SCRIPT_DIR: directory containing current script](SCRIPT_DIR-directory-holding-script.md)
 
 ## Cool tricks
 
+- **Uppercase:** `${name^^}`
 - [variable+x](variable+x.md)
+-  [Indirect variable expansion](Indirect%20variable%20expansion.md).
+
 
 ## Commands
 
@@ -50,17 +54,6 @@ if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
 fi
 ```
 
-### SCRIPT_DIR:  directory holding script
-
-- **Follow symlinks:** Ensures scripts symlinked into `~/.local/bin` can find `../lib`:
-
-```shell
-command -v realpath &> /dev/null || {
-  echo "Error: 'realpath' is required but not found. Please install 'coreutils' (e.g. 'brew install coreutils' on macOS)." >&2
-  exit 1
-}
-SCRIPT_DIR="$(dirname -- "$(realpath "${BASH_SOURCE[0]}")")"
-```
 
 ### Request user confirmation
 

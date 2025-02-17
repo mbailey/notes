@@ -6,6 +6,15 @@
 - [Creating diagrams - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
 - [marmaid.js: How to make lines angular instead of curved](https://mermaid.live/edit#pako:eNpNkEtqw0AMhq8iBMYtOBfwopDYkE1KC82qmSyErWSGZB6M5YZg--4d2xQqbST9nySkARvfMpaYZQMYZ6SEAfLL3T8aTVHyJW36-MMpzDvhsL0Ixxym2bNMuWukoOFYKwfJtqdKR9OJpe4Mm83buGcB6x0_R9i97D102odg3PV15XczBNVwmDEG0cbdplWqlv4PxyPUpwMF8eH8Xzk-_Jj2mU-dxicFC7QcLZk2nTPMpELRbFlhmcKW4k2hclPiqBf_9XQNlhJ7LrAPLQnXhtIxFssL3btU5daIj-_rf5Y3FRjIfXv_x0y_jOhngA)
 
+
+```shell
+podman run \
+  --userns keep-id \
+  --user ${UID} \
+  --rm \
+  -v "$(pwd)/docs":/data:z \
+  minlag/mermaid-cli /mermaid-cli -i architecture.md
+```
 ## entity relationship diagrams
 
 Here is a simple flow chart:
