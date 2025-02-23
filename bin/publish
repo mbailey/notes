@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-# publish
-#
-# Publish docs to static website
-
-bin/install-mkdocs
-bin/build
-bin/publish

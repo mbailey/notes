@@ -4,21 +4,20 @@
 
 notes() {
 
+  local selected_file
+  local initial_query="$1"
 
-    local selected_file
-    local initial_query="$1"
+  # Set default value for NOTES_DIR
+  cd "${NOTES_DIR:=$HOME/Notes}"
 
-    # Set default value for NOTES_DIR
-    cd "${NOTES_DIR:=$HOME/Notes}"
+  # Use fd to find files (excluding ignored files)
+  selected_file=$(fd --type f --no-ignore | fzf --query "$initial_query" --preview-window=hidden)
 
-    # Use fd to find files (excluding ignored files)
-    selected_file=$(fd --type f --no-ignore | fzf --query "$initial_query" --preview-window=hidden)
-
-    if [[ -n "$selected_file" ]]; then
-        local editor="${VISUAL:-${EDITOR:-vim}}"
-        # Open the selected file in the editor
-        "$editor" "$selected_file"
-    fi
+  if [[ -n "$selected_file" ]]; then
+    local editor="${VISUAL:-${EDITOR:-vim}}"
+    # Open the selected file in the editor
+    "$editor" "$selected_file"
+  fi
 }
 
 notes "$@"

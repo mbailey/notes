@@ -1,4 +1,4 @@
-name: ci
+name: documentation
 on:
   push:
     branches:
@@ -7,8 +7,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
+          fetch-depth: 0
+          sparse-checkout: |
+            docs
           submodules: true # fetchmkdocs-material
       - uses: actions/setup-python@v4
         with:

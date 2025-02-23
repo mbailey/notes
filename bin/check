@@ -1,0 +1,11 @@
+ #!/bin/bash
+ # bin/check - Pre-commit validation
+ set -eu -o pipefail
+
+ # Check for broken symlinks
+ if output="$(find docs -xtype l)"; then
+     echo "Error: Found broken symlinks:" >&2
+     echo "$output"
+     exit 1
+ fi
+

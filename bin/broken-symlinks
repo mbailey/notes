@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# broken-symlinks - lists them
-
-find "${1:-.}" -xtype l | grep .
