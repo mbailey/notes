@@ -38,7 +38,7 @@ it, make sure you choose something worth suffering for.
 Before the Internet came along, memes thrived in the form of kitchen calendars
 and fridge magnets. You may be familiar with this one:
 
-![Serenity Fridge Magnet](../../../assets/serenity.png)
+![Serenity Fridge Magnet](../../images/serenity.png)
 *Serenity Fridge Magnet*
 
 > God, grant me the serenity to accept the things I cannot change,  
