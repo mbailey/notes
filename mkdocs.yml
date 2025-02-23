@@ -72,9 +72,10 @@ plugins:
       blog_dir: blog
       post_url_format: "{year}/{month_name}/{day}/{slug}"
   - search
-  - redirects:
-      redirect_maps:
-        '2018/11/dont-buck-the-system-change-the-system/': 'notes/blog/2018-11-04/dont-buck-the-system-change-it'
+  # - redirects:
+  #    redirect_maps:
+  #      '2018/11/dont-buck-the-system-change-the-system/': 'notes/blog/2018-11-04/dont-buck-the-system-change-it'
+  - meta
   - minify:
       minify_html: true
 
