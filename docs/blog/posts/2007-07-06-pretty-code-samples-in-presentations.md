@@ -47,8 +47,6 @@ I had a problem with CopyasRTF. When pasting onto a black background in
 Keynote, all white text is turned black. I managed to fix this by changing the
 default color_index to 45 (from 0) as shown below.
 
-```
-unless new_style[:color_index]
-new_style[:color_index] = 45
-end
-```
+    unless new_style[:color_index]
+      new_style[:color_index] = 45
+    end
