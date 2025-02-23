@@ -9,6 +9,10 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/blog/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/blog/2024-12-14-conventions/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
@@ -261,7 +265,7 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/Mouse%20support/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/ansible/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -285,7 +289,63 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/curl/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/darkman/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/date/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/disk/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/dnf/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/etckeeper/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/fd-find/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/find/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/firewalld/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/fwupdate/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/fzf/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnome/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnupg/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/inotify/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/iperf/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -293,11 +353,75 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/kvm/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/ls/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/lvm/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/magic-wormhole/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/make/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/mkdocs/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/openssl/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/outlook/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/pass/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/podman/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/raspberry-pi-os/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/readline/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/rsync/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/screen/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/slack-keyboard-shortcuts/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/slack/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/sqlite/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/tee/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -313,375 +437,83 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/wget/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/wireguard/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/gnome/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/xargs/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/outlook/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/yq/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/slack/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/browsers/Your%20browser%20is%20managed%20by%20your%20organization/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/Chat%20History/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/browsers/bookmarklets/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/TODO/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/browsers/chrome/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/prompt-caching/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/browsers/firefox/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/settings/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/browsers/plugins/markdownload/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/voice/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/grafana/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/watch-files/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/grafana/dashboards/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/issues/ctrl-a-not-working/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/issues/prompt-is-too-long/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/List%20files%20reverse%20alphabetical/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/issues/tab-completion/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/Troubleshooting/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/aider/issues/voice-format-broken/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/bookmarklets/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/browsers/Your%20browser%20is%20managed%20by%20your%20organization/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/emoji/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/browsers/bookmarklets/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/obsidian-browser-selector/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/browsers/chrome/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/obsidian-settings-that-may-break-quick-switcher-and-link-completer/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/browsers/firefox/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/performance/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/sync/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/issues/markdown-heading-anchors/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/plugins/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/plugins/Create%20an%20Obsidian%20Plugin/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/plugins/copilot/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/obsidian/plugins/tasks/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/syncthing/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/syncthing/macos/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/Co-pilot%20alternatives/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/Install%20VS%20Code%20Application/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/Install%20VS%20Code%20CLI/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/Keyboard%20Shortcuts/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/bookmarks/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/continue.dev/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/extensions/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/git/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/gitlens/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/markdown/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/profiles/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/settings/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/vscode-azure/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/vscode-open-file-on-remote/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/apps/vscode/extensions/remote-ssh/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/curl/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/darkman/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/date/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/disk/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/dnf/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/etckeeper/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/fd-find/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/find/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/fwupdate/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/fzf/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnupg/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/inotify/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/iperf/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/ls/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/lvm/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/magic-wormhole/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/make/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/mkdocs/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/openssl/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/pass/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/raspberry-pi-os/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/rsync/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/screen/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/sqlite/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/tee/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/wget/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/xargs/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/yq/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/Chat%20History/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/TODO/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/issues/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/prompt-caching/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/settings/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/voice/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/watch-files/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/issues/ctrl-a-not-working/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/issues/prompt-is-too-long/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/issues/tab-completion/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/aider/issues/voice-format-broken/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/date/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/gnupg/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/make/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/screen/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/tar/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/tee/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/wget/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/gnu/xargs/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/openssh/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/cli/openssh/install/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/browsers/plugins/markdownload/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -717,7 +549,7 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/git/code%20reading%20notes/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/git/code-reading-notes/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -841,6 +673,46 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/date/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/gnupg/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/make/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/screen/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/tar/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/tee/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/wget/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/gnu/xargs/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/grafana/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/grafana/dashboards/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/jupyter-notebooks/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
@@ -878,10 +750,6 @@
     </url>
     <url>
          <loc>https://mike.bailey.net.au/notes/software/languages/jmespath/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
-         <loc>https://mike.bailey.net.au/notes/software/languages/mermaid-to-image/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -957,10 +825,6 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/languages/python/pipx/</loc>
-         <lastmod>2025-02-23</lastmod>
-    </url>
-    <url>
          <loc>https://mike.bailey.net.au/notes/software/languages/python/poetry/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
@@ -977,7 +841,11 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/languages/python/pip/Dealing%20with%20conflicts/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/languages/python/pip/dealing-with-conflicts/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/languages/python/pip/pipx/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -1026,6 +894,66 @@
     </url>
     <url>
          <loc>https://mike.bailey.net.au/notes/software/obs/questions/silence-vlc-playback/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/List%20files%20reverse%20alphabetical/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/Troubleshooting/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/bookmarklets/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/emoji/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/obsidian-settings-that-may-break-quick-switcher-and-link-completer/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/performance/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/sync/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/issues/markdown-heading-anchors/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/plugins/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/plugins/Create%20an%20Obsidian%20Plugin/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/plugins/copilot/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/obsidian/plugins/tasks/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/openssh/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/openssh/install/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -1089,7 +1017,7 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
-         <loc>https://mike.bailey.net.au/notes/software/os/windows/screenshot/</loc>
+         <loc>https://mike.bailey.net.au/notes/software/os/windows/screenshots/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
@@ -1113,6 +1041,14 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/syncthing/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/syncthing/macos/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/testing/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
@@ -1133,6 +1069,10 @@
          <lastmod>2025-02-23</lastmod>
     </url>
     <url>
+         <loc>https://mike.bailey.net.au/notes/software/tmux/mouse-support/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
          <loc>https://mike.bailey.net.au/notes/software/virtualisation/virt-manager/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
@@ -1146,6 +1086,70 @@
     </url>
     <url>
          <loc>https://mike.bailey.net.au/notes/software/virtualisation/libvirt/use-libvirt-as-non-root-user/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/Co-pilot%20alternatives/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/Install%20VS%20Code%20Application/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/Install%20VS%20Code%20CLI/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/Keyboard%20Shortcuts/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/bookmarks/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/continue.dev/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/extensions/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/git/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/gitlens/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/markdown/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/profiles/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/settings/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/vscode-azure/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/vscode-open-file-on-remote/</loc>
+         <lastmod>2025-02-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mike.bailey.net.au/notes/software/vscode/extensions/remote-ssh/</loc>
          <lastmod>2025-02-23</lastmod>
     </url>
 </urlset>
