@@ -1,1 +1,1 @@
-docs/inbox/fast-learning.md
+docs/notes/inbox/fast-learning.md

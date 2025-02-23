@@ -1,14 +1,24 @@
 site_name: mbailey/notes
 site_description: Things I might need again.
-site_url: https://mike.bailey.net.au/notes
+site_url: https://mike.bailey.net.au/
 site_author: Mike Bailey
 
 # Repository
 repo_name: mbailey/notes
 repo_url: https://github.com/mbailey/notes
 
+# Navigation
+# Removing explicit nav to allow automatic navigation generation
+# nav:
+#   - Blog: blog/index.md
+#   - Notes: notes/README.md
+
 # Copyright
-copyright: Copyright &copy; 2022 - 2022 Mike Bailey
+copyright: Copyright &copy; Mike Bailey
+
+not_in_nav: |
+  *animalwelfare*
+
 
 theme:
   name: material
@@ -37,8 +47,8 @@ theme:
     # - navigation.instant
     # - navigation.prune
     # - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -68,12 +78,91 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  - blog:
+      blog_dir: blog
+      post_url_format: "{date}/{slug}"
+      post_url_date_format: "yyyy/MM/dd"
+      authors: true
+      authors_file: "{blog}/.authors.yml"
+      categories: true
+      categories_name: "Categories"
+      archive: true
+      archive_name: "Archive"
+      pagination: true
+      pagination_per_page: 10
+      post_readtime: true
   - search
   - redirects:
       redirect_maps:
-        # changelog/insiders.md: insiders/changelog.md
-        # conventions.md: philosophy.md
+        "README.md" : "notes/README.md"
+        "2007/05/enable-ssh-agent-forwarding-for-capistrano.md": "blog/posts/2007-05-14-enable-ssh-agent-forwarding-for-capistrano.md"
+        "2007/05/integrating-wordpress-into-a-ruby-on-rails-site.md": "blog/posts/2007-05-12-integrating-wordpress-into-a-ruby-on-rails-site.md"
+        "2007/07/deprec-plugins-using-gem_plugin.md": "blog/posts/2007-07-09-deprec-plugins-using-gem_plugin.md"
+        "2007/07/pretty-code-samples-in-presentations.md": "blog/posts/2007-07-06-pretty-code-samples-in-presentations.md"
+        "2007/07/vim-syntax-highlighting-for-rails.md": "blog/posts/2007-07-10-vim-syntax-highlighting-for-rails.md"
+        "2007/07/deprec-acts_as-desirable.md": "blog/posts/2007-07-21-deprec-acts_as-desirable.md"
+        "2007/08/simply-jestful.md": "blog/posts/2007-08-05-simply-jestful.md"
+        "2007/09/good-summary-of-dhh-keynote-at-railsconf-europe-2007.md": "blog/posts/2007-09-21-good-summary-of-dhh-keynote-at-railsconf-europe-2007.md"
+        "2007/09/rails-gis-hacks-slides.md": "blog/posts/2007-09-21-rails-gis-hacks-slides.md"
+        "2007/10/capistrano-and-rake.md": "blog/posts/2007-10-08-capistrano-and-rake.md"
+        "2007/10/slides-from-my-talk-on-jester.md": "blog/posts/2007-10-03-slides-from-my-talk-on-jester.md"
+        "2007/10/using-rails-123-with-rails-20-preview-release-installed.md": "blog/posts/2007-10-03-using-rails-123-with-rails-20-preview-release-installed.md"
+        "2007/10/omnifocus-gtd-for-osx.md": "blog/posts/2007-10-24-omnifocus-gtd-for-osx.md"
+        "2008/05/getting-monit-to-restart-mongrel-after-a-crash.md": "blog/posts/2008-05-06-getting-monit-to-restart-mongrel-after-a-crash.md"
+        "2008/06/how-to-use-deprec-1-when-deprec-2-gem-is-released.md": "blog/posts/2008-06-09-how-to-use-deprec-1-when-deprec-2-gem-is-released.md"
+        "2008/08/cherry-picking-git-commits.md": "blog/posts/2008-08-20-cherry-picking-git-commits.md"
+        "2008/08/growing-your-xen-guest-disks-with-xen-resize-guest.md": "blog/posts/2008-08-29-growing-your-xen-guest-disks-with-xen-resize-guest.md"
+        "2009/09/saving-pets.md": "blog/posts/2009-09-05-saving-pets.md"
+        "2010/06/asset-fingerprinting-with-paperclip.md": "blog/posts/2010-06-11-asset-fingerprinting-with-paperclip.md"
+        "2010/06/chrome-is-most-popular-browser.md": "blog/posts/2010-06-11-chrome-is-most-popular-browser.md"
+        "2010/07/speed-matters.md": "blog/posts/2010-07-02-speed-matters.md"
+        "2010/07/latency-is-a-killer.md": "blog/posts/2010-07-09-latency-is-a-killer.md"
+        "2010/07/tcp-and-the-lower-bound-of-web-performance.md": "blog/posts/2010-07-10-tcp-and-the-lower-bound-of-web-performance.md"
+        "2010/07/three-of-these-kids.md": "blog/posts/2010-07-27-three-of-these-kids.md"
+        "2010/10/the-long-tail.md": "blog/posts/2010-10-25-the-long-tail.md"
+        "2011/02/making-vim-look-like-textmate-again.md": "blog/posts/2011-02-07-making-vim-look-like-textmate-again.md"
+        "2011/02/fixing-chefs-attribute-hotspot-is-not-defined-error.md": "blog/posts/2011-02-14-fixing-chefs-attribute-hotspot-is-not-defined-error.md"
+        "2011/02/json-from-javascript.md": "blog/posts/2011-02-19-json-from-javascript.md"
+        "2011/02/json-from-the-command-line.md": "blog/posts/2011-02-19-json-from-the-command-line.md"
+        "2011/02/json-in-your-web-browser.md": "blog/posts/2011-02-20-json-in-your-web-browser.md"
+        "2011/02/json-with-ruby-and-rails.md": "blog/posts/2011-02-20-json-with-ruby-and-rails.md"
+        "2011/02/how-to-loose-your-customer-base.md": "blog/posts/2011-02-22-how-to-loose-your-customer-base.md"
+        "2011/03/wired-to-care-will-neuroscience-prove-jesus-right.md": "blog/posts/2011-03-11-wired-to-care-will-neuroscience-prove-jesus-right.md"
+        "2011/03/ssh-compression-can-slow-you-down.md": "blog/posts/2011-03-15-ssh-compression-can-slow-you-down.md"
+        "2011/04/hosthome-setting-up-your-network.md": "blog/posts/2011-04-11-hosthome-setting-up-your-network.md"
+        "2011/05/hosthome-choose-a-virtualization-platform.md": "blog/posts/2011-05-03-hosthome-choose-a-virtualization-platform.md"
+        "2011/05/slicehost-rip.md": "blog/posts/2011-05-11-slicehost-rip.md"
+        "2011/05/how-to-find-new-music.md": "blog/posts/2011-05-15-how-to-find-new-music.md"
+        "2011/05/blinksale-how-to-say-goodbye.md": "blog/posts/2011-05-26-blinksale-how-to-say-goodbye.md"
+        "2011/06/lucky-qantas-dont-design-planes.md": "blog/posts/2011-06-07-lucky-qantas-dont-design-planes.md"
+        "2011/06/rails-web-api-versioning.md": "blog/posts/2011-06-14-rails-web-api-versioning.md"
+        "2011/06/lost-dogs-home.md": "blog/posts/2011-06-20-lost-dogs-home.md"
+        "2011/07/look-at-your-data-john-rauser.md": "blog/posts/2011-07-12-look-at-your-data-john-rauser.md"
+        "2011/07/an-elaborate-hoax.md": "blog/posts/2011-07-24-an-elaborate-hoax.md"
+        "2011/07/rvm-in-production.md": "blog/posts/2011-07-27-rvm-in-production.md"
+        "2011/07/lost-dogs-home-cry-poor.md": "blog/posts/2011-07-31-lost-dogs-home-cry-poor.md"
+        "2011/11/back-to-my-mac-confessions-of-a-reluctant-apostate.md": "blog/posts/2011-11-18-back-to-my-mac-confessions-of-a-reluctant-apostate.md"
+        "2012/01/why-we-automate.md": "blog/posts/2012-01-22-why-we-automate.md"
+        "2012/03/ipads-are-made-for-screencasts.md": "blog/posts/2012-03-06-ipads-are-made-for-screencasts.md"
+        "2012/06/ec2-outage-pimp-my-fail.md": "blog/posts/2012-06-15-ec2-outage-pimp-my-fail.md"
+        "2012/06/i-saw-robots-my-tour-of-toyota.md": "blog/posts/2012-06-28-i-saw-robots-my-tour-of-toyota.md"
+        "2012/07/personal-cloudification.md": "blog/posts/2012-07-03-personal-cloudification.md"
+        "2012/08/oil-lamps-geek-house.md": "blog/posts/2012-08-11-oil-lamps-geek-house.md"
+        "2012/09/first-impressions-of-macbook-air-with-preinstalled-mountain-lion.md": "blog/posts/2012-09-27-first-impressions-of-macbook-air-with-preinstalled-mountain-lion.md"
+        "2012/10/vagrant-notes.md": "blog/posts/2012-10-06-vagrant-notes.md"
+        "2012/11/fun-with-retinal-burns.md": "blog/posts/2012-11-26-fun-with-retinal-burns.md"
+        "2014/01/eat-something-new-every-day.md": "blog/posts/2014-01-02-eat-something-new-every-day.md"
+        "2014/01/edinburgh-gardens.md": "blog/posts/2014-01-06-edinburgh-gardens.md"
+        "2014/01/night-friendly-lighting.md": "blog/posts/2014-01-07-night-friendly-lighting.md"
+        "2014/01/how-to-save-money.md": "blog/posts/2014-01-08-how-to-save-money.md"
+        "2015/10/smoking-prevention-and-treatment.md": "blog/posts/2015-10-25-smoking-prevention-and-treatment.md"
+        "2018/11/semantic-cloudformation-parameter-values.md": "blog/posts/2018-11-03-semantic-cloudformation-parameter-values.md"
+        "2018/11/dont-buck-the-system-change-the-system.md" : "blog/posts/2018-11-04-dont-buck-the-system-change-it.md"
+        "2019/03/why-you-should-enable-s3-block-public-access.md": "blog/posts/2019-03-06-why-you-should-enable-s3-block-public-access.md"
+        "2019/05/right-sizing-your-aws-lambdas.md": "blog/posts/2019-05-09-right-sizing-your-aws-lambdas.md"
+        "2020/07/melburnians-misinformed-about-lockdown-rules-for-exercise.md": "blog/posts/2020-07-08-melburnians-misinformed-about-lockdown-rules-for-exercise.md"
+
+  - meta
   - minify:
       minify_html: true
 
@@ -82,6 +171,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mbailey
+  homepage: notes/index.md
 
 # Extensions
 markdown_extensions:
