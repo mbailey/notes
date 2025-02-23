@@ -36,7 +36,8 @@ it, make sure you choose something worth suffering for.
 Before the Internet came along, memes thrived in the form of kitchen calendars
 and fridge magnets. You may be familiar with this one:
 
-{% include figure image_path="/images/serenity.png" alt="Serenity" caption="Serenity Fridge Magnet." %}
+![Serenity Fridge Magnet](../../../assets/serenity.png)
+*Serenity Fridge Magnet*
 
 > God, grant me the serenity to accept the things I cannot change,  
 > Courage to change the things I can,  
@@ -63,7 +64,7 @@ the change:
 - would provide little benefit to others
 - would require a huge amount of effort (including other people's)
 
-![maybe-do-it](/images/maybe-do-it.jpg)
+![maybe do it](../../../assets/maybe-do-it.jpg)
 
 
 # Do you have 'skin in the game'?
