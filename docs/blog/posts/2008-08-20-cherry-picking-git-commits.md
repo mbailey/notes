@@ -24,7 +24,7 @@ I discovered [a feature](http://github.com/mbailey/deprec/network) that shows
 me what changes other open source developers have been making on their forks of
 the deprec codebase.
 
-[![Github network feature](/images/2008-08-20-cherry-picking-git-commits/github_network11.jpg)](/images/wp/2008/08/github_network11.jpg)
+[![Github network feature](../images/2008-08-20-cherry-picking-git-commits/github_network11.jpg)](../images/2008-08-20-cherry-picking-git-commits/github_network11.jpg)
 
 Clicking on that link shows us [a diff for that
 commit](http://github.com/andyh/deprec/commit/3c089da563bd2b4a7a2af662a56b7bc4d9845a7f)
