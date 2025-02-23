@@ -66,7 +66,7 @@ the change:
 - would provide little benefit to others
 - would require a huge amount of effort (including other people's)
 
-![maybe do it](../../../assets/maybe-do-it.jpg)
+![maybe do it](../../images/maybe-do-it.jpg)
 
 
 # Do you have 'skin in the game'?
