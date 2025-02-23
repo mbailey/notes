@@ -26,7 +26,7 @@ MacBookPro to no avail. Then it occurred to me that I want a fixed width font
 to display code. And my Mac has only four of them: **Monaco** (which is the
 default for textmate), **Courier**, **Courier new** and **Andale Mono**.
 
-[![](/images/2007-07-06-pretty-code-samples-in-presentations/make_resourceful_slide-1024x349.jpg)](/images/2007-07-06-pretty-code-samples-in-presentations/make_resourceful_slide.jpg)
+[![](../images/2007-07-06-pretty-code-samples-in-presentations/make_resourceful_slide-1024x349.jpg)](../images/2007-07-06-pretty-code-samples-in-presentations/make_resourceful_slide.jpg)
 
 So what font have they used?
 
