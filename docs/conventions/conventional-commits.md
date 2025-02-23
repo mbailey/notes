@@ -27,7 +27,7 @@ A specification for adding human and machine readable meaning to commit messages
 
 ### 2. If you're unsure, ask an LLM
 
-Get [README](../software/cli/aider/README.md) to commit all pending changes with a suitable commit message, then exit.
+Get [README](../software/aider/README.md) to commit all pending changes with a suitable commit message, then exit.
 
 ```
 $ aider --commit

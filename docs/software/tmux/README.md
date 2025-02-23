@@ -11,7 +11,7 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 ## Usage
 
-- [Mouse support](Mouse%20support.md)
+- [mouse-support](./mouse-support.md)
 
 ### Copy text
 

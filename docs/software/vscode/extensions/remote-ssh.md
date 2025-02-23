@@ -112,7 +112,7 @@ We need to tell Windows to use WSL's SSH which means:
 
 ### Setting: remote.SSH.defaultExtensions
 
-I maintain a list of [extensions](extensions.md)
+I maintain a list of [extensions](../extensions.md)
 
 If there are extensions that you would like to always have installed on any SSH host, you can specify which ones using the `remote.SSH.defaultExtensions`property in `settings.json`. 
 

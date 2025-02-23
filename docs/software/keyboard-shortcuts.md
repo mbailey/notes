@@ -11,11 +11,11 @@ Use a consistent set  ofkeyboard shortcuts across operating systems and applicat
 - What key prefixes are free / reserved for users to define across OS / Application?
 ## Contents
 
-- [Markdown](#Markdown)
-- [OS](#OS)
-- [Window](#Window)
-- [Terminal (Emacs `Meta key` combinations)](#Terminal%20(Emacs%20`Meta%20key`%20combinations))
-- [Application](#Application)
+- [Markdown](#markdown)
+- [OS](#os)
+- [Window](#window)
+- [Terminal (Emacs `Meta key` combinations)](#terminal)
+- [Application](#application)
 
 ## Markdown
 
@@ -98,7 +98,9 @@ Many applications follow these conventions.
 | Redo       | `Ctrl` + `Shift` + `Z`       | `Ctrl` + `Cmd` + `Shift` + `Z` |             |     |
 | Open       | `Ctrl` + `O`                 | `Cmd` + `O`                    |             |     |
 
-## Terminal (Emacs `Meta key` combinations)
+## Terminal 
+
+(Emacs `Meta key` combinations)
 
 ### macOS
 

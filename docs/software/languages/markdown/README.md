@@ -16,8 +16,8 @@ alias: Markdown
 
 ## Editing
 
-- [Obsidian](../../apps/obsidian/README.md): Cross Platform, WYSIWYG, extensive plugins (tables, calendar, etc)
-- [README](../../apps/vscode/README.md): Cross Platform, Live Preview, Syntax Highlighting, Linting, Plugins
+- [Obsidian](../../obsidian/README.md): Cross Platform, WYSIWYG, extensive plugins (tables, calendar, etc)
+- [README](../../vscode/README.md): Cross Platform, Live Preview, Syntax Highlighting, Linting, Plugins
 - vim: Cross Platform, Terminal, Syntax Highlighting, Linting
 - [GitHub.com](https://github.com): Web App
 
@@ -30,7 +30,7 @@ alias: Markdown
 
 - [Markdown Links](links.md)
 - [Markdown code blocks](markdown%20code%20blocks.md) 
-- Headings may be folded in some editors/viewers ([README](../../apps/obsidian/README.md))
+- Headings may be folded in some editors/viewers ([README](../../obsidian/README.md))
 
 #### Python-Markdown
 

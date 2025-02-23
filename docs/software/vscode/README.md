@@ -11,7 +11,7 @@ alias: VS Code
 - [Extensions](extensions.md)
 - [Keyboard Shortcuts](Keyboard%20Shortcuts.md)
 - [Markdown](markdown.md)
-- [Settings](./settings.md)
+- [Settings](settings.md)
 - [git](git.md)
 
 ## Usage
@@ -61,7 +61,7 @@ My preferred settings:
 
 [This breaks shell completion in terminal if it's enabled](https://stackoverflow.com/questions/77167764/why-is-vs-code-using-the-tab-key-to-move-focus-from-the-integrated-terminal-inst)
 
-![](../../../assets/Pasted%20image%2020231222090143.png)
+![](../../assets/Pasted%20image%2020231222090143.png)
 
 
 
@@ -115,9 +115,9 @@ Open two terminals with horizontal split:
 
 - [Visual Studio Code is unable to watch for file changes in this large workspace" (error ENOSPC)](https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc)
 
-![](../../../assets/vscode-unable-to-watch-for-file-changes.png)
+![](../../assets/vscode-unable-to-watch-for-file-changes.png)
 
-Check your watcher limits, current usage and how to increase the limits for [inotify](../../cli/inotify.md)
+Check your watcher limits, current usage and how to increase the limits for [inotify](../inotify.md)
 
 ```json
 

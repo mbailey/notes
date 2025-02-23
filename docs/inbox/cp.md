@@ -10,5 +10,5 @@ Copy files and directories.
 
 ## See also
 
-- [rsync](docs/software/cli/rsync.md)
+- [rsync](../software/rsync.md)
 - scp

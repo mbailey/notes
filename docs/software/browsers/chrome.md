@@ -1,6 +1,6 @@
 # Google Chrome
 
-I use Google Chrome for [Microsoft Teams](../../../services/msteams.md) because video and screen sharing don't work with Firefox or Chromium.
+I use Google Chrome for [Microsoft Teams](../../services/msteams.md) because video and screen sharing don't work with Firefox or Chromium.
 
 - [Your browser is managed by your organization](Your%20browser%20is%20managed%20by%20your%20organization.md)
 

@@ -1,4 +1,6 @@
-### Mouse support
+# Mouse support
+
+By claude-3-5-sonnet
 
 To enable mouse support in tmux for scrolling, you can either:
 

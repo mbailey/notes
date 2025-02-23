@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-On fedora-36, I had to install [chrome](../software/apps/browsers/chrome.md) to get video and screen sharing to work.
+On fedora-36, I had to install [chrome](../software/browsers/chrome.md) to get video and screen sharing to work.
 
 
 ## Notes

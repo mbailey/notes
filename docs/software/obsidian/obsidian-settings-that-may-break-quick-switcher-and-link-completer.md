@@ -10,7 +10,7 @@ Enabling "Show attachments" or "Show all file types" degrades switcher for me.
 
 **Settings -> Core Plugins -> Quick switcher**
 
-![](./assets/Pasted%20image%2020240130094000.png)
+![](assets/Pasted%20image%2020240130094000.png)
 
 This can also be updated in the config file:
 

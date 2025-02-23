@@ -1,7 +1,6 @@
 # VS Code extensions
 
-- [speech](speech.md)
-- [bookmarks](./bookmarks.md) 
+- [bookmarks](bookmarks.md) 
 - [gitlens](gitlens.md)
 - [Remote-SSH](extensions/remote-ssh.md)
 - Edit CSV

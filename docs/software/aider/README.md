@@ -10,7 +10,6 @@ alias: Aider - AI Coding Assistant
 - Pipecat
 - [watch-files](watch-files.md)
 - [settings](settings.md)
-- [issues](issues.md)
 
 ## Usage
 

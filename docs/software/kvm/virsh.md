@@ -47,4 +47,4 @@ export LIBVIRT_DEFAULT_URI="qemu:///system"
 
 ## See also
 
-- [kvm](../../../../personal/resources/tech/private/kvm.md)
+- [kvm](../kvm.md)

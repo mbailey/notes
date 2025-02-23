@@ -22,8 +22,8 @@ Windows 10 does not come with an option to update base on time of day.
 
 ## Applications
 
-- **[Obsidian](../../../public/docs/software/apps/obsidian/README.md):** Settings → Appearance → Base color scheme → Adapt to system (restart required)
-- **[VS Code](../../../public/docs/software/apps/vscode/README.md):** Add _"window.autoDetectColorScheme": true_ in settings.json
+- **[Obsidian](obsidian/README.md):** Settings → Appearance → Base color scheme → Adapt to system (restart required)
+- **[VS Code](vscode/README.md):** Add _"window.autoDetectColorScheme": true_ in settings.json
 - **Webbrowsers:** See below for details
 - GitHub.com: See below
 - **Google Search:** see below

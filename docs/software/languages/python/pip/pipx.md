@@ -5,9 +5,14 @@
 By ChatGPT *2024-12-11 12:40:14 +11:00 Wed*
 
 **What is `pipx`?**  
-`pipx` lets you install and run Python-based command-line applications in isolated virtual environments. It protects your global Python environment from dependency conflicts and provides a consistent way to run these tools anywhere in your directory tree.
+
+`pipx` lets you install and run Python-based command-line applications in
+isolated virtual environments. It protects your global Python environment from
+dependency conflicts and provides a consistent way to run these tools anywhere
+in your directory tree.
 
 **Key Benefits:**  
+
 - **Isolated environments:** Each CLI tool gets its own virtual environment.  
 - **Global commands:** Tools are made globally accessible (added to your `PATH`) so you can run them from anywhere.  
 - **No conflicts:** Dependencies don’t clash with your main Python environment or other tools.
@@ -15,25 +20,30 @@ By ChatGPT *2024-12-11 12:40:14 +11:00 Wed*
 ## Installation
 
 **Recommended Methods:**  
+
 - **macOS:**  
+
   ```shell
   brew install pipx
   pipx ensurepath
   ```
   
 - **Linux (e.g. Fedora):**  
+
   ```shell
   sudo dnf install pipx
   pipx ensurepath
   ```
   
 - **Other Linux Distros (via pip):**  
+
   ```shell
   python3 -m pip install --user pipx
   python3 -m pipx ensurepath
   ```
   
 - **Windows (via pip):**  
+
   ```shell
   py -m pip install --user pipx
   pipx ensurepath
@@ -47,18 +57,23 @@ If `ensurepath` shows a warning about directories not on your `PATH`, open a new
 ## Using `pipx`
 
 **Installing a CLI Tool (e.g. `aider-chat`):**  
+
 ```shell
 pipx install aider-chat
 ```
+
 After this, you can run `aider-chat` from any directory.
 
 **Run Commands Temporarily:**  
+
 ```shell
 pipx run some-tool
 ```
+
 This downloads, installs, and runs the tool in an ephemeral environment that’s removed afterwards.
 
 **Upgrading or Removing Tools:**  
+
 ```shell
 pipx upgrade aider-chat
 pipx uninstall aider-chat
@@ -85,3 +100,4 @@ pipx install aider-chat --python python3.10
 ---
 
 **In summary, `pipx` provides a clean, safe way to install and run Python-based CLI tools.** This ensures that when you install something like `aider-chat`, you’ll have a stable, globally accessible command without cluttering or conflicting with your main Python environment.
+

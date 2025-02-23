@@ -4,7 +4,7 @@ alias: Python
 # Python
 
 - [Pip](pip/README.md)
-- [pipx](pipx.md)
+- [pipx](pip/pipx.md)
 - [README](pyenv/README.md)
 - [pypi](./pypi.md)
 - [poetry](poetry.md)
@@ -12,7 +12,6 @@ alias: Python
 
 - [When to use python3](When%20to%20use%20python3.md)
 - [where-to-find-function-docs](where-to-find-function-docs.md)
-- [Generating shell completion scripts](Generating%20shell%20completion%20scripts.md)
 
 ## Commands
 

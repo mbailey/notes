@@ -12,7 +12,7 @@ Things I install on my fedora workstations.
 
     - [awscli](#awscli)
     - [bash-my-aws](#bash-my-aws)
-    - [darkman](cli/darkman.md)
+    - [darkman](darkman.md)
     - [syncthing](#syncthing)
 
     - [dbeaver-ce](#dbeaver-ce)
@@ -27,7 +27,7 @@ sudo dnf install awscli2
     git clone https://github.com/bash-my-aws/bash-my-aws.git ${BMA_HOME:-$HOME/.bash-my-aws}
     # Update .bashrc if installing for the first time
 
-## [chrome](apps/browsers/chrome.md)
+## [chrome](browsers/chrome.md)
 
 Only for [Microsoft Teams](../services/msteams.md).
 
@@ -58,26 +58,13 @@ Firefox is far and away my favourite web browser. These plugins make it even bet
 
 ## [obsidian](https://obsidian.md/download)
 
-Install (with GNOME launcher support) with YMMV script from forum.
-
-<!-- markdown-link-check-disable-next-line -->
-[`$ bin/obsidian-install.sh`](bin/obsidian-install.sh)
-
-or:
-
-    obsidian_file=Obsidian-0.15.9.AppImage
-    wget --directory-prefix $HOME/bin \
-      https://github.com/obsidianmd/obsidian-releases/releases/latest/download/${obsidian_file}
-    chmod +x ~/bin/${obsidian_file}
-    ln -sf ${obsidian_file} ~/bin/obsidian
-
 ## [slack](https://slack.com/intl/en-au/downloads/linux)
 
 - [Download Slack for Linux (beta)  Slack (slack.com)](https://slack.com/intl/en-au/help/articles/212924728-Download-Slack-for-Linux--beta-#rhel-1)
 
 ## [syncthing](https://syncthing.net/)
 
-- [README](apps/syncthing/README.md)
+- [README](syncthing/README.md)
 
 ## [vscode](https://code.visualstudio.com/docs/setup/linux)
 

@@ -27,4 +27,4 @@ transformers 4.46.3 requires tokenizers<0.21,>=0.20, but you have tokenizers 0.1
 
 ## Solutions
 
-- Use [pipx](../pipx.md)
+- Use [pipx](pipx.md)
