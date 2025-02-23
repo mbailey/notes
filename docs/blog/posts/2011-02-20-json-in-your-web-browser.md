@@ -29,11 +29,15 @@ There is also an [Unofficial JSONView port for Chrome](https://chrome.google.co
 
 When installed, your JSON will look more like this:
 
-![JSONView browser plugins prettify](../images/2011-02-20-json-in-your-web-browser/JSONView.png)
+{% 
+  include figure
+  image_path="/images/2011-02-20-json-in-your-web-browser/JSONView.png"
+  caption="JSONView browser plugins prettify"
+%}
 
 Posts in this series:
 
-* [JSON from the Command Line](2011-02-19-json-from-the-command-line.md)
-* [JSON from Javascript](2011-02-19-json-from-javascript.md)
-* [JSON with Ruby and Rails](2011-02-20-json-with-ruby-and-rails.md)
-* [JSON in your Web Browser](2011-02-20-json-in-your-web-browser.md)
+  * [JSON from the Command Line](/2011/02/json-from-the-command-line/)
+  * [JSON from Javascript](/2011/02/json-from-javascript/)
+  * [JSON with Ruby and Rails](/2011/02/json-with-ruby-and-rails/)
+  * [JSON in your Web Browser](/2011/02/json-in-your-web-browser/)

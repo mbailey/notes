@@ -108,12 +108,16 @@ $ curl localhost:5984/facebook/stoptheclock | json
 
 ### Querying CouchDB is outside the scope of this tutorial
 
-![How do I query the data now it's in CouchDB?](../images/2011-02-19-json-from-the-command-line/fault-tolerance.png)
+{% 
+  include figure
+  image_path="/images/2011-02-19-json-from-the-command-line/fault-tolerance.png"
+  caption="How do I query the data now it's in CouchDB?"
+%}
 
 
 Posts in this series:
 
-* [JSON from the Command Line](2011-02-19-json-from-the-command-line.md)
-* [JSON from Javascript](2011-02-19-json-from-javascript.md)
-* [JSON with Ruby and Rails](2011-02-20-json-with-ruby-and-rails.md)
-* [JSON in your Web Browser](2011-02-20-json-in-your-web-browser.md)
+  * [JSON from the Command Line](/2011/02/json-from-the-command-line/)
+  * [JSON from Javascript](/2011/02/json-from-javascript/)
+  * [JSON with Ruby and Rails](/2011/02/json-with-ruby-and-rails/)
+  * [JSON in your Web Browser](/2011/02/json-in-your-web-browser/)
