@@ -70,7 +70,7 @@ theme:
 plugins:
   - blog:
       blog_dir: blog
-      post_url_format: "{date}/{slug}"
+      post_url_format: "{year}/{month_name}/{day}/{slug}"
   - search
   - redirects:
       redirect_maps:
