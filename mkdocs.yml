@@ -76,6 +76,11 @@ plugins:
   - redirects:
       redirect_maps:
         '2007/05/enable-ssh-agent-forwarding-for-capistrano.md': 'blog/posts/2007-05-14-enable-ssh-agent-forwarding-for-capistrano.md'
+        '2007/05/integrating-wordpress-into-a-ruby-on-rails-site.md': 'blog/posts/2007-05-integrating-wordpress-into-a-ruby-on-rails-site.md'
+        '2007/07/deprec-acts_as-desirable.md': 'blog/posts/2007-07-deprec-acts_as-desirable.md'
+        '2007/07/deprec-plugins-using-gem_plugin.md': 'blog/posts/2007-07-deprec-plugins-using-gem_plugin.md'
+        '2007/07/pretty-code-samples-in-presentations.md': 'blog/posts/2007-07-pretty-code-samples-in-presentations.md'
+        '2007/07/vim-syntax-highlighting-for-rails.md': 'blog/posts/2007-07-vim-syntax-highlighting-for-rails.md'
   - meta
   - minify:
       minify_html: true
