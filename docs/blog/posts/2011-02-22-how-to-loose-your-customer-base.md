@@ -18,10 +18,7 @@ of my action is fine. Preventing me from doing what I want to do won't endear
 me to your product and poor spelling won't increase my confidence. I'm LOOSING
 confidence in you VMware.
 
-{% 
-  include figure
-  image_path="/images/2011-02-22-how-to-loose-your-customer-base/vmware_loose_access.png"
-  caption="You can't go there. Sorry, it's the rules."
-%}
+![You can't go there. Sorry, it's the rules.](../../../assets/vmware_loose_access.png)
+*You can't go there. Sorry, it's the rules.*
 
 Rob Postill had a [little rant about VMware](http://www.grinning-cat.com/?p=71) last night.

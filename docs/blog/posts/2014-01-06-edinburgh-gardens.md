@@ -46,11 +46,8 @@ Now don't get me wrong, there was a whole lot of litter. The place was a mess
 but one man's trash is another man's treasure and the indignation inspiring
 imagery was media gold for the evening news and daily papers.
 
-{% 
-  include figure 
-  image_path="/images/edinburgh-gardens-rubbish.jpg" 
-  caption="What kind of people would do this?"
-%}
+![What kind of people would do this?](../../../assets/edinburgh-gardens-rubbish.jpg)
+*What kind of people would do this?*
 
 > "inadequate lighting and excessive crowding also appeared to dissuade people
 > from using the rubbish bins and toilet facilities provided, with significant
@@ -75,12 +72,8 @@ strong. The top bars slipped under the weight of people climbing on them. The
 Herald Sun reported this as [vandalism][tennis]. By these standards your
 average two year old is a wanton vandal.
 
-{% 
-  include figure 
-  url="http://instagram.com/p/ilnmIHDklK/" 
-  image_path="/images/fence-climbing.png" 
-  caption="Darwin was Right" 
-%}
+[![Darwin was Right](../../../assets/fence-climbing.png)](http://instagram.com/p/ilnmIHDklK/)
+*Darwin was Right*
 
 
 

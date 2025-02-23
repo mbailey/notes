@@ -10,14 +10,8 @@ categories:
 - devops
 ---
 
-{% 
-  include figure
-  image_path="/images/2012-01-22-why-we-automate/20plush.jpeg"
-  caption="Manual"
-%}
+![Manual](../../../assets/20plush.jpeg)
+*Manual*
 
-{% 
-  include figure
-  image_path="/images/2012-01-22-why-we-automate/snack-vending-machines.jpeg"
-  caption="Automated"
-%}
+![Automated](../../../assets/snack-vending-machines.jpeg)
+*Automated*

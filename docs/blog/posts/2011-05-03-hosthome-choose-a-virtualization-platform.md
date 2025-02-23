@@ -11,10 +11,7 @@ categories:
 - virtualization
 ---
 
-{% 
-  include figure
-  image_path="/images/2011-05-03-hosthome-choose-a-virtualization-platform/phpvbsm1.png"
-%}
+![](../../../assets/phpvbsm1.png)
 
 **Use Virtualization**
 
@@ -60,7 +57,4 @@ Things I like about VirtualBox
   * easy to share a directory from host to guest (well...windows needed reboot)
   * VRDP gives you RDP even when your OS doesn't
 
-{% 
-  include figure
-  image_path="/images/2011-05-03-hosthome-choose-a-virtualization-platform/phpvbsm1.png"
- %}
+![](../../../assets/phpvbsm1.png)
