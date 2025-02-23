@@ -1,8 +1,11 @@
 ---
-
 title: Right-sizing your AWS Lambdas
-date: 2019-05-09
-categories: systems aws s3
+date:
+  created: 2019-05-09
+categories:
+- systems
+- aws
+- s3
 ---
 
 I was recently able to reduce the cost of one of our serverless applications

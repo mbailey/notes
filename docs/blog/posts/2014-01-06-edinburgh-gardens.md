@@ -1,9 +1,9 @@
 ---
 
 title: "Truth about Edinburgh Gardens NYE"
-date: 2014-01-06 19:36
+date:
+  created: 2014-01-06
 comments: true
-categories:
 ---
 
 What happens when more 15,000 revellers converge on an inner city Melbourne
