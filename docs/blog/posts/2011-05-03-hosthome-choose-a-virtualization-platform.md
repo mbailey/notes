@@ -11,7 +11,7 @@ categories:
 - virtualization
 ---
 
-![](../../../assets/phpvbsm1.png)
+![](../images/phpvbsm1.png)
 
 **Use Virtualization**
 
@@ -57,4 +57,4 @@ Things I like about VirtualBox
   * easy to share a directory from host to guest (well...windows needed reboot)
   * VRDP gives you RDP even when your OS doesn't
 
-![](../../../assets/phpvbsm1.png)
+![](../images/phpvbsm1.png)
