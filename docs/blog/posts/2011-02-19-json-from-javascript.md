@@ -107,7 +107,7 @@ fact it does a pretty good job of hiding the inner workings of JSONP from you.
 
 Posts in this series:
 
-* [JSON from the Command Line](2011-02-19-json-from-the-command-line.md)
-* [JSON from Javascript](2011-02-19-json-from-javascript.md)
-* [JSON with Ruby and Rails](2011-02-20-json-with-ruby-and-rails.md)
-* [JSON in your Web Browser](2011-02-20-json-in-your-web-browser.md)
+  * [JSON from the Command Line](/2011/02/json-from-the-command-line/)
+  * [JSON from Javascript](/2011/02/json-from-javascript/)
+  * [JSON with Ruby and Rails](/2011/02/json-with-ruby-and-rails/)
+  * [JSON in your Web Browser](/2011/02/json-in-your-web-browser/)
