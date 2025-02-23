@@ -75,7 +75,7 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        '2007/05/enable-ssh-agent-forwarding-for-capistrano/': 'blog/posts/2007-05-01-enable-ssh-agent-forwarding-for-capistrano.md'
+        '2007/05/enable-ssh-agent-forwarding-for-capistrano.md': 'blog/posts/2007-05-01-enable-ssh-agent-forwarding-for-capistrano.md'
   - meta
   - minify:
       minify_html: true
