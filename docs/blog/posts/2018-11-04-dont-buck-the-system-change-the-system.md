@@ -1,8 +1,9 @@
 ---
-date: 
-  created: 2018-11-04
+
 title: Don't Buck the System, Change it
-draft: true
+date: 2018-11-04
+comments: true
+categories: systems
 ---
 
 I don't consider myself a Buddhist but attest to their belief that "Life is
@@ -16,7 +17,7 @@ intended to cover changes to personal habits.
 
 # Find Things Worth Suffering For
 
-Life is change and change often involves suffering.
+Life is change and change often involves suffering. 
 
 Bringing a pet into your life generally means accepting the grief the comes
 with outliving them (unless you choose a [White Cockatoo][cocky] which can live
@@ -25,21 +26,21 @@ with outliving them (unless you choose a [White Cockatoo][cocky] which can live
 Improving you health, wealth or education might involve going without things
 you enjoy and doing things you don't.
 
-System change that affects other people, whether in the workplace, government or
+System change that affects other people, whether in the workplace, government or 
 community is hard work and success is never guaranteed. If you're going to attempt
 it, make sure you choose something worth suffering for.
+
 
 # Serenity, Courage, Wisdom
 
 Before the Internet came along, memes thrived in the form of kitchen calendars
 and fridge magnets. You may be familiar with this one:
 
-![Serenity Fridge Magnet](../images/serenity.png)
+{% include figure image_path="/images/serenity.png" alt="Serenity" caption="Serenity Fridge Magnet." %}
 
 > God, grant me the serenity to accept the things I cannot change,  
 > Courage to change the things I can,  
-> And wisdom to know the difference.
-
+> And wisdom to know the difference. 
 - [Reinhold Niebuh](https://en.wikipedia.org/wiki/Serenity_Prayer)
 
 Now I know Christian Theologians may not be in vogue these days but they *were*
@@ -48,8 +49,7 @@ in the message, not who said it.
 
 ## "Accept the Things I Cannot Change"
 
-I would change this to "Accept the things I *should* not change":
-
+I would change this to "Accept the things I *should* not change": 
 - A sysadmin with root privileges *can* invade people's privacy
 - A person in executive government *can* enact laws that cause unnecessary suffering
 
@@ -63,7 +63,8 @@ the change:
 - would provide little benefit to others
 - would require a huge amount of effort (including other people's)
 
-![maybe-do-it](../images/maybe-do-it.jpg)
+![maybe-do-it](/images/maybe-do-it.jpg)
+
 
 # Do you have 'skin in the game'?
 
@@ -79,20 +80,21 @@ don't try to own them.
 > Pig replies: "Hm, maybe, what would we call it?"  
 > The Chicken responds: "How about 'ham-n-eggs'?"  
 > The Pig thinks for a moment and says: "No thanks. I'd be committed, but you'd only be involved."  
-
 - [Pig and Chicken fable](https://en.wikipedia.org/wiki/Reinhold_Niebuhr)
 
 It's captured more succintly in the "[Nothing About Us Without
 Us][nothing-about-us]" mantra popular with ethnic, disability and other
-marginalise groups.
+marginalise groups. 
+
 
 # Does anyone else know/care?
 
 Who else would benefit from the change? Who would suffer? If there isn't the
 likelihood of a net benefit to the group, you're unlikely to get the buy-in
-required to make the change. Unless you intend to mislead or coerce people
+required to make the change. Unless you intend to mislead or coerce people 
 into doing things your way, you're probably best accepting this as a thing
 you shouldn't change.
+
 
 ## "Courage to Change the Things I Can"
 
@@ -101,6 +103,7 @@ says it better than I can.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zklbZR9025Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+  
 > “When you grow up you tend to get told that the world is the way it is and
 > your life is just to live your life inside the world. Try not to bash into
 > the walls too much. Try to have a nice family life, have fun, save a little
@@ -108,13 +111,15 @@ says it better than I can.
 > one simple fact: Everything around you that you call life was made up by
 > people that were no smarter than you. And you can change it, you can
 > influence it… Once you learn that, you'll never be the same again.”
-
 - Steve Jobs
 
-## "And the Wisdom to Know the Difference"
 
-I'm not sure about wisdom but I hope this post offers some food for thought.
+## "And the Wisdom to Know the Difference" 
+
+I'm not sure about wisdom but I hope this post offers some food for thought. 
+
 
 [put-a-bird-on-it]: https://www.youtube.com/watch?v=iHmLljk2t8M
 [cocky]: https://en.wikipedia.org/wiki/White_cockatoo
+[pig-and-chicken]: https://en.wikipedia.org/wiki/Reinhold_Niebuhr
 [nothing-about-us]: https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us
