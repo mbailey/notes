@@ -73,9 +73,9 @@ plugins:
       post_url_format: "{date}/{slug}"
       post_url_date_format: "yyyy/MMM/d"
   - search
-  # - redirects:
-  #    redirect_maps:
-  #      '2018/11/dont-buck-the-system-change-the-system/': 'notes/blog/2018-11-04/dont-buck-the-system-change-it'
+  - redirects:
+      redirect_maps:
+        '2007/05/enable-ssh-agent-forwarding-for-capistrano/': 'blog/posts/2007-05-01-enable-ssh-agent-forwarding-for-capistrano.md'
   - meta
   - minify:
       minify_html: true
