@@ -59,7 +59,7 @@ Fitzroy VIC 3065
 A week passed without a response from Bo. Today I noticed he had put together a
 blog post on his blog defending their refusal to remove the image.
 
-[caption id="attachment_408" align="alignleft" width="150" caption="Picture changed for privacy reasons"]![](/images/2009-09-05-saving-pets/care_bear-150x150.jpg)[/caption]
+[caption id="attachment_408" align="alignleft" width="150" caption="Picture changed for privacy reasons"]![](../images/2009-09-05-saving-pets/care_bear-150x150.jpg)[/caption]
 
 "I chose the image of a smiley, bright eyed, well-behaved dog, BECAUSE it was a
 smiley, bright eyed, well-behaved dog. We need to have more of these images to
