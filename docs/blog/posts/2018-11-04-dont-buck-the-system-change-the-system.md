@@ -1,9 +1,11 @@
 ---
 
 title: Don't Buck the System, Change it
-date: 2018-11-04
+date: 
+  created: 2018-11-04
 comments: true
-categories: systems
+categories:
+- systems
 ---
 
 I don't consider myself a Buddhist but attest to their belief that "Life is
