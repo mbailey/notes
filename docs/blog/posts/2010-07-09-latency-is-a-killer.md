@@ -25,11 +25,10 @@ U.S. The TCP protocol includes provisions to avoid network congestion that were
 designed before we had broadband. I discussed these in my presentation 'Speed
 Matters' ([slides here](http://www.slideshare.net/mbailey/speed-matters-4663059?from=ss_embed)).
 
-{% 
-  include figure
-  image_path="/images/2010-07-09-latency-is-a-killer/filesize_vs_loadtime1.png"
-  caption="The Effects of Latency on Load Time"
-%}[source data](https://spreadsheets.google.com/ccc?key=0AtO1WAikZOJDdGwwSWVHaWdKWGxsOHJOdGtYbnhDaEE&hl=en&authkey=CNHJjOUK')
+![The Effects of Latency on Load Time](../../../assets/filesize_vs_loadtime1.png)
+*The Effects of Latency on Load Time*
+
+[source data](https://spreadsheets.google.com/ccc?key=0AtO1WAikZOJDdGwwSWVHaWdKWGxsOHJOdGtYbnhDaEE&hl=en&authkey=CNHJjOUK')
 
 The stepping you see is due to TCP Congestion Control ([RFC 2581](http://www.ietf.org/rfc/rfc2581.txt)) and  Delayed ACK (RFC 813).
 
