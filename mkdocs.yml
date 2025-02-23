@@ -68,12 +68,13 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  - blog:
+      blog_dir: blog
+      post_url_format: "{date}/{slug}"
   - search
   - redirects:
       redirect_maps:
-        # changelog/insiders.md: insiders/changelog.md
-        # conventions.md: philosophy.md
+        '2018/11/dont-buck-the-system-change-the-system/': 'notes/blog/2018-11-04/dont-buck-the-system-change-it'
   - minify:
       minify_html: true
 
