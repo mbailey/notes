@@ -71,7 +71,7 @@ plugins:
   - blog:
       blog_dir: blog
       post_url_format: "{date}/{slug}"
-      post_url_date_format: "yyyy/MMM/d"
+      post_url_date_format: "yyyy/MM/dd"
   - search
   - redirects:
       redirect_maps:
