@@ -31,10 +31,7 @@ Instead I am seeing up to 67KB on the Mac and around 35KB on Windows 7.
 
 **Effect of file size on retrieval time from [slicehost.latentsee.com](http://slicehost.latentsee.com/)**
 
-{% 
-  include figure
-  image_path="/images/2010-07-27-three-of-these-kids/slicehostlatenseecom-100x1kb1.png"
-%}
+![](../../../assets/slicehostlatenseecom-100x1kb1.png)
 
 
 Original images: | [Theory](/images/2010-07-27-three-of-these-kids/john_rauser-round-trips1.png) | [Ubuntu](/images/2010-07-27-three-of-these-kids/mel_ubuntu_firefox-slicehostlatentseecom-100x1kb1.png) | [Windows 7](/images/2010-07-27-three-of-these-kids/mel_windows7_firefox-slicehostlatentseecom-100x1kb3.png) | [Mac OS X](/images/2010-07-27-three-of-these-kids/mel_osx_firefox-slicehostlatentseecom-100x1kb1.png)
@@ -42,7 +39,7 @@ Original images: | [Theory](/images/2010-07-27-three-of-these-kids/john_rauser-r
 When I ran the same tests against a different hosting provider (Brightbox), Windows and Mac OSX behaved more like my Ubuntu box.
 
 **Effect of file size on retrieval time from [brightbox.latentsee.com](http://brightbox.latentsee.com/)**
-![brightboxlatentseecom-100×1kb.png](/images/2010-07-27-three-of-these-kids/brightboxlatentseecom-100x1kb1.png)
+![](../../../assets/brightboxlatentseecom-100x1kb1.png)
 
 
 Original images | [Theory](/images/2010-07-27-three-of-these-kids/john_rauser-round-trips1.png) | [Ubuntu](/images/2010-07-27-three-of-these-kids/mel_ubuntu_firefox-brightboxlatentseecom-100x1kb1.png) | [Windows 7](/images/2010-07-27-three-of-these-kids/mel_windows7_firefox-brightboxlatentseecom-100x1kb1.png) | [Mac OS X](/images/2010-07-27-three-of-these-kids/mel_osx_firefox-brightboxlatentseecom-100x1kb1.png)

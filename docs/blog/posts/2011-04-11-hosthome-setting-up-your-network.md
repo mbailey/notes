@@ -14,11 +14,8 @@ categories:
 
 *[2013-12-19 I'm not currently hosting @ home but Snowden leaks have made me rethink]*
 
-{% 
-  include figure
-  image_path="/images/2011-04-11-hosthome-setting-up-your-network/billion_bpac_7300.jpg"
-  caption="My Billion 7300 modem/router does a simple task well."
-%}
+![My Billion 7300 modem/router does a simple task well](../../../assets/billion_bpac_7300.jpg)
+*My Billion 7300 modem/router does a simple task well*
 
 My first step on the path to hosting @ home was to get a good Net connection. I
 selected a Naked ADSL plan from Australian provider
@@ -55,11 +52,8 @@ do when setting up a new host@home network.
   * Forward incoming connections to a gateway IP (which forwards traffic using [HAProxy](http://haproxy.1wt.eu/))
   * Configure dynamic dns
 
-{% 
-  include figure
-  image_path="/images/2011-04-11-hosthome-setting-up-your-network/router_dyndns.jpeg"
-  caption="ADSL router updates dynamic dns entry when IP changes."
-%}
+![ADSL router updates dynamic dns entry when IP changes](../../../assets/router_dyndns.jpeg)
+*ADSL router updates dynamic dns entry when IP changes*
 
 I installed apache2 on my gateway host to test external access. You should be
 able to access it here: [home.failmode.com](http://home.failmode.com/)
