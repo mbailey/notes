@@ -55,11 +55,8 @@ imagery was media gold for the evening news and daily papers.
 >
 > - [Council Report][council agenda]
 
-{% 
-  include figure 
-  image_path="/images/boys-in-park.png" 
-  caption="Oh yeah, people partying in the dark"
-%}
+![Oh yeah, people partying in the dark](../images/boys-in-park.png)
+*Oh yeah, people partying in the dark*
 
 Music festivals like Meredith and Golden Plains see attendees cleaning up the
 mess from the night before when the sun rises.

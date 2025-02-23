@@ -11,7 +11,6 @@ categories:
 - virtualization
 ---
 
-![](../images/phpvbsm1.png)
 
 **Use Virtualization**
 
