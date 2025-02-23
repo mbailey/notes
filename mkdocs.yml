@@ -75,8 +75,8 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        "2007/05/enable-ssh-agent-forwarding-for-capistrano.md": "blog/2007-05-14-enable-ssh-agent-forwarding-for-capistrano.md"
-        "2007/05/integrating-wordpress-into-a-ruby-on-rails-site.md": "blog/posts/integrating-wordpress-into-a-ruby-on-rails-site.md"
+        "2007/05/enable-ssh-agent-forwarding-for-capistrano.md": "docs/blog/posts/2007-05-14-enable-ssh-agent-forwarding-for-capistrano.md"
+        "2007/05/integrating-wordpress-into-a-ruby-on-rails-site.md": "docs/blog/posts/2007-05-12-integrating-wordpress-into-a-ruby-on-rails-site.md"
       #   "2007/07/deprec-acts_as-desirable.md": "blog/2007/07/21/deprec-acts_as-desirable.md"
       #   "2007/07/deprec-plugins-using-gem_plugin.md": "blog/2007/07/09/deprec-plugins-using-gem_plugin.md"
       #   "2007/07/pretty-code-samples-in-presentations.md": "blog/2007/07/06/pretty-code-samples-in-presentations.md"
