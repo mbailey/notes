@@ -1,5 +1,7 @@
 ---
 draft: true
+date:
+  created: 2025-02-15
 ---
 # Do one thing well
 
