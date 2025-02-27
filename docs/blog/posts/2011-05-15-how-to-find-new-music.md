@@ -38,7 +38,7 @@ music.
 
 What's criminal is that no one told me how fucking amazing [Mogwai](http://www.subpop.com/releases/mogwai/full_lengths/hardcore_will_never_die_but_you_will) is. Till I heard them on [Shankly's Mixtape for Jan 2011](http://thepiratebay.org/torrent/6142977/Shankly_s_2011_Mixtapes_-_January) that is.
 
-[![April 2011](../../../assets/Multimedia_Speaker_System-150x150.jpg)](http://thepiratebay.org/torrent/6363235/Shankly_s_2011_Mixtapes_-_April)
+[![April 2011](../images/Multimedia_Speaker_System-150x150.jpg)](http://thepiratebay.org/torrent/6363235/Shankly_s_2011_Mixtapes_-_April)
 
 
 **Mix 1**

@@ -14,7 +14,7 @@ categories:
 
 *[2013-12-19 I'm not currently hosting @ home but Snowden leaks have made me rethink]*
 
-![My Billion 7300 modem/router does a simple task well](../../../assets/billion_bpac_7300.jpg)
+![My Billion 7300 modem/router does a simple task well](../images/billion_bpac_7300.jpg)
 *My Billion 7300 modem/router does a simple task well*
 
 My first step on the path to hosting @ home was to get a good Net connection. I
@@ -52,7 +52,7 @@ do when setting up a new host@home network.
   * Forward incoming connections to a gateway IP (which forwards traffic using [HAProxy](http://haproxy.1wt.eu/))
   * Configure dynamic dns
 
-![ADSL router updates dynamic dns entry when IP changes](../../../assets/router_dyndns.jpeg)
+![ADSL router updates dynamic dns entry when IP changes](../images/router_dyndns.jpeg)
 *ADSL router updates dynamic dns entry when IP changes*
 
 I installed apache2 on my gateway host to test external access. You should be

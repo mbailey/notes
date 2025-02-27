@@ -10,8 +10,8 @@ categories:
 - devops
 ---
 
-![Manual](../../../assets/20plush.jpeg)
+![Manual](../images/20plush.jpeg)
 *Manual*
 
-![Automated](../../../assets/snack-vending-machines.jpeg)
+![Automated](../images/snack-vending-machines.jpeg)
 *Automated*

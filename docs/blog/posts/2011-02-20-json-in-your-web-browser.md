@@ -29,7 +29,7 @@ There is also an [Unofficial JSONView port for Chrome](https://chrome.google.co
 
 When installed, your JSON will look more like this:
 
-![JSONView browser plugins prettify](../../../assets/JSONView.png)
+![JSONView browser plugins prettify](../images/JSONView.png)
 *JSONView browser plugins prettify*
 
 Posts in this series:

@@ -16,7 +16,7 @@ categories:
 Amazon are reporting degraded performance for some volumes in a single AZ in
 the us-east-1 region.
 
-[![AWS Service Health Dashboard](../../../assets/2012-06-15-ec2-outage-pimp-my-fail/AWS-Service-Health-Dashboard-Jun-14-2012-1.jpg)](http://status.aws.amazon.com/)
+[![AWS Service Health Dashboard](../images/2012-06-15-ec2-outage-pimp-my-fail/AWS-Service-Health-Dashboard-Jun-14-2012-1.jpg)](http://status.aws.amazon.com/)
 
 Twitter has lit up with complaints. An amusing one referred to "[Amazons
 Elastic SLA](https://twitter.com/#!/search/elastic%20sla)". Overheard in the
@@ -31,16 +31,16 @@ made possible by the AWS service stack.
 
 More concerning though is the lack of design effort put into their error pages.
 
-[![Heroku Gateway Timeout](../../../assets/2012-06-15-ec2-outage-pimp-my-fail/heroku-504-Gateway-Time-out-1.jpg)]()
+[![Heroku Gateway Timeout](../images/2012-06-15-ec2-outage-pimp-my-fail/heroku-504-Gateway-Time-out-1.jpg)]()
 
-[![Quora Error](../../../assets/2012-06-15-ec2-outage-pimp-my-fail/quora.com_.jpg)](http://www.quora.com/)
+[![Quora Error](../images/2012-06-15-ec2-outage-pimp-my-fail/quora.com_.jpg)](http://www.quora.com/)
 
 
 ## Take a Lesson from the Masters
 
 GitHub put the fun back into fail, like the sound effects on TV's Funniest Home Videos.
-[![GitHub 404](../../../assets/2012-06-15-ec2-outage-pimp-my-fail/404.jpg)](https://github.com/504.html)
+[![GitHub 404](../images/2012-06-15-ec2-outage-pimp-my-fail/404.jpg)](https://github.com/504.html)
 
 My all time favourite 404 page captures the awkward embarrassment on an unsatisfiable request.
 
-[![Visit Steve 404](../../../assets/2012-06-15-ec2-outage-pimp-my-fail/visit-steve-404.jpg)](http://visitsteve.com/404.html)
+[![Visit Steve 404](../images/2012-06-15-ec2-outage-pimp-my-fail/visit-steve-404.jpg)](http://visitsteve.com/404.html)

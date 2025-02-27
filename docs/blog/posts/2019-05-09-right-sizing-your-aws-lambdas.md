@@ -58,7 +58,7 @@ figures that may be confusing due to them using a different unit (MiB) than is
 used for configuring Lambda functions (MB). (I've requested this be fixed).
 
 
-![CloudWatch Logs Insights query displaying overprovisioned memory in Lambda](../../../assets/cloudwatch-logs-insights-lambda-overprovisioned.png)
+![CloudWatch Logs Insights query displaying overprovisioned memory in Lambda](../images/cloudwatch-logs-insights-lambda-overprovisioned.png)
 *CloudWatch Logs Insights query displaying overprovisioned memory in Lambda*
 
 

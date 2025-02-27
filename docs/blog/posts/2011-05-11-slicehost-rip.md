@@ -12,7 +12,7 @@ categories:
 
 *2013-12-19 Linode offers a great service with 1GB RAM VPS for $20/month*
 
-[![slicehost - Built for Developers](../../../assets/slicehost1.jpg)](http://slicehost.com)
+[![slicehost - Built for Developers](../images/slicehost1.jpg)](http://slicehost.com)
 *slicehost - Built for Developers*
 
 When Rackspace bought Slicehost in 2008 I suspected it would only be a matter
@@ -54,9 +54,9 @@ products and killing them?
 I'll leave you with episode 4 of the slicehost podcast. I don't think you're
 ever going to get something this raw from Rackspace.
 
-[3 Way Handshake - Episode 4](/images/2011-05-11-slicehost-rip/2011/05/episode_4.mp3)
+[3 Way Handshake - Episode 4](../images/2011-05-11-slicehost-rip/2011/05/episode_4.mp3)
 
-[![Cisco bought Flip camcorder for $580 million and is closing it down](../../../assets/flip.jpg)](http://www.nytimes.com/2011/04/13/technology/13flip.html)
+[![Cisco bought Flip camcorder for $580 million and is closing it down](../images/flip.jpg)](http://www.nytimes.com/2011/04/13/technology/13flip.html)
 *Cisco bought Flip camcorder for $580 million and is closing it down*
 
 [1]: http://gigaom.com/cloud/rackspace-shutters-slicehost-for-openstack-future/

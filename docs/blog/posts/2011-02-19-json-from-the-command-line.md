@@ -108,7 +108,7 @@ $ curl localhost:5984/facebook/stoptheclock | json
 
 ### Querying CouchDB is outside the scope of this tutorial
 
-![How do I query the data now it's in CouchDB?](../../../assets/fault-tolerance.png)
+![How do I query the data now it's in CouchDB?](../images/fault-tolerance.png)
 *How do I query the data now it's in CouchDB?*
 
 

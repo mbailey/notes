@@ -5,7 +5,7 @@ date:
 ---
 # Blog - Code Reading becoming more valuable
 
-- [code-reading-notes](../software/git/code-reading-notes.md)
+- [code-reading-notes](../../software/git/code-reading-notes.md)
 
 Australian model L McPherson was famously quoted as saying I never read books. I didn't write..
 

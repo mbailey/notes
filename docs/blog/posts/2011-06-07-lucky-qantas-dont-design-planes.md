@@ -26,7 +26,7 @@ search form. This button is larger and brighter than the button that submits
 that takes you to your flight search results. It's simply a link that opens up
 this page talking about their '[points and pay][1]' scheme. Fail.
 
-![Which submit button should I press?](../../../assets/qantas_points_and_pay.jpeg)
+![Which submit button should I press?](../images/qantas_points_and_pay.jpeg)
 *Which submit button should I press?*
 
 Just to be clear, clicking the bottom on the left **does not submit the form**!
@@ -38,7 +38,7 @@ At the end of the booking process they provide a dangerous little button
 sitting on it's own that discards your input. Fail. How many people in a hurry
 click this when meaning to submit the form?
 
-![How many people click 'Start Again' by mistake?](../../../assets/qantas_webui_fail.jpeg)
+![How many people click 'Start Again' by mistake?](../images/qantas_webui_fail.jpeg)
 *How many people click 'Start Again' by mistake?*
 
 
