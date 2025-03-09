@@ -7,6 +7,11 @@ site_author: Mike Bailey
 repo_name: mbailey/notes
 repo_url: https://github.com/mbailey/notes
 
+# Navigation
+nav:
+  - Blog: blog/index.md
+  - Notes: index.md
+
 # Copyright
 copyright: Copyright &copy; 2022 - 2022 Mike Bailey
 
@@ -37,8 +42,8 @@ theme:
     # - navigation.instant
     # - navigation.prune
     # - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -72,9 +77,19 @@ plugins:
       blog_dir: blog
       post_url_format: "{date}/{slug}"
       post_url_date_format: "yyyy/MM/dd"
+      authors: true
+      authors_file: "{blog}/.authors.yml"
+      categories: true
+      categories_name: "Categories"
+      archive: true
+      archive_name: "Archive"
+      pagination: true
+      pagination_per_page: 10
+      post_readtime: true
   - search
   - redirects:
       redirect_maps:
+        "index.html": "blog/index.html"
         "2007/05/enable-ssh-agent-forwarding-for-capistrano.md": "blog/posts/2007-05-14-enable-ssh-agent-forwarding-for-capistrano.md"
         "2007/05/integrating-wordpress-into-a-ruby-on-rails-site.md": "blog/posts/2007-05-12-integrating-wordpress-into-a-ruby-on-rails-site.md"
         "2007/07/deprec-plugins-using-gem_plugin.md": "blog/posts/2007-07-09-deprec-plugins-using-gem_plugin.md"
@@ -117,6 +132,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mbailey
+  homepage: blog/index.md
 
 # Extensions
 markdown_extensions:
