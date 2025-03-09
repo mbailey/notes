@@ -54,7 +54,7 @@ products and killing them?
 I'll leave you with episode 4 of the slicehost podcast. I don't think you're
 ever going to get something this raw from Rackspace.
 
-[3 Way Handshake - Episode 4](../images/2011-05-11-slicehost-rip/episode_4.mp3)
+3 Way Handshake - Episode 4
 
 [![Cisco bought Flip camcorder for $580 million and is closing it down](../images/flip.jpg)](http://www.nytimes.com/2011/04/13/technology/13flip.html)
 *Cisco bought Flip camcorder for $580 million and is closing it down*

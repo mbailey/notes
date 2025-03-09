@@ -16,7 +16,7 @@ A couple of days I updated the font settings in terminal.app on my mac. It's now
 
 I think you'll agree, it's pretty.
 
-[![](../blog/images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim-1024x464.jpg)](../blog/images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim.jpg)
+![Vim Syntax Highlighting](../images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim-1024x464.jpg)
 
 Now I want to get my vim syntax highlighting to mirror that in Textmate. My vim
 doesn't currently understand rhtml. I also want it to use the same colorscheme
