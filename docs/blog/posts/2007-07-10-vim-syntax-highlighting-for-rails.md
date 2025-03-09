@@ -13,11 +13,11 @@ categories:
 
 A couple of days I updated the font settings in terminal.app on my mac. It's now in line with textmate using Anti-Aliased 14 point [DejaVu Sans mono](http://dejavu.sourceforge.net/wiki/index.php/Download).
 
-[![](../../images/2007-07-10-vim-syntax-highlighting-for-rails/perty_terminal_window_settings.jpg)](../../images/2007-07-10-vim-syntax-highlighting-for-rails/perty_terminal_window_settings.jpg)
+[![](../../blog/images/2007-07-10-vim-syntax-highlighting-for-rails/perty_terminal_window_settings.jpg)](../../blog/images/2007-07-10-vim-syntax-highlighting-for-rails/perty_terminal_window_settings.jpg)
 
 I think you'll agree, it's pretty.
 
-[![](../../images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim-1024x464.jpg)](../../images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim.jpg)
+[![](../../blog/images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim-1024x464.jpg)](../../blog/images/2007-07-10-vim-syntax-highlighting-for-rails/perty_vim.jpg)
 
 Now I want to get my vim syntax highlighting to mirror that in Textmate. My vim
 doesn't currently understand rhtml. I also want it to use the same colorscheme
