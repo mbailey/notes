@@ -31,10 +31,10 @@ Instead I am seeing up to 67KB on the Mac and around 35KB on Windows 7.
 
 **Effect of file size on retrieval time from [slicehost.latentsee.com](http://slicehost.latentsee.com/)**
 
-![](../images/slicehostlatenseecom-100x1kb1.png)
+![](../../assets/slicehostlatenseecom-100x1kb1.png)
 
 
-Original images: | [Theory](../images/2010-07-27-three-of-these-kids/john_rauser-round-trips1.png) | [Ubuntu](../images/2010-07-27-three-of-these-kids/mel_ubuntu_firefox-slicehostlatentseecom-100x1kb1.png) | [Windows 7](../images/2010-07-27-three-of-these-kids/mel_windows7_firefox-slicehostlatentseecom-100x1kb3.png) | [Mac OS X](../images/2010-07-27-three-of-these-kids/mel_osx_firefox-slicehostlatentseecom-100x1kb1.png)
+Original images: | [Theory](../../assets/2010-07-27-three-of-these-kids/john_rauser-round-trips1.png) | [Ubuntu](../../assets/2010-07-27-three-of-these-kids/mel_ubuntu_firefox-slicehostlatentseecom-100x1kb1.png) | [Windows 7](../../assets/2010-07-27-three-of-these-kids/mel_windows7_firefox-slicehostlatentseecom-100x1kb3.png) | [Mac OS X](../../assets/2010-07-27-three-of-these-kids/mel_osx_firefox-slicehostlatentseecom-100x1kb1.png)
 
 When I ran the same tests against a different hosting provider (Brightbox), Windows and Mac OSX behaved more like my Ubuntu box.
 
