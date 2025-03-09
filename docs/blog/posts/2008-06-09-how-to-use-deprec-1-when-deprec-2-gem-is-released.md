@@ -14,7 +14,7 @@ categories:
 
 *[2013-12-19 I've not done any work on deprec in the past few years]*
 
-deprec-2 preview has been available at [www.deprec.org](www.deprec.org) for a
+deprec-2 preview has been available at [www.deprec.org](https://www.deprec.org) for a
 while now and is quite stable. When I release it as a new version of the deprec
 gem it's going to cause users of deprec-1 to see errors. I recommend using
 deprec-2 for new installations but understand that some people will want to

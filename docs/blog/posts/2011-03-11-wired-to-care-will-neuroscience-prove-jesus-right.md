@@ -41,7 +41,7 @@ in our schools, workplaces and social gatherings.
 
 I suspect a way to achieve this is not view anyone you deal with as 'bad guys' which reminds me of another quote attributed to Jesus, "[Do not judge others](http://bible.cc/matthew/7-1.htm)".
 
-[![](../images/610x-150x150.jpg)](../images/610x.jpg)
+[![](../../assets/610x-150x150.jpg)](../../assets/610x.jpg)
 
 There seems to be a fair bit of research going into [modulation][modulation] of
 empathic responses. I suspect there's a significant difference between the
