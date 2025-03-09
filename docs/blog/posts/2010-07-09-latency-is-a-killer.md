@@ -32,4 +32,4 @@ Matters' ([slides here](http://www.slideshare.net/mbailey/speed-matters-4663059?
 
 The stepping you see is due to TCP Congestion Control ([RFC 2581](http://www.ietf.org/rfc/rfc2581.txt)) and  Delayed ACK (RFC 813).
 
-My investigation was inspired by [a talk by John Rauser](/2010/07/tcp-and-the-lower-bound-of-web-performance/) at [VelocityConf](http://en.oreilly.com/velocity2010) last month.
+My investigation was inspired by [a talk by John Rauser](2010-07-10-tcp-and-the-lower-bound-of-web-performance.md) at [VelocityConf](http://en.oreilly.com/velocity2010) last month.

@@ -14,7 +14,7 @@ categories:
 
 *[2013-12-19 I let latentsee.com lapse but you can still install [latentsee](https://github.com/mbailey/latentsee) on your own webserver]*
 
-In a [recent talk](/2010/07/tcp-and-the-lower-bound-of-web-performance/) at
+In a [recent talk](2010-07-10-tcp-and-the-lower-bound-of-web-performance.md) at
 VelocityConf, John Rauser explained the effect of TCP Slow Start and Congestion
 Control on web performance.  He pointed out that RFC 1122 states:
 

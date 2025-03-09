@@ -15,7 +15,7 @@ categories:
 While I couldn't make it to this year's O'Reilly Velocity 2011 I'm excited so
 the videos are available to watch for free. My favourite talk from last year
 was John Rauser's "[TCP and the Lower Bound of Web
-Performance](/2010/07/tcp-and-the-lower-bound-of-web-performance/)".
+Performance](2010-07-10-tcp-and-the-lower-bound-of-web-performance.md)".
 
 This year John delivered an excellent talk entitled *look at your data*. He
 demonstrated how looking at averages hides a lot of what's really going on and

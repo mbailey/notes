@@ -36,7 +36,7 @@ I'm not alone.
 
 
 Various factors have led me to abandon (at least for now) my desire to
-[host@home](/2011/04/hosthome-setting-up-your-network/):
+[host@home](2011-04-11-hosthome-setting-up-your-network.md):
 
 * power consumption (waste & cost) & heat output
 * single points of failure (power, ADSL, theft)

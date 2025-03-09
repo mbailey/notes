@@ -34,7 +34,7 @@ have the power to hand out fines and seize people's pets.
 
 ## Yet They Claim to Receive No Government Funding?
 
-The _[Lost Dogs Home](/2011/06/lost-dogs-home/)_ repeated claims to receive no
+The _[Lost Dogs Home](2011-06-20-lost-dogs-home.md)_ repeated claims to receive no
 government funding despite the fact that local government pays them to impound
 the majority of the animals. 
 
