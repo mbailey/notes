@@ -93,7 +93,6 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        "README.md" : "notes/README.md"
         "2007/05/enable-ssh-agent-forwarding-for-capistrano.md": "blog/posts/2007-05-14-enable-ssh-agent-forwarding-for-capistrano.md"
         "2007/05/integrating-wordpress-into-a-ruby-on-rails-site.md": "blog/posts/2007-05-12-integrating-wordpress-into-a-ruby-on-rails-site.md"
         "2007/07/deprec-plugins-using-gem_plugin.md": "blog/posts/2007-07-09-deprec-plugins-using-gem_plugin.md"
