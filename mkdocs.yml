@@ -4,8 +4,8 @@ site_url: https://mike.bailey.net.au/
 site_author: Mike Bailey
 
 # Repository
-repo_name: mbailey/notes
-repo_url: https://github.com/mbailey/notes
+repo_name: mbailey/mbailey.github.io
+repo_url: https://github.com/mbailey/mbailey.github.io
 
 # Navigation
 # Removing explicit nav to allow automatic navigation generation
@@ -18,7 +18,6 @@ copyright: Copyright &copy; Mike Bailey
 
 not_in_nav: |
   *animalwelfare*
-
 
 theme:
   name: material
