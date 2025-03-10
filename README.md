@@ -16,4 +16,4 @@ Things I don't want to rely on google/my memory for.
 
 - Concepts take time to learn.
 - Good tools, less so.
-- Instant and effortless access to whatever info I need is the dream.
+- Instant and effortless access to whatever info I need is the dream. 
