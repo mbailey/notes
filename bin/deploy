@@ -14,7 +14,7 @@ if [[ ! -d "$PROJECT_ROOT/venv" ]]; then
   python3 -m venv "$PROJECT_ROOT/venv"
 fi
 
-source "$PROJECT_ROOT/venv/activate"
+source "$PROJECT_ROOT/venv/bin/activate"
 
 # Install or update dependencies
 echo "Installing dependencies..."
