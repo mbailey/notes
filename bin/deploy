@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -o nounset -o pipefail -o errexit
+
+# deploy - deploy mkdocs to GitHub Pages
+
+# Get absolute path to script directory
+SCRIPT_PATH="$(realpath "${BASH_SOURCE[0]}")"
+SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Create and activate virtual environment if needed
+if [[ ! -d "$PROJECT_ROOT/venv" ]]; then
+  echo "Setting up virtual environment..."
+  python3 -m venv "$PROJECT_ROOT/venv"
+fi
+
+source "$PROJECT_ROOT/venv/activate"
+
+# Install or update dependencies
+echo "Installing dependencies..."
+pip install --upgrade pip
+pip install -r "$PROJECT_ROOT/requirements.txt"
+
+# Deploy to GitHub Pages
+echo "Deploying to GitHub Pages..."
+python3 -m mkdocs gh-deploy --force
+
+echo "Deployment complete!"
