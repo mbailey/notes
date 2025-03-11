@@ -2,3 +2,4 @@ mkdocs-exclude
 mkdocs-material
 mkdocs-minify-plugin
 mkdocs-redirects
+mkdocs-rss-plugin
